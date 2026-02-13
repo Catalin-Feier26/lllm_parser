@@ -1,0 +1,10 @@
+services:
+  perl-parser:
+    build: .
+    container_name: thesis-parser
+    volumes:
+      - ./data:/app/data
+      - .:/app
+    stdin_open: true
+    tty: true
+    working_dir: /app
