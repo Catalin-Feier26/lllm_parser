@@ -5,16 +5,15 @@ RUN apt-get update && apt-get install -y \
     poppler-utils \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
-
-COPY . /app
-
+# Install Perl dependencies
 RUN cpanm --notest \
     Text::CSV_XS \
     Text::CSV \
     Path::Tiny \
+    XML::Simple \
+    Data::Dumper \
     Module::Runtime
 
-RUN mkdir -p data/incoming data/archive
+WORKDIR /app
 
 CMD ["/bin/bash"]

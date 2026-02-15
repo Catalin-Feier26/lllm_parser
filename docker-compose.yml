@@ -3,7 +3,7 @@ services:
     build: .
     container_name: thesis-parser
     volumes:
-      - ./data:/app/data
+      # Mount entire project directory for live code editing
       - .:/app
     stdin_open: true
     tty: true
