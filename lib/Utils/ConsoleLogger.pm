@@ -39,4 +39,10 @@ sub log_summary {
     print "[SUMMARY] $message\n";
 }
 
+sub log_exit_with_error {
+    my ($self, $message) = @_;
+    print "[ERROR] $message\n";
+    exit 1;
+}
+
 1;

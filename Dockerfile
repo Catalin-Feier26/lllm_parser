@@ -11,7 +11,8 @@ RUN cpanm --notest \
     Text::CSV \
     Path::Tiny \
     XML::Simple \
-    Data::Dumper \
+    Excel::ValueReader::XLSX \
+    Spreadsheet::Read \
     Module::Runtime
 
 WORKDIR /app
