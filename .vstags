@@ -28,6 +28,17 @@ _get_output_columns	lib/Parser/CA/LosAngeles/HermosaBeach_PDF.pm	147;"	s
 Parser::CA::LosAngeles::HermosaBeach_PDF::_get_output_columns	lib/Parser/CA/LosAngeles/HermosaBeach_PDF.pm	147;"	s
 _is_valid_line	lib/Parser/CA/LosAngeles/HermosaBeach_PDF.pm	155;"	s
 Parser::CA::LosAngeles::HermosaBeach_PDF::_is_valid_line	lib/Parser/CA/LosAngeles/HermosaBeach_PDF.pm	155;"	s
+Parser::CA::LosAngeles::TempleCity_CSV	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	1;"	p
+parse	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	10;"	s
+Parser::CA::LosAngeles::TempleCity_CSV::parse	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	10;"	s
+_parse_csv_file	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	23;"	s
+Parser::CA::LosAngeles::TempleCity_CSV::_parse_csv_file	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	23;"	s
+_prepare_io_files	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	54;"	s
+Parser::CA::LosAngeles::TempleCity_CSV::_prepare_io_files	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	54;"	s
+_get_columns	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	69;"	s
+Parser::CA::LosAngeles::TempleCity_CSV::_get_columns	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	69;"	s
+_get_output_columns	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	76;"	s
+Parser::CA::LosAngeles::TempleCity_CSV::_get_output_columns	lib/Parser/CA/LosAngeles/TempleCity_CSV.pm	76;"	s
 Parser::CA::Sonoma::Sonoma_PDF	lib/Parser/CA/Sonoma/Sonoma_PDF.pm	1;"	p
 parse	lib/Parser/CA/Sonoma/Sonoma_PDF.pm	12;"	s
 Parser::CA::Sonoma::Sonoma_PDF::parse	lib/Parser/CA/Sonoma/Sonoma_PDF.pm	12;"	s
