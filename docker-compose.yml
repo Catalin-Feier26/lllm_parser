@@ -1,10 +1,32 @@
 services:
+  db:
+    image: postgres:16
+    container_name: thesis-db
+    environment:
+      POSTGRES_DB: thesis
+      POSTGRES_USER: thesis
+      POSTGRES_PASSWORD: thesis
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
   perl-parser:
     build: .
     container_name: thesis-parser
     volumes:
-      # Mount entire project directory for live code editing
       - .:/app
     stdin_open: true
     tty: true
     working_dir: /app
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: thesis
+      DB_USER: thesis
+      DB_PASS: thesis
+
+volumes:
+  pgdata:
