@@ -59,15 +59,13 @@ eval {
         my $date = sprintf("%04d_%02d_%02d", $t[5]+1900, $t[4]+1, $t[3]);
         my $source_tag = $date . "_" . $output_csv_path->basename;
 
-        my $cmd = join(" ",
+        system(
             "perl", "bin/load_csv_to_staging.pl",
             "--config_file", $config_file,
-            "--csv", $output_csv_path,
-            "--run_id", $run_id,
+            "--csv",         $output_csv_path->stringify,
+            "--run_id",      $run_id,
             "--source_file", $source_tag
-        );
-
-        system($cmd) == 0 or die "Failed to load CSV into DB\n";
+        ) == 0 or die "Failed to load CSV into DB (exit=" . ($? >> 8) . ")\n";
     }
 };
 

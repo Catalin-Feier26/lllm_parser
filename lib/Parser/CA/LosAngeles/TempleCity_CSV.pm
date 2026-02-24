@@ -61,7 +61,10 @@ sub _prepare_io_files {
         or die "Could not open file '$self->{output}' $!\n";
 
     my $in_csv = Text::CSV_XS->new({ binary => 1 });
+    $in_csv->column_names($self->_get_columns());
+
     my $out_csv = Text::CSV_XS->new({ binary => 1, eol => "\n" });
+    $out_csv->column_names($self->_get_output_columns());
 
     return ($INPUT, $OUTPUT, $in_csv, $out_csv);
 }
