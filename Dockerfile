@@ -15,7 +15,9 @@ RUN cpanm --notest \
     Spreadsheet::Read \
     Module::Runtime \
     DBI \
-    DBD::Pg
+    DBD::Pg \
+    Test::More \
+    App::Prove
 
 WORKDIR /app
 CMD ["/bin/bash"]
