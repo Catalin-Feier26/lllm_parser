@@ -1,4 +1,4 @@
-package DB::Pg::Utils;
+package DB::PG::Utils;
 
 use strict;
 use warnings;

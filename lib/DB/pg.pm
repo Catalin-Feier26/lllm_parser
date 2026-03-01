@@ -25,7 +25,7 @@ sub connect_db {
             AutoCommit => 1,
             pg_enable_utf8 => 1,
         }
-    );
+    ) or die "DB connect failed: $DBI::errstr\n";
     
     return $dbh;
 }
