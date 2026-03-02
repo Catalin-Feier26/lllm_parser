@@ -2,47 +2,69 @@ package Utils::ConsoleLogger;
 
 use strict;
 use warnings;
+use v5.30;
+
+use POSIX qw(strftime);
 
 sub new {
     my ($class, %args) = @_;
-    print "Creating ConsoleLogger with args: ", join(", ", map { "$_ => $args{$_}" } keys %args), "\n" if $args{debug};
-    my $self = { debug => $args{debug} // 0 };
 
-    bless $self, $class;
-    return $self;
+    my $self = {
+        debug => $args{debug} ? 1 : 0,
+    };
+
+    return bless $self, $class;
 }
 
 sub log_info {
     my ($self, $message) = @_;
-    print "[INFO] $message\n";
+    $self->_log('INFO', $message);
+    return;
 }
 
 sub log_debug {
     my ($self, $message) = @_;
-    if ($self->{debug}) {
-        print "[DEBUG] $message\n";
-    }
-}
+    return unless $self->{debug};
 
-sub log_error {
-    my ($self, $message) = @_;
-    print "[ERROR] $message\n";
+    $self->_log('DEBUG', $message);
+    return;
 }
 
 sub log_warning {
     my ($self, $message) = @_;
-    print "[WARNING] $message\n";
+    $self->_log('WARNING', $message);
+    return;
+}
+
+sub log_error {
+    my ($self, $message) = @_;
+    $self->_log('ERROR', $message);
+    return;
 }
 
 sub log_summary {
     my ($self, $message) = @_;
-    print "[SUMMARY] $message\n";
+    $self->_log('SUMMARY', $message);
+    return;
 }
 
 sub log_exit_with_error {
     my ($self, $message) = @_;
-    print "[ERROR] $message\n";
+    $self->log_error($message);
     exit 1;
+}
+
+sub _log {
+    my ($self, $level, $message) = @_;
+
+    $message //= '';
+    $message =~ s/\s+\z//;
+
+    my $time = strftime('%H:%M:%S', localtime);
+
+    printf "[%s] [%s] %s\n", $time, $level, $message;
+
+    return;
 }
 
 1;
