@@ -16,6 +16,7 @@ RUN cpanm --notest \
     Module::Runtime \
     DBI \
     DBD::Pg \
+    MongoDB \
     Test::More \
     App::Prove
 

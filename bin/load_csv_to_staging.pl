@@ -10,7 +10,7 @@ use Module::Runtime qw(use_module);
 use Text::CSV_XS;
 
 use DB::pg ();
-use DB::Pg::Utils ();
+use DB::PG::Utils ();
 
 my $config_file;
 my $csv_file;
@@ -61,10 +61,10 @@ my $table_cfg = {
     ],
 };
 
-DB::Pg::Utils::create_table($dbh, $table_cfg);
+DB::PG::Utils::create_table($dbh, $table_cfg);
 
 if ($cfg->{truncate_if_exists}) {
-    DB::Pg::Utils::truncate_table($dbh, $schema, $table);
+    DB::PG::Utils::truncate_table($dbh, $schema, $table);
 }
 
 my $rows = load_csv_into_table($dbh, $cfg, $csv_path, $run_id, $source_file, $skip);

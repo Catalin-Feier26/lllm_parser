@@ -11,6 +11,15 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
+  mongo:
+    image: mongo:7
+    container_name: thesis-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
   perl-parser:
     build: .
     container_name: thesis-parser
@@ -21,12 +30,16 @@ services:
     working_dir: /app
     depends_on:
       - db
+      - mongo
     environment:
       DB_HOST: db
       DB_PORT: 5432
       DB_NAME: thesis
       DB_USER: thesis
       DB_PASS: thesis
+      MONGO_URI: mongodb://mongo:27017
+      MONGO_DB_NAME: thesis
 
 volumes:
   pgdata:
+  mongo_data:
