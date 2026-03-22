@@ -6,22 +6,21 @@ use v5.30;
 
 sub config {
     return {
-        schema => 'staging',
-        table_name => 'stg_ca_sonoma_pdf',
-        skip_lines => 1,
-        truncate_if_exists => 0,
+        skip_lines           => 1,
+        clear_target_on_load => 1,
+        target_collection    => 'raw_permits',
 
         columns => [
-            ['permit_number', 'text', 'trim'],
-            ['status',        'text', 'trim'],
-            ['permit_type',   'text', 'trim'],
-            ['applied_date',  'text', undef],
-            ['issued_date',   'text', undef],
-            ['address',       'text', 'trim'],
-            ['parcel_number', 'text', 'trim'],
-            ['fee',           'text', undef],
-            ['valuation',     'text', undef],
-            ['description',   'text', 'trim'],
+            ['permit_number', 'trim'],
+            ['status',        'trim'],
+            ['permit_type',   'trim'],
+            ['applied_date',  undef],
+            ['issued_date',   undef],
+            ['address',       'trim'],
+            ['parcel_number', 'trim'],
+            ['fee',           undef],
+            ['valuation',     undef],
+            ['description',   'trim'],
         ],
     };
 }

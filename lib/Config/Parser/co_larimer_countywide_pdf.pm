@@ -6,22 +6,21 @@ use v5.30;
 
 sub config {
     return {
-        schema => 'staging',
-        table_name => 'stg_co_larimer_countywide_pdf',
-        skip_lines => 1,
-        truncate_if_exists => 0,
+        skip_lines           => 1,
+        clear_target_on_load => 1,
+        target_collection    => 'raw_permits',
 
         columns => [
-            ['permit_number',   'text', 'trim'],
-            ['permit_type',     'text', 'trim'],
-            ['status',          'text', 'trim'],
-            ['issued_date',     'text', undef],
-            ['parcel_number',   'text', 'trim'],
-            ['address',         'text', 'trim'],
-            ['valuation',       'text', undef],
-            ['fee',             'text', undef],
-            ['owner_name',      'text', 'trim'],
-            ['contractor_name', 'text', 'trim'],
+            ['permit_number',   'trim'],
+            ['permit_type',     'trim'],
+            ['status',          'trim'],
+            ['issued_date',     undef],
+            ['parcel_number',   'trim'],
+            ['address',         'trim'],
+            ['valuation',       undef],
+            ['fee',             undef],
+            ['owner_name',      'trim'],
+            ['contractor_name', 'trim'],
         ],
     };
 }

@@ -6,24 +6,23 @@ use v5.30;
 
 sub config {
     return {
-        schema => 'staging',
-        table_name => 'stg_la_east_baton_rouge_parish_csv',
-        skip_lines => 1,
-        truncate_if_exists => 0,
+        skip_lines           => 1,
+        clear_target_on_load => 1,
+        target_collection    => 'raw_permits',
 
         columns => [
-            ['permit_number',   'text', 'trim'],
-            ['permit_type',     'text', 'trim'],
-            ['parcel_number',   'text', 'trim'],
-            ['valuation',       'text', undef],
-            ['fee',             'text', undef],
-            ['applied_date',    'text', undef],
-            ['issued_date',     'text', undef],
-            ['address',         'text', 'trim'],
-            ['owner_name',      'text', 'trim'],
-            ['applicant_name',  'text', 'trim'],
-            ['contractor_name', 'text', 'trim'],
-            ['description',     'text', 'trim'],
+            ['permit_number',   'trim'],
+            ['permit_type',     'trim'],
+            ['parcel_number',   'trim'],
+            ['valuation',       undef],
+            ['fee',             undef],
+            ['applied_date',    undef],
+            ['issued_date',     undef],
+            ['address',         'trim'],
+            ['owner_name',      'trim'],
+            ['applicant_name',  'trim'],
+            ['contractor_name', 'trim'],
+            ['description',     'trim'],
         ],
     };
 }
