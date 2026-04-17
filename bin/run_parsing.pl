@@ -7,6 +7,7 @@ use Getopt::Long;
 use Pod::Usage;
 use Path::Tiny;
 use Module::Runtime qw(use_module);
+use DB::Mongo::Utils qw(insert_one_doc);
 
 my $DIR_INCOMING = path('data/incoming');
 my $DIR_ARCHIVE  = path('data/archive');
@@ -58,7 +59,10 @@ eval {
         debug  => $debug,
     );
 
-    $parser->parse();
+    my $parse_result = $parser->parse();
+
+    my $analytics    = $parse_result->{analytics};
+    my $permit_count = $parse_result->{permit_count} // 0;
 
     if ($config_file) {
         system(
@@ -72,6 +76,18 @@ eval {
             "--county",      $county
         ) == 0 or die "Failed to load CSV into MongoDB (exit=" . ($? >> 8) . ")\n";
     }
+
+    insert_one_doc('parser_analytics', {
+        run_id       => $run_id,
+        source_file  => $file_name,
+        parser_name  => $parser_name,
+        state        => $state,
+        county       => $county,
+        csv_file     => $output_csv_path->basename,
+        permit_count => $permit_count,
+        analytics    => $analytics,
+        created_at   => scalar localtime,
+    });
 
     1;
 };
