@@ -1,4 +1,9 @@
+SOURCE_NAME = "naples"
+
 TARGET_FIELD = "permit_class"
+TARGET_CLEAN_COLUMN = "permit_class_clean"
+TARGET_INPUT_COLUMN = "permit_class_input"
+TARGET_TRUE_COLUMN = "permit_class_true"
 
 CORE_FEATURES = [
     "building_type",
@@ -11,6 +16,8 @@ ENGINEERED_FEATURES = [
     "total_units_group",
     "total_sf_nonzero",
 ]
+
+FEATURE_COLUMNS = CORE_FEATURES + ENGINEERED_FEATURES
 
 KEEP_COLUMNS = [
     "permit_number",
