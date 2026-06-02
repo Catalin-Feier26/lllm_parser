@@ -6,93 +6,152 @@ from typing import Any
 import pandas as pd
 
 
-def _safe_key(*values: object) -> tuple[object, ...]:
-    return tuple("<MISSING>" if pd.isna(v) else v for v in values)
+ALGORITHM_NAME = "grouped_majority"
 
 
-def _majority_value(values: list[str]) -> str:
-    if not values:
-        raise ValueError("Cannot compute majority value from empty list")
+def _validate_columns(df: pd.DataFrame, required_cols: list[str]) -> None:
+	missing = [col for col in required_cols if col not in df.columns]
+	if missing:
+		raise ValueError(f"Missing required columns for grouped-majority inference: {missing}")
 
-    counter = Counter(values)
-    return counter.most_common(1)[0][0]
+
+def _safe_key(values: list[object]) -> tuple[object, ...]:
+	return tuple("<MISSING>" if pd.isna(value) else value for value in values)
+
+
+def _majority_summary(values: list[str]) -> dict[str, Any]:
+	if not values:
+		raise ValueError("Cannot compute majority value from an empty list")
+
+	counts = Counter(values)
+	majority_value, majority_count = counts.most_common(1)[0]
+	total_count = len(values)
+
+	return {
+		"value": majority_value,
+		"confidence": majority_count / total_count,
+		"support_count": majority_count,
+		"group_size": total_count,
+		"distribution": dict(counts),
+	}
+
+
+def _get_common_config(config: dict[str, Any]) -> dict[str, Any]:
+	group_levels = config.get("group_levels")
+	if not group_levels:
+		raise ValueError("group_levels must contain at least one grouping level")
+
+	normalized_levels: list[list[str]] = []
+	for level in group_levels:
+		if not isinstance(level, list) or not level:
+			raise ValueError("Each group_levels entry must be a non-empty list of column names")
+		normalized_levels.append(level)
+
+	return {
+		"target_field": config.get("target_field", config.get("target_col", "target")),
+		"target_col": config.get("target_col", "target_input"),
+		"true_col": config.get("true_col", "target_true"),
+		"mask_col": config.get("mask_col", "is_masked"),
+		"group_levels": normalized_levels,
+	}
 
 
 def fit_grouped_majority_reference(
-    df: pd.DataFrame,
-    target_col: str = "permit_class_input",
-    ) -> dict[str, Any]:
-    required_cols = ["building_type", "permit_type", target_col]
-    missing = [c for c in required_cols if c not in df.columns]
-    if missing:
-        raise ValueError(f"Missing required columns for baseline fitting: {missing}")
+	df: pd.DataFrame,
+	config: dict[str, Any],
+) -> dict[str, Any]:
+	cfg = _get_common_config(config)
+	target_col: str = cfg["target_col"]
+	group_levels: list[list[str]] = cfg["group_levels"]
 
-    reference_df = df[df[target_col].notna()].copy()
-    if reference_df.empty:
-        raise ValueError("No reference rows with known target values were found")
+	required_cols = sorted({target_col, *(col for level in group_levels for col in level)})
+	_validate_columns(df, required_cols)
 
-    by_pair: dict[tuple[object, object], list[str]] = defaultdict(list)
-    by_building: dict[object, list[str]] = defaultdict(list)
-    global_values: list[str] = []
+	reference_df = df[df[target_col].notna()].copy()
+	if reference_df.empty:
+		raise ValueError("No reference rows with known target values were found")
 
-    for _, row in reference_df.iterrows():
-        target_value = row[target_col]
-        if pd.isna(target_value):
-            continue
+	level_summaries: list[dict[str, Any]] = []
 
-        pair_key = _safe_key(row["building_type"], row["permit_type"])
-        building_key = _safe_key(row["building_type"])[0]
+	for level_cols in group_levels:
+		grouped_values: dict[tuple[object, ...], list[str]] = defaultdict(list)
 
-        by_pair[pair_key].append(str(target_value))
-        by_building[building_key].append(str(target_value))
-        global_values.append(str(target_value))
+		for _, row in reference_df.iterrows():
+			key = _safe_key([row[col] for col in level_cols])
+			grouped_values[key].append(str(row[target_col]))
 
-    pair_majority = {k: _majority_value(v) for k, v in by_pair.items()}
-    building_majority = {k: _majority_value(v) for k, v in by_building.items()}
-    global_majority = _majority_value(global_values)
+		level_summaries.append(
+			{
+				"columns": level_cols,
+				"groups": {key: _majority_summary(values) for key, values in grouped_values.items()},
+			}
+		)
 
-    return {
-        "pair_majority": pair_majority,
-        "building_majority": building_majority,
-        "global_majority": global_majority,
-    }
+	global_summary = _majority_summary(reference_df[target_col].astype(str).tolist())
+
+	return {
+		"algorithm": ALGORITHM_NAME,
+		"config": cfg,
+		"reference_count": len(reference_df),
+		"level_summaries": level_summaries,
+		"global_summary": global_summary,
+	}
 
 
 def predict_grouped_majority(
-    df: pd.DataFrame,
-    fitted: dict[str, Any],
-    ) -> pd.DataFrame:
-    required_cols = ["building_type", "permit_type", "permit_class_true", "is_masked"]
-    missing = [c for c in required_cols if c not in df.columns]
-    if missing:
-        raise ValueError(f"Missing required columns for prediction: {missing}")
+	df: pd.DataFrame,
+	fitted: dict[str, Any],
+) -> pd.DataFrame:
+	cfg: dict[str, Any] = fitted["config"]
+	true_col: str = cfg["true_col"]
+	mask_col: str = cfg["mask_col"]
+	target_field: str = cfg["target_field"]
+	level_summaries: list[dict[str, Any]] = fitted["level_summaries"]
 
-    result_df = df.copy()
+	required_cols = [true_col, mask_col]
+	required_cols.extend(col for level in cfg["group_levels"] for col in level)
+	_validate_columns(df, sorted(set(required_cols)))
 
-    predictions: list[object] = []
-    prediction_source: list[str] = []
+	result_df = df.copy()
+	result_df["target_field"] = target_field
+	result_df["predicted_value"] = pd.NA
+	result_df["prediction_source"] = "not_applicable"
+	result_df["algorithm"] = ALGORITHM_NAME
+	result_df["confidence"] = pd.NA
+	result_df["matched_group_columns"] = pd.NA
+	result_df["matched_group_size"] = pd.NA
+	result_df["matched_support_count"] = pd.NA
 
-    for _, row in result_df.iterrows():
-        if row["is_masked"] != 1:
-            predictions.append(pd.NA)
-            prediction_source.append("not_applicable")
-            continue
+	masked_indices = result_df.index[result_df[mask_col] == 1].tolist()
+	if not masked_indices:
+		raise ValueError("No masked rows found for grouped-majority prediction")
 
-        pair_key = _safe_key(row["building_type"], row["permit_type"])
-        building_key = _safe_key(row["building_type"])[0]
+	for idx in masked_indices:
+		row = result_df.loc[idx]
+		selected_summary: dict[str, Any] | None = None
+		selected_columns: list[str] | None = None
 
-        if pair_key in fitted["pair_majority"]:
-            predictions.append(fitted["pair_majority"][pair_key])
-            prediction_source.append("pair_majority")
-        elif building_key in fitted["building_majority"]:
-            predictions.append(fitted["building_majority"][building_key])
-            prediction_source.append("building_majority")
-        else:
-            predictions.append(fitted["global_majority"])
-            prediction_source.append("global_majority")
+		for level in level_summaries:
+			level_cols: list[str] = level["columns"]
+			key = _safe_key([row[col] for col in level_cols])
+			if key in level["groups"]:
+				selected_summary = level["groups"][key]
+				selected_columns = level_cols
+				break
 
-    result_df["predicted_permit_class"] = predictions
-    result_df["prediction_source"] = prediction_source
-    result_df["algorithm"] = "grouped_majority"
+		if selected_summary is None:
+			selected_summary = fitted["global_summary"]
+			source = "global_majority_fallback"
+			matched_columns = "<GLOBAL>"
+		else:
+			source = "group_majority"
+			matched_columns = ",".join(selected_columns or [])
 
-    return result_df
+		result_df.at[idx, "predicted_value"] = selected_summary["value"]
+		result_df.at[idx, "prediction_source"] = source
+		result_df.at[idx, "confidence"] = float(selected_summary["confidence"])
+		result_df.at[idx, "matched_group_columns"] = matched_columns
+		result_df.at[idx, "matched_group_size"] = int(selected_summary["group_size"])
+		result_df.at[idx, "matched_support_count"] = int(selected_summary["support_count"])
+
+	return result_df

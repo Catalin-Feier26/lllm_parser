@@ -1,0 +1,18 @@
+{
+  "source": "naples",
+  "input_file": "data/archive/2025-4-issued-permits.csv",
+  "prepared_row_count": 5305,
+  "targets": {
+    "permit_class": {
+      "masked_row_count": 795,
+      "algorithms": {
+        "association_rules": {
+          "output_dir": "python_inference/output/naples/2025-4-issued-permits/permit_class/association_rules",
+          "accuracy": 0.9069182389937107,
+          "macro_f1": 0.720467455856357,
+          "row_count_evaluated": 795
+        }
+      }
+    }
+  }
+}

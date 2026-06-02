@@ -1,52 +1,97 @@
 from __future__ import annotations
 
+from typing import Any
+
 import pandas as pd
 
 
 def _clean_string_value(value: object) -> object:
-    if pd.isna(value):
-        return pd.NA
+	"""Trim repeated whitespace and convert empty strings to missing values."""
+	if pd.isna(value):
+		return pd.NA
 
-    if not isinstance(value, str):
-        return value
+	if not isinstance(value, str):
+		return value
 
-    cleaned = " ".join(value.strip().split())
-    return pd.NA if cleaned == "" else cleaned
+	cleaned = " ".join(value.strip().split())
+	return pd.NA if cleaned == "" else cleaned
+
+
+def _validate_columns(df: pd.DataFrame, required_cols: list[str]) -> None:
+	missing = [col for col in required_cols if col not in df.columns]
+	if missing:
+		raise ValueError(f"Missing required columns: {missing}")
 
 
 def normalize_strings(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
+	"""Normalize every object column without modifying the original DataFrame."""
+	result_df = df.copy()
 
-    for col in df.columns:
-        if df[col].dtype == "object":
-            df[col] = df[col].map(_clean_string_value)
+	for col in result_df.columns:
+		if result_df[col].dtype == "object":
+			result_df[col] = result_df[col].map(_clean_string_value)
 
-    return df
+	return result_df
 
 
 def clean_target_column(
-    df: pd.DataFrame,
-    target_col: str,
-    rare_class_map: dict[str, str] | None = None,
-    ) -> pd.DataFrame:
-    df = df.copy()
+	df: pd.DataFrame,
+	config: dict[str, Any],
+) -> pd.DataFrame:
+	"""
+	Create a cleaned target column using source-specific configuration.
 
-    if target_col not in df.columns:
-        raise ValueError(f"Missing target column: {target_col}")
+	Required config:
+		source_col: original source field to clean
 
-    df["permit_class_clean"] = df[target_col]
+	Optional config:
+		clean_col: output column name, defaults to '<source_col>_clean'
+		missing_values: values that should be converted to pd.NA
+		replacements: mapping applied after missing-value normalization
+	"""
+	source_col = config["source_col"]
+	clean_col = config.get("clean_col", f"{source_col}_clean")
+	missing_values = config.get("missing_values", [])
+	replacements = config.get("replacements", {})
 
-    df.loc[df["permit_class_clean"] == "Not Identified", "permit_class_clean"] = pd.NA
+	_validate_columns(df, [source_col])
 
-    if rare_class_map:
-        df["permit_class_clean"] = df["permit_class_clean"].replace(rare_class_map)
+	result_df = df.copy()
+	result_df[clean_col] = result_df[source_col].map(_clean_string_value)
 
-    return df
+	if missing_values:
+		result_df.loc[result_df[clean_col].isin(missing_values), clean_col] = pd.NA
+
+	if replacements:
+		result_df[clean_col] = result_df[clean_col].replace(replacements)
+
+	return result_df
+
+
+def clean_multiple_target_columns(
+	df: pd.DataFrame,
+	target_configs: dict[str, dict[str, Any]],
+) -> pd.DataFrame:
+	"""Apply clean_target_column for each configured inference target."""
+	result_df = df.copy()
+
+	for target_name, target_config in target_configs.items():
+		if not target_config.get("enabled", True):
+			continue
+
+		clean_config = target_config.get("cleaning")
+		if clean_config is None:
+			clean_config = {
+				"source_col": target_name,
+				"clean_col": f"{target_name}_clean",
+			}
+
+		result_df = clean_target_column(result_df, clean_config)
+
+	return result_df
 
 
 def keep_columns(df: pd.DataFrame, keep_cols: list[str]) -> pd.DataFrame:
-    missing = [c for c in keep_cols if c not in df.columns]
-    if missing:
-        raise ValueError(f"Missing required columns: {missing}")
-
-    return df[keep_cols].copy()
+	"""Return only the selected columns after validating that they exist."""
+	_validate_columns(df, keep_cols)
+	return df[keep_cols].copy()

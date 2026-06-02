@@ -7,3 +7,4 @@ openpyxl
 python-dateutil
 matplotlib
 scipy
+PyYAML

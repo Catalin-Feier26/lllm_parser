@@ -1,0 +1,103 @@
+source:
+  name: naples
+  input_csv: data/archive/2025-4-issued-permits.csv
+
+output:
+  base_dir: python_inference/output
+
+preprocessing:
+  normalize_strings: true
+
+  keep_columns:
+    - permit_number
+    - building_type
+    - permit_type
+    - const_type
+    - valuation
+    - total_sf
+    - total_units
+    - permit_class
+
+  engineered_features:
+    valuation_bucket:
+      enabled: true
+      source_col: valuation
+      output_col: valuation_bucket
+
+    total_units_group:
+      enabled: true
+      source_col: total_units
+      output_col: total_units_group
+
+    total_sf_nonzero:
+      enabled: true
+      source_col: total_sf
+      output_col: total_sf_nonzero
+
+inference_targets:
+  permit_class:
+    enabled: true
+
+    cleaning:
+      source_col: permit_class
+      clean_col: permit_class_clean
+      missing_values:
+        - Not Identified
+      replacements:
+        Residential-Hotel: Other Special Residential
+        Residential-Care-Assisted Living Facilities: Other Special Residential
+
+    masking:
+      source_col: permit_class_clean
+      target_col: target_input
+      true_col: target_true
+      mask_col: is_masked
+      mask_rate: 0.20
+      seed: 42
+
+    feature_cols:
+      - building_type
+      - permit_type
+      - const_type
+      - valuation_bucket
+      - total_units_group
+      - total_sf_nonzero
+
+    algorithms:
+      grouped_majority:
+        enabled: true
+        output_folder: baseline
+        group_levels:
+          - [building_type, permit_type]
+          - [building_type]
+
+      association_rules:
+        enabled: true
+        output_folder: association_rules
+        min_support: 0.01
+        min_confidence: 0.50
+        min_lift: 1.00
+        use_global_fallback: true
+        top_n_rules: 50
+
+      clustering:
+        enabled: true
+        output_folder: clustering
+        n_clusters: 8
+        random_state: 42
+        n_init: 10
+
+      knn:
+        enabled: true
+        output_folder: knn
+        n_neighbors: 5
+        weights: distance
+
+plots:
+  confusion_matrix:
+    xlabel: Predicted label
+    ylabel: True label
+    figure_width: 8
+    figure_height: 6
+    dpi: 150
+    x_label_rotation: 30
