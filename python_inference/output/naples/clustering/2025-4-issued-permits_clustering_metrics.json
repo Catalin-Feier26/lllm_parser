@@ -1,0 +1,72 @@
+{
+  "row_count_evaluated": 795,
+  "accuracy": 0.9106918238993711,
+  "macro_f1": 0.6084650370210366,
+  "labels": [
+    "Commercial",
+    "Res.1&2 or Guest House",
+    "Residential-Multi-Family"
+  ],
+  "classification_report": {
+    "Commercial": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 68.0
+    },
+    "Res.1&2 or Guest House": {
+      "precision": 0.9876543209876543,
+      "recall": 0.9982174688057041,
+      "f1-score": 0.9929078014184397,
+      "support": 561.0
+    },
+    "Residential-Multi-Family": {
+      "precision": 0.7192982456140351,
+      "recall": 0.9879518072289156,
+      "f1-score": 0.8324873096446701,
+      "support": 166.0
+    },
+    "accuracy": 0.9106918238993711,
+    "macro avg": {
+      "precision": 0.5689841888672298,
+      "recall": 0.6620564253448732,
+      "f1-score": 0.6084650370210366,
+      "support": 795.0
+    },
+    "weighted avg": {
+      "precision": 0.8471416136427722,
+      "recall": 0.9106918238993711,
+      "f1-score": 0.8744832327003269,
+      "support": 795.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      5,
+      63
+    ],
+    [
+      0,
+      560,
+      1
+    ],
+    [
+      0,
+      2,
+      164
+    ]
+  ],
+  "clustering_parameters": {
+    "n_clusters": 3,
+    "reference_count": 3184,
+    "feature_columns": [
+      "building_type",
+      "permit_type",
+      "const_type",
+      "valuation_bucket",
+      "total_units_group",
+      "total_sf_nonzero"
+    ]
+  }
+}

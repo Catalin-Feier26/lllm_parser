@@ -8,6 +8,7 @@ from types import ModuleType
 import pandas as pd
 
 from algorithms.knn_inference import fit_knn_reference, predict_knn
+from algorithms.clustering_inference import fit_clustering_reference, predict_clustering
 
 from baselines.grouped_majority import (
 	fit_grouped_majority_reference,
@@ -78,6 +79,17 @@ def parse_args() -> argparse.Namespace:
 		type=float,
 		default=1.0,
 		help="Minimum lift for association rules",
+	)
+	parser.add_argument(
+		"--run-clustering",
+		action="store_true",
+		help="Run clustering inference after preprocessing",
+	)
+	parser.add_argument(
+		"--cluster-k",
+		type=int,
+		default=8,
+		help="Number of clusters for KMeans",
 	)
 
 	return parser.parse_args()
@@ -165,6 +177,19 @@ def print_summary(df: pd.DataFrame, masked_df: pd.DataFrame, target_clean_col: s
 	print("\nMasked evaluation summary:")
 	print("Masked rows:", int(masked_df["is_masked"].sum()))
 	print("Unmasked rows:", int((masked_df["is_masked"] == 0).sum()))
+
+def make_clustering_output_paths(input_path: Path, source: str) -> tuple[Path, Path]:
+	output_dir = make_algorithm_output_dir(source, "clustering")
+	base_name = input_path.stem
+	predictions_path = output_dir / f"{base_name}_clustering_predictions.csv"
+	metrics_path = output_dir / f"{base_name}_clustering_metrics.json"
+	return predictions_path, metrics_path
+
+
+def make_clustering_plot_path(input_path: Path, source: str) -> Path:
+	output_dir = make_algorithm_output_dir(source, "clustering")
+	base_name = input_path.stem
+	return output_dir / f"{base_name}_clustering_confusion_matrix.png"
 
 
 def preprocess_dataset(input_path: Path, cfg: ModuleType) -> pd.DataFrame:
@@ -336,6 +361,58 @@ def run_association_rules_inference(
 	print(f"- Evaluated rows: {metrics['row_count_evaluated']}")
 	print(f"- Rule count: {len(fitted['rules_df'])}")
 
+def run_clustering_inference(
+	masked_df: pd.DataFrame,
+	input_path: Path,
+	source: str,
+	cfg: ModuleType,
+	cluster_k: int,
+	seed: int,
+) -> None:
+	fitted = fit_clustering_reference(
+		masked_df,
+		feature_cols=cfg.FEATURE_COLUMNS,
+		target_col=cfg.TARGET_INPUT_COLUMN,
+		n_clusters=cluster_k,
+		random_state=seed,
+	)
+	predictions_df = predict_clustering(masked_df, fitted)
+
+	metrics = compute_classification_metrics(
+		predictions_df,
+		true_col=cfg.TARGET_TRUE_COLUMN,
+		pred_col="predicted_permit_class",
+		masked_flag_col="is_masked",
+	)
+
+	metrics["clustering_parameters"] = {
+		"n_clusters": fitted["effective_clusters"],
+		"reference_count": fitted["reference_count"],
+		"feature_columns": cfg.FEATURE_COLUMNS,
+	}
+
+	predictions_path, metrics_path = make_clustering_output_paths(input_path, source)
+	predictions_df.to_csv(predictions_path, index=False)
+	write_metrics_json(metrics, metrics_path)
+
+	plot_path = make_clustering_plot_path(input_path, source)
+	save_confusion_matrix_plot(
+		confusion_matrix=metrics["confusion_matrix"],
+		labels=metrics["labels"],
+		output_path=plot_path,
+		title="Clustering Confusion Matrix",
+	)
+
+	print("\nClustering output written:")
+	print(f"- Predictions: {predictions_path}")
+	print(f"- Metrics: {metrics_path}")
+	print(f"- Confusion matrix plot: {plot_path}")
+	print("\nClustering metrics summary:")
+	print(f"- Accuracy: {metrics['accuracy']:.4f}")
+	print(f"- Macro F1: {metrics['macro_f1']:.4f}")
+	print(f"- Evaluated rows: {metrics['row_count_evaluated']}")
+	print(f"- Effective clusters: {fitted['effective_clusters']}")
+
 def main() -> None:
 	args = parse_args()
 
@@ -385,6 +462,16 @@ def main() -> None:
 			min_support=args.rules_min_support,
 			min_confidence=args.rules_min_confidence,
 			min_lift=args.rules_min_lift,
+		)
+
+	if args.run_clustering:
+		run_clustering_inference(
+			masked_df,
+			input_path,
+			args.source,
+			cfg,
+			cluster_k=args.cluster_k,
+			seed=args.seed,
 		)
 
 
