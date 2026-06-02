@@ -9,6 +9,7 @@ import pandas as pd
 from algorithms.registry import get_algorithm_spec
 from evaluation.metrics import compute_classification_metrics, write_metrics_json
 from evaluation.plots import save_confusion_matrix_plot
+from orchestration.merge_predictions import compute_merge_metrics, merge_predictions
 from orchestration.output_writer import (
 	make_algorithm_dir,
 	make_run_dir,
@@ -112,6 +113,7 @@ class InferenceRunner:
 			"masked_row_count": int(masked_df[masking_cfg.get("mask_col", "is_masked")].sum()),
 			"algorithms": {},
 		}
+		predictions_by_algorithm: dict[str, pd.DataFrame] = {}
 
 		for algorithm_name, algorithm_cfg in target_cfg["algorithms"].items():
 			if not algorithm_cfg.get("enabled", True):
@@ -119,7 +121,7 @@ class InferenceRunner:
 			if only_algorithms and algorithm_name not in only_algorithms:
 				continue
 
-			target_summary["algorithms"][algorithm_name] = self._run_algorithm(
+			algorithm_summary, predictions_df = self._run_algorithm(
 				masked_df=masked_df,
 				target_dir=target_dir,
 				target_field=target_field,
@@ -127,6 +129,54 @@ class InferenceRunner:
 				masking_cfg=masking_cfg,
 				algorithm_name=algorithm_name,
 				algorithm_cfg=algorithm_cfg,
+			)
+			target_summary["algorithms"][algorithm_name] = algorithm_summary
+			predictions_by_algorithm[algorithm_name] = predictions_df
+
+		merge_cfg = {
+			"target_field": target_field,
+			"mask_col": masking_cfg.get("mask_col", "is_masked"),
+			"true_col": masking_cfg.get("true_col", "target_true"),
+			"input_col": masking_cfg.get("target_col", "target_input"),
+			**target_cfg.get("merge", {}),
+		}
+
+		if merge_cfg.get("enabled", True) and predictions_by_algorithm:
+			merged_df, candidates_df = merge_predictions(predictions_by_algorithm, merge_cfg)
+			merge_metrics = compute_merge_metrics(merged_df, merge_cfg)
+
+			merged_dir = make_algorithm_dir(target_dir, merge_cfg.get("output_folder", "merged"))
+			write_dataframe(merged_df, merged_dir / "final_predictions.csv")
+			write_dataframe(candidates_df, merged_dir / "candidates.csv")
+			write_json(merge_metrics, merged_dir / "metrics.json")
+
+			if merge_metrics.get("confusion_matrix"):
+				plot_cfg = deepcopy(self.config.get("plots", {}).get("confusion_matrix", {}))
+				plot_cfg.setdefault("title", f"merged — {target_field} confusion matrix")
+				save_confusion_matrix_plot(
+					confusion_matrix=merge_metrics["confusion_matrix"],
+					labels=merge_metrics["labels"],
+					output_path=merged_dir / "confusion_matrix.png",
+					config=plot_cfg,
+				)
+
+			target_summary["merge"] = {
+				"output_dir": str(merged_dir),
+				"strategy": merge_metrics["strategy"],
+				"minimum_confidence": merge_metrics["minimum_confidence"],
+				"coverage": merge_metrics["coverage"],
+				"accuracy_on_accepted": merge_metrics["accuracy_on_accepted"],
+				"macro_f1_on_accepted": merge_metrics["macro_f1_on_accepted"],
+				"row_count_accepted": merge_metrics["row_count_accepted"],
+				"row_count_rejected": merge_metrics["row_count_rejected"],
+			}
+
+			print(
+				f"[{target_field}] merged: "
+				f"coverage={merge_metrics['coverage']:.4f}, "
+				f"accepted={merge_metrics['row_count_accepted']}, "
+				f"rejected={merge_metrics['row_count_rejected']}, "
+				f"accuracy_on_accepted={merge_metrics['accuracy_on_accepted']}"
 			)
 
 		return target_summary
@@ -140,7 +190,7 @@ class InferenceRunner:
 		masking_cfg: dict[str, Any],
 		algorithm_name: str,
 		algorithm_cfg: dict[str, Any],
-	) -> dict[str, Any]:
+	) -> tuple[dict[str, Any], pd.DataFrame]:
 		spec = get_algorithm_spec(algorithm_name)
 		algorithm_params = {
 			"target_field": target_field,
@@ -195,9 +245,12 @@ class InferenceRunner:
 			f"rows={metrics['row_count_evaluated']}"
 		)
 
-		return {
-			"output_dir": str(algorithm_dir),
-			"accuracy": metrics["accuracy"],
-			"macro_f1": metrics["macro_f1"],
-			"row_count_evaluated": metrics["row_count_evaluated"],
-		}
+		return (
+			{
+				"output_dir": str(algorithm_dir),
+				"accuracy": metrics["accuracy"],
+				"macro_f1": metrics["macro_f1"],
+				"row_count_evaluated": metrics["row_count_evaluated"],
+			},
+			predictions_df,
+		)

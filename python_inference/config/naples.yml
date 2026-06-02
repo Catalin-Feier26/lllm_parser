@@ -93,6 +93,15 @@ inference_targets:
         n_neighbors: 5
         weights: distance
 
+    merge:
+      enabled: true
+      output_folder: merged
+      strategy: majority_then_confidence
+      # Start with 0.0 to compare the merged result against all algorithms.
+      # Later, experiment with stricter values such as 0.60 or 0.70.
+      minimum_confidence: 0.0
+      record_id_col: permit_number
+
 plots:
   confusion_matrix:
     xlabel: Predicted label

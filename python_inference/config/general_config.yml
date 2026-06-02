@@ -1,0 +1,135 @@
+# Reference template for a source-specific inference configuration.
+# Copy this file, rename it for a municipality/source, and replace placeholders.
+
+source:
+  name: source_name
+  # Optional when --input is provided to main.py.
+  input_csv: data/archive/example.csv
+
+output:
+  base_dir: python_inference/output
+
+preprocessing:
+  normalize_strings: true
+
+  # Keep every raw column needed by cleaning, feature engineering, or algorithms.
+  keep_columns:
+    - record_id
+    - target_column
+    - categorical_feature
+    - numeric_feature
+
+  # Enable only features supported by the source file.
+  engineered_features:
+    valuation_bucket:
+      enabled: false
+      source_col: valuation
+      output_col: valuation_bucket
+
+    total_units_group:
+      enabled: false
+      source_col: total_units
+      output_col: total_units_group
+
+    total_sf_nonzero:
+      enabled: false
+      source_col: total_sf
+      output_col: total_sf_nonzero
+
+inference_targets:
+  # Add one block per field that may be inferred for this source.
+  target_column:
+    enabled: true
+
+    cleaning:
+      source_col: target_column
+      clean_col: target_column_clean
+      missing_values:
+        - Not Identified
+        - Unknown
+      replacements: {}
+
+    # Used for reproducible algorithm evaluation. Real missing-value inference
+    # can later reuse the runner with a separate production mode.
+    masking:
+      source_col: target_column_clean
+      target_col: target_input
+      true_col: target_true
+      mask_col: is_masked
+      mask_rate: 0.20
+      seed: 42
+
+    # Features can differ for every inferred field.
+    feature_cols:
+      - categorical_feature
+
+    algorithms:
+      grouped_majority:
+        enabled: true
+        output_folder: baseline
+        # Ordered from most specific grouping to broadest fallback grouping.
+        group_levels:
+          - [categorical_feature]
+
+      association_rules:
+        enabled: true
+        output_folder: association_rules
+        min_support: 0.01
+        min_confidence: 0.50
+        min_lift: 1.00
+        use_global_fallback: true
+        top_n_rules: 50
+
+      clustering:
+        enabled: true
+        output_folder: clustering
+        n_clusters: 8
+        random_state: 42
+        n_init: 10
+
+      knn:
+        enabled: true
+        output_folder: knn
+        n_neighbors: 5
+        weights: distance
+
+    # Combine algorithm-level predictions into one traceable final decision.
+    merge:
+      enabled: true
+      output_folder: merged
+      strategy: majority_then_confidence
+      minimum_confidence: 0.0
+      record_id_col: record_id
+
+  # Example of a second target for the same source:
+  # building_type:
+  #   enabled: false
+  #   cleaning:
+  #     source_col: building_type
+  #     clean_col: building_type_clean
+  #     missing_values: [Unknown]
+  #     replacements: {}
+  #   masking:
+  #     source_col: building_type_clean
+  #     mask_rate: 0.20
+  #     seed: 42
+  #   feature_cols:
+  #     - permit_type
+  #   algorithms:
+  #     grouped_majority:
+  #       enabled: true
+  #       group_levels:
+  #         - [permit_type]
+  #     knn:
+  #       enabled: true
+  #       n_neighbors: 5
+  #       weights: distance
+
+plots:
+  confusion_matrix:
+    xlabel: Predicted label
+    ylabel: True label
+    figure_width: 8
+    figure_height: 6
+    dpi: 150
+    x_label_rotation: 30

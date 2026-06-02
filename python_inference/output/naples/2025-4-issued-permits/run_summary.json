@@ -6,12 +6,40 @@
     "permit_class": {
       "masked_row_count": 795,
       "algorithms": {
+        "grouped_majority": {
+          "output_dir": "python_inference/output/naples/2025-4-issued-permits/permit_class/baseline",
+          "accuracy": 0.9408805031446541,
+          "macro_f1": 0.811889697055631,
+          "row_count_evaluated": 795
+        },
         "association_rules": {
           "output_dir": "python_inference/output/naples/2025-4-issued-permits/permit_class/association_rules",
           "accuracy": 0.9069182389937107,
           "macro_f1": 0.720467455856357,
           "row_count_evaluated": 795
+        },
+        "clustering": {
+          "output_dir": "python_inference/output/naples/2025-4-issued-permits/permit_class/clustering",
+          "accuracy": 0.8830188679245283,
+          "macro_f1": 0.590855614973262,
+          "row_count_evaluated": 795
+        },
+        "knn": {
+          "output_dir": "python_inference/output/naples/2025-4-issued-permits/permit_class/knn",
+          "accuracy": 0.9371069182389937,
+          "macro_f1": 0.8245447031152664,
+          "row_count_evaluated": 795
         }
+      },
+      "merge": {
+        "output_dir": "python_inference/output/naples/2025-4-issued-permits/permit_class/merged",
+        "strategy": "majority_then_confidence",
+        "minimum_confidence": 0.0,
+        "coverage": 1.0,
+        "accuracy_on_accepted": 0.939622641509434,
+        "macro_f1_on_accepted": 0.7906332138590203,
+        "row_count_accepted": 795,
+        "row_count_rejected": 0
       }
     }
   }
