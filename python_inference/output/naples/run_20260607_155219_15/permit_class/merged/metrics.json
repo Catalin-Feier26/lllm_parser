@@ -1,0 +1,15 @@
+{
+  "target_field": "permit_class",
+  "strategy": "majority_then_confidence",
+  "minimum_confidence": 0.0,
+  "row_count_total": 983,
+  "row_count_accepted": 983,
+  "row_count_rejected": 0,
+  "coverage": 1.0,
+  "average_final_confidence": 0.9083846339686807,
+  "decision_method_counts": {
+    "unanimous_vote": 564,
+    "majority_vote": 394,
+    "average_confidence_tiebreak": 25
+  }
+}

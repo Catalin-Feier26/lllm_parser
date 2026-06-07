@@ -1,0 +1,51 @@
+antecedents,consequents,support,confidence,lift,antecedent_len,predicted_target
+building_type=1 to 2 Family,target_input=Res.1&2 or Guest House,0.7281156258521952,1.0,1.3734082397003746,1,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_units_group=1",target_input=Res.1&2 or Guest House,0.6463048813744205,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_sf_nonzero=zero",target_input=Res.1&2 or Guest House,0.5590400872647941,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_sf_nonzero=zero, total_units_group=1",target_input=Res.1&2 or Guest House,0.5301336242159803,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel",target_input=Res.1&2 or Guest House,0.492500681756204,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_units_group=1",target_input=Res.1&2 or Guest House,0.45868557403872373,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_sf_nonzero=zero",target_input=Res.1&2 or Guest House,0.4548677392964276,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_sf_nonzero=zero, total_units_group=1",target_input=Res.1&2 or Guest House,0.4333242432506136,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, valuation_bucket=10000_99999",target_input=Res.1&2 or Guest House,0.2915189528224707,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_units_group=1, valuation_bucket=10000_99999",target_input=Res.1&2 or Guest House,0.28306517589310065,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_sf_nonzero=zero, valuation_bucket=10000_99999",target_input=Res.1&2 or Guest House,0.2656122170711753,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_sf_nonzero=zero, total_units_group=1, valuation_bucket=10000_99999",target_input=Res.1&2 or Guest House,0.2601581674393237,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, valuation_bucket=1000_9999",target_input=Res.1&2 or Guest House,0.23616034905917643,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, valuation_bucket=10000_99999",target_input=Res.1&2 or Guest House,0.22716116716662121,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_units_group=1, valuation_bucket=1000_9999",target_input=Res.1&2 or Guest House,0.22607035724025087,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_sf_nonzero=zero, valuation_bucket=1000_9999",target_input=Res.1&2 or Guest House,0.22252522497954733,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_units_group=1, valuation_bucket=10000_99999",target_input=Res.1&2 or Guest House,0.22197982001636216,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_sf_nonzero=zero, total_units_group=1, valuation_bucket=1000_9999",target_input=Res.1&2 or Guest House,0.21543496045814017,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_sf_nonzero=zero, valuation_bucket=10000_99999",target_input=Res.1&2 or Guest House,0.211617125715844,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_sf_nonzero=zero, total_units_group=1, valuation_bucket=10000_99999",target_input=Res.1&2 or Guest House,0.20779929097354785,1.0,1.3734082397003746,5,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=New Construction",target_input=Res.1&2 or Guest House,0.20289064630488138,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, valuation_bucket=1000_9999",target_input=Res.1&2 or Guest House,0.19989091900736297,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_sf_nonzero=zero, valuation_bucket=1000_9999",target_input=Res.1&2 or Guest House,0.19470957185710389,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_units_group=1, valuation_bucket=1000_9999",target_input=Res.1&2 or Guest House,0.19389146441232616,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, total_sf_nonzero=zero, total_units_group=1, valuation_bucket=1000_9999",target_input=Res.1&2 or Guest House,0.18925552222525224,1.0,1.3734082397003746,5,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=New Construction, total_units_group=1",target_input=Res.1&2 or Guest House,0.16034905917643852,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_sf_nonzero=nonzero",target_input=Res.1&2 or Guest House,0.13198800109080994,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, total_sf_nonzero=nonzero, total_units_group=1",target_input=Res.1&2 or Guest House,0.11617125715844014,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, permit_type=Shutters/Doors/Windows",target_input=Res.1&2 or Guest House,0.10689937278429233,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Shutters/Doors/Windows",target_input=Res.1&2 or Guest House,0.10689937278429233,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, permit_type=Shutters/Doors/Windows, total_sf_nonzero=zero",target_input=Res.1&2 or Guest House,0.10662667030269976,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Shutters/Doors/Windows, total_sf_nonzero=zero",target_input=Res.1&2 or Guest House,0.10662667030269976,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, permit_type=Shutters/Doors/Windows, total_units_group=1",target_input=Res.1&2 or Guest House,0.10608126533951459,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Shutters/Doors/Windows, total_units_group=1",target_input=Res.1&2 or Guest House,0.10608126533951459,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, permit_type=Shutters/Doors/Windows, total_sf_nonzero=zero, total_units_group=1",target_input=Res.1&2 or Guest House,0.105808562857922,1.0,1.3734082397003746,5,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Shutters/Doors/Windows, total_sf_nonzero=zero, total_units_group=1",target_input=Res.1&2 or Guest House,0.105808562857922,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=New Construction, total_sf_nonzero=nonzero",target_input=Res.1&2 or Guest House,0.09544586855740388,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Building",target_input=Res.1&2 or Guest House,0.09408235614944097,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Building, total_units_group=1",target_input=Res.1&2 or Guest House,0.08971911644395963,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Building, total_sf_nonzero=nonzero",target_input=Res.1&2 or Guest House,0.08835560403599672,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=New Construction, total_sf_nonzero=nonzero, total_units_group=1",target_input=Res.1&2 or Guest House,0.08535587673847832,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Revision - Building",target_input=Res.1&2 or Guest House,0.08481047177529316,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Building, total_sf_nonzero=nonzero, total_units_group=1",target_input=Res.1&2 or Guest House,0.08453776929370058,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, permit_type=Electrical",target_input=Res.1&2 or Guest House,0.0826288519225525,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Electrical",target_input=Res.1&2 or Guest House,0.0826288519225525,1.0,1.3734082397003746,2,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, permit_type=Electrical, total_sf_nonzero=zero",target_input=Res.1&2 or Guest House,0.08235614944095991,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Electrical, total_sf_nonzero=zero",target_input=Res.1&2 or Guest House,0.08235614944095991,1.0,1.3734082397003746,3,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, permit_type=Electrical, total_sf_nonzero=zero, total_units_group=1",target_input=Res.1&2 or Guest House,0.08153804199618217,1.0,1.3734082397003746,5,Res.1&2 or Guest House
+"building_type=1 to 2 Family, const_type=Alteration/Remodel, permit_type=Electrical, total_units_group=1",target_input=Res.1&2 or Guest House,0.08153804199618217,1.0,1.3734082397003746,4,Res.1&2 or Guest House
+"building_type=1 to 2 Family, permit_type=Electrical, total_sf_nonzero=zero, total_units_group=1",target_input=Res.1&2 or Guest House,0.08153804199618217,1.0,1.3734082397003746,4,Res.1&2 or Guest House

@@ -1,0 +1,26 @@
+{
+  "target_field": "permit_class",
+  "algorithm": "association_rules",
+  "row_count_requested": 983,
+  "row_count_predicted": 983,
+  "coverage": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_class",
+    "target_col": "target_input",
+    "true_col": "target_true",
+    "mask_col": "is_masked",
+    "feature_cols": [
+      "building_type",
+      "permit_type",
+      "const_type",
+      "valuation_bucket",
+      "total_units_group",
+      "total_sf_nonzero"
+    ],
+    "min_support": 0.01,
+    "min_confidence": 0.5,
+    "min_lift": 1.0,
+    "use_global_fallback": true
+  },
+  "reference_count": 3667
+}

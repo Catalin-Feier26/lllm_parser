@@ -1,0 +1,59 @@
+{
+  "source": "naples",
+  "input_source": "mongo:raw_permits parser_run_id=run_20260607_155219_15",
+  "parser_run_id": "run_20260607_155219_15",
+  "mode": "production",
+  "prepared_row_count": 4650,
+  "targets": {
+    "permit_class": {
+      "inference_row_count": 983,
+      "algorithms": {
+        "grouped_majority": {
+          "output_dir": "python_inference/output/naples/run_20260607_155219_15/permit_class/baseline",
+          "coverage": 1.0,
+          "row_count_requested": 983,
+          "row_count_predicted": 983
+        },
+        "association_rules": {
+          "output_dir": "python_inference/output/naples/run_20260607_155219_15/permit_class/association_rules",
+          "coverage": 1.0,
+          "row_count_requested": 983,
+          "row_count_predicted": 983
+        },
+        "clustering": {
+          "output_dir": "python_inference/output/naples/run_20260607_155219_15/permit_class/clustering",
+          "coverage": 1.0,
+          "row_count_requested": 983,
+          "row_count_predicted": 983
+        },
+        "knn": {
+          "output_dir": "python_inference/output/naples/run_20260607_155219_15/permit_class/knn",
+          "coverage": 1.0,
+          "row_count_requested": 983,
+          "row_count_predicted": 983
+        }
+      },
+      "merge": {
+        "output_dir": "python_inference/output/naples/run_20260607_155219_15/permit_class/merged",
+        "target_field": "permit_class",
+        "strategy": "majority_then_confidence",
+        "minimum_confidence": 0.0,
+        "row_count_total": 983,
+        "row_count_accepted": 983,
+        "row_count_rejected": 0,
+        "coverage": 1.0,
+        "average_final_confidence": 0.9083846339686807,
+        "decision_method_counts": {
+          "unanimous_vote": 564,
+          "majority_vote": 394,
+          "average_confidence_tiebreak": 25
+        },
+        "persisted_prediction_count": 3932,
+        "persisted_decision_count": 983,
+        "persisted_final_permit_count": 983
+      }
+    }
+  },
+  "inference_run_id": "inference_run_20260607_172021_85545148",
+  "final_permits_cloned": 4650
+}

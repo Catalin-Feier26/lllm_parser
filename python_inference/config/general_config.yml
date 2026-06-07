@@ -3,23 +3,68 @@
 
 source:
   name: source_name
-  # Optional when --input is provided to main.py.
-  input_csv: data/archive/example.csv
+
+  # Preferred after Perl has loaded source_files, parser_runs and raw_permits.
+  input:
+    type: mongo
+    collection: raw_permits
+    parser_runs_collection: parser_runs
+    uri_env: MONGO_URI
+    database_env: MONGO_DB_NAME
+    server_selection_timeout_ms: 5000
+
+    # Used to automatically select the latest completed parser run.
+    parser_run_filter:
+      source.state: STATE
+      source.county: County
+      parser.config_module: Config::Parser::source_config_module
+
+    # Applied after parser_run_id has been selected.
+    raw_permits_filter:
+      source.state: STATE
+      source.county: County
+      source.municipality: Municipality
+
+  # For CSV-only experiments, replace input above with:
+  # input:
+  #   type: csv
+  #   path: data/archive/example.csv
 
 output:
   base_dir: python_inference/output
 
+  # Store evaluation or production runs, algorithm candidates, merged decisions,
+  # and the complete production snapshot in MongoDB.
+  mongo:
+    enabled: true
+    uri_env: MONGO_URI
+    database_env: MONGO_DB_NAME
+    server_selection_timeout_ms: 5000
+
+    collections:
+      inference_runs: inference_runs
+      inference_predictions: inference_predictions
+      inference_decisions: inference_decisions
+      final_permits: final_permits
+
+inference:
+  # Use evaluation for reproducible masking and metrics.
+  # Use production to fill genuinely missing values and create final_permits.
+  mode: evaluation
+
 preprocessing:
   normalize_strings: true
 
-  # Keep every raw column needed by cleaning, feature engineering, or algorithms.
+  # Preserve raw_permit_id and parser_run_id so predictions can later be
+  # written back to MongoDB with row-level provenance.
   keep_columns:
+    - raw_permit_id
+    - parser_run_id
     - record_id
     - target_column
     - categorical_feature
     - numeric_feature
 
-  # Enable only features supported by the source file.
   engineered_features:
     valuation_bucket:
       enabled: false
@@ -37,7 +82,6 @@ preprocessing:
       output_col: total_sf_nonzero
 
 inference_targets:
-  # Add one block per field that may be inferred for this source.
   target_column:
     enabled: true
 
@@ -49,8 +93,8 @@ inference_targets:
         - Unknown
       replacements: {}
 
-    # Used for reproducible algorithm evaluation. Real missing-value inference
-    # can later reuse the runner with a separate production mode.
+    # Evaluation mode hides a reproducible subset of known values.
+    # Production mode instead selects genuinely missing cleaned values.
     masking:
       source_col: target_column_clean
       target_col: target_input
@@ -59,7 +103,6 @@ inference_targets:
       mask_rate: 0.20
       seed: 42
 
-    # Features can differ for every inferred field.
     feature_cols:
       - categorical_feature
 
@@ -67,7 +110,6 @@ inference_targets:
       grouped_majority:
         enabled: true
         output_folder: baseline
-        # Ordered from most specific grouping to broadest fallback grouping.
         group_levels:
           - [categorical_feature]
 
@@ -93,37 +135,12 @@ inference_targets:
         n_neighbors: 5
         weights: distance
 
-    # Combine algorithm-level predictions into one traceable final decision.
     merge:
       enabled: true
       output_folder: merged
       strategy: majority_then_confidence
       minimum_confidence: 0.0
-      record_id_col: record_id
-
-  # Example of a second target for the same source:
-  # building_type:
-  #   enabled: false
-  #   cleaning:
-  #     source_col: building_type
-  #     clean_col: building_type_clean
-  #     missing_values: [Unknown]
-  #     replacements: {}
-  #   masking:
-  #     source_col: building_type_clean
-  #     mask_rate: 0.20
-  #     seed: 42
-  #   feature_cols:
-  #     - permit_type
-  #   algorithms:
-  #     grouped_majority:
-  #       enabled: true
-  #       group_levels:
-  #         - [permit_type]
-  #     knn:
-  #       enabled: true
-  #       n_neighbors: 5
-  #       weights: distance
+      record_id_col: raw_permit_id
 
 plots:
   confusion_matrix:

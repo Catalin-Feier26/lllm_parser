@@ -1,14 +1,55 @@
 source:
   name: naples
-  input_csv: data/archive/2025-4-issued-permits.csv
+
+  # Load the latest completed Naples parser run from MongoDB by default.
+  # MONGO_URI and MONGO_DB_NAME are the same environment variables used by Perl.
+  input:
+    type: mongo
+    collection: raw_permits
+    parser_runs_collection: parser_runs
+    uri_env: MONGO_URI
+    database_env: MONGO_DB_NAME
+    server_selection_timeout_ms: 5000
+
+    parser_run_filter:
+      source.state: FL
+      source.county: Collier
+      parser.config_module: Config::Parser::fl_collier_naples_xlsx
+
+    raw_permits_filter:
+      source.state: FL
+      source.county: Collier
+      source.municipality: Naples
 
 output:
   base_dir: python_inference/output
 
+  mongo:
+    enabled: true
+    uri_env: MONGO_URI
+    database_env: MONGO_DB_NAME
+    server_selection_timeout_ms: 5000
+
+    collections:
+      inference_runs: inference_runs
+      inference_predictions: inference_predictions
+      inference_decisions: inference_decisions
+      final_permits: final_permits
+
+inference:
+  mode: evaluation
+
 preprocessing:
   normalize_strings: true
 
+  # Keep provenance columns alongside algorithm features. This makes every
+  # prepared row and every prediction traceable to its original raw permit.
   keep_columns:
+    - raw_permit_id
+    - parser_run_id
+    - input_file_id
+    - output_csv_file_id
+    - csv_row_number
     - permit_number
     - building_type
     - permit_type
@@ -97,10 +138,8 @@ inference_targets:
       enabled: true
       output_folder: merged
       strategy: majority_then_confidence
-      # Start with 0.0 to compare the merged result against all algorithms.
-      # Later, experiment with stricter values such as 0.60 or 0.70.
       minimum_confidence: 0.0
-      record_id_col: permit_number
+      record_id_col: raw_permit_id
 
 plots:
   confusion_matrix:

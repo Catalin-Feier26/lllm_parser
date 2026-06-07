@@ -1,0 +1,23 @@
+{
+  "target_field": "permit_class",
+  "algorithm": "grouped_majority",
+  "row_count_requested": 983,
+  "row_count_predicted": 983,
+  "coverage": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_class",
+    "target_col": "target_input",
+    "true_col": "target_true",
+    "mask_col": "is_masked",
+    "group_levels": [
+      [
+        "building_type",
+        "permit_type"
+      ],
+      [
+        "building_type"
+      ]
+    ]
+  },
+  "reference_count": 3667
+}

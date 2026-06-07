@@ -18,7 +18,9 @@ RUN cpanm --notest \
     Module::Runtime \
     MongoDB \
     Test::More \
-    App::Prove
+    App::Prove \
+    Digest::SHA \
+    File::Basename
 
 WORKDIR /app
 
