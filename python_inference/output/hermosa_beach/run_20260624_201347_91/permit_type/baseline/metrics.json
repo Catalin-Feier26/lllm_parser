@@ -1,0 +1,185 @@
+{
+  "row_count_evaluated": 48,
+  "accuracy": 0.875,
+  "macro_f1": 0.5902380952380952,
+  "weighted_f1": 0.8253174603174603,
+  "labels": [
+    "Building - In House Plan Check",
+    "Building Permit OTC",
+    "Electrical - In House Plan Check",
+    "Electrical OTC",
+    "Mechanical OTC",
+    "Plumbing OTC",
+    "Residential Building Report",
+    "Solar Permit"
+  ],
+  "classification_report": {
+    "Building - In House Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "Building Permit OTC": {
+      "precision": 0.6153846153846154,
+      "recall": 1.0,
+      "f1-score": 0.7619047619047619,
+      "support": 8.0
+    },
+    "Electrical - In House Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Electrical OTC": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1-score": 0.96,
+      "support": 12.0
+    },
+    "Mechanical OTC": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "Plumbing OTC": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "Residential Building Report": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Solar Permit": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.875,
+    "macro avg": {
+      "precision": 0.5673076923076923,
+      "recall": 0.625,
+      "f1-score": 0.5902380952380952,
+      "support": 48.0
+    },
+    "weighted avg": {
+      "precision": 0.7916666666666666,
+      "recall": 0.875,
+      "f1-score": 0.8253174603174603,
+      "support": 48.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "target_field": "permit_type",
+  "algorithm": "grouped_majority",
+  "average_confidence": 0.8625000000000002,
+  "minimum_confidence": 0.5,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_type",
+    "target_col": "permit_type_input",
+    "true_col": "permit_type_true",
+    "mask_col": "is_masked_type_subtype",
+    "group_levels": [
+      [
+        "status",
+        "permit_number_prefix"
+      ],
+      [
+        "permit_number_prefix"
+      ],
+      [
+        "status"
+      ]
+    ]
+  },
+  "reference_count": 72
+}

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from collections.abc import Callable
 from typing import Any
 
@@ -48,6 +49,116 @@ def add_valuation_bucket(
 	return result_df
 
 
+def add_fee_bucket(
+	df: pd.DataFrame,
+	source_col: str = "fee",
+	output_col: str = "fee_bucket",
+) -> pd.DataFrame:
+	return add_valuation_bucket(df, source_col=source_col, output_col=output_col)
+
+
+def add_paid_fee_bucket(
+	df: pd.DataFrame,
+	source_col: str = "paid_fee",
+	output_col: str = "paid_fee_bucket",
+) -> pd.DataFrame:
+	return add_valuation_bucket(df, source_col=source_col, output_col=output_col)
+
+
+def add_permit_number_prefix(
+	df: pd.DataFrame,
+	source_col: str = "permit_number",
+	output_col: str = "permit_number_prefix",
+) -> pd.DataFrame:
+	_validate_columns(df, [source_col])
+	result_df = df.copy()
+
+	def prefix(value: object) -> str:
+		if pd.isna(value):
+			return "missing"
+		text = str(value).strip().upper()
+		if not text:
+			return "missing"
+		match = re.match(r"([A-Z]+)", text)
+		if match:
+			return match.group(1)
+		parts = re.split(r"[-_\s]+", text, maxsplit=1)
+		return parts[0] if parts and parts[0] else "other"
+
+	result_df[output_col] = result_df[source_col].map(prefix)
+	return result_df
+
+
+def add_regex_category(
+	df: pd.DataFrame,
+	source_col: str,
+	output_col: str,
+	regex: str,
+	default_value: str = "other",
+	missing_value: str = "missing",
+	uppercase: bool = True,
+) -> pd.DataFrame:
+	_validate_columns(df, [source_col])
+	result_df = df.copy()
+	pattern = re.compile(regex)
+
+	def extract(value: object) -> str:
+		if pd.isna(value):
+			return missing_value
+		text = str(value).strip()
+		if not text:
+			return missing_value
+		match = pattern.search(text)
+		if not match:
+			return default_value
+		category = match.group(1) if match.groups() else match.group(0)
+		category = str(category).strip()
+		if not category:
+			return default_value
+		return category.upper() if uppercase else category
+
+	result_df[output_col] = result_df[source_col].map(extract)
+	return result_df
+
+
+def add_description_keywords(
+	df: pd.DataFrame,
+	source_col: str = "description",
+	output_col: str = "description_keywords",
+	keywords: dict[str, list[str]] | None = None,
+) -> pd.DataFrame:
+	_validate_columns(df, [source_col])
+	result_df = df.copy()
+	if keywords is None:
+		keywords = {
+			"solar": ["solar", "photovoltaic", "pv"],
+			"roof": ["roof", "reroof"],
+			"plumbing": ["plumbing", "water heater"],
+			"electrical": ["electrical", "electric", "panel"],
+			"mechanical": ["mechanical", "hvac", "furnace", "ac"],
+			"remodel": ["remodel", "renovation", "alteration", "tenant improvement"],
+			"addition": ["addition", "additions"],
+			"demolition": ["demo", "demolition"],
+			"pool": ["pool", "spa"],
+		}
+
+	def extract(value: object) -> str:
+		if pd.isna(value):
+			return "missing"
+		text = str(value).lower()
+		if not text.strip():
+			return "missing"
+		matches = [
+			label
+			for label, terms in keywords.items()
+			if any(term.lower() in text for term in terms)
+		]
+		return "+".join(matches) if matches else "other"
+
+	result_df[output_col] = result_df[source_col].map(extract)
+	return result_df
+
+
 def add_total_units_group(
 	df: pd.DataFrame,
 	source_col: str = "total_units",
@@ -92,6 +203,12 @@ def add_total_sf_nonzero(
 
 FEATURE_REGISTRY: dict[str, Callable[..., pd.DataFrame]] = {
 	"valuation_bucket": add_valuation_bucket,
+	"fee_bucket": add_fee_bucket,
+	"paid_fee_bucket": add_paid_fee_bucket,
+	"permit_number_prefix": add_permit_number_prefix,
+	"permit_number_category": add_regex_category,
+	"regex_category": add_regex_category,
+	"description_keywords": add_description_keywords,
 	"total_units_group": add_total_units_group,
 	"total_sf_nonzero": add_total_sf_nonzero,
 }
@@ -130,7 +247,7 @@ def apply_feature_engineering(
 		if not config.get("enabled", True):
 			continue
 
-		feature_fn = FEATURE_REGISTRY.get(feature_name)
+		feature_fn = add_regex_category if "regex" in config else FEATURE_REGISTRY.get(feature_name)
 		if feature_fn is None:
 			raise ValueError(f"Unknown engineered feature: {feature_name}")
 

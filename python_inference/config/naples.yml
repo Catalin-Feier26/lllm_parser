@@ -34,6 +34,7 @@ output:
       inference_runs: inference_runs
       inference_predictions: inference_predictions
       inference_decisions: inference_decisions
+      validation_results: validation_results
       final_permits: final_permits
 
 inference:
@@ -59,20 +60,117 @@ preprocessing:
     - total_units
     - permit_class
 
+  normalization:
+    enabled: true
+    suffix: _normalized
+    missing_values:
+      - Not Identified
+      - N/A
+      - NA
+      - NONE
+      - "-"
+
+    fields:
+      permit_number:
+        type: identifier
+        required: true
+
+      building_type:
+        type: text
+
+      permit_type:
+        type: text
+
+      const_type:
+        type: text
+
+      valuation:
+        type: money
+        normalized_col: valuation_normalized
+        min: 0
+        suspicious_max: 10000000
+
+      total_sf:
+        type: number
+        normalized_col: total_sf_normalized
+        min: 0
+        suspicious_max: 1000000
+
+      total_units:
+        type: integer
+        normalized_col: total_units_normalized
+        min: 0
+        suspicious_max: 10000
+
+      permit_class:
+        type: text
+        missing_values:
+          - Not Identified
+
+  validation:
+    enabled: true
+    output_col: validation
+    status_prefix: validation_
+    important_fields:
+      - permit_number
+      - building_type
+      - permit_type
+      - permit_class
+    missing_values:
+      - Not Identified
+      - N/A
+      - NA
+      - NONE
+      - "-"
+
+    fields:
+      permit_number:
+        type: identifier
+        required: true
+
+      building_type:
+        type: text
+
+      permit_type:
+        type: text
+
+      const_type:
+        type: text
+
+      valuation:
+        type: money
+        min: 0
+        suspicious_max: 10000000
+
+      total_sf:
+        type: number
+        min: 0
+        suspicious_max: 1000000
+
+      total_units:
+        type: integer
+        min: 0
+        suspicious_max: 10000
+
+      permit_class:
+        type: text
+        missing_values:
+          - Not Identified
+
   engineered_features:
     valuation_bucket:
       enabled: true
-      source_col: valuation
+      source_col: valuation_normalized
       output_col: valuation_bucket
 
     total_units_group:
       enabled: true
-      source_col: total_units
+      source_col: total_units_normalized
       output_col: total_units_group
 
     total_sf_nonzero:
       enabled: true
-      source_col: total_sf
+      source_col: total_sf_normalized
       output_col: total_sf_nonzero
 
 inference_targets:
@@ -138,7 +236,14 @@ inference_targets:
       enabled: true
       output_folder: merged
       strategy: majority_then_confidence
-      minimum_confidence: 0.0
+      minimum_confidence: 0.50
+      auto_accept_single_candidate: true
+      require_majority: false
+      validation_record_status_col: validation_record_status
+      review_validation_statuses:
+        - suspicious
+        - requires_review
+      reject_validation_statuses: []
       record_id_col: raw_permit_id
 
 plots:

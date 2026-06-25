@@ -1,0 +1,90 @@
+permit_number,permit_type,sub_type,status,parcel_number,issued_date,address,description,owner_name,contractor_name,valuation,fee,paid_fee
+B25-00280,"Building - Full Plan Check","Full Plan Check",Issued,4185-020-003,11/17/2025,"1,550 GOLDEN ST","Addition of bathroom/powder room, remodel of kitchen, remove a",,,,,"$7,652.69"
+B25-00151,"Building - In House Plan Check","In House Plan Check",Issued,4181-019-027,11/03/2025,"314 LONGFELLOW AVE","Remodel of the interior of an existing single family residence, roof","MACEACHERN,MATTHEW D TR","MERRELL DESIGN AND BUILD","$450,000.00","$18,009.82","$18,009.82"
+B25-00216,"Building - In House Plan Check","In House Plan Check",Issued,4184-009-019,11/17/2025,"2,040 HILLCREST DR","Retaining wall for NSFR",,,"$15,000.00",$799.23,$799.23
+B25-00316,"Building - In House Plan Check","In House Plan Check",Issued,4186-025-059,11/19/2025,"834 3RD ST","Kitchen remodel, removal of a portion of wall between the kitchen",,,,,"$2,272.25"
+B25-00369,"Building - In House Plan Check","In House Plan Check",Issued,4183-016-003,11/10/2025,"1,640 LOMA DR","Remodel of units 1 & 4, Remodel includes new light fixtures, new",,,,,"$2,596.36"
+B25-00370,"Building - In House Plan Check","In House Plan Check",Issued,4183-016-003,11/10/2025,"1,640 LOMA DR","Remodel of Units 2 & 3. Maintenance and repair for 2 units,",,,"$75,000.00","$2,596.36","$2,596.36"
+B25-00403,"Building - In House Plan Check","In House Plan Check",Issued,4183-004-037,11/26/2025,"87 14TH ST","Tenant Improvement to include new seating, prep kitchen, POS and",,,,,$778.36
+B25-00473,"Building - In House Plan Check","In House Plan Check",Issued,4181-008-015,11/10/2025,"435 29TH ST","Install an 8.28kW rooftop solar array and 1 ESS on an existing",,,,,$481.50
+B25-00494,"Building Permit OTC","Over The Counter",Issued,4185-023-051,11/12/2025,"1,240 17TH ST","Structural framing for open concept",,,"$2,500.00",$280.07,$280.07
+B25-00511,"Building Permit OTC","Over The Counter",Finaled,4188-020-079,11/06/2025,"257 VALLEY DR","Inspect and repair existing deck- Waterproofing, paneling and rail",,,,,$156.26
+B25-00512,"Building Permit OTC","Over The Counter",Finaled,4186-027-029,11/03/2025,"1,240 2ND ST","Tear off existing roofing system. Install new Double Torch roofing",,,,,$276.64
+B25-00516,"Building Permit OTC","Over The Counter",Finaled,4187-011-004,11/03/2025,"1,125 MONTEREY BLVD","Remove existing roof no flat roof portion. Install new modified",,,,,$445.30
+B25-00517,"Building Permit OTC","Over The Counter",Issued,4182-006-015,11/03/2025,"23 19TH ST","This permit replaces Expired permit (B22-00168): New deck","EXCEL INVESTMENT GROUP LLC","ALVARADO CONSTRUCTION","$160,000.00","$2,178.24","$2,178.24"
+B25-00519,"Building Permit OTC","Over The Counter",Finaled,4186-005-010,11/03/2025,"1,030 10TH ST",Re-Roof,,,"$9,500.00",$324.77,$324.77
+B25-00520,"Building Permit OTC","Over The Counter",Issued,4187-009-048,11/03/2025,"1,111 MONTEREY BLVD","Remove and replace damaged sister damaged members/framing",,,,,$276.64
+B25-00521,"Building Permit OTC","Over The Counter",Issued,4188-027-030,11/03/2025,"700 1ST ST 3","Redo stucco on 700 1st Street side wall all the way to the top",,,"$18,700.00","$2,553.84","$2,553.84"
+B25-00522,"Building Permit OTC","Over The Counter",Finaled,4181-020-036,11/03/2025,"352 31ST ST",Re-Roof,,,"$12,500.00",$397.06,$397.06
+B25-00524,"Building Permit OTC","Over The Counter",Issued,4184-014-076,11/12/2025,"2,200 PACIFIC COAST HWY 103","Walls are getting acoustic drywall. Wallpaper added in treatment","NALA SPACES LLC",,"$60,000.00","$1,266.38","$1,266.38"
+B25-00525,"Building Permit OTC","Over The Counter",Issued,4188-020-061,11/17/2025,"439 2ND ST","Kitchen remodel, like for like. No wall removal or structural","ARRIGO,VICTOR P AND JANEEN B TRS","LOS ALTOS CONSTRUCTION INC","$24,779.00",$686.28,$686.28
+B25-00526,"Building Permit OTC","Over The Counter",Issued,4160-029-006,11/10/2025,"1,245 7TH PL","Removal and disposal of asbestos containing materials per JLM",,,,,$204.27
+B25-00527,"Building Permit OTC","Over The Counter",Issued,4182-006-034,11/06/2025,"1,942 THE STRAND","New outside teak bench on wall-street, 3rd floor deck repair (any",,,,,$565.82
+B25-00528,"Building Permit OTC","Over The Counter",Issued,4183-007-026,11/06/2025,"95 17TH ST A-F","Interior kitchen and bathroom remodel (no structural changes).",,,"$11,500.00",$372.97,$372.97
+B25-00530,"Building Permit OTC","Over The Counter",Issued,4161-027-051,11/10/2025,"1,257 10TH ST",Re-Roof,,,"$9,500.00",$324.77,$324.77
+B25-00532,"Building Permit OTC","Over The Counter",Issued,4183-017-024,11/10/2025,"1,436 LOMA DR","Remodel kitchen and bath, no change to layout or walls. Kitchen",,,,,$686.31
+B25-00533,"Building Permit OTC","Over The Counter",Issued,4182-003-025,11/17/2025,"2,317 HERMOSA AVE","Replacing (19) windows and (4) doors, inserting into new",,,,,$638.00
+B25-00534,"Building Permit OTC","Over The Counter",Issued,4185-014-007,11/12/2025,"1,241 OWOSSO AVE","Roof overlay: Only (1) existing layer on pitched and low slope","LINNELL,RICHARD AND MONICA TRS","PWR CORP","$6,000.00",$228.45,$228.45
+B25-00535,"Building Permit OTC","Over The Counter",Issued,4188-003-035,11/13/2025,"117 HERMOSA AVE","Remove existing roof to sheathing and install built up system, one",,,,,$662.14
+B25-00537,"Building Permit OTC","Over The Counter",Issued,4184-007-036,11/17/2025,"1,223 19TH ST","Demolition of stucco, insulation, waterproof lath and install new",,,,,"$1,071.13"
+B25-00538,"Building Permit OTC","Over The Counter",Issued,4160-031-022,11/17/2025,"1,250 8TH ST","Seismic Retrofit Per LADBS Standard Plan- Details #7 & #9",,,"$5,760.00",$228.42,$228.42
+B25-00539,"Building Permit OTC","Over The Counter",Issued,4188-011-059,11/17/2025,"127 4TH ST","Interior cosmetic kitchen updates to include replacing countertops,",,,"$22,800.00",$638.08,$638.08
+B25-00546,"Building Permit OTC","Over The Counter",Issued,4188-010-073,11/19/2025,"535 MONTEREY BLVD","Tear off (12) squares of existing flat roof material. Install new",,,,,$469.43
+B25-00547,"Building Permit OTC","Over The Counter",Issued,4188-011-059,11/19/2025,"127 4TH ST","New window in wall with framing on East side of building.","WILLIAMS, MIMI","WINDOW DESIGN GROUP","$2,000.00",$132.30,$132.30
+B25-00550,"Building Permit OTC","Over The Counter",Issued,4188-011-059,11/24/2025,"127 4TH ST","Stair Railing Replacement",,,"$15,000.00","$1,272.21","$1,272.21"
+B25-00552,"Building Permit OTC","Over The Counter",Issued,4161-027-051,11/24/2025,"1,257 10TH ST","Applying a waterproofing system, the life deck specialty coatings",,,,,$204.35
+B25-00554,"Building Permit OTC","Over The Counter",Issued,4181-009-025,11/25/2025,"449 30TH ST","Basic reroofing, 17 squares for roll-on roof",,,"$5,200.00",$228.35,$228.35
+B25-00557,"Building Permit OTC","Over The Counter",Issued,4183-013-089,11/25/2025,"1,424 MANHATTAN AVE UNIT 1","Remove living room fireplace, close plus redirect gas line, reframe","THIRY,LINDSEY N","CORE BUILDERS GROUP LLC","$14,300.00",$445.24,$445.24
+E25-00262,"Electrical OTC","Over The Counter",Issued,4181-019-027,11/03/2025,"314 LONGFELLOW AVE","Remodel of the interior of an existing single family residence, roof","MACEACHERN,MATTHEW D TR",,,$999.00,$999.00
+E25-00275,"Electrical OTC","Over The Counter",Issued,4187-028-007,11/05/2025,"712 9TH ST","Install EV charger for Unit C & subpanel to pull power from unit's",,,,$162.00,$162.00
+E25-00277,"Electrical OTC","Over The Counter",Finaled,4160-032-017,11/03/2025,"1,136 8TH ST","Remove existing recalled Federal Pacific surface mounted meter","ADVENA,EKATERINA",,,$162.00,$162.00
+E25-00279,"Electrical OTC","Over The Counter",Issued,4183-004-037,11/26/2025,"87 14TH ST","Tenant Improvement to include new seating, prep kitchen, POS and",,,,$235.00,$235.00
+E25-00280,"Electrical OTC","Over The Counter",Issued,4188-020-061,11/17/2025,"439 2ND ST","Kitchen remodel, like for like. No wall removal or structural","ARRIGO,VICTOR P AND JANEEN B TRS",,,$280.00,$280.00
+E25-00281,"Electrical OTC","Over The Counter",Issued,4183-007-026,11/06/2025,"95 17TH ST A-F","Interior kitchen and bathroom remodel (no structural changes).","RYAN,BETH A",,,$175.00,$175.00
+E25-00282,"Electrical OTC","Over The Counter",Issued,4181-008-015,11/10/2025,"435 29TH ST","Install an 8.28kW rooftop solar array and 1 ESS on an existing",,,,$0.00,$0.00
+E25-00283,"Electrical OTC","Over The Counter",Issued,4185-020-003,11/17/2025,"1,550 GOLDEN ST","Addition of bathroom/powder room, remodel of kitchen, remove a",,,,$826.00,$826.00
+E25-00284,"Electrical OTC","Over The Counter",Issued,4182-022-021,11/17/2025,"2,201 VALLEY DR","Install 100amp temporary power pole (CTS)",,,,,$145.00
+E25-00285,"Electrical OTC","Over The Counter",Issued,4183-017-024,11/10/2025,"1,436 LOMA DR","Remodel kitchen and bath, no change to layout or walls. Kitchen",,,,$268.00,$268.00
+E25-00288,"Electrical OTC","Over The Counter",Finaled,4188-010-086,11/17/2025,"434 BAYVIEW DR","Install new 200amp main panel to Edison Approved location on","DUNCAN, BRIAN & SUH, CHRISTINE TR",,,$316.00,$316.00
+E25-00291,"Electrical OTC","Over The Counter",Finaled,4182-020-016,11/17/2025,"2,220 Park AVE","50 Amp Outlet",,,,,$115.00
+E25-00292,"Electrical OTC","Over The Counter",Issued,4188-011-059,11/17/2025,"127 4TH ST","Interior cosmetic kitchen updates to include replacing countertops,",,,,$208.00,$208.00
+E25-00294,"Electrical OTC","Over The Counter",Issued,4186-025-059,11/19/2025,"834 3RD ST","Kitchen remodel, removal of a portion of wall between the kitchen",,,,$330.00,$330.00
+E25-00295,"Electrical OTC","Over The Counter",Issued,4186-024-027,11/25/2025,"1,010 3RD ST","Electrical service panel upgrade",,,,,$162.00
+M25-00147,"Mechanical OTC","Over The Counter",Issued,4181-019-027,11/03/2025,"314 LONGFELLOW AVE","Remodel of the interior of an existing single family residence, roof","MACEACHERN,MATTHEW D TR",,,$325.00,$325.00
+M25-00153,"Mechanical OTC","Over The Counter",Issued,4183-016-003,11/10/2025,"1,640 LOMA DR","Remodel of units 1 & 4, Remodel includes new light fixtures, new",,,,$633.00,$633.00
+M25-00154,"Mechanical OTC","Over The Counter",Issued,4183-016-003,11/10/2025,"1,640 LOMA DR","Remodel of Units 2 & 3. Maintenance and repair for 2 units,",,,,$438.00,$438.00
+M25-00155,"Mechanical OTC","Over The Counter",Issued,4188-020-061,11/17/2025,"439 2ND ST","Kitchen remodel, like for like. No wall removal or structural","ARRIGO,VICTOR P AND JANEEN B TRS",,,$130.00,$130.00
+M25-00156,"Mechanical OTC","Over The Counter",Issued,4184-014-089,11/06/2025,"2,200 PACIFIC COAST HWY 214","Interior tenant improvement to become a medical office",,,,,"$1,285.00"
+M25-00157,"Mechanical OTC","Over The Counter",Finaled,4187-024-025,11/12/2025,"703 11TH ST","Furnace change out (3 ton) to be replaced within inside the closet",,,,$145.00,$145.00
+M25-00158,"Mechanical OTC","Over The Counter",Issued,4184-014-035,11/06/2025,"909 21ST ST","Installation of a heat pump. Removal of existing gas furnace and",,,,$222.00,$222.00
+M25-00159,"Mechanical OTC","Over The Counter",Issued,4183-007-026,11/06/2025,"95 17TH ST A-F","Interior kitchen and bathroom remodel (no structural changes).","RYAN,BETH A",,,$175.00,$175.00
+M25-00160,"Mechanical OTC","Over The Counter",Issued,4185-020-003,11/17/2025,"1,550 GOLDEN ST","Addition of bathroom/powder room, remodel of kitchen, remove a",,,,$220.00,$220.00
+M25-00165,"Mechanical OTC","Over The Counter",Issued,4186-025-059,11/19/2025,"834 3RD ST","Kitchen remodel, removal of a portion of wall between the kitchen",,,,$250.00,$250.00
+P25-00183,"Plumbing OTC","Over The Counter",Issued,4181-019-027,11/03/2025,"314 LONGFELLOW AVE","Remodel of the interior of an existing single family residence, roof","MACEACHERN,MATTHEW D TR",,,$741.00,$741.00
+P25-00194,"Plumbing OTC","Over The Counter",Issued,4183-016-003,11/10/2025,"1,640 LOMA DR","Remodel of units 1 & 4, Remodel includes new light fixtures, new",,,,$827.00,$827.00
+P25-00195,"Plumbing OTC","Over The Counter",Issued,4183-016-003,11/10/2025,"1,640 LOMA DR","Remodel of Units 2 & 3. Maintenance and repair for 2 units,",,,,$341.00,$341.00
+P25-00196,"Plumbing OTC","Over The Counter",Issued,4187-024-902,11/05/2025,"710 PIER AVE","CIP 630 -Installation of new gas piping in the Hermosa Beach",,,,$0.00,$0.00
+P25-00197,"Plumbing OTC","Over The Counter",Issued,4188-020-061,11/17/2025,"439 2ND ST","Kitchen remodel, like for like. No wall removal or structural","ARRIGO,VICTOR P AND JANEEN B TRS",,,$235.00,$235.00
+P25-00199,"Plumbing OTC","Over The Counter",Issued,4185-020-003,11/17/2025,"1,550 GOLDEN ST","Addition of bathroom/powder room, remodel of kitchen, remove a",,,,$257.00,$257.00
+P25-00200,"Plumbing OTC","Over The Counter",Issued,4184-014-076,11/12/2025,"2,200 PACIFIC COAST HWY 103","Walls are getting acoustic drywall. Wallpaper added in treatment","NALA SPACES LLC",,,$145.00,$145.00
+P25-00201,"Plumbing OTC","Over The Counter",Issued,4183-017-024,11/10/2025,"1,436 LOMA DR","Remodel kitchen and bath, no change to layout or walls. Kitchen",,,,$205.00,$205.00
+P25-00204,"Plumbing OTC","Over The Counter",Issued,4186-028-043,11/17/2025,"1,141 1ST ST","PEX Repipe",,,,,$98.00
+P25-00207,"Plumbing OTC","Over The Counter",Issued,4182-020-008,11/17/2025,"2,122 MONTEREY BLVD","New Fire Sprinkler System Install",,,,,$236.00
+P25-00208,"Plumbing OTC","Over The Counter",Issued,4188-011-059,11/17/2025,"127 4TH ST","Interior cosmetic kitchen updates to include replacing countertops,",,,,$86.00,$86.00
+P25-00209,"Plumbing OTC","Over The Counter",Issued,4186-025-059,11/19/2025,"834 3RD ST","Kitchen remodel, removal of a portion of wall between the kitchen",,,,$115.00,$115.00
+P25-00210,"Plumbing OTC","Over The Counter",Issued,4183-004-037,11/26/2025,"87 14TH ST","Tenant Improvement to include new seating, prep kitchen, POS and",,,,$370.00,$370.00
+X25-00193,"Residential Building Report","Residential Building Report",Finaled,4184-009-005,11/05/2025,"2,025 PROSPECT AVE",RBR,,,,,$327.42
+X25-00194,"Residential Building Report","Residential Building Report",Finaled,4181-022-043,11/12/2025,"259 28TH ST",RBR,,,,,$327.42
+X25-00195,"Residential Building Report","Residential Building Report",Finaled,4187-031-001,11/13/2025,"558 8TH ST","Residential building report",,,,,$327.42
+X25-00196,"Residential Building Report","Residential Building Report",Finaled,4184-016-007,11/13/2025,"719 24TH PL",RBR,,,,,$327.42
+X25-00197,"Residential Building Report","Residential Building Report",Finaled,4160-031-025,11/13/2025,"1,287 7TH ST",RBR,,,,,$327.42
+X25-00198,"Residential Building Report","Residential Building Report",Finaled,4184-027-079,11/13/2025,"1,600 ARDMORE AVE NO 320","RBR Unit 320",,,,,$327.42
+X25-00199,"Residential Building Report","Residential Building Report",Finaled,4185-023-030,11/19/2025,"1,861 HARPER AVE",RBR,,,,,$327.42
+X25-00200,"Residential Building Report","Residential Building Report",Finaled,4186-020-022,11/19/2025,"1,030 5TH ST",RBR,,,,,$327.42
+X25-00201,"Residential Building Report","Residential Building Report",Issued,4160-032-009,11/24/2025,"1,147 7TH ST","Residential building report",,,,,$327.42
+X25-00202,"Residential Building Report","Residential Building Report",Finaled,4183-017-053,11/19/2025,"1,550 MONTEREY BLVD",RBR,,,,,$327.42
+X25-00203,"Residential Building Report","Residential Building Report",Finaled,4188-029-024,11/19/2025,"750 4TH ST",RBR,,,,,$327.42
+X25-00207,"Residential Building Report","Residential Building Report",Issued,4183-013-053,11/26/2025,"1,434 HERMOSA AVE",RBR,,,,,$327.42
+B25-00529,"Solar Permit",Solar,Issued,4183-020-005,11/07/2025,"1,724 VALLEY PARK AVE","install 16 module 6.32KW solar PV grid tied system",,,,,$481.50
+B25-00531,"Solar Permit",Solar,Issued,4187-017-001,11/10/2025,"1,028 LOMA DR","Rooftop Mounted Solar Energy System",,,"$6,880.00",$481.50,$481.50
+B25-00560,"Solar Permit",Solar,Issued,4188-008-014,11/26/2025,"231 MANHATTAN AVE","Installation of solar with ESS.",,,,,$481.50

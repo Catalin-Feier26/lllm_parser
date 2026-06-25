@@ -1,0 +1,6033 @@
+﻿thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> | | | | | | | | | 
+thesis> 
+thesis> | | 
+thesis> 
+thesis> | | | | | | | | | | | 
+thesis> 
+thesis> | | | 
+thesis> 
+thesis> 
+=== TOTAL SONOMA RAW RECORDS ===
+
+thesis> | | | {
+  total_records: 8099,
+  filter_used: {
+    'source.state': 'CA',
+    '$or': [
+      {
+        'source.county': /Sonoma/i
+      },
+      {
+        'source.municipality': /Sonoma/i
+      },
+      {
+        'provenance.config_module': /sonoma/i
+      },
+      {
+        'provenance.parser_name': /Sonoma/i
+      },
+      {
+        'provenance.csv_file_name': /Sonoma/i
+      }
+    ]
+  }
+}
+
+thesis> 
+thesis> 
+=== SOURCE / RUN BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | {
+  _id: {
+    parser_run_id: 'run_20260625_175840_1051',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-12.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 871
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_175855_1077',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-10.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 850
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_175928_1116',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-07.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 848
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_180016_1155',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-04.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 846
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_175957_1129',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-06.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 845
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_175907_1090',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-09.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 841
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_180010_1142',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-05.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 817
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_175921_1103',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-08.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 809
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_175736_1038',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-03.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 733
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_175846_1064',
+    parser_name: 'Sonoma_PDF',
+    csv_file_name: 'Permit Sonoma Construction-Applications-2025-11.csv',
+    config_module: 'Config::Parser::ca_sonoma_pdf',
+    state: 'CA',
+    county: 'Sonoma',
+    municipality: 'PermitSonoma'
+  },
+  count: 639
+}
+
+thesis> 
+thesis> 
+=== FIELD COMPLETENESS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | {
+  field: 'permit_number',
+  total: 8099,
+  present: 8099,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 8031
+}
+{
+  field: 'status',
+  total: 8099,
+  present: 7395,
+  missing_or_empty: 704,
+  present_rate: 0.9131,
+  distinct_count: 28
+}
+{
+  field: 'permit_type',
+  total: 8099,
+  present: 8022,
+  missing_or_empty: 77,
+  present_rate: 0.9905,
+  distinct_count: 12
+}
+{
+  field: 'applied_date',
+  total: 8099,
+  present: 7271,
+  missing_or_empty: 828,
+  present_rate: 0.8978,
+  distinct_count: 273
+}
+{
+  field: 'issued_date',
+  total: 8099,
+  present: 4246,
+  missing_or_empty: 3853,
+  present_rate: 0.5243,
+  distinct_count: 256
+}
+{
+  field: 'address',
+  total: 8099,
+  present: 8076,
+  missing_or_empty: 23,
+  present_rate: 0.9972,
+  distinct_count: 6030
+}
+{
+  field: 'parcel_number',
+  total: 8099,
+  present: 7226,
+  missing_or_empty: 873,
+  present_rate: 0.8922,
+  distinct_count: 5304
+}
+{
+  field: 'fee',
+  total: 8099,
+  present: 8074,
+  missing_or_empty: 25,
+  present_rate: 0.9969,
+  distinct_count: 2574
+}
+{
+  field: 'valuation',
+  total: 8099,
+  present: 5976,
+  missing_or_empty: 2123,
+  present_rate: 0.7379,
+  distinct_count: 455
+}
+{
+  field: 'description',
+  total: 8099,
+  present: 8061,
+  missing_or_empty: 38,
+  present_rate: 0.9953,
+  distinct_count: 7736
+}
+
+thesis> 
+thesis> 
+=== FIELD TYPE CHECK ===
+
+thesis> | | | | | | | | | | | | | | | | | | | 
+--- TYPES: permit_number ---
+{
+  _id: 'string',
+  count: 8099
+}
+
+--- TYPES: status ---
+{
+  _id: 'string',
+  count: 7395
+}
+{
+  _id: 'null',
+  count: 704
+}
+
+--- TYPES: permit_type ---
+{
+  _id: 'string',
+  count: 8022
+}
+{
+  _id: 'null',
+  count: 77
+}
+
+--- TYPES: applied_date ---
+{
+  _id: 'string',
+  count: 7271
+}
+{
+  _id: 'null',
+  count: 828
+}
+
+--- TYPES: issued_date ---
+{
+  _id: 'string',
+  count: 4246
+}
+{
+  _id: 'null',
+  count: 3853
+}
+
+--- TYPES: address ---
+{
+  _id: 'string',
+  count: 8076
+}
+{
+  _id: 'null',
+  count: 23
+}
+
+--- TYPES: parcel_number ---
+{
+  _id: 'string',
+  count: 7226
+}
+{
+  _id: 'null',
+  count: 873
+}
+
+--- TYPES: fee ---
+{
+  _id: 'string',
+  count: 8074
+}
+{
+  _id: 'null',
+  count: 25
+}
+
+--- TYPES: valuation ---
+{
+  _id: 'string',
+  count: 5976
+}
+{
+  _id: 'null',
+  count: 2123
+}
+
+--- TYPES: description ---
+{
+  _id: 'string',
+  count: 8061
+}
+{
+  _id: 'null',
+  count: 38
+}
+
+thesis> 
+thesis> 
+=== TOP VALUES: PERMIT TYPE ===
+
+thesis> | | | | | | | | | | | | | | | {
+  _id: 'Building Permit No Plan Check',
+  count: 3457
+}
+{
+  _id: 'Building Permit With Plan Check',
+  count: 2516
+}
+{
+  _id: 'Septic Permit',
+  count: 342
+}
+{
+  _id: 'Demolition Permit',
+  count: 337
+}
+{
+  _id: 'Encroachment',
+  count: 319
+}
+{
+  _id: 'Well Permit',
+  count: 308
+}
+{
+  _id: 'Solar-SolarAPP',
+  count: 298
+}
+{
+  _id: 'Plan Check',
+  count: 170
+}
+{
+  _id: 'Grading Permit',
+  count: 152
+}
+{
+  _id: 'Sewer Construction',
+  count: 70
+}
+{
+  _id: 'Sewer Fee Only',
+  count: 48
+}
+{
+  _id: 'Sewer Land Use Authority',
+  count: 5
+}
+
+thesis> 
+thesis> 
+=== TOP VALUES: STATUS ===
+
+thesis> | | | | | | | | | | | | | | | {
+  _id: 'Issued',
+  count: 3760
+}
+{
+  _id: 'Awaiting Applicant Response',
+  count: 912
+}
+{
+  _id: 'Check',
+  count: 746
+}
+{
+  _id: 'Finaled',
+  count: 641
+}
+{
+  _id: 'Started',
+  count: 270
+}
+{
+  _id: 'Resubmittal Requested',
+  count: 214
+}
+{
+  _id: 'Pre- Due',
+  count: 190
+}
+{
+  _id: 'Application Accepted/In Review',
+  count: 149
+}
+{
+  _id: 'Paid',
+  count: 135
+}
+{
+  _id: 'Plan Check Comments Sent',
+  count: 101
+}
+{
+  _id: 'Resubmittal Received',
+  count: 80
+}
+{
+  _id: 'Ready for Plan',
+  count: 55
+}
+{
+  _id: 'Plan Check',
+  count: 27
+}
+{
+  _id: 'Plan Check Encroachment',
+  count: 19
+}
+{
+  _id: 'Application Accepted/In',
+  count: 13
+}
+{
+  _id: 'Waiting for Other Approvals',
+  count: 13
+}
+{
+  _id: 'Issue/Payment',
+  count: 12
+}
+{
+  _id: 'Plan Check Comments',
+  count: 11
+}
+{
+  _id: 'Plan Check Started',
+  count: 10
+}
+{
+  _id: 'Payment Due Building Permit With',
+  count: 10
+}
+{
+  _id: 'Pre-Issue',
+  count: 9
+}
+{
+  _id: 'Plan Check Approved',
+  count: 7
+}
+{
+  _id: 'Closed',
+  count: 4
+}
+{
+  _id: 'Denied',
+  count: 2
+}
+{
+  _id: 'On Hold',
+  count: 2
+}
+{
+  _id: 'Waiting for Approvals',
+  count: 1
+}
+{
+  _id: 'Vested',
+  count: 1
+}
+{
+  _id: 'Payment Due Well Permit',
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== PERMIT NUMBER PREFIX BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_number_prefix: 'BLD',
+    permit_number_year: '25'
+  },
+  count: 6441,
+  example_permit_number: 'BLD25-1158',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'SEP',
+    permit_number_year: '25'
+  },
+  count: 342,
+  example_permit_number: 'SEP25-0056',
+  example_permit_type: 'Septic Permit',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'ENC',
+    permit_number_year: '25'
+  },
+  count: 338,
+  example_permit_number: 'ENC25-0088',
+  example_permit_type: 'Encroachment',
+  example_status: 'Started'
+}
+{
+  _id: {
+    permit_number_prefix: 'DEM',
+    permit_number_year: '25'
+  },
+  count: 337,
+  example_permit_number: 'DEM25-0076',
+  example_permit_type: 'Demolition Permit',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'WEL',
+    permit_number_year: '25'
+  },
+  count: 317,
+  example_permit_number: 'WEL25-0099',
+  example_permit_type: 'Well Permit',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'GRD',
+    permit_number_year: '25'
+  },
+  count: 157,
+  example_permit_number: 'GRD25-0051',
+  example_permit_type: 'Grading Permit',
+  example_status: 'Plan Check Started'
+}
+{
+  _id: {
+    permit_number_prefix: 'SEW',
+    permit_number_year: '25'
+  },
+  count: 126,
+  example_permit_number: 'SEW25-0029 Ready for Plan',
+  example_permit_type: 'Sewer Construction',
+  example_status: 'Check'
+}
+{
+  _id: {
+    permit_number_prefix: 'UNKNOWN',
+    permit_number_year: 'UNKNOWN'
+  },
+  count: 23,
+  example_permit_number: '0217.R01',
+  example_permit_type: 'Grading Permit',
+  example_status: 'Finaled'
+}
+{
+  _id: {
+    permit_number_prefix: 'GRD',
+    permit_number_year: '22'
+  },
+  count: 6,
+  example_permit_number: 'GRD22-',
+  example_permit_type: null,
+  example_status: null
+}
+{
+  _id: {
+    permit_number_prefix: 'GRD',
+    permit_number_year: '24'
+  },
+  count: 6,
+  example_permit_number: 'GRD24-',
+  example_permit_type: null,
+  example_status: null
+}
+{
+  _id: {
+    permit_number_prefix: 'GRD',
+    permit_number_year: '21'
+  },
+  count: 3,
+  example_permit_number: 'GRD21-',
+  example_permit_type: null,
+  example_status: null
+}
+{
+  _id: {
+    permit_number_prefix: 'GRD',
+    permit_number_year: '23'
+  },
+  count: 2,
+  example_permit_number: 'GRD23-',
+  example_permit_type: null,
+  example_status: null
+}
+{
+  _id: {
+    permit_number_prefix: 'GRD',
+    permit_number_year: '20'
+  },
+  count: 1,
+  example_permit_number: 'GRD20-',
+  example_permit_type: null,
+  example_status: null
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE / STATUS COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued'
+  },
+  count: 2553
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response'
+  },
+  count: 737
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued'
+  },
+  count: 666
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check'
+  },
+  count: 472
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Finaled'
+  },
+  count: 458
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: null
+  },
+  count: 275
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: 'Issued'
+  },
+  count: 247
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: null
+  },
+  count: 160
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Requested'
+  },
+  count: 138
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Paid'
+  },
+  count: 131
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Issued'
+  },
+  count: 123
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Started'
+  },
+  count: 114
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Started'
+  },
+  count: 113
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Check'
+  },
+  count: 112
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Issued'
+  },
+  count: 98
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: null
+  },
+  count: 92
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Pre- Due'
+  },
+  count: 77
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Plan Check Comments Sent'
+  },
+  count: 66
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Check'
+  },
+  count: 65
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Awaiting Applicant Response'
+  },
+  count: 65
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Check'
+  },
+  count: 60
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Finaled'
+  },
+  count: 58
+}
+{
+  _id: {
+    permit_type: null,
+    status: null
+  },
+  count: 57
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Awaiting Applicant Response'
+  },
+  count: 56
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Ready for Plan'
+  },
+  count: 55
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Resubmittal Requested'
+  },
+  count: 55
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Pre- Due'
+  },
+  count: 52
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Finaled'
+  },
+  count: 50
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Issued'
+  },
+  count: 48
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Application Accepted/In Review'
+  },
+  count: 46
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Received'
+  },
+  count: 45
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Application Accepted/In Review'
+  },
+  count: 45
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Application Accepted/In Review'
+  },
+  count: 42
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Pre- Due'
+  },
+  count: 40
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Check'
+  },
+  count: 36
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: null
+  },
+  count: 34
+}
+{
+  _id: {
+    permit_type: 'Sewer Fee Only',
+    status: 'Finaled'
+  },
+  count: 31
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: null
+  },
+  count: 31
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Resubmittal Received'
+  },
+  count: 27
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Plan Check'
+  },
+  count: 25
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: 'Finaled'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Pre- Due'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: null,
+    status: 'Plan Check Encroachment'
+  },
+  count: 19
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Awaiting Applicant Response'
+  },
+  count: 18
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Resubmittal Requested'
+  },
+  count: 18
+}
+{
+  _id: {
+    permit_type: 'Sewer Fee Only',
+    status: 'Started'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Finaled'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Awaiting Applicant Response'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: null
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Application Accepted/In Review'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: null
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Plan Check Comments Sent'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Issued'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Plan Check Comments Sent'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: null
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Awaiting Applicant Response'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: 'Payment Due Building Permit With'
+  },
+  count: 10
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Application Accepted/In'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Pre-Issue'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: null
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Issued'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Awaiting Applicant Response'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Waiting for Other Approvals'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Started'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Plan Check Comments Sent'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issue/Payment'
+  },
+  count: 7
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Plan Check Started'
+  },
+  count: 6
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Plan Check Comments'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Plan Check Approved'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Started'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Waiting for Other Approvals'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Started'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Resubmittal Received'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Started'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Plan Check Comments'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Closed'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Sewer Land Use Authority',
+    status: 'Paid'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Finaled'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Resubmittal Requested'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Issued'
+  },
+  count: 3
+}
+
+thesis> 
+thesis> 
+=== ADDRESS LOCATION CODE BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: 'TWI',
+  count: 756,
+  example_address: '11371 Bodega Hwy Twin Hills [TWI]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'AGU',
+  count: 565,
+  example_address: '18298 Hwy 12 Agua Caliente [AGU]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'WIN',
+  count: 558,
+  example_address: '802 Fitch View Ln Windsor [WIN]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'SON',
+  count: 508,
+  example_address: '19380 Desilu Dr Sonoma [SON]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Pre- Due'
+}
+{
+  _id: 'SRO',
+  count: 464,
+  example_address: '2071 Wood Rd Santa Rosa [SRO]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'FOR',
+  count: 459,
+  example_address: '12991 Richardson Ave Forestville [FOR]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'PET',
+  count: 446,
+  example_address: '1250 Mountain View Ave Petaluma [PET]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'GRA',
+  count: 379,
+  example_address: '9000 Donald St A Graton [GRA]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'GLE',
+  count: 322,
+  example_address: '124 Loma Vista Dr Glen Ellen [GLE]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'PEN',
+  count: 303,
+  example_address: '462 Ronsheimer Rd Penngrove [PEN]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'BEL',
+  count: 291,
+  example_address: '2714 Ash Dr Bellevue [BEL]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'GUE',
+  count: 267,
+  example_address: '61 Silvia Dr Guerneville [GUE]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Finaled'
+}
+{
+  _id: 'SEA',
+  count: 261,
+  example_address: '95 South Wind Sea Ranch [SEA]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'HEA',
+  count: 259,
+  example_address: '5362 Mill Creek Rd Healdsburg [HEA]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'GEY',
+  count: 241,
+  example_address: '1260 Nutter Rd Geyserville [GEY]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'KEN',
+  count: 214,
+  example_address: '8835 Brown Ave Kenwood [KEN]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Finaled'
+}
+{
+  _id: 'BBY',
+  count: 211,
+  example_address: '7001 Hwy 1 Bodega Bay [BBY]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'MWS',
+  count: 204,
+  example_address: '5415 Wilshire Dr Mark West Springs [MWS]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'BEN',
+  count: 203,
+  example_address: '2856 Bardy Rd Bennett Valley [BEN]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'SEB',
+  count: 140,
+  example_address: '6322 Highland Pl Sebastopol [SEB]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'MRO',
+  count: 136,
+  example_address: '21471 Monte Vista Ter Monte Rio [MRO]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'UNKNOWN',
+  count: 128,
+  example_address: '999 Accela Way',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Started'
+}
+{
+  _id: 'CLO',
+  count: 110,
+  example_address: '26444 Bella Aria Way Cloverdale [CLO]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'RIN',
+  count: 110,
+  example_address: '6901 Plum Ranch Rd Rincon Valley [RIN]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'OCC',
+  count: 91,
+  example_address: '2598 Joy Rd Occidental [OCC]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'COT',
+  count: 90,
+  example_address: '1334 Lowell Ave Cotati [COT]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'SR',
+  count: 82,
+  example_address: '2550 Paulin Dr Santa Rosa [SR]',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_status: 'Resubmittal Received'
+}
+{
+  _id: 'TIM',
+  count: 53,
+  example_address: 'Timber Cove [TIM]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'CAM',
+  count: 51,
+  example_address: '153 Redwood Ave Camp Meeker [CAM]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Finaled'
+}
+{
+  _id: 'BLO',
+  count: 31,
+  example_address: '6300 Bloomfield Rd Bloomfield [BLO]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'TWO',
+  count: 27,
+  example_address: '3647 Middle Two Rock Rd Two Rock [TWO]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'LAK',
+  count: 24,
+  example_address: '7835 Lakeville Hwy Lakeville [LAK]',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_status: 'Resubmittal Received'
+}
+{
+  _id: 'PE',
+  count: 19,
+  example_address: 'Petaluma [PE]',
+  example_permit_type: 'Well Permit',
+  example_status: 'Issued'
+}
+{
+  _id: 'JEN',
+  count: 19,
+  example_address: '10710 Hereford Dr Jenner [JEN]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'FTR',
+  count: 18,
+  example_address: '15000 Meyers Grade Rd Fort Ross [FTR]',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_status: 'Issued'
+}
+{
+  _id: 'SO',
+  count: 18,
+  example_address: '471 Claudia Dr Sonoma [SO]',
+  example_permit_type: 'Sewer Fee Only',
+  example_status: 'Finaled'
+}
+{
+  _id: 'ANN',
+  count: 15,
+  example_address: '38200 Annapolis Rd Annapolis [ANN]',
+  example_permit_type: 'Septic Permit',
+  example_status: 'Check'
+}
+{
+  _id: 'WI',
+  count: 7,
+  example_address: '8685 Old Redwood Hwy Windsor [WI]',
+  example_permit_type: 'Well Permit',
+  example_status: 'Issued'
+}
+{
+  _id: 'HE',
+  count: 6,
+  example_address: '359 Hudson St Healdsburg [HE]',
+  example_permit_type: 'Well Permit',
+  example_status: 'Issued'
+}
+{
+  _id: 'RP',
+  count: 5,
+  example_address: '151 Wilfred Ave Rohnert Park [RP]',
+  example_permit_type: 'Septic Permit',
+  example_status: 'Issued'
+}
+{
+  _id: 'CL',
+  count: 4,
+  example_address: '321 S Cloverdale Blvd Cloverdale [CL]',
+  example_permit_type: 'Well Permit',
+  example_status: 'Finaled'
+}
+{
+  _id: 'SE',
+  count: 2,
+  example_address: '8100 Valentine Ave Sebastopol [SE]',
+  example_permit_type: 'Well Permit',
+  example_status: 'Resubmittal Requested'
+}
+{
+  _id: 'CO',
+  count: 2,
+  example_address: '8929 Water Rd Cotati [CO]',
+  example_permit_type: 'Septic Permit',
+  example_status: 'Application Accepted/In Review'
+}
+
+thesis> 
+thesis> 
+=== LOCATION CODE / PERMIT TYPE COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    location_code: 'TWI',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 357
+}
+{
+  _id: {
+    location_code: 'AGU',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 297
+}
+{
+  _id: {
+    location_code: 'TWI',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 250
+}
+{
+  _id: {
+    location_code: 'FOR',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 249
+}
+{
+  _id: {
+    location_code: 'PET',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 217
+}
+{
+  _id: {
+    location_code: 'WIN',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 206
+}
+{
+  _id: {
+    location_code: 'SRO',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 202
+}
+{
+  _id: {
+    location_code: 'WIN',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 201
+}
+{
+  _id: {
+    location_code: 'SON',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 186
+}
+{
+  _id: {
+    location_code: 'SON',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 174
+}
+{
+  _id: {
+    location_code: 'GRA',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 168
+}
+{
+  _id: {
+    location_code: 'SEA',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 157
+}
+{
+  _id: {
+    location_code: 'AGU',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 139
+}
+{
+  _id: {
+    location_code: 'SRO',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 132
+}
+{
+  _id: {
+    location_code: 'BBY',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 128
+}
+{
+  _id: {
+    location_code: 'PEN',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 127
+}
+{
+  _id: {
+    location_code: 'PET',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 126
+}
+{
+  _id: {
+    location_code: 'GUE',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 124
+}
+{
+  _id: {
+    location_code: 'GLE',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 123
+}
+{
+  _id: {
+    location_code: 'GLE',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 119
+}
+{
+  _id: {
+    location_code: 'FOR',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 119
+}
+{
+  _id: {
+    location_code: 'GRA',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 115
+}
+{
+  _id: {
+    location_code: 'BEL',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 115
+}
+{
+  _id: {
+    location_code: 'HEA',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 108
+}
+{
+  _id: {
+    location_code: 'MWS',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 105
+}
+{
+  _id: {
+    location_code: 'KEN',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 99
+}
+{
+  _id: {
+    location_code: 'GUE',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 90
+}
+{
+  _id: {
+    location_code: 'GEY',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 89
+}
+{
+  _id: {
+    location_code: 'PEN',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 88
+}
+{
+  _id: {
+    location_code: 'BEN',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 85
+}
+{
+  _id: {
+    location_code: 'HEA',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 83
+}
+{
+  _id: {
+    location_code: 'GEY',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 83
+}
+{
+  _id: {
+    location_code: 'SEA',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 81
+}
+{
+  _id: {
+    location_code: 'MRO',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 76
+}
+{
+  _id: {
+    location_code: 'BEN',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 76
+}
+{
+  _id: {
+    location_code: 'BEL',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 76
+}
+{
+  _id: {
+    location_code: 'SEB',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 69
+}
+{
+  _id: {
+    location_code: 'KEN',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 67
+}
+{
+  _id: {
+    location_code: 'BBY',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 56
+}
+{
+  _id: {
+    location_code: 'SR',
+    permit_type: 'Well Permit'
+  },
+  count: 51
+}
+{
+  _id: {
+    location_code: 'RIN',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 50
+}
+{
+  _id: {
+    location_code: 'CLO',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 49
+}
+{
+  _id: {
+    location_code: 'OCC',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 46
+}
+{
+  _id: {
+    location_code: 'SEB',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 43
+}
+{
+  _id: {
+    location_code: 'AGU',
+    permit_type: 'Solar-SolarAPP'
+  },
+  count: 43
+}
+{
+  _id: {
+    location_code: 'TWI',
+    permit_type: 'Septic Permit'
+  },
+  count: 39
+}
+{
+  _id: {
+    location_code: 'COT',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 37
+}
+{
+  _id: {
+    location_code: 'UNKNOWN',
+    permit_type: 'Encroachment'
+  },
+  count: 37
+}
+{
+  _id: {
+    location_code: 'MWS',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 33
+}
+{
+  _id: {
+    location_code: 'CLO',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 33
+}
+{
+  _id: {
+    location_code: 'SON',
+    permit_type: 'Solar-SolarAPP'
+  },
+  count: 33
+}
+{
+  _id: {
+    location_code: 'SRO',
+    permit_type: 'Demolition Permit'
+  },
+  count: 33
+}
+{
+  _id: {
+    location_code: 'OCC',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 32
+}
+{
+  _id: {
+    location_code: 'BEL',
+    permit_type: 'Demolition Permit'
+  },
+  count: 31
+}
+{
+  _id: {
+    location_code: 'RIN',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 30
+}
+{
+  _id: {
+    location_code: 'MRO',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 30
+}
+{
+  _id: {
+    location_code: 'CAM',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 30
+}
+{
+  _id: {
+    location_code: 'TWI',
+    permit_type: 'Demolition Permit'
+  },
+  count: 30
+}
+{
+  _id: {
+    location_code: 'SON',
+    permit_type: 'Septic Permit'
+  },
+  count: 29
+}
+{
+  _id: {
+    location_code: 'AGU',
+    permit_type: 'Encroachment'
+  },
+  count: 27
+}
+{
+  _id: {
+    location_code: 'UNKNOWN',
+    permit_type: null
+  },
+  count: 27
+}
+{
+  _id: {
+    location_code: 'TWI',
+    permit_type: 'Well Permit'
+  },
+  count: 26
+}
+{
+  _id: {
+    location_code: 'WIN',
+    permit_type: 'Demolition Permit'
+  },
+  count: 26
+}
+{
+  _id: {
+    location_code: 'UNKNOWN',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 25
+}
+{
+  _id: {
+    location_code: 'COT',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 24
+}
+{
+  _id: {
+    location_code: 'SRO',
+    permit_type: 'Solar-SolarAPP'
+  },
+  count: 24
+}
+{
+  _id: {
+    location_code: 'GRA',
+    permit_type: 'Demolition Permit'
+  },
+  count: 23
+}
+{
+  _id: {
+    location_code: 'SRO',
+    permit_type: 'Encroachment'
+  },
+  count: 23
+}
+{
+  _id: {
+    location_code: 'SON',
+    permit_type: 'Plan Check'
+  },
+  count: 22
+}
+{
+  _id: {
+    location_code: 'PET',
+    permit_type: 'Septic Permit'
+  },
+  count: 22
+}
+{
+  _id: {
+    location_code: 'GEY',
+    permit_type: 'Well Permit'
+  },
+  count: 22
+}
+{
+  _id: {
+    location_code: 'WIN',
+    permit_type: 'Encroachment'
+  },
+  count: 22
+}
+{
+  _id: {
+    location_code: 'WIN',
+    permit_type: 'Solar-SolarAPP'
+  },
+  count: 21
+}
+{
+  _id: {
+    location_code: 'FOR',
+    permit_type: 'Demolition Permit'
+  },
+  count: 19
+}
+{
+  _id: {
+    location_code: 'GRA',
+    permit_type: 'Septic Permit'
+  },
+  count: 19
+}
+{
+  _id: {
+    location_code: 'TWI',
+    permit_type: 'Solar-SolarAPP'
+  },
+  count: 19
+}
+{
+  _id: {
+    location_code: 'TIM',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  count: 19
+}
+{
+  _id: {
+    location_code: 'MWS',
+    permit_type: 'Demolition Permit'
+  },
+  count: 18
+}
+{
+  _id: {
+    location_code: 'TIM',
+    permit_type: 'Building Permit With Plan Check'
+  },
+  count: 18
+}
+{
+  _id: {
+    location_code: 'PET',
+    permit_type: 'Demolition Permit'
+  },
+  count: 18
+}
+{
+  _id: {
+    location_code: 'PEN',
+    permit_type: 'Demolition Permit'
+  },
+  count: 18
+}
+{
+  _id: {
+    location_code: 'FOR',
+    permit_type: 'Septic Permit'
+  },
+  count: 18
+}
+{
+  _id: {
+    location_code: 'HEA',
+    permit_type: 'Septic Permit'
+  },
+  count: 18
+}
+{
+  _id: {
+    location_code: 'GUE',
+    permit_type: 'Encroachment'
+  },
+  count: 18
+}
+{
+  _id: {
+    location_code: 'BEL',
+    permit_type: 'Encroachment'
+  },
+  count: 17
+}
+{
+  _id: {
+    location_code: 'PET',
+    permit_type: 'Encroachment'
+  },
+  count: 17
+}
+{
+  _id: {
+    location_code: 'WIN',
+    permit_type: 'Sewer Construction'
+  },
+  count: 17
+}
+{
+  _id: {
+    location_code: 'BEL',
+    permit_type: 'Solar-SolarAPP'
+  },
+  count: 17
+}
+{
+  _id: {
+    location_code: 'PEN',
+    permit_type: 'Encroachment'
+  },
+  count: 16
+}
+{
+  _id: {
+    location_code: 'WIN',
+    permit_type: 'Septic Permit'
+  },
+  count: 16
+}
+{
+  _id: {
+    location_code: 'WIN',
+    permit_type: 'Plan Check'
+  },
+  count: 16
+}
+{
+  _id: {
+    location_code: 'KEN',
+    permit_type: 'Encroachment'
+  },
+  count: 16
+}
+{
+  _id: {
+    location_code: 'GLE',
+    permit_type: 'Encroachment'
+  },
+  count: 16
+}
+{
+  _id: {
+    location_code: 'SR',
+    permit_type: 'Septic Permit'
+  },
+  count: 16
+}
+{
+  _id: {
+    location_code: 'PE',
+    permit_type: 'Well Permit'
+  },
+  count: 15
+}
+{
+  _id: {
+    location_code: 'MWS',
+    permit_type: 'Grading Permit'
+  },
+  count: 15
+}
+{
+  _id: {
+    location_code: 'PEN',
+    permit_type: 'Solar-SolarAPP'
+  },
+  count: 15
+}
+{
+  _id: {
+    location_code: 'GRA',
+    permit_type: 'Well Permit'
+  },
+  count: 15
+}
+{
+  _id: {
+    location_code: 'BEN',
+    permit_type: 'Septic Permit'
+  },
+  count: 15
+}
+{
+  _id: {
+    location_code: 'FOR',
+    permit_type: 'Encroachment'
+  },
+  count: 14
+}
+
+thesis> 
+thesis> 
+=== DUPLICATE PERMIT NUMBERS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | {
+  _id: 'GRD22-',
+  count: 6,
+  example_status: null,
+  example_permit_type: null,
+  example_address: null
+}
+{
+  _id: 'GRD24-',
+  count: 6,
+  example_status: null,
+  example_permit_type: null,
+  example_address: null
+}
+{
+  _id: '0038.R01',
+  count: 5,
+  example_status: 'Plan Check Comments Sent',
+  example_permit_type: 'Grading Permit',
+  example_address: '7777 Martinelli Rd Forestville [FOR]'
+}
+{
+  _id: 'GRD25-',
+  count: 5,
+  example_status: null,
+  example_permit_type: null,
+  example_address: null
+}
+{
+  _id: 'GRD25-0149',
+  count: 3,
+  example_status: null,
+  example_permit_type: 'Grading Permit',
+  example_address: '3543 Deer Trail Rd Rincon Valley [RIN]'
+}
+{
+  _id: 'GRD21-',
+  count: 3,
+  example_status: null,
+  example_permit_type: null,
+  example_address: null
+}
+{
+  _id: 'WEL25-0435',
+  count: 3,
+  example_status: 'Pre- Due',
+  example_permit_type: 'Well Permit',
+  example_address: '1265 Fulton Rd Santa Rosa [SR]'
+}
+{
+  _id: 'BLD25-3415',
+  count: 2,
+  example_status: 'Issued',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_address: '18439 3rd Ave Agua Caliente [AGU]'
+}
+{
+  _id: 'BLD25-4727',
+  count: 2,
+  example_status: 'Application Accepted/In',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '4125 Chico Ave Bellevue [BEL]'
+}
+{
+  _id: 'BLD25-7694',
+  count: 2,
+  example_status: 'Resubmittal Requested',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '12111 Chalk Hill Rd Geyserville [GEY]'
+}
+{
+  _id: '0026.R01',
+  count: 2,
+  example_status: 'Plan Check',
+  example_permit_type: 'Grading Permit',
+  example_address: '4131 Chico Ave Bellevue [BEL]'
+}
+{
+  _id: 'WEL25-0281',
+  count: 2,
+  example_status: 'Resubmittal Received',
+  example_permit_type: 'Well Permit',
+  example_address: '15900 Hwy 12'
+}
+{
+  _id: 'GRD25-0169',
+  count: 2,
+  example_status: 'Resubmittal Received',
+  example_permit_type: 'Grading Permit',
+  example_address: '1880 Hwy 1 Bodega Bay [BBY]'
+}
+{
+  _id: 'BLD25-2127',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '2073 Live Oak Farm Ln Petaluma [PET]'
+}
+{
+  _id: 'BLD25-2989',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '10655 Mill Station Rd Graton [GRA]'
+}
+{
+  _id: 'BLD25-5008',
+  count: 2,
+  example_status: null,
+  example_permit_type: 'Building Permit No Plan Check',
+  example_address: '3803 Bohemian Hwy Graton [GRA]'
+}
+{
+  _id: 'SEP25-0296',
+  count: 2,
+  example_status: 'Plan Check Comments Sent',
+  example_permit_type: 'Septic Permit',
+  example_address: '15586 Pozzan Rd Healdsburg [HEA]'
+}
+{
+  _id: 'BLD25-1180',
+  count: 2,
+  example_status: 'Issued',
+  example_permit_type: 'Building Permit No Plan Check',
+  example_address: '18298 Hwy 12 Agua Caliente [AGU]'
+}
+{
+  _id: 'GRD25-0105',
+  count: 2,
+  example_status: 'Issued',
+  example_permit_type: 'Grading Permit',
+  example_address: '175 Airport Blvd Windsor [WIN]'
+}
+{
+  _id: 'ENC25-0199',
+  count: 2,
+  example_status: 'Paid',
+  example_permit_type: 'Encroachment',
+  example_address: '175 Airport Blvd Windsor [WIN]'
+}
+{
+  _id: 'GRD23-',
+  count: 2,
+  example_status: null,
+  example_permit_type: null,
+  example_address: null
+}
+{
+  _id: 'GRD25-0114',
+  count: 2,
+  example_status: 'Plan Check Comments Sent',
+  example_permit_type: 'Grading Permit',
+  example_address: '4300 Wallace Creek Rd Healdsburg [HEA]'
+}
+{
+  _id: 'ENC25-0258',
+  count: 2,
+  example_status: 'Issued',
+  example_permit_type: 'Encroachment',
+  example_address: '175 Airport Blvd Windsor [WIN]'
+}
+{
+  _id: 'GRD25-0085',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Grading Permit',
+  example_address: '429 Aviation Blvd Santa Rosa [SRO]'
+}
+{
+  _id: 'BLD25-7496',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '3786 Hill St Occidental [OCC]'
+}
+{
+  _id: 'GRD25-0078',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Grading Permit',
+  example_address: '33700 Tin Barn Rd Annapolis [ANN]'
+}
+{
+  _id: 'ENC25-0171',
+  count: 2,
+  example_status: 'Plan Check',
+  example_permit_type: 'Encroachment',
+  example_address: '20728 Wren Ct'
+}
+{
+  _id: 'ENC25-0261',
+  count: 2,
+  example_status: 'Plan Check Encroachment',
+  example_permit_type: null,
+  example_address: '17515 Balsam Ave'
+}
+{
+  _id: 'ENC25-0128',
+  count: 2,
+  example_status: 'Paid',
+  example_permit_type: 'Encroachment',
+  example_address: '21029 Peary Ave'
+}
+{
+  _id: 'BLD25-4820',
+  count: 2,
+  example_status: null,
+  example_permit_type: 'Building Permit No Plan Check',
+  example_address: '6101 Cleland Ranch Rd Kenwood [KEN]'
+}
+{
+  _id: 'BLD25-4683',
+  count: 2,
+  example_status: 'Ready for Plan',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '216 De Chene Ave Agua Caliente [AGU]'
+}
+{
+  _id: '0096.R02',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Grading Permit',
+  example_address: '2199 Diamond Mountain Rd Mark West Springs [MWS]'
+}
+{
+  _id: 'ENC25-0198',
+  count: 2,
+  example_status: 'Issued',
+  example_permit_type: 'Encroachment',
+  example_address: '175 Airport Blvd Windsor [WIN]'
+}
+{
+  _id: 'GRD25-0116',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Grading Permit',
+  example_address: '6157 Bodega Ave Two Rock [TWO]'
+}
+{
+  _id: 'ENC25-0091',
+  count: 2,
+  example_status: 'Started',
+  example_permit_type: 'Encroachment',
+  example_address: '9001 Graton Rd Graton [GRA]'
+}
+{
+  _id: 'BLD25-2572',
+  count: 2,
+  example_status: 'Resubmittal Requested',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '341 De Chene Ave Agua Caliente [AGU]'
+}
+{
+  _id: 'BLD25-4787',
+  count: 2,
+  example_status: 'Ready for Plan',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '18612 Hwy 12 Agua Caliente [AGU]'
+}
+{
+  _id: 'BLD25-2472',
+  count: 2,
+  example_status: 'Issued',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '310 Ships Wheel Close Sea Ranch [SEA]'
+}
+{
+  _id: 'SEP25-0332',
+  count: 2,
+  example_status: 'Issued',
+  example_permit_type: 'Septic Permit',
+  example_address: '520 Fair Ave A Petaluma [PET]'
+}
+{
+  _id: 'BLD25-5352',
+  count: 2,
+  example_status: 'Resubmittal Received',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '4359 Raymonde Way Bennett Valley [BEN]'
+}
+{
+  _id: 'SEP25-0241',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Septic Permit',
+  example_address: '2924 Old Bennett Ridge Rd Bennett Valley [BEN]'
+}
+{
+  _id: 'BLD25-2573',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '341 De Chene Ave Agua Caliente [AGU]'
+}
+{
+  _id: 'BLD25-1803',
+  count: 2,
+  example_status: 'Resubmittal Requested',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '216 De Chene Ave Agua Caliente [AGU]'
+}
+{
+  _id: 'BLD25-2558',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '341 De Chene Ave Agua Caliente [AGU]'
+}
+{
+  _id: 'WEL25-0258',
+  count: 2,
+  example_status: 'Issued',
+  example_permit_type: 'Well Permit',
+  example_address: '500 Hopper St Petaluma [PE]'
+}
+{
+  _id: 'BLD25-4728',
+  count: 2,
+  example_status: 'Application Accepted/In',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '4131 Chico Ave Bellevue [BEL]'
+}
+{
+  _id: 'SEW25-0125',
+  count: 2,
+  example_status: 'Paid',
+  example_permit_type: 'Sewer Land Use Authority',
+  example_address: '19220 Arnold Dr Agua Caliente [AGU]'
+}
+{
+  _id: 'BLD25-3685',
+  count: 2,
+  example_status: 'Check',
+  example_permit_type: 'Building Permit With Plan Check',
+  example_address: '6301 Highland Pl Sebastopol [SEB]'
+}
+{
+  _id: 'ENC25-0090',
+  count: 2,
+  example_status: 'Paid',
+  example_permit_type: 'Encroachment',
+  example_address: '5286 Odonnell Ln'
+}
+{
+  _id: 'WEL25-0175',
+  count: 2,
+  example_status: 'Resubmittal Requested',
+  example_permit_type: 'Well Permit',
+  example_address: '999 Accela Way'
+}
+
+thesis> 
+thesis> 
+=== FEE TOP VALUES ===
+
+thesis> | | | | | | | | | | | | | | | | {
+  _id: '$0.00',
+  count: 1322,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$374.76',
+  count: 948,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$363.62',
+  count: 758,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$629.25',
+  count: 164,
+  example_permit_type: 'Building Permit With Plan Check'
+}
+{
+  _id: '$524.91',
+  count: 133,
+  example_permit_type: 'Solar-SolarAPP'
+}
+{
+  _id: '$289.72',
+  count: 123,
+  example_permit_type: 'Encroachment'
+}
+{
+  _id: '$624.18',
+  count: 118,
+  example_permit_type: 'Building Permit With Plan Check'
+}
+{
+  _id: '$479.10',
+  count: 99,
+  example_permit_type: 'Building Permit With Plan Check'
+}
+{
+  _id: '$464.92',
+  count: 93,
+  example_permit_type: 'Building Permit With Plan Check'
+}
+{
+  _id: '$522.88',
+  count: 80,
+  example_permit_type: 'Solar-SolarAPP'
+}
+{
+  _id: '$454.00',
+  count: 74,
+  example_permit_type: 'Building Permit With Plan Check'
+}
+{
+  _id: '$1184.00',
+  count: 57,
+  example_permit_type: 'Building Permit With Plan Check'
+}
+{
+  _id: '$281.61',
+  count: 50,
+  example_permit_type: 'Encroachment'
+}
+{
+  _id: '$252.08',
+  count: 44,
+  example_permit_type: 'Demolition Permit'
+}
+{
+  _id: '$246.01',
+  count: 39,
+  example_permit_type: 'Demolition Permit'
+}
+{
+  _id: '$1226.21',
+  count: 27,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$1391.44',
+  count: 26,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$994.01',
+  count: 26,
+  example_permit_type: 'Demolition Permit'
+}
+{
+  _id: '$790.17',
+  count: 23,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$628.48',
+  count: 23,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$1024.08',
+  count: 23,
+  example_permit_type: 'Demolition Permit'
+}
+{
+  _id: '$1050.48',
+  count: 22,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$1351.27',
+  count: 20,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$1677.53',
+  count: 20,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$290.73',
+  count: 19,
+  example_permit_type: 'Sewer Construction'
+}
+{
+  _id: '$553.61',
+  count: 18,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$282.63',
+  count: 18,
+  example_permit_type: 'Sewer Construction'
+}
+{
+  _id: '$767.53',
+  count: 17,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$1430.44',
+  count: 17,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$402.60',
+  count: 17,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$537.40',
+  count: 16,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$920.22',
+  count: 16,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$3452.30',
+  count: 15,
+  example_permit_type: 'Grading Permit'
+}
+{
+  _id: '$221.27',
+  count: 15,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$612.63',
+  count: 15,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$1727.17',
+  count: 14,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$946.13',
+  count: 14,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$552.31',
+  count: 13,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$1265.21',
+  count: 13,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$552.57',
+  count: 13,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$555.91',
+  count: 13,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$552.96',
+  count: 12,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$947.97',
+  count: 12,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$1715.53',
+  count: 12,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$713.51',
+  count: 11,
+  example_permit_type: 'Demolition Permit'
+}
+{
+  _id: '$1190.44',
+  count: 11,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$306.72',
+  count: 11,
+  example_permit_type: 'Well Permit'
+}
+{
+  _id: '$391.73',
+  count: 11,
+  example_permit_type: 'Building Permit No Plan Check'
+}
+{
+  _id: '$1389.27',
+  count: 11,
+  example_permit_type: 'Septic Permit'
+}
+{
+  _id: '$3352.02',
+  count: 11,
+  example_permit_type: 'Grading Permit'
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE / FEE COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$374.76'
+  },
+  count: 945
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    fee: '$0.00'
+  },
+  count: 936
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62'
+  },
+  count: 758
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    fee: '$629.25'
+  },
+  count: 164
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    fee: '$524.91'
+  },
+  count: 132
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    fee: '$0.00'
+  },
+  count: 120
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    fee: '$624.18'
+  },
+  count: 118
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    fee: '$289.72'
+  },
+  count: 117
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    fee: '$479.10'
+  },
+  count: 99
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    fee: '$464.92'
+  },
+  count: 93
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    fee: '$0.00'
+  },
+  count: 90
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$0.00'
+  },
+  count: 80
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    fee: '$522.88'
+  },
+  count: 79
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    fee: '$1184.00'
+  },
+  count: 56
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    fee: '$454.00'
+  },
+  count: 54
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    fee: '$252.08'
+  },
+  count: 44
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    fee: '$0.00'
+  },
+  count: 44
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    fee: '$281.61'
+  },
+  count: 43
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    fee: '$246.01'
+  },
+  count: 39
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$1226.21'
+  },
+  count: 27
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    fee: '$994.01'
+  },
+  count: 26
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$1391.44'
+  },
+  count: 26
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    fee: '$0.00'
+  },
+  count: 24
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    fee: '$1024.08'
+  },
+  count: 23
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$790.17'
+  },
+  count: 22
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$628.48'
+  },
+  count: 22
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$1050.48'
+  },
+  count: 22
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    fee: '$454.00'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$1351.27'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$1677.53'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$0.00'
+  },
+  count: 18
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    fee: '$290.73'
+  },
+  count: 18
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$553.61'
+  },
+  count: 18
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$1430.44'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    fee: '$282.63'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$402.60'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$537.40'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$767.53'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$920.22'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$221.27'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$612.63'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$1727.17'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$552.57'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    fee: '$3452.30'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$555.91'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$1265.21'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$552.31'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$947.97'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$946.13'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$552.96'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$1715.53'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$1020.09'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$391.45'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    fee: '$713.51'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$306.72'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$1389.27'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$391.73'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$1190.44'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$370.00'
+  },
+  count: 10
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$1880.13'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$610.09'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$145.82'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$538.05'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$536.75'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$829.17'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    fee: '$445.08'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$0.00'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$553.48'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$536.62'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$552.18'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$539.70'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    fee: '$3352.02'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$631.09'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$402.75'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$554.26'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    fee: '$623.81'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$1289.76'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$539.44'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    fee: '$2023.97'
+  },
+  count: 7
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    fee: '$1118.43'
+  },
+  count: 7
+}
+
+thesis> 
+thesis> 
+=== VALUATION ZERO / NONZERO BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    valuation_group: 'zero'
+  },
+  count: 2476
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 547
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'zero'
+  },
+  count: 531
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Finaled',
+    valuation_group: 'zero'
+  },
+  count: 371
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 275
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 255
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: 'Issued',
+    valuation_group: 'zero'
+  },
+  count: 246
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    valuation_group: 'nonzero'
+  },
+  count: 211
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Paid',
+    valuation_group: 'zero'
+  },
+  count: 131
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 117
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Issued',
+    valuation_group: 'zero'
+  },
+  count: 114
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Started',
+    valuation_group: 'zero'
+  },
+  count: 113
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Check',
+    valuation_group: 'zero'
+  },
+  count: 112
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Started',
+    valuation_group: 'zero'
+  },
+  count: 109
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Requested',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 99
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Issued',
+    valuation_group: 'zero'
+  },
+  count: 98
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 92
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'nonzero'
+  },
+  count: 89
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Finaled',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 87
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: null,
+    valuation_group: 'nonzero'
+  },
+  count: 83
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 76
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Pre- Due',
+    valuation_group: 'zero'
+  },
+  count: 73
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    valuation_group: 'nonzero'
+  },
+  count: 71
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 67
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Plan Check Comments Sent',
+    valuation_group: 'zero'
+  },
+  count: 66
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Check',
+    valuation_group: 'zero'
+  },
+  count: 65
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Check',
+    valuation_group: 'zero'
+  },
+  count: 60
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'zero'
+  },
+  count: 59
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Ready for Plan',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 55
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'zero'
+  },
+  count: 53
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Issued',
+    valuation_group: 'zero'
+  },
+  count: 48
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    valuation_group: 'zero'
+  },
+  count: 48
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Resubmittal Requested',
+    valuation_group: 'zero'
+  },
+  count: 47
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Application Accepted/In Review',
+    valuation_group: 'zero'
+  },
+  count: 43
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Application Accepted/In Review',
+    valuation_group: 'zero'
+  },
+  count: 42
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Finaled',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 42
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Finaled',
+    valuation_group: 'zero'
+  },
+  count: 38
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Check',
+    valuation_group: 'zero'
+  },
+  count: 36
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Application Accepted/In Review',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 35
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 34
+}
+{
+  _id: {
+    permit_type: null,
+    status: null,
+    valuation_group: 'zero'
+  },
+  count: 33
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Pre- Due',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 33
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Pre- Due',
+    valuation_group: 'zero'
+  },
+  count: 33
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 31
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Requested',
+    valuation_group: 'nonzero'
+  },
+  count: 31
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Received',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 30
+}
+{
+  _id: {
+    permit_type: 'Sewer Fee Only',
+    status: 'Finaled',
+    valuation_group: 'zero'
+  },
+  count: 26
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Plan Check',
+    valuation_group: 'zero'
+  },
+  count: 25
+}
+{
+  _id: {
+    permit_type: null,
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 24
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Resubmittal Received',
+    valuation_group: 'zero'
+  },
+  count: 21
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Finaled',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Pre- Due',
+    valuation_group: 'zero'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Sewer Fee Only',
+    status: 'Started',
+    valuation_group: 'zero'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'zero'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Finaled',
+    valuation_group: 'zero'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Resubmittal Requested',
+    valuation_group: 'zero'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Issued',
+    valuation_group: 'zero'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Received',
+    valuation_group: 'nonzero'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Application Accepted/In Review',
+    valuation_group: 'zero'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Plan Check Comments Sent',
+    valuation_group: 'zero'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Pre- Due',
+    valuation_group: 'nonzero'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'zero'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: 'Finaled',
+    valuation_group: 'zero'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: null,
+    status: 'Plan Check Encroachment',
+    valuation_group: 'zero'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    valuation_group: 'nonzero'
+  },
+  count: 10
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'zero'
+  },
+  count: 10
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: 'Payment Due Building Permit With',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 10
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Application Accepted/In',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Issued',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: null,
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Plan Check Comments Sent',
+    valuation_group: 'nonzero'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Resubmittal Requested',
+    valuation_group: 'missing_or_invalid'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Plan Check Comments Sent',
+    valuation_group: 'zero'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Requested',
+    valuation_group: 'zero'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Pre-Issue',
+    valuation_group: 'zero'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Issued',
+    valuation_group: 'zero'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Awaiting Applicant Response',
+    valuation_group: 'zero'
+  },
+  count: 8
+}
+
+thesis> 
+thesis> 
+=== TOP DESCRIPTION KEYWORDS BY SIMPLE REGEX ===
+
+thesis> | | | | | | | | | | | | 
+thesis> 
+thesis> | | | | | | | | | | {
+  keyword: 'roof',
+  matching_records: 2169
+}
+{
+  keyword: 'furnace_hvac',
+  matching_records: 775
+}
+{
+  keyword: 'electrical_panel',
+  matching_records: 1636
+}
+{
+  keyword: 'water_heater_plumbing',
+  matching_records: 514
+}
+{
+  keyword: 'solar_pv',
+  matching_records: 1284
+}
+{
+  keyword: 'gas',
+  matching_records: 256
+}
+{
+  keyword: 'septic_well',
+  matching_records: 829
+}
+{
+  keyword: 'fire_damage',
+  matching_records: 407
+}
+{
+  keyword: 'commercial',
+  matching_records: 191
+}
+{
+  keyword: 'sfd',
+  matching_records: 2409
+}
+{
+  keyword: 'test',
+  matching_records: 65
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE / DESCRIPTION KEYWORD COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    keyword: 'roof'
+  },
+  count: 922
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    keyword: 'electrical_panel'
+  },
+  count: 595
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    keyword: 'furnace_hvac'
+  },
+  count: 583
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'other'
+  },
+  count: 329
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    keyword: 'roof'
+  },
+  count: 327
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Finaled',
+    keyword: 'roof'
+  },
+  count: 235
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: 'Issued',
+    keyword: 'roof'
+  },
+  count: 180
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 173
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    keyword: 'other'
+  },
+  count: 166
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    keyword: 'water_heater_plumbing'
+  },
+  count: 133
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    keyword: 'sfd'
+  },
+  count: 126
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    keyword: 'solar_pv'
+  },
+  count: 125
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: null,
+    keyword: 'roof'
+  },
+  count: 121
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    keyword: 'sfd'
+  },
+  count: 95
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Paid',
+    keyword: 'other'
+  },
+  count: 92
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Started',
+    keyword: 'other'
+  },
+  count: 86
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 82
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'electrical_panel'
+  },
+  count: 79
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Finaled',
+    keyword: 'electrical_panel'
+  },
+  count: 77
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    keyword: 'sfd'
+  },
+  count: 74
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'roof'
+  },
+  count: 71
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: null,
+    keyword: 'other'
+  },
+  count: 70
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 69
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'sfd'
+  },
+  count: 67
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Issued',
+    keyword: 'septic_well'
+  },
+  count: 66
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: null,
+    keyword: 'electrical_panel'
+  },
+  count: 66
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Started',
+    keyword: 'other'
+  },
+  count: 56
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Check',
+    keyword: 'septic_well'
+  },
+  count: 54
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    keyword: 'electrical_panel'
+  },
+  count: 53
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'fire_damage'
+  },
+  count: 53
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Finaled',
+    keyword: 'furnace_hvac'
+  },
+  count: 52
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Requested',
+    keyword: 'other'
+  },
+  count: 49
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: null,
+    keyword: 'roof'
+  },
+  count: 47
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Finaled',
+    keyword: 'water_heater_plumbing'
+  },
+  count: 43
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: null,
+    keyword: 'furnace_hvac'
+  },
+  count: 43
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Check',
+    keyword: 'other'
+  },
+  count: 42
+}
+{
+  _id: {
+    permit_type: null,
+    status: null,
+    keyword: 'other'
+  },
+  count: 40
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'septic_well'
+  },
+  count: 40
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'solar_pv'
+  },
+  count: 39
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: 'Issued',
+    keyword: 'solar_pv'
+  },
+  count: 38
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    keyword: 'roof'
+  },
+  count: 38
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    keyword: 'electrical_panel'
+  },
+  count: 37
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Check',
+    keyword: 'other'
+  },
+  count: 37
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Resubmittal Requested',
+    keyword: 'septic_well'
+  },
+  count: 34
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Check',
+    keyword: 'water_heater_plumbing'
+  },
+  count: 33
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Check',
+    keyword: 'septic_well'
+  },
+  count: 33
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Issued',
+    keyword: 'septic_well'
+  },
+  count: 32
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'commercial'
+  },
+  count: 32
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Plan Check Comments Sent',
+    keyword: 'septic_well'
+  },
+  count: 32
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Finaled',
+    keyword: 'fire_damage'
+  },
+  count: 29
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: null,
+    keyword: 'sfd'
+  },
+  count: 28
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Finaled',
+    keyword: 'other'
+  },
+  count: 27
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Requested',
+    keyword: 'roof'
+  },
+  count: 26
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: null,
+    keyword: 'roof'
+  },
+  count: 26
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    keyword: 'septic_well'
+  },
+  count: 26
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Pre- Due',
+    keyword: 'electrical_panel'
+  },
+  count: 26
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Awaiting Applicant Response',
+    keyword: 'other'
+  },
+  count: 25
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    keyword: 'solar_pv'
+  },
+  count: 25
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: 'Issued',
+    keyword: 'electrical_panel'
+  },
+  count: 25
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Finaled',
+    keyword: 'roof'
+  },
+  count: 24
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Pre- Due',
+    keyword: 'roof'
+  },
+  count: 24
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: null,
+    keyword: 'other'
+  },
+  count: 24
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Pre- Due',
+    keyword: 'other'
+  },
+  count: 24
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Application Accepted/In Review',
+    keyword: 'other'
+  },
+  count: 23
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Application Accepted/In Review',
+    keyword: 'roof'
+  },
+  count: 22
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Plan Check Comments Sent',
+    keyword: 'other'
+  },
+  count: 21
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Finaled',
+    keyword: 'other'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'electrical_panel'
+  },
+  count: 19
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 19
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: null,
+    keyword: 'other'
+  },
+  count: 19
+}
+{
+  _id: {
+    permit_type: 'Encroachment',
+    status: 'Plan Check',
+    keyword: 'other'
+  },
+  count: 19
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    keyword: 'septic_well'
+  },
+  count: 18
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Application Accepted/In Review',
+    keyword: 'septic_well'
+  },
+  count: 18
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Ready for Plan',
+    keyword: 'other'
+  },
+  count: 18
+}
+{
+  _id: {
+    permit_type: 'Well Permit',
+    status: 'Check',
+    keyword: 'other'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Sewer Fee Only',
+    status: 'Finaled',
+    keyword: 'other'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Requested',
+    keyword: 'solar_pv'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    keyword: 'solar_pv'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'roof'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Received',
+    keyword: 'other'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Sewer Construction',
+    status: 'Awaiting Applicant Response',
+    keyword: 'water_heater_plumbing'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Resubmittal Requested',
+    keyword: 'sfd'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Issued',
+    keyword: 'septic_well'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Check',
+    keyword: 'fire_damage'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Septic Permit',
+    status: 'Check',
+    keyword: 'sfd'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: null,
+    keyword: 'electrical_panel'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: null,
+    status: 'Plan Check Encroachment',
+    keyword: 'other'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Solar-SolarAPP',
+    status: 'Finaled',
+    keyword: 'roof'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: null,
+    keyword: 'solar_pv'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Awaiting Applicant Response',
+    keyword: 'other'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Pre- Due',
+    keyword: 'furnace_hvac'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Awaiting Applicant Response',
+    keyword: 'electrical_panel'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'other'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit',
+    status: 'Issued',
+    keyword: 'electrical_panel'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Grading Permit',
+    status: 'Plan Check Comments Sent',
+    keyword: 'other'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Ready for Plan',
+    keyword: 'sfd'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Awaiting Applicant Response',
+    keyword: 'furnace_hvac'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Plan Check',
+    status: null,
+    keyword: 'roof'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Pre- Due',
+    keyword: 'roof'
+  },
+  count: 13
+}
+{
+  _id: {
+    permit_type: 'Building Permit With Plan Check',
+    status: 'Started',
+    keyword: 'septic_well'
+  },
+  count: 13
+}
+
+thesis> 
+thesis> 
+=== SAMPLE RECORDS WITH MISSING VALUES ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | {
+  data: {
+    valuation: null,
+    fee: '$322.07',
+    permit_type: 'Address Change',
+    address: '1,803 PACIFIC COAST HWY',
+    issued_date: '08/18/2025',
+    parcel_number: '4184-025-013',
+    description: "Address Request to: Add 4 ADU's at the ground floor of the",
+    status: 'Finaled',
+    permit_number: 'X24-00230'
+  },
+  provenance: {
+    csv_row_number: 2,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000002'
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000003',
+  provenance: {
+    csv_row_number: 3,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    parcel_number: '4183-006-034',
+    description: 'Addition of 51.45 sq ft at Unit A first floor of existing duplex',
+    permit_number: 'B23-00403',
+    status: 'Issued',
+    valuation: '$8,000.00',
+    fee: '$1,551.52',
+    permit_type: 'Building - Full Plan Check',
+    address: '60 17TH ST',
+    issued_date: '08/11/2025'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000004',
+  data: {
+    address: '1,840 RHODES ST',
+    permit_type: 'Building - Full Plan Check',
+    valuation: '$30,000.00',
+    fee: '$1,523.19',
+    issued_date: '08/21/2025',
+    description: 'Extension of existing front balcony (over garage).',
+    parcel_number: '4184-011-021',
+    permit_number: 'B24-00628',
+    status: 'Issued'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 4
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000005',
+  provenance: {
+    csv_row_number: 5,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    address: '534 3RD ST',
+    permit_type: 'Building - Full Plan Check',
+    fee: '$1,801.99',
+    valuation: '$15,000.00',
+    issued_date: '08/07/2025',
+    description: 'Remodel and repair existing roof deck of 399 sqft. Add electrical',
+    parcel_number: '4188-025-021',
+    permit_number: 'B25-00041',
+    status: 'Issued'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000006',
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 6
+  },
+  data: {
+    address: '243 PACIFIC COAST HWY',
+    permit_type: 'Building - Full Plan Check',
+    fee: '$2,060.33',
+    valuation: '$50,000.00',
+    issued_date: null,
+    description: 'Tenant Improvement for Commercial rental to add non bearing                                              # Units:',
+    parcel_number: null,
+    permit_number: 'B25-00235',
+    status: 'Finaled -'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000007',
+  data: {
+    description: 'Addition (153 sq. ft.) and new 57 sq. ft. uncovered deck and new',
+    parcel_number: '4161-027-012',
+    permit_number: 'B25-00305',
+    status: 'Issued',
+    address: '1,211 10TH ST',
+    permit_type: 'Building - Full Plan Check',
+    fee: null,
+    valuation: null,
+    issued_date: '08/07/2025'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 7
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000008',
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 8
+  },
+  data: {
+    status: 'Issued',
+    permit_number: 'B24-00327',
+    parcel_number: '4182-022-021',
+    description: 'Renovation and remodel of an existing single-story house including',
+    issued_date: '08/21/2025',
+    fee: '$5,124.15',
+    valuation: '$180,000.00',
+    permit_type: 'Building - In House Plan Check',
+    address: '2,201 VALLEY DR'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000009',
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 9
+  },
+  data: {
+    issued_date: '08/13/2025',
+    fee: '$2,596.36',
+    valuation: '$75,000.00',
+    permit_type: 'Building - In House Plan Check',
+    address: '515 24TH ST',
+    status: 'Issued',
+    permit_number: 'B25-00030',
+    parcel_number: '4182-024-004',
+    description: 'New pool and pool equipment volt'
+  }
+}
+{
+  data: {
+    permit_number: 'B25-00115',
+    status: 'Issued',
+    parcel_number: '4186-019-003',
+    description: 'Interior remodel. Add new ductless HVAC mini splits, replace roof',
+    issued_date: '08/07/2025',
+    valuation: '$250,000.00',
+    fee: '$6,596.38',
+    permit_type: 'Building - In House Plan Check',
+    address: '444 OCEAN VIEW AVE'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 10
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000010'
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000011',
+  provenance: {
+    csv_row_number: 11,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    issued_date: '08/21/2025',
+    permit_type: 'Building - In House Plan Check',
+    address: '1,144 7TH ST',
+    fee: '$712.60',
+    valuation: '$12,332.00',
+    status: 'Issued',
+    permit_number: 'B25-00121',
+    description: 'Remove and replace existing deck',
+    parcel_number: '4160-030-023'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000012',
+  provenance: {
+    csv_row_number: 12,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    parcel_number: '4185-015-002',
+    description: 'Remove and replace deck',
+    permit_number: 'B25-00162',
+    status: 'Issued',
+    valuation: '$9,700.00',
+    fee: '$582.83',
+    address: '1,225 CORONA ST',
+    permit_type: 'Building - In House Plan Check',
+    issued_date: '08/06/2025'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000013',
+  data: {
+    description: 'Partial repair of framing and foundation due to deterioration over',
+    parcel_number: '4188-004-008',
+    permit_number: 'B25-00220',
+    status: 'Issued',
+    permit_type: 'Building - In House Plan Check',
+    address: '18 6TH ST',
+    valuation: '$40,000.00',
+    fee: '$1,724.88',
+    issued_date: '08/07/2025'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 13
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000014',
+  provenance: {
+    csv_row_number: 14,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    permit_type: 'Building - In House Plan Check',
+    address: '825 18TH ST',
+    valuation: '$50,000.00',
+    fee: '$2,052.83',
+    issued_date: '08/07/2025',
+    description: 'Faming repairs, stud repair and foundation',
+    parcel_number: '4184-012-018',
+    permit_number: 'B25-00289',
+    status: 'Issued'
+  }
+}
+{
+  data: {
+    status: 'Issued',
+    permit_number: 'B25-00290',
+    description: 'New pool / spa and pool equipment',
+    parcel_number: '4184-004-012',
+    issued_date: '08/27/2025',
+    address: '1,211 21ST ST',
+    permit_type: 'Building - In House Plan Check',
+    fee: '$2,596.36',
+    valuation: '$75,000.00'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 15
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000015'
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000016',
+  data: {
+    permit_type: 'Building - In House Plan Check',
+    address: '436 OCEAN VIEW AVE',
+    valuation: '$15,000.00',
+    fee: '$3,715.80',
+    issued_date: '08/21/2025',
+    description: 'Repair water damage to home where needed, new flooring and',
+    parcel_number: '4186-019-056',
+    status: 'Issued',
+    permit_number: 'B25-00333'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 16
+  }
+}
+{
+  provenance: {
+    csv_row_number: 17,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    parcel_number: '4169-037-011',
+    description: 'New spa, pool steps and automatic pool safety cover with cover',
+    status: 'Issued',
+    permit_number: 'B25-00336',
+    fee: null,
+    valuation: null,
+    address: '640 GOULD AVE',
+    permit_type: 'Building - In House Plan Check',
+    issued_date: '08/12/2025'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000017'
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000018',
+  provenance: {
+    csv_row_number: 18,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    parcel_number: '4186-015-005',
+    description: 'Demolish Single Family Residence',
+    permit_number: 'B25-00292',
+    status: 'Finaled',
+    fee: '$563.22',
+    valuation: '$20,000.00',
+    permit_type: 'Building Permit OTC',
+    address: '921 5TH ST',
+    issued_date: '08/04/2025'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000019',
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 19
+  },
+  data: {
+    issued_date: '08/04/2025',
+    address: '1,500 THE STRAND AVE',
+    permit_type: 'Building Permit OTC',
+    valuation: null,
+    fee: null,
+    status: 'Issued',
+    permit_number: 'B25-00334',
+    description: 'Tear off and install 52 squares of versico - 60 Mil TPO roofing',
+    parcel_number: '4183-005-069'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000020',
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 20
+  },
+  data: {
+    issued_date: '08/26/2025',
+    fee: null,
+    valuation: null,
+    permit_type: 'Building Permit OTC',
+    address: '720 3RD ST',
+    status: 'Issued',
+    permit_number: 'B25-00340',
+    parcel_number: '4188-028-035',
+    description: 'Retrofit existing wrought iron railings for code height and picket'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000021',
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 21
+  },
+  data: {
+    status: 'Issued',
+    permit_number: 'B25-00353',
+    parcel_number: '4184-027-014',
+    description: 'Remodel of the kitchen and master bathroom. To include',
+    issued_date: '08/12/2025',
+    valuation: '$28,000.00',
+    fee: '$742.14',
+    permit_type: 'Building Permit OTC',
+    address: '1,600 ARDMORE AVE NO 127'
+  }
+}
+{
+  data: {
+    description: 'Demolish Single Family Residence',
+    parcel_number: '4181-016-011',
+    permit_number: 'B25-00356',
+    status: 'Issued',
+    address: '235 33RD ST',
+    permit_type: 'Building Permit OTC',
+    fee: '$563.22',
+    valuation: '$20,000.00',
+    issued_date: '08/28/2025'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 22
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000022'
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000023',
+  data: {
+    permit_type: 'Building Permit OTC',
+    address: '1,640 LOMA DR',
+    valuation: null,
+    fee: null,
+    issued_date: '08/11/2025',
+    description: 'Windows and sliding door replacements, same size for an 4 unit',
+    parcel_number: '4183-016-003',
+    status: 'Issued',
+    permit_number: 'B25-00368'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 23
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000024',
+  data: {
+    permit_number: 'B25-00377',
+    status: 'Finaled',
+    description: 'Re-Roof',
+    parcel_number: '4187-014-017',
+    issued_date: '08/05/2025',
+    permit_type: 'Building Permit OTC',
+    address: '821 CYPRESS AVE',
+    valuation: '$2,750.00',
+    fee: '$156.26'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 24
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000025',
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 25
+  },
+  data: {
+    issued_date: '08/11/2025',
+    permit_type: 'Building Permit OTC',
+    address: '945 9TH ST',
+    fee: '$228.44',
+    valuation: '$5,950.00',
+    status: 'Issued',
+    permit_number: 'B25-00378',
+    description: 'Remove and replace 7 windows, no change to size or location',
+    parcel_number: '4186-004-014'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000026',
+  data: {
+    address: '848 1ST ST',
+    permit_type: 'Building Permit OTC',
+    fee: null,
+    valuation: null,
+    issued_date: '08/06/2025',
+    description: 'Kitchen and bathroom remodel and change out 7- windows to',
+    parcel_number: '4186-031-043',
+    status: 'Issued',
+    permit_number: 'B25-00380'
+  },
+  provenance: {
+    csv_row_number: 26,
+    parser_run_id: 'run_20260624_201347_91'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000027',
+  data: {
+    permit_number: 'B25-00383',
+    status: 'Finaled',
+    description: 'Abatement Permit: Removal of transit pipe from garage and TSI',
+    parcel_number: '4182-010-015',
+    issued_date: '08/12/2025',
+    address: '2,301 MANHATTAN AVE',
+    permit_type: 'Building Permit OTC',
+    fee: null,
+    valuation: null
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 27
+  }
+}
+{
+  data: {
+    permit_number: 'B25-00384',
+    status: 'Finaled',
+    parcel_number: '4182-022-021',
+    description: 'Asbestos abatement for remodel and exterior modifications',
+    issued_date: '08/18/2025',
+    valuation: '$800.00',
+    fee: '$58.34',
+    address: '2,201 VALLEY DR',
+    permit_type: 'Building Permit OTC'
+  },
+  provenance: {
+    csv_row_number: 28,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000028'
+}
+{
+  provenance: {
+    csv_row_number: 29,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    issued_date: '08/26/2025',
+    fee: '$348.94',
+    valuation: '$11,000.00',
+    permit_type: 'Building Permit OTC',
+    address: '501 HERONDO ST NO 62',
+    permit_number: 'B25-00387',
+    status: 'Issued',
+    parcel_number: '4188-017-076',
+    description: 'Kitchen remodel like for like (No structural changes)'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000029'
+}
+{
+  provenance: {
+    csv_row_number: 30,
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    address: '324 THE STRAND',
+    permit_type: 'Building Permit OTC',
+    valuation: null,
+    fee: null,
+    issued_date: '08/28/2025',
+    description: 'Remove and replace 1 window and 1 patio doors with no change',
+    parcel_number: '4188-006-004',
+    permit_number: 'B25-00389',
+    status: 'Issued'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000030'
+}
+{
+  raw_permit_id: 'run_20260624_201347_91_row_000031',
+  data: {
+    fee: null,
+    valuation: null,
+    permit_type: 'Building Permit OTC',
+    address: '803 LOMA DR',
+    issued_date: '08/20/2025',
+    parcel_number: '4187-013-044',
+    description: 'Replacing 25 windows, and 4 sliding doors with retrofit ones.',
+    status: 'Issued',
+    permit_number: 'B25-00392'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    csv_row_number: 31
+  }
+}
+
+thesis> 
+thesis> 
+=== COMPLETE-ISH RECORDS FOR PATTERN ANALYSIS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | {
+  provenance: {
+    csv_row_number: 2,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000002',
+  data: {
+    valuation: '$0.00',
+    address: '5362 Mill Creek Rd Healdsburg [HEA]',
+    issued_date: '03/01/2025',
+    description: 'Permit for PG&E to replace power lines/poles (see A & B 0n site plan)as they were prior to being destroyed in the LNU Lightning Complex fire and replace destroyed panel box and meter to the pole.',
+    applied_date: '3/1/2025',
+    permit_number: 'BLD25-1158',
+    parcel_number: '069-040-018',
+    status: 'Issued',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62'
+  }
+}
+{
+  data: {
+    applied_date: '3/2/2025',
+    description: 'SFD Replacing 95% High efficient furnace and A/C (like for like)',
+    address: '1250 Mountain View Ave Petaluma [PET]',
+    valuation: '$0.00',
+    issued_date: '03/03/2025',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    permit_number: 'BLD25-1159',
+    parcel_number: '019-231-001',
+    status: 'Issued'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 3
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000003'
+}
+{
+  provenance: {
+    csv_row_number: 4,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000004',
+  data: {
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Pre- Due',
+    permit_number: 'BLD25-1160',
+    parcel_number: '127-193-036',
+    description: 'SFD Plumbing piping and fixture alterations and replacement. Electrical wiring modifications and replacement; new fixtures, outlets, trim.',
+    applied_date: '3/2/2025',
+    issued_date: null,
+    address: '19380 Desilu Dr Sonoma [SON]',
+    valuation: '$0.00'
+  }
+}
+{
+  data: {
+    applied_date: '3/3/2025',
+    description: 'RE-ROOF 25 SQUERS WITH THE 30YR CLASS A FIBERGLASS SHINGLES. IM SELF CERTIFIED.',
+    valuation: '$0.00',
+    address: '1260 Nutter Rd Geyserville [GEY]',
+    issued_date: '03/03/2025',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$536.81',
+    parcel_number: '141-170-009',
+    permit_number: 'BLD25-1164',
+    status: 'Issued'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000005',
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 5
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 6
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000006',
+  data: {
+    parcel_number: '021-024-071',
+    permit_number: 'BLD25-1165',
+    status: 'Issued',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62',
+    address: '200 Knudtsen Ln Petaluma [PET]',
+    valuation: '$0.00',
+    issued_date: '03/03/2025',
+    description: 'Replacing existing fau in basement with Lennox 97% High Efficient Two Stage Variable Speed fau in same location',
+    applied_date: '3/3/2025'
+  }
+}
+{
+  data: {
+    status: 'Issued',
+    parcel_number: '021-090-035',
+    permit_number: 'BLD25-1166',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    issued_date: '03/03/2025',
+    valuation: '$0.00',
+    address: '344 Anglers Way Petaluma [PET]',
+    description: 'SFD, Electric for Septic & Well',
+    applied_date: '3/3/2025'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 7
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000007'
+}
+{
+  data: {
+    address: '8835 Brown Ave Kenwood [KEN]',
+    valuation: '$0.00',
+    issued_date: '03/03/2025',
+    applied_date: '3/3/2025',
+    description: 'Upgrade existing panel change, 175A to 200A PV rated panel, like for like, no added load or solar.',
+    parcel_number: '050-175-026',
+    permit_number: 'BLD25-1167',
+    status: 'Finaled',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  provenance: {
+    csv_row_number: 8,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000008'
+}
+{
+  raw_permit_id: 'run_20260625_175736_1038_row_000009',
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 9
+  },
+  data: {
+    description: 'SFD- To service the main house - replace approx 180 lf of failed ducting with new ducting - located in crawlspace & attic',
+    applied_date: '3/3/2025',
+    issued_date: '03/04/2025',
+    address: '802 Fitch View Ln Windsor [WIN]',
+    valuation: '$0.00',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    parcel_number: '086-150-052',
+    permit_number: 'BLD25-1168'
+  }
+}
+{
+  data: {
+    issued_date: '03/03/2025',
+    address: '12991 Richardson Ave Forestville [FOR]',
+    valuation: '$0.00',
+    applied_date: '3/3/2025',
+    description: 'Replacing existing fau under the home with 3T 97% 2 stage upflow in same location',
+    status: 'Issued',
+    permit_number: 'BLD25-1170',
+    parcel_number: '085-271-004',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 10
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000010'
+}
+{
+  raw_permit_id: 'run_20260625_175736_1038_row_000011',
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 11
+  },
+  data: {
+    description: 'SFD. Replace furnace',
+    applied_date: '3/3/2025',
+    address: '2856 Bardy Rd Bennett Valley [BEN]',
+    valuation: '$0.00',
+    issued_date: '03/04/2025',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    permit_number: 'BLD25-1171',
+    parcel_number: '055-170-026',
+    status: 'Issued'
+  }
+}
+{
+  data: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$215.19',
+    status: 'Issued',
+    parcel_number: '140-100-010',
+    permit_number: 'BLD25-1172',
+    applied_date: '3/3/2025',
+    description: 'RE-ROOF 3 SQ AWNING ONLY WITH THE 30 YR CLASS A FIBERGLASS SHINGLES.',
+    issued_date: '03/03/2025',
+    valuation: '$0.00',
+    address: '21060 Geyserville Ave Geyserville [GEY]'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000012',
+  provenance: {
+    csv_row_number: 12,
+    parser_run_id: 'run_20260625_175736_1038'
+  }
+}
+{
+  data: {
+    issued_date: '03/04/2025',
+    valuation: '$0.00',
+    address: '7001 Hwy 1 Bodega Bay [BBY]',
+    description: 'SFD. Replace furnace',
+    applied_date: '3/3/2025',
+    status: 'Issued',
+    permit_number: 'BLD25-1174',
+    parcel_number: '101-140-044',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 13
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000013'
+}
+{
+  data: {
+    applied_date: '3/3/2025',
+    description: 'SFD. Replace air handler and heat pump condenser',
+    address: '7486 Poplar Dr Forestville [FOR]',
+    valuation: '$0.00',
+    issued_date: '03/04/2025',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    parcel_number: '083-140-060',
+    permit_number: 'BLD25-1175',
+    status: 'Issued'
+  },
+  provenance: {
+    csv_row_number: 14,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000014'
+}
+{
+  data: {
+    address: '26444 Bella Aria Way Cloverdale [CLO]',
+    valuation: '$0.00',
+    issued_date: '03/04/2025',
+    applied_date: '3/3/2025',
+    description: 'SFD. Install ductless mini split',
+    parcel_number: '117-320-003',
+    permit_number: 'BLD25-1176',
+    status: 'Issued',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000015',
+  provenance: {
+    csv_row_number: 15,
+    parser_run_id: 'run_20260625_175736_1038'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 16,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000016',
+  data: {
+    fee: '$0.00',
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Started',
+    permit_number: 'BLD25-1177',
+    parcel_number: '999-999-999',
+    description: 'Carol No Plan Check TEST',
+    applied_date: '3/3/2025',
+    issued_date: null,
+    address: '999 Accela Way',
+    valuation: null
+  }
+}
+{
+  raw_permit_id: 'run_20260625_175736_1038_row_000017',
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 17
+  },
+  data: {
+    permit_number: 'BLD25-1178',
+    parcel_number: '077-081-051',
+    status: 'Issued',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62',
+    valuation: '$0.00',
+    address: '11371 Bodega Hwy Twin Hills [TWI]',
+    issued_date: '03/03/2025',
+    applied_date: '3/3/2025',
+    description: 'SFD- REPLACE 50 GALLON WATER HEATER IN SAME LOCATION'
+  }
+}
+{
+  data: {
+    fee: '$544.48',
+    permit_type: 'Building Permit No Plan Check',
+    parcel_number: '056-404-023',
+    permit_number: 'BLD25-1180',
+    status: 'Issued',
+    description: 'Commercial Re-roof 28 SQ asphalt shingles office building 18298',
+    applied_date: '3/3/2025',
+    address: '18298 Hwy 12 Agua Caliente [AGU]',
+    valuation: '$0.00',
+    issued_date: '03/12/2025'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000018',
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 18
+  }
+}
+{
+  data: {
+    parcel_number: '056-404-023',
+    permit_number: 'BLD25-1180',
+    status: 'Issued',
+    fee: '$544.48',
+    permit_type: 'Building Permit No Plan Check',
+    address: '18298 Hwy 12 Agua Caliente [AGU]',
+    valuation: '$0.00',
+    issued_date: '03/12/2025',
+    applied_date: '3/3/2025',
+    description: 'Commercial Re-roof 28 SQ asphalt shingles office building 18298'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000019',
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 19
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 20
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000020',
+  data: {
+    issued_date: '03/03/2025',
+    address: '9000 Donald St A Graton [GRA]',
+    valuation: '$0.00',
+    applied_date: '3/3/2025',
+    description: 'SFD Gas line for fire pit',
+    status: 'Issued',
+    parcel_number: '130-152-007',
+    permit_number: 'BLD25-1182',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check'
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 21
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000021',
+  data: {
+    status: 'Issued',
+    permit_number: 'BLD25-1183',
+    parcel_number: '073-090-048',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62',
+    issued_date: '03/15/2025',
+    valuation: '$0.00',
+    address: '11941 Barnett Valley Rd Twin Hills [TWI]',
+    applied_date: '3/3/2025',
+    description: "Installation by licensed installer of an Enviro P3 pellet stove and manufacturer's required Duravent venting that will horizontally exit the building, then run parallel to an exterior wall clad in Hardi panels and extend 4' up from a cleanout T."
+  }
+}
+{
+  data: {
+    description: 'Replace existing 50 gallon propane water heater with tankless water heater',
+    applied_date: '3/4/2025',
+    valuation: '$0.00',
+    address: '5627 Inverness Ave Bennett Valley [BEN]',
+    issued_date: '03/04/2025',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    parcel_number: '045-330-044',
+    permit_number: 'BLD25-1187',
+    status: 'Issued'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 22
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000022'
+}
+{
+  data: {
+    address: '1307 Barlow Ln Twin Hills [TWI]',
+    valuation: '$0.00',
+    issued_date: '03/04/2025',
+    applied_date: '3/4/2025',
+    description: 'SFD. Replace furnace, like for like.',
+    permit_number: 'BLD25-1188',
+    parcel_number: '061-110-053',
+    status: 'Issued',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62'
+  },
+  provenance: {
+    csv_row_number: 23,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000023'
+}
+{
+  data: {
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    parcel_number: '101-060-030',
+    permit_number: 'BLD25-1190',
+    status: 'Finaled',
+    applied_date: '3/4/2025',
+    description: '200amp 200amp main panel change',
+    address: '4965 Coastal Ave Bodega Bay [BBY]',
+    valuation: '$0.00',
+    issued_date: '03/04/2025'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000024',
+  provenance: {
+    csv_row_number: 24,
+    parser_run_id: 'run_20260625_175736_1038'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 25,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000025',
+  data: {
+    status: 'Issued',
+    permit_number: 'BLD25-1192',
+    parcel_number: '058-300-011',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62',
+    issued_date: '03/04/2025',
+    valuation: '$0.00',
+    address: '4709 Londonberry Dr Windsor [WIN]',
+    applied_date: '3/4/2025',
+    description: 'Remove & reinstall 45 PV Solar Panels, (E) PV - BLD15-5807'
+  }
+}
+{
+  data: {
+    applied_date: '3/4/2025',
+    description: 'Roof replacement: Tear off existing roof material and install new cool roof shingles - CRRC0850-0071',
+    issued_date: '03/04/2025',
+    address: '18690 Manzanita Rd Agua Caliente [AGU]',
+    valuation: '$0.00',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$536.88',
+    status: 'Issued',
+    parcel_number: '056-502-022',
+    permit_number: 'BLD25-1193'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000026',
+  provenance: {
+    csv_row_number: 26,
+    parser_run_id: 'run_20260625_175736_1038'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_175736_1038_row_000027',
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 27
+  },
+  data: {
+    applied_date: '3/4/2025',
+    description: 'SFD. Replace 12 duct runs, R8 wireflex',
+    issued_date: '03/04/2025',
+    valuation: '$0.00',
+    address: '129 Meadow Dr Windsor [WIN]',
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62',
+    status: 'Issued',
+    permit_number: 'BLD25-1194',
+    parcel_number: '059-283-047'
+  }
+}
+{
+  data: {
+    description: 'Replace/relocate (per PG&E requirements for gas meter separation from elec panel) existing outmoded 100A main electric service entry panel with new Square D or equal 200A main panel.',
+    applied_date: '3/4/2025',
+    issued_date: '03/04/2025',
+    valuation: '$0.00',
+    address: '907 Los Robles Dr Agua Caliente [AGU]',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check',
+    status: 'Issued',
+    permit_number: 'BLD25-1195',
+    parcel_number: '056-583-021'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000028',
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 28
+  }
+}
+{
+  raw_permit_id: 'run_20260625_175736_1038_row_000029',
+  provenance: {
+    csv_row_number: 29,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  data: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$537.21',
+    permit_number: 'BLD25-1199',
+    parcel_number: '087-173-009',
+    status: 'Finaled',
+    applied_date: '3/4/2025',
+    description: 'Remove and replace existing composition shingle roof with new Class A fire rated composition shingle roofing system 18 SQ',
+    valuation: '$0.00',
+    address: '2080 Madrone Ave Healdsburg [HEA]',
+    issued_date: '03/04/2025'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 30,
+    parser_run_id: 'run_20260625_175736_1038'
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000030',
+  data: {
+    permit_type: 'Building Permit No Plan Check',
+    fee: '$363.62',
+    parcel_number: '083-072-010',
+    permit_number: 'BLD25-1201',
+    status: 'Issued',
+    description: 'Replace main panel at residence. Install power pole at property line. Install new main panel/power meter on power pole and underground electrical service to main residence wall mounted subpanel.',
+    applied_date: '3/4/2025',
+    valuation: '$0.00',
+    address: '5923 Van Keppel Rd Forestville [FOR]',
+    issued_date: '03/04/2025'
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_175736_1038',
+    csv_row_number: 31
+  },
+  raw_permit_id: 'run_20260625_175736_1038_row_000031',
+  data: {
+    issued_date: '03/04/2025',
+    valuation: '$0.00',
+    address: '1140 Windsor River Rd Windsor [WIN]',
+    description: 'Looking at doing a main panel upgrade. Going from 100AMP to 200 amps.',
+    applied_date: '3/4/2025',
+    status: 'Issued',
+    parcel_number: '066-191-023',
+    permit_number: 'BLD25-1205',
+    fee: '$363.62',
+    permit_type: 'Building Permit No Plan Check'
+  }
+}
+
+thesis> 

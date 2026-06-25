@@ -1,0 +1,1538 @@
+﻿thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> | | | | | 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> | | | | | | | | | | | 
+thesis> 
+thesis> | | | 
+thesis> 
+thesis> 
+=== TOTAL LARIMER RAW RECORDS ===
+
+thesis> | | {
+  total_records: 378
+}
+
+thesis> 
+thesis> 
+=== SOURCE / RUN BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | {
+  _id: {
+    parser_run_id: 'run_20260624_215219_1133',
+    parser_name: 'CountyWide_PDF',
+    csv_file_name: 'Larimer april-2025-issued-permits.csv',
+    config_module: 'Config::Parser::co_larimer_countywide_pdf'
+  },
+  count: 378
+}
+
+thesis> 
+thesis> 
+=== FIELD COMPLETENESS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | {
+  field: 'permit_number',
+  total: 378,
+  present: 378,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 378
+}
+{
+  field: 'permit_type',
+  total: 378,
+  present: 378,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 6
+}
+{
+  field: 'status',
+  total: 378,
+  present: 378,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 4
+}
+{
+  field: 'issued_date',
+  total: 378,
+  present: 378,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 23
+}
+{
+  field: 'parcel_number',
+  total: 378,
+  present: 378,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 365
+}
+{
+  field: 'address',
+  total: 378,
+  present: 378,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 366
+}
+{
+  field: 'valuation',
+  total: 378,
+  present: 378,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 305
+}
+{
+  field: 'fee',
+  total: 378,
+  present: 377,
+  missing_or_empty: 1,
+  present_rate: 0.9974,
+  distinct_count: 265
+}
+{
+  field: 'owner_name',
+  total: 378,
+  present: 327,
+  missing_or_empty: 51,
+  present_rate: 0.8651,
+  distinct_count: 315
+}
+{
+  field: 'contractor_name',
+  total: 378,
+  present: 254,
+  missing_or_empty: 124,
+  present_rate: 0.672,
+  distinct_count: 133
+}
+
+thesis> 
+thesis> 
+=== FIELD TYPE CHECK ===
+
+thesis> | | | | | | | | | | | | | | | | | | | 
+--- TYPES: permit_number ---
+{
+  _id: 'string',
+  count: 378
+}
+
+--- TYPES: permit_type ---
+{
+  _id: 'string',
+  count: 378
+}
+
+--- TYPES: status ---
+{
+  _id: 'string',
+  count: 378
+}
+
+--- TYPES: issued_date ---
+{
+  _id: 'string',
+  count: 378
+}
+
+--- TYPES: parcel_number ---
+{
+  _id: 'string',
+  count: 378
+}
+
+--- TYPES: address ---
+{
+  _id: 'string',
+  count: 378
+}
+
+--- TYPES: valuation ---
+{
+  _id: 'string',
+  count: 378
+}
+
+--- TYPES: fee ---
+{
+  _id: 'string',
+  count: 377
+}
+{
+  _id: 'null',
+  count: 1
+}
+
+--- TYPES: owner_name ---
+{
+  _id: 'string',
+  count: 327
+}
+{
+  _id: 'null',
+  count: 51
+}
+
+--- TYPES: contractor_name ---
+{
+  _id: 'string',
+  count: 254
+}
+{
+  _id: 'null',
+  count: 124
+}
+
+thesis> 
+thesis> 
+=== TOP VALUES: PERMIT TYPE ===
+
+thesis> | | | | | | | | | | | | | | | {
+  _id: 'BLD Miscellaneous',
+  count: 280
+}
+{
+  _id: 'BLD Residential',
+  count: 49
+}
+{
+  _id: 'BLD Utility-Detached',
+  count: 31
+}
+{
+  _id: 'BLD Energy',
+  count: 11
+}
+{
+  _id: 'BLD Commercial',
+  count: 6
+}
+{
+  _id: 'BLD Sign',
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== TOP VALUES: STATUS ===
+
+thesis> | | | | | | | | | | | | | | | {
+  _id: 'BLD LOC',
+  count: 209
+}
+{
+  _id: 'BLD Issued',
+  count: 162
+}
+{
+  _id: 'BLD COC',
+  count: 6
+}
+{
+  _id: 'BLD Expired',
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== PERMIT NUMBER CATEGORY BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: 'MISC',
+  count: 280,
+  example_permit_number: '25-MISC0813',
+  example_permit_type: 'BLD Miscellaneous'
+}
+{
+  _id: 'RES',
+  count: 49,
+  example_permit_number: '25-RES0145',
+  example_permit_type: 'BLD Residential'
+}
+{
+  _id: 'UTIL',
+  count: 31,
+  example_permit_number: '25-UTIL0031',
+  example_permit_type: 'BLD Utility-Detached'
+}
+{
+  _id: 'ENER',
+  count: 11,
+  example_permit_number: '25-ENER0035',
+  example_permit_type: 'BLD Energy'
+}
+{
+  _id: 'COM',
+  count: 6,
+  example_permit_number: '25-COM0008',
+  example_permit_type: 'BLD Commercial'
+}
+{
+  _id: 'SGN',
+  count: 1,
+  example_permit_number: '25-SGN0004',
+  example_permit_type: 'BLD Sign'
+}
+
+thesis> 
+thesis> 
+=== PERMIT NUMBER CATEGORY / PERMIT TYPE COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_number_category: 'MISC',
+    permit_type: 'BLD Miscellaneous'
+  },
+  count: 280,
+  example_permit_number: '25-MISC0813'
+}
+{
+  _id: {
+    permit_number_category: 'RES',
+    permit_type: 'BLD Residential'
+  },
+  count: 49,
+  example_permit_number: '25-RES0145'
+}
+{
+  _id: {
+    permit_number_category: 'UTIL',
+    permit_type: 'BLD Utility-Detached'
+  },
+  count: 31,
+  example_permit_number: '25-UTIL0031'
+}
+{
+  _id: {
+    permit_number_category: 'ENER',
+    permit_type: 'BLD Energy'
+  },
+  count: 11,
+  example_permit_number: '25-ENER0035'
+}
+{
+  _id: {
+    permit_number_category: 'COM',
+    permit_type: 'BLD Commercial'
+  },
+  count: 6,
+  example_permit_number: '25-COM0008'
+}
+{
+  _id: {
+    permit_number_category: 'SGN',
+    permit_type: 'BLD Sign'
+  },
+  count: 1,
+  example_permit_number: '25-SGN0004'
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE / STATUS COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD LOC'
+  },
+  count: 191
+}
+{
+  _id: {
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD Issued'
+  },
+  count: 89
+}
+{
+  _id: {
+    permit_type: 'BLD Residential',
+    status: 'BLD Issued'
+  },
+  count: 38
+}
+{
+  _id: {
+    permit_type: 'BLD Utility-Detached',
+    status: 'BLD Issued'
+  },
+  count: 23
+}
+{
+  _id: {
+    permit_type: 'BLD Residential',
+    status: 'BLD LOC'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'BLD Energy',
+    status: 'BLD Issued'
+  },
+  count: 7
+}
+{
+  _id: {
+    permit_type: 'BLD Utility-Detached',
+    status: 'BLD LOC'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'BLD Commercial',
+    status: 'BLD Issued'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'BLD Energy',
+    status: 'BLD LOC'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'BLD Utility-Detached',
+    status: 'BLD COC'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'BLD Residential',
+    status: 'BLD COC'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'BLD Commercial',
+    status: 'BLD LOC'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'BLD Commercial',
+    status: 'BLD Expired'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'BLD Sign',
+    status: 'BLD Issued'
+  },
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== SAMPLE RECORDS WITH MISSING VALUES ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | {
+  data: {
+    valuation: '15,000.00',
+    contractor_name: 'Ian Stringfellow',
+    issued_date: '04/28/2025',
+    status: 'BLD Issued',
+    permit_type: 'BLD Commercial',
+    parcel_number: '0036000958',
+    address: '16238 N Highway 287, Laporte, CO 80535',
+    owner_name: null,
+    permit_number: '25-COM0012',
+    fee: '$842.47'
+  },
+  provenance: {
+    csv_row_number: 7
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000007'
+}
+{
+  provenance: {
+    csv_row_number: 10
+  },
+  data: {
+    valuation: '58,772.00',
+    contractor_name: 'Timothy Olsen',
+    status: 'BLD Issued',
+    issued_date: '04/29/2025',
+    parcel_number: '2405000901',
+    permit_type: 'BLD Energy',
+    owner_name: null,
+    permit_number: '25-ENER0037',
+    fee: '$500.00',
+    address: '2600 Hermit Park Rd, Estes Park, CO 80517'
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000010'
+}
+{
+  provenance: {
+    csv_row_number: 12
+  },
+  data: {
+    status: 'BLD Issued',
+    issued_date: '04/21/2025',
+    contractor_name: null,
+    valuation: '33,867.00',
+    owner_name: 'Stephen Andreasen',
+    permit_number: '25-ENER0027',
+    fee: '$500.00',
+    address: '4482 Howling Pines Way, Loveland, CO 805386638',
+    parcel_number: '9632405704',
+    permit_type: 'BLD Energy'
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000012'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000015',
+  provenance: {
+    csv_row_number: 15
+  },
+  data: {
+    contractor_name: null,
+    valuation: '24,080.00',
+    issued_date: '04/28/2025',
+    status: 'BLD LOC',
+    permit_type: 'BLD Energy',
+    parcel_number: '9704105018',
+    address: '2317 Northridge Dr, Fort Collins, CO 80521',
+    fee: '$500.00',
+    permit_number: '25-ENER0032',
+    owner_name: 'Elizabeth Olson'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000020',
+  data: {
+    fee: '$60.79',
+    permit_number: '25-MISC0718',
+    owner_name: 'Donald Picard',
+    address: '2328 W Vine Dr, Fort Collins, CO 80521',
+    parcel_number: '9704400014',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD LOC',
+    issued_date: '04/10/2025',
+    contractor_name: null,
+    valuation: '1.00'
+  },
+  provenance: {
+    csv_row_number: 20
+  }
+}
+{
+  data: {
+    contractor_name: null,
+    valuation: '27,000.00',
+    issued_date: '04/24/2025',
+    status: 'BLD Issued',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '2529100032',
+    address: '2250 Big Thompson Ave, Estes Park, CO 80517',
+    permit_number: '25-MISC0836',
+    owner_name: 'Andrew Kessler',
+    fee: '$446.00'
+  },
+  provenance: {
+    csv_row_number: 21
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000021'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000022',
+  provenance: {
+    csv_row_number: 22
+  },
+  data: {
+    address: '5464 E Eisenhower Blvd, Loveland, CO 80537',
+    owner_name: null,
+    permit_number: '25-MISC0866',
+    fee: '$198.00',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '8515205003',
+    issued_date: '04/25/2025',
+    status: 'BLD LOC',
+    valuation: '5,000.00',
+    contractor_name: null
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000023',
+  provenance: {
+    csv_row_number: 23
+  },
+  data: {
+    parcel_number: '9536300054',
+    permit_type: 'BLD Miscellaneous',
+    owner_name: 'Susanna Claes',
+    permit_number: '25-MISC0810',
+    fee: '$181.00',
+    address: '4040 S Garfield Ave, Loveland, CO 80537',
+    valuation: '3,500.00',
+    contractor_name: null,
+    status: 'BLD LOC',
+    issued_date: '04/21/2025'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000024',
+  data: {
+    valuation: '353.81',
+    contractor_name: null,
+    issued_date: '04/01/2025',
+    status: 'BLD LOC',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '3401150001',
+    address: '2410 Spruce Ave, Estes Park, CO 80517',
+    fee: '$141.00',
+    owner_name: '* Wallis Trust',
+    permit_number: '25-MISC0618'
+  },
+  provenance: {
+    csv_row_number: 24
+  }
+}
+{
+  data: {
+    status: 'BLD LOC',
+    issued_date: '04/03/2025',
+    contractor_name: null,
+    valuation: '7,500.00',
+    permit_number: '25-MISC0649',
+    owner_name: 'Brian Warren',
+    fee: '$226.00',
+    address: '1583 W Highway 34, Loveland, CO 80537',
+    parcel_number: '1503205018',
+    permit_type: 'BLD Miscellaneous'
+  },
+  provenance: {
+    csv_row_number: 25
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000025'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000026',
+  provenance: {
+    csv_row_number: 26
+  },
+  data: {
+    permit_number: '25-MISC0830',
+    owner_name: null,
+    fee: '$249.00',
+    address: '1002 Spruce Mountain Dr, Drake, CO 80515',
+    parcel_number: '1626108002',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD Issued',
+    issued_date: '04/22/2025',
+    valuation: '0.00',
+    contractor_name: null
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000027',
+  data: {
+    parcel_number: '8018000034',
+    permit_type: 'BLD Miscellaneous',
+    permit_number: '25-MISC0572',
+    owner_name: 'Thomas Bullock',
+    fee: '$237.00',
+    address: '1577 E County Road 82, Wellington, CO 80549',
+    contractor_name: null,
+    valuation: '8,500.00',
+    status: 'BLD Issued',
+    issued_date: '04/03/2025'
+  },
+  provenance: {
+    csv_row_number: 27
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000028',
+  provenance: {
+    csv_row_number: 28
+  },
+  data: {
+    address: '1250 Vance Ct, Loveland, CO 80537',
+    fee: '$198.00',
+    owner_name: 'Lisa Craven',
+    permit_number: '25-MISC0799',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '9519400067',
+    issued_date: '04/21/2025',
+    status: 'BLD Issued',
+    valuation: '5,000.00',
+    contractor_name: null
+  }
+}
+{
+  data: {
+    issued_date: '04/10/2025',
+    status: 'BLD LOC',
+    contractor_name: null,
+    valuation: '6,000.00',
+    address: '721 N County Road 27e, Berthoud, CO 80513',
+    permit_number: '25-MISC0707',
+    owner_name: 'Christopher Roberts',
+    fee: '$209.00',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '0414000020'
+  },
+  provenance: {
+    csv_row_number: 29
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000029'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000030',
+  data: {
+    fee: '$141.00',
+    owner_name: null,
+    permit_number: '25-MISC0775',
+    address: '17125 N County Road 15, Wellington, CO 80549',
+    parcel_number: '9014000022',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD LOC',
+    issued_date: '04/17/2025',
+    valuation: '1,690.00',
+    contractor_name: null
+  },
+  provenance: {
+    csv_row_number: 30
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000031',
+  provenance: {
+    csv_row_number: 31
+  },
+  data: {
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '2531319001',
+    address: '1641 Juniper Dr, Estes Park, CO 80517',
+    fee: '$240.00',
+    owner_name: '* Farber Tom Jill Family Trust',
+    permit_number: '25-MISC0797',
+    contractor_name: null,
+    valuation: '8,700.00',
+    issued_date: '04/18/2025',
+    status: 'BLD LOC'
+  }
+}
+{
+  data: {
+    contractor_name: null,
+    valuation: '3,456.20',
+    issued_date: '04/24/2025',
+    status: 'BLD LOC',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '9425405020',
+    address: '904 E County Road 4, Berthoud, CO 80513',
+    fee: '$180.00',
+    permit_number: '25-MISC0857',
+    owner_name: 'Linda Hirsch'
+  },
+  provenance: {
+    csv_row_number: 32
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000032'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000033',
+  provenance: {
+    csv_row_number: 33
+  },
+  data: {
+    parcel_number: '0435100002',
+    permit_type: 'BLD Miscellaneous',
+    permit_number: '25-MISC0636',
+    owner_name: 'Emily Summers',
+    fee: '$283.00',
+    address: '1996 Lucky Ln, Berthoud, CO 80513',
+    contractor_name: null,
+    valuation: '12,500.00',
+    status: 'BLD Issued',
+    issued_date: '04/01/2025'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000034',
+  data: {
+    fee: '$62.00',
+    owner_name: '* Rodney A Mayo Living Trust',
+    permit_number: '25-MISC0683',
+    address: '1032 Charlotte Ct, Loveland, CO 80537',
+    parcel_number: '8521407001',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD Issued',
+    issued_date: '04/08/2025',
+    contractor_name: null,
+    valuation: '0.00'
+  },
+  provenance: {
+    csv_row_number: 34
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000035',
+  provenance: {
+    csv_row_number: 35
+  },
+  data: {
+    status: 'BLD LOC',
+    issued_date: '04/28/2025',
+    valuation: '1,500.00',
+    contractor_name: null,
+    fee: '$141.00',
+    permit_number: '25-MISC0871',
+    owner_name: 'Michael Bennett',
+    address: '3277 Hinkley Dr, Fort Collins, CO 80524',
+    parcel_number: '8825000048',
+    permit_type: 'BLD Miscellaneous'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000036',
+  data: {
+    address: '635 West Hill Dr, Berthoud, CO 80513',
+    fee: '$373.00',
+    permit_number: '25-MISC0899',
+    owner_name: 'Randall Hughes',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '9419405005',
+    issued_date: '04/30/2025',
+    status: 'BLD Issued',
+    contractor_name: null,
+    valuation: '20,495.80'
+  },
+  provenance: {
+    csv_row_number: 36
+  }
+}
+{
+  data: {
+    address: '15215 Red Canyon Ranch Rd, Loveland, CO 80538',
+    fee: '$170.00',
+    permit_number: '25-MISC0763',
+    owner_name: '* Jonathan Jennifer Weller Living Trust',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '0722000033',
+    issued_date: '04/15/2025',
+    status: 'BLD LOC',
+    valuation: '2,500.00',
+    contractor_name: null
+  },
+  provenance: {
+    csv_row_number: 37
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000037'
+}
+{
+  data: {
+    fee: '$141.00',
+    owner_name: 'William Harvey',
+    permit_number: '25-MISC0772',
+    address: '35 Possum Ct, Drake, CO 80515',
+    parcel_number: '1626107006',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD LOC',
+    issued_date: '04/16/2025',
+    contractor_name: null,
+    valuation: '1,900.00'
+  },
+  provenance: {
+    csv_row_number: 38
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000038'
+}
+{
+  provenance: {
+    csv_row_number: 39
+  },
+  data: {
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '2402000008',
+    address: '5495 E Highway 36, Estes Park, CO 80517',
+    owner_name: 'Richard Spear',
+    permit_number: '25-MISC0681',
+    fee: '$175.00',
+    contractor_name: null,
+    valuation: '3,000.00',
+    issued_date: '04/07/2025',
+    status: 'BLD LOC'
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000039'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000040',
+  data: {
+    valuation: '1,000.00',
+    contractor_name: null,
+    issued_date: '04/11/2025',
+    status: 'BLD LOC',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '9829402009',
+    address: '3015 N Overland Trl, Laporte, CO 80535',
+    owner_name: null,
+    permit_number: '25-MISC0721',
+    fee: '$141.00'
+  },
+  provenance: {
+    csv_row_number: 40
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000041',
+  provenance: {
+    csv_row_number: 41
+  },
+  data: {
+    address: '385 N County Road 59, Livermore, CO 80536',
+    fee: '$141.00',
+    owner_name: 'Sue Clymore',
+    permit_number: '25-MISC0577',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '2118000015',
+    issued_date: '04/01/2025',
+    status: 'BLD Issued',
+    valuation: '1,320.00',
+    contractor_name: null
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000042',
+  provenance: {
+    csv_row_number: 42
+  },
+  data: {
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '0701416002',
+    address: '1004 Santanka Trl, Bellvue, CO 80512',
+    owner_name: null,
+    permit_number: '25-MISC0668',
+    fee: '$175.00',
+    valuation: '3,000.00',
+    contractor_name: null,
+    issued_date: '04/07/2025',
+    status: 'BLD LOC'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000043',
+  provenance: {
+    csv_row_number: 43
+  },
+  data: {
+    permit_number: '25-MISC0827',
+    owner_name: 'Gilberto Alvarez Sanchez',
+    fee: '$209.00',
+    address: '10428 N County Road 7, Wellington, CO 80549',
+    parcel_number: '8922200015',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD LOC',
+    issued_date: '04/22/2025',
+    contractor_name: null,
+    valuation: '6,000.00'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000044',
+  data: {
+    fee: '$141.00',
+    owner_name: 'Donald Dixon',
+    permit_number: '25-MISC0826',
+    address: '133 Mount Wrangell Ct, Livermore, CO 80536',
+    parcel_number: '2925105027',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD LOC',
+    issued_date: '04/23/2025',
+    valuation: '150.00',
+    contractor_name: null
+  },
+  provenance: {
+    csv_row_number: 44
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000045',
+  provenance: {
+    csv_row_number: 45
+  },
+  data: {
+    contractor_name: null,
+    valuation: '2,500.00',
+    status: 'BLD Issued',
+    issued_date: '04/08/2025',
+    parcel_number: '9609336902',
+    permit_type: 'BLD Miscellaneous',
+    owner_name: 'Duane Penney',
+    permit_number: '25-MISC0684',
+    fee: '$62.00',
+    address: '2716 W Trilby Rd, Fort Collins, CO 80526'
+  }
+}
+
+thesis> 
+thesis> 
+=== COMPLETE-ISH RECORDS FOR PATTERN ANALYSIS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | {
+  raw_permit_id: 'run_20260624_215219_1133_row_000002',
+  data: {
+    status: 'BLD Issued',
+    issued_date: '04/17/2025',
+    contractor_name: 'Byron Francis',
+    valuation: '76,988.00',
+    owner_name: 'Chris Eshelman',
+    permit_number: '25-COM0008',
+    fee: '$2,143.87',
+    address: '154 Kallenberg Dr, Estes Park, CO 80511',
+    parcel_number: '3404200022',
+    permit_type: 'BLD Commercial'
+  },
+  provenance: {
+    csv_row_number: 2
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000003',
+  data: {
+    owner_name: 'Jose Diaz',
+    permit_number: '24-COM0002',
+    fee: '$1,472.13',
+    address: '12995 N County Road 5, Wellington, CO 80549',
+    parcel_number: '8903000010',
+    permit_type: 'BLD Commercial',
+    status: 'BLD Expired',
+    issued_date: '03/04/2024',
+    contractor_name: 'David Ballenger',
+    valuation: '35,000.00'
+  },
+  provenance: {
+    csv_row_number: 3
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000004',
+  data: {
+    permit_type: 'BLD Commercial',
+    parcel_number: '0530400019',
+    address: '13938 W County Road 18e, Loveland, CO 80537',
+    owner_name: '* H and M Brooks Living Trust',
+    permit_number: '25-COM0015',
+    fee: '$608.07',
+    valuation: '13,000.00',
+    contractor_name: 'Ian Stringfellow',
+    issued_date: '04/16/2025',
+    status: 'BLD Issued'
+  },
+  provenance: {
+    csv_row_number: 4
+  }
+}
+{
+  data: {
+    fee: '$1,844.41',
+    permit_number: '25-COM0001',
+    owner_name: 'SBA Structures Inc',
+    address: '8633 Arapaho Valley Rd, Laporte, CO 80535',
+    parcel_number: '9930000049',
+    permit_type: 'BLD Commercial',
+    status: 'BLD Issued',
+    issued_date: '04/14/2025',
+    contractor_name: 'Rory Hisel',
+    valuation: '50,145.00'
+  },
+  provenance: {
+    csv_row_number: 5
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000005'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000006',
+  provenance: {
+    csv_row_number: 6
+  },
+  data: {
+    parcel_number: '9828300901',
+    permit_type: 'BLD Commercial',
+    permit_number: '25-COM0018',
+    owner_name: 'Mark Hettinger',
+    fee: '$1,064.26',
+    address: '3016 W County Road 54g, Fort Collins, CO 80524',
+    contractor_name: 'Duane West',
+    valuation: '30,805.00',
+    status: 'BLD LOC',
+    issued_date: '04/10/2025'
+  }
+}
+{
+  data: {
+    valuation: '15,000.00',
+    contractor_name: 'Ian Stringfellow',
+    issued_date: '04/28/2025',
+    status: 'BLD Issued',
+    permit_type: 'BLD Commercial',
+    parcel_number: '0036000958',
+    address: '16238 N Highway 287, Laporte, CO 80535',
+    owner_name: null,
+    permit_number: '25-COM0012',
+    fee: '$842.47'
+  },
+  provenance: {
+    csv_row_number: 7
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000007'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000008',
+  provenance: {
+    csv_row_number: 8
+  },
+  data: {
+    status: 'BLD Issued',
+    issued_date: '04/23/2025',
+    valuation: '35,900.00',
+    contractor_name: 'Clara (Sam) Burnham',
+    owner_name: 'Jason Helmick',
+    permit_number: '25-ENER0035',
+    fee: '$500.00',
+    address: '1739 Misty Creek Ln, Fort Collins, CO 80524',
+    parcel_number: '9822306008',
+    permit_type: 'BLD Energy'
+  }
+}
+{
+  data: {
+    address: '38417 Buckhorn Rd, Bellvue, CO 80512',
+    fee: '$500.00',
+    owner_name: 'Jeffrey Pagliuca',
+    permit_number: '25-ENER0034',
+    permit_type: 'BLD Energy',
+    parcel_number: '3714000007',
+    issued_date: '04/15/2025',
+    status: 'BLD Issued',
+    valuation: '61,771.00',
+    contractor_name: 'Ian Skor'
+  },
+  provenance: {
+    csv_row_number: 9
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000009'
+}
+{
+  provenance: {
+    csv_row_number: 10
+  },
+  data: {
+    valuation: '58,772.00',
+    contractor_name: 'Timothy Olsen',
+    status: 'BLD Issued',
+    issued_date: '04/29/2025',
+    parcel_number: '2405000901',
+    permit_type: 'BLD Energy',
+    owner_name: null,
+    permit_number: '25-ENER0037',
+    fee: '$500.00',
+    address: '2600 Hermit Park Rd, Estes Park, CO 80517'
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000010'
+}
+{
+  data: {
+    status: 'BLD LOC',
+    issued_date: '04/30/2025',
+    contractor_name: 'Craig Zobec',
+    valuation: '8,900.00',
+    owner_name: 'Douglas Swartz',
+    permit_number: '25-ENER0030',
+    fee: '$338.40',
+    address: '317 Irish Dr, Fort Collins, CO 80521',
+    parcel_number: '9709109022',
+    permit_type: 'BLD Energy'
+  },
+  provenance: {
+    csv_row_number: 11
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000011'
+}
+{
+  provenance: {
+    csv_row_number: 12
+  },
+  data: {
+    status: 'BLD Issued',
+    issued_date: '04/21/2025',
+    contractor_name: null,
+    valuation: '33,867.00',
+    owner_name: 'Stephen Andreasen',
+    permit_number: '25-ENER0027',
+    fee: '$500.00',
+    address: '4482 Howling Pines Way, Loveland, CO 805386638',
+    parcel_number: '9632405704',
+    permit_type: 'BLD Energy'
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000012'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000013',
+  data: {
+    permit_number: '25-ENER0020',
+    owner_name: 'Greg Hughes',
+    fee: '$553.00',
+    address: '1105 Kerr Rd, Estes Park, CO 80517',
+    parcel_number: '3403100002',
+    permit_type: 'BLD Energy',
+    status: 'BLD Issued',
+    issued_date: '04/24/2025',
+    contractor_name: 'Jason Sharpe',
+    valuation: '26,431.00'
+  },
+  provenance: {
+    csv_row_number: 13
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000014',
+  data: {
+    fee: '$553.00',
+    permit_number: '25-ENER0024',
+    owner_name: 'William See',
+    address: '1953 Bonner Springs Ranch Rd, Laporte, CO 80535',
+    parcel_number: '0914000020',
+    permit_type: 'BLD Energy',
+    status: 'BLD LOC',
+    issued_date: '04/01/2025',
+    valuation: '83,000.00',
+    contractor_name: 'Christopher Coy'
+  },
+  provenance: {
+    csv_row_number: 14
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000015',
+  provenance: {
+    csv_row_number: 15
+  },
+  data: {
+    contractor_name: null,
+    valuation: '24,080.00',
+    issued_date: '04/28/2025',
+    status: 'BLD LOC',
+    permit_type: 'BLD Energy',
+    parcel_number: '9704105018',
+    address: '2317 Northridge Dr, Fort Collins, CO 80521',
+    fee: '$500.00',
+    permit_number: '25-ENER0032',
+    owner_name: 'Elizabeth Olson'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 16
+  },
+  data: {
+    address: '850 Gregory Rd, Fort Collins, CO 80524',
+    permit_number: '25-ENER0017',
+    owner_name: '* Mark Brown/Fatima Ahmed Family Trust',
+    fee: '$423.51',
+    permit_type: 'BLD Energy',
+    parcel_number: '9836105005',
+    issued_date: '04/09/2025',
+    status: 'BLD Issued',
+    valuation: '11,330.20',
+    contractor_name: 'Ian Skor'
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000016'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000017',
+  data: {
+    issued_date: '04/11/2025',
+    status: 'BLD Issued',
+    contractor_name: 'Adam Burke',
+    valuation: '33,069.91',
+    address: '7082 Black Diamond Rd, Livermore,',
+    permit_number: '25-ENER0006',
+    owner_name: 'Lauren Harmon',
+    fee: '$500.00',
+    permit_type: 'BLD Energy',
+    parcel_number: '0022200003'
+  },
+  provenance: {
+    csv_row_number: 17
+  }
+}
+{
+  data: {
+    permit_type: 'BLD Energy',
+    parcel_number: '2532200037',
+    address: '1770 Powelly Ln, Estes Park, CO 80517',
+    fee: '$366.77',
+    permit_number: '25-ENER0019',
+    owner_name: 'David Diggs',
+    valuation: '9,294.00',
+    contractor_name: 'Jason Sharpe',
+    issued_date: '04/02/2025',
+    status: 'BLD LOC'
+  },
+  provenance: {
+    csv_row_number: 18
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000018'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000019',
+  provenance: {
+    csv_row_number: 19
+  },
+  data: {
+    valuation: '1.00',
+    contractor_name: 'Tom Knebel',
+    issued_date: '04/21/2025',
+    status: 'BLD Issued',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '9703100032',
+    address: '1416 Harris Dr, Fort Collins, CO 80524',
+    permit_number: '25-MISC0813',
+    owner_name: '* Holly E Field Trust',
+    fee: '$60.79'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000020',
+  data: {
+    fee: '$60.79',
+    permit_number: '25-MISC0718',
+    owner_name: 'Donald Picard',
+    address: '2328 W Vine Dr, Fort Collins, CO 80521',
+    parcel_number: '9704400014',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD LOC',
+    issued_date: '04/10/2025',
+    contractor_name: null,
+    valuation: '1.00'
+  },
+  provenance: {
+    csv_row_number: 20
+  }
+}
+{
+  data: {
+    contractor_name: null,
+    valuation: '27,000.00',
+    issued_date: '04/24/2025',
+    status: 'BLD Issued',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '2529100032',
+    address: '2250 Big Thompson Ave, Estes Park, CO 80517',
+    permit_number: '25-MISC0836',
+    owner_name: 'Andrew Kessler',
+    fee: '$446.00'
+  },
+  provenance: {
+    csv_row_number: 21
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000021'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000022',
+  provenance: {
+    csv_row_number: 22
+  },
+  data: {
+    address: '5464 E Eisenhower Blvd, Loveland, CO 80537',
+    owner_name: null,
+    permit_number: '25-MISC0866',
+    fee: '$198.00',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '8515205003',
+    issued_date: '04/25/2025',
+    status: 'BLD LOC',
+    valuation: '5,000.00',
+    contractor_name: null
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000023',
+  provenance: {
+    csv_row_number: 23
+  },
+  data: {
+    parcel_number: '9536300054',
+    permit_type: 'BLD Miscellaneous',
+    owner_name: 'Susanna Claes',
+    permit_number: '25-MISC0810',
+    fee: '$181.00',
+    address: '4040 S Garfield Ave, Loveland, CO 80537',
+    valuation: '3,500.00',
+    contractor_name: null,
+    status: 'BLD LOC',
+    issued_date: '04/21/2025'
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000024',
+  data: {
+    valuation: '353.81',
+    contractor_name: null,
+    issued_date: '04/01/2025',
+    status: 'BLD LOC',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '3401150001',
+    address: '2410 Spruce Ave, Estes Park, CO 80517',
+    fee: '$141.00',
+    owner_name: '* Wallis Trust',
+    permit_number: '25-MISC0618'
+  },
+  provenance: {
+    csv_row_number: 24
+  }
+}
+{
+  data: {
+    status: 'BLD LOC',
+    issued_date: '04/03/2025',
+    contractor_name: null,
+    valuation: '7,500.00',
+    permit_number: '25-MISC0649',
+    owner_name: 'Brian Warren',
+    fee: '$226.00',
+    address: '1583 W Highway 34, Loveland, CO 80537',
+    parcel_number: '1503205018',
+    permit_type: 'BLD Miscellaneous'
+  },
+  provenance: {
+    csv_row_number: 25
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000025'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000026',
+  provenance: {
+    csv_row_number: 26
+  },
+  data: {
+    permit_number: '25-MISC0830',
+    owner_name: null,
+    fee: '$249.00',
+    address: '1002 Spruce Mountain Dr, Drake, CO 80515',
+    parcel_number: '1626108002',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD Issued',
+    issued_date: '04/22/2025',
+    valuation: '0.00',
+    contractor_name: null
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000027',
+  data: {
+    parcel_number: '8018000034',
+    permit_type: 'BLD Miscellaneous',
+    permit_number: '25-MISC0572',
+    owner_name: 'Thomas Bullock',
+    fee: '$237.00',
+    address: '1577 E County Road 82, Wellington, CO 80549',
+    contractor_name: null,
+    valuation: '8,500.00',
+    status: 'BLD Issued',
+    issued_date: '04/03/2025'
+  },
+  provenance: {
+    csv_row_number: 27
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000028',
+  provenance: {
+    csv_row_number: 28
+  },
+  data: {
+    address: '1250 Vance Ct, Loveland, CO 80537',
+    fee: '$198.00',
+    owner_name: 'Lisa Craven',
+    permit_number: '25-MISC0799',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '9519400067',
+    issued_date: '04/21/2025',
+    status: 'BLD Issued',
+    valuation: '5,000.00',
+    contractor_name: null
+  }
+}
+{
+  data: {
+    issued_date: '04/10/2025',
+    status: 'BLD LOC',
+    contractor_name: null,
+    valuation: '6,000.00',
+    address: '721 N County Road 27e, Berthoud, CO 80513',
+    permit_number: '25-MISC0707',
+    owner_name: 'Christopher Roberts',
+    fee: '$209.00',
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '0414000020'
+  },
+  provenance: {
+    csv_row_number: 29
+  },
+  raw_permit_id: 'run_20260624_215219_1133_row_000029'
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000030',
+  data: {
+    fee: '$141.00',
+    owner_name: null,
+    permit_number: '25-MISC0775',
+    address: '17125 N County Road 15, Wellington, CO 80549',
+    parcel_number: '9014000022',
+    permit_type: 'BLD Miscellaneous',
+    status: 'BLD LOC',
+    issued_date: '04/17/2025',
+    valuation: '1,690.00',
+    contractor_name: null
+  },
+  provenance: {
+    csv_row_number: 30
+  }
+}
+{
+  raw_permit_id: 'run_20260624_215219_1133_row_000031',
+  provenance: {
+    csv_row_number: 31
+  },
+  data: {
+    permit_type: 'BLD Miscellaneous',
+    parcel_number: '2531319001',
+    address: '1641 Juniper Dr, Estes Park, CO 80517',
+    fee: '$240.00',
+    owner_name: '* Farber Tom Jill Family Trust',
+    permit_number: '25-MISC0797',
+    contractor_name: null,
+    valuation: '8,700.00',
+    issued_date: '04/18/2025',
+    status: 'BLD LOC'
+  }
+}
+
+thesis> 

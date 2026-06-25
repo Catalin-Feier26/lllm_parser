@@ -1,0 +1,3949 @@
+﻿thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> | | | 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> | | 
+thesis> 
+thesis> | | | | | | | | | | | | | 
+thesis> 
+thesis> | | | 
+thesis> 
+thesis> 
+=== TOTAL BATON ROUGE RAW RECORDS ===
+
+thesis> | | | {
+  total_records: 137594,
+  filter_used: {
+    'source.state': 'LA',
+    'source.municipality': /Baton/i
+  }
+}
+
+thesis> 
+thesis> 
+=== SOURCE / RUN BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | {
+  _id: {
+    parser_run_id: 'run_20260625_155120_452',
+    parser_name: 'BatonRouge_CSV',
+    csv_file_name: 'BATON ROUGE  EBR_Building_Permits.csv',
+    config_module: 'Config::Parser::la_east_baton_rouge_parish_csv',
+    state: 'LA',
+    county: 'EastBatonRougeParish',
+    municipality: 'BatonRouge'
+  },
+  count: 137594
+}
+
+thesis> 
+thesis> 
+=== FIELD COMPLETENESS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | {
+  field: 'permit_number',
+  total: 137594,
+  present: 137594,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 137019
+}
+{
+  field: 'permit_type',
+  total: 137594,
+  present: 135522,
+  missing_or_empty: 2072,
+  present_rate: 0.9849,
+  distinct_count: 66
+}
+{
+  field: 'parcel_number',
+  total: 137594,
+  present: 120465,
+  missing_or_empty: 17129,
+  present_rate: 0.8755,
+  distinct_count: 7621
+}
+{
+  field: 'valuation',
+  total: 137594,
+  present: 137594,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 15106
+}
+{
+  field: 'fee',
+  total: 137594,
+  present: 137594,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 13128
+}
+{
+  field: 'applied_date',
+  total: 137594,
+  present: 137594,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 3569
+}
+{
+  field: 'issued_date',
+  total: 137594,
+  present: 137594,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 3487
+}
+{
+  field: 'address',
+  total: 137594,
+  present: 137585,
+  missing_or_empty: 9,
+  present_rate: 0.9999,
+  distinct_count: 84394
+}
+{
+  field: 'owner_name',
+  total: 137594,
+  present: 97606,
+  missing_or_empty: 39988,
+  present_rate: 0.7094,
+  distinct_count: 62978
+}
+{
+  field: 'applicant_name',
+  total: 137594,
+  present: 108340,
+  missing_or_empty: 29254,
+  present_rate: 0.7874,
+  distinct_count: 38810
+}
+{
+  field: 'contractor_name',
+  total: 137594,
+  present: 76889,
+  missing_or_empty: 60705,
+  present_rate: 0.5588,
+  distinct_count: 19939
+}
+{
+  field: 'description',
+  total: 137594,
+  present: 135592,
+  missing_or_empty: 2002,
+  present_rate: 0.9854,
+  distinct_count: 68458
+}
+
+thesis> 
+thesis> 
+=== FIELD TYPE CHECK ===
+
+thesis> | | | | | | | | | | | | | | | | | | | 
+--- TYPES: permit_number ---
+{
+  _id: 'string',
+  count: 137594
+}
+
+--- TYPES: permit_type ---
+{
+  _id: 'string',
+  count: 135522
+}
+{
+  _id: 'null',
+  count: 2072
+}
+
+--- TYPES: parcel_number ---
+{
+  _id: 'string',
+  count: 120471
+}
+{
+  _id: 'null',
+  count: 17123
+}
+
+--- TYPES: valuation ---
+{
+  _id: 'string',
+  count: 137594
+}
+
+--- TYPES: fee ---
+{
+  _id: 'string',
+  count: 137594
+}
+
+--- TYPES: applied_date ---
+{
+  _id: 'string',
+  count: 137594
+}
+
+--- TYPES: issued_date ---
+{
+  _id: 'string',
+  count: 137594
+}
+
+--- TYPES: address ---
+{
+  _id: 'string',
+  count: 137585
+}
+{
+  _id: 'null',
+  count: 9
+}
+
+--- TYPES: owner_name ---
+{
+  _id: 'string',
+  count: 97606
+}
+{
+  _id: 'null',
+  count: 39988
+}
+
+--- TYPES: applicant_name ---
+{
+  _id: 'string',
+  count: 108342
+}
+{
+  _id: 'null',
+  count: 29252
+}
+
+--- TYPES: contractor_name ---
+{
+  _id: 'string',
+  count: 76896
+}
+{
+  _id: 'null',
+  count: 60698
+}
+
+--- TYPES: description ---
+{
+  _id: 'string',
+  count: 135594
+}
+{
+  _id: 'null',
+  count: 2000
+}
+
+thesis> 
+thesis> 
+=== TOP VALUES: PERMIT TYPE ===
+
+thesis> | | | | | | | | | | | | | | | {
+  _id: 'Occupancy Permit (C)',
+  count: 23887
+}
+{
+  _id: 'Electrical Permit (R)',
+  count: 13928
+}
+{
+  _id: 'Occupancy Permit (R)',
+  count: 13755
+}
+{
+  _id: 'New Building Permit (R)',
+  count: 13100
+}
+{
+  _id: 'Gas Test Permit (R)',
+  count: 11892
+}
+{
+  _id: 'Existing Bldg - Remodel Only (R)',
+  count: 9631
+}
+{
+  _id: 'Generator Permit (R)',
+  count: 9220
+}
+{
+  _id: 'Existing Bldg - Remodel Only (C)',
+  count: 5098
+}
+{
+  _id: 'Plumbing Permit (R)',
+  count: 4097
+}
+{
+  _id: 'Electrical Permit (C)',
+  count: 3577
+}
+{
+  _id: 'Sign Permit (C)',
+  count: 3175
+}
+{
+  _id: 'Existing Bldg - Addition Only (R)',
+  count: 2708
+}
+{
+  _id: 'Swimming Pool Permit (R)',
+  count: 2635
+}
+{
+  _id: 'New Building Permit (C)',
+  count: 2136
+}
+{
+  _id: 'Demolition Permit (R)',
+  count: 1795
+}
+{
+  _id: 'Solar Permit (R)',
+  count: 1638
+}
+{
+  _id: 'Mechanical Permit (R)',
+  count: 1608
+}
+{
+  _id: 'Fence Permit (R)',
+  count: 1533
+}
+{
+  _id: 'Gas Test Permit (C)',
+  count: 1349
+}
+{
+  _id: 'Mechanical Permit (C)',
+  count: 1336
+}
+{
+  _id: 'Manuf (HUD)/Mobile Home Placement (R)',
+  count: 1085
+}
+{
+  _id: 'Interior Shell Buildout (C)',
+  count: 871
+}
+{
+  _id: 'Accessory Structure (R)',
+  count: 630
+}
+{
+  _id: 'Existing Bldg - Addition Only (C)',
+  count: 500
+}
+{
+  _id: 'Demolition Permit (C)',
+  count: 488
+}
+{
+  _id: 'Re-Roof (R)',
+  count: 434
+}
+{
+  _id: 'Generator Permit (C)',
+  count: 432
+}
+{
+  _id: 'Plumbing Permit (C)',
+  count: 409
+}
+{
+  _id: 'Parking Lot Permit (C)',
+  count: 286
+}
+{
+  _id: 'Fence Permit (C)',
+  count: 266
+}
+{
+  _id: 'Sign Permit (Political Campaign) (C)',
+  count: 251
+}
+{
+  _id: 'Small Cell Unit (C)',
+  count: 173
+}
+{
+  _id: 'Short Term Rental (R) ΓÇô Non Owner Occupied',
+  count: 148
+}
+{
+  _id: 'New Building (Shell Only) (C)',
+  count: 145
+}
+{
+  _id: 'Change in Occupancy/Use Classification (C)',
+  count: 130
+}
+{
+  _id: 'Hotel/Motel Permit (C)',
+  count: 127
+}
+{
+  _id: 'Existing Bldg - Remodel with Addition (R)',
+  count: 124
+}
+{
+  _id: 'Driveway Permit (R)',
+  count: 117
+}
+{
+  _id: 'Land Clearing Permit (C)',
+  count: 96
+}
+{
+  _id: 'Cell Tower (New Const) (C)',
+  count: 81
+}
+{
+  _id: 'Occupancy Permit (Clean & Show) (C)',
+  count: 67
+}
+{
+  _id: 'Swimming Pool (C)',
+  count: 66
+}
+{
+  _id: 'Manufactured(HUD)/Mobile Home New Placement (R)',
+  count: 61
+}
+{
+  _id: 'Solar Permit (C)',
+  count: 49
+}
+{
+  _id: 'Structure Moving (house moving) (R)',
+  count: 43
+}
+{
+  _id: 'Temporary Construction Trailer (C)',
+  count: 41
+}
+{
+  _id: 'Existing Bldg - Addition & Remodel (Both) (C)',
+  count: 37
+}
+{
+  _id: 'Complaint (R)',
+  count: 33
+}
+{
+  _id: 'Existing Cell Tower',
+  count: 31
+}
+{
+  _id: 'Special Foundation Permit (C)',
+  count: 30
+}
+{
+  _id: 'Commercial Occupancy',
+  count: 26
+}
+{
+  _id: 'Massage Establishment (C)',
+  count: 24
+}
+{
+  _id: 'Damage Assessment (R)',
+  count: 22
+}
+{
+  _id: 'Small Lot Grading Permit (R)',
+  count: 17
+}
+{
+  _id: 'Re-Roof (C)',
+  count: 17
+}
+{
+  _id: 'Damage Assessment (C)',
+  count: 16
+}
+{
+  _id: 'Land Clearing Permit(R)',
+  count: 14
+}
+{
+  _id: 'Structure Moving (Building) (C)',
+  count: 9
+}
+{
+  _id: 'Cell Tower Co-Locate/Ant Change-out (C)',
+  count: 8
+}
+{
+  _id: 'Complaint (C)',
+  count: 6
+}
+{
+  _id: 'Tire Business (C)',
+  count: 6
+}
+{
+  _id: 'Occupancy Permit (Special Event) (C)',
+  count: 2
+}
+{
+  _id: 'Flood Zone Determination (C)',
+  count: 2
+}
+{
+  _id: 'Sidewalk Cafe (C)',
+  count: 2
+}
+{
+  _id: 'Code Violations',
+  count: 1
+}
+{
+  _id: 'Stop Work Order (R)',
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE RESIDENTIAL / COMMERCIAL BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: 'Residential',
+  count: 90269,
+  example_permit_type: 'Electrical Permit (R)'
+}
+{
+  _id: 'Commercial',
+  count: 45195,
+  example_permit_type: 'Occupancy Permit (C)'
+}
+{
+  _id: 'Unknown',
+  count: 58,
+  example_permit_type: 'Existing Cell Tower'
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE BASE CATEGORY BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: 'Occupancy Permit',
+  count: 37642,
+  example_permit_type: 'Occupancy Permit (C)'
+}
+{
+  _id: 'Electrical Permit',
+  count: 17505,
+  example_permit_type: 'Electrical Permit (R)'
+}
+{
+  _id: 'New Building Permit',
+  count: 15236,
+  example_permit_type: 'New Building Permit (R)'
+}
+{
+  _id: 'Existing Bldg - Remodel Only',
+  count: 14729,
+  example_permit_type: 'Existing Bldg - Remodel Only (R)'
+}
+{
+  _id: 'Gas Test Permit',
+  count: 13241,
+  example_permit_type: 'Gas Test Permit (R)'
+}
+{
+  _id: 'Generator Permit',
+  count: 9652,
+  example_permit_type: 'Generator Permit (R)'
+}
+{
+  _id: 'Plumbing Permit',
+  count: 4506,
+  example_permit_type: 'Plumbing Permit (R)'
+}
+{
+  _id: 'Existing Bldg - Addition Only',
+  count: 3208,
+  example_permit_type: 'Existing Bldg - Addition Only (R)'
+}
+{
+  _id: 'Sign Permit',
+  count: 3175,
+  example_permit_type: 'Sign Permit (C)'
+}
+{
+  _id: 'Mechanical Permit',
+  count: 2944,
+  example_permit_type: 'Mechanical Permit (C)'
+}
+{
+  _id: 'Swimming Pool Permit',
+  count: 2635,
+  example_permit_type: 'Swimming Pool Permit (R)'
+}
+{
+  _id: 'Demolition Permit',
+  count: 2283,
+  example_permit_type: 'Demolition Permit (R)'
+}
+{
+  _id: 'Fence Permit',
+  count: 1799,
+  example_permit_type: 'Fence Permit (R)'
+}
+{
+  _id: 'Solar Permit',
+  count: 1687,
+  example_permit_type: 'Solar Permit (R)'
+}
+{
+  _id: 'Manuf (HUD)/Mobile Home Placement',
+  count: 1085,
+  example_permit_type: 'Manuf (HUD)/Mobile Home Placement (R)'
+}
+{
+  _id: 'Interior Shell Buildout',
+  count: 871,
+  example_permit_type: 'Interior Shell Buildout (C)'
+}
+{
+  _id: 'Accessory Structure',
+  count: 630,
+  example_permit_type: 'Accessory Structure (R)'
+}
+{
+  _id: 'Re-Roof',
+  count: 451,
+  example_permit_type: 'Re-Roof (R)'
+}
+{
+  _id: 'Parking Lot Permit',
+  count: 286,
+  example_permit_type: 'Parking Lot Permit (C)'
+}
+{
+  _id: 'Sign Permit (Political Campaign)',
+  count: 251,
+  example_permit_type: 'Sign Permit (Political Campaign) (C)'
+}
+{
+  _id: 'Small Cell Unit',
+  count: 173,
+  example_permit_type: 'Small Cell Unit (C)'
+}
+{
+  _id: 'Short Term Rental ΓÇô Non Owner Occupied',
+  count: 148,
+  example_permit_type: 'Short Term Rental (R) ΓÇô Non Owner Occupied'
+}
+{
+  _id: 'New Building (Shell Only)',
+  count: 145,
+  example_permit_type: 'New Building (Shell Only) (C)'
+}
+{
+  _id: 'Change in Occupancy/Use Classification',
+  count: 130,
+  example_permit_type: 'Change in Occupancy/Use Classification (C)'
+}
+{
+  _id: 'Hotel/Motel Permit',
+  count: 127,
+  example_permit_type: 'Hotel/Motel Permit (C)'
+}
+{
+  _id: 'Existing Bldg - Remodel with Addition',
+  count: 124,
+  example_permit_type: 'Existing Bldg - Remodel with Addition (R)'
+}
+{
+  _id: 'Driveway Permit',
+  count: 117,
+  example_permit_type: 'Driveway Permit (R)'
+}
+{
+  _id: 'Land Clearing Permit',
+  count: 96,
+  example_permit_type: 'Land Clearing Permit (C)'
+}
+{
+  _id: 'Cell Tower (New Const)',
+  count: 81,
+  example_permit_type: 'Cell Tower (New Const) (C)'
+}
+{
+  _id: 'Occupancy Permit (Clean & Show)',
+  count: 67,
+  example_permit_type: 'Occupancy Permit (Clean & Show) (C)'
+}
+{
+  _id: 'Swimming Pool',
+  count: 66,
+  example_permit_type: 'Swimming Pool (C)'
+}
+{
+  _id: 'Manufactured(HUD)/Mobile Home New Placement',
+  count: 61,
+  example_permit_type: 'Manufactured(HUD)/Mobile Home New Placement (R)'
+}
+{
+  _id: 'Structure Moving (house moving)',
+  count: 43,
+  example_permit_type: 'Structure Moving (house moving) (R)'
+}
+{
+  _id: 'Temporary Construction Trailer',
+  count: 41,
+  example_permit_type: 'Temporary Construction Trailer (C)'
+}
+{
+  _id: 'Complaint',
+  count: 39,
+  example_permit_type: 'Complaint (R)'
+}
+{
+  _id: 'Damage Assessment',
+  count: 38,
+  example_permit_type: 'Damage Assessment (C)'
+}
+{
+  _id: 'Existing Bldg - Addition & Remodel (Both)',
+  count: 37,
+  example_permit_type: 'Existing Bldg - Addition & Remodel (Both) (C)'
+}
+{
+  _id: 'Existing Cell Tower',
+  count: 31,
+  example_permit_type: 'Existing Cell Tower'
+}
+{
+  _id: 'Special Foundation Permit',
+  count: 30,
+  example_permit_type: 'Special Foundation Permit (C)'
+}
+{
+  _id: 'Commercial Occupancy',
+  count: 26,
+  example_permit_type: 'Commercial Occupancy'
+}
+{
+  _id: 'Massage Establishment',
+  count: 24,
+  example_permit_type: 'Massage Establishment (C)'
+}
+{
+  _id: 'Small Lot Grading Permit',
+  count: 17,
+  example_permit_type: 'Small Lot Grading Permit (R)'
+}
+{
+  _id: 'Land Clearing Permit(R)',
+  count: 14,
+  example_permit_type: 'Land Clearing Permit(R)'
+}
+{
+  _id: 'Structure Moving (Building)',
+  count: 9,
+  example_permit_type: 'Structure Moving (Building) (C)'
+}
+{
+  _id: 'Cell Tower Co-Locate/Ant Change-out',
+  count: 8,
+  example_permit_type: 'Cell Tower Co-Locate/Ant Change-out (C)'
+}
+{
+  _id: 'Tire Business',
+  count: 6,
+  example_permit_type: 'Tire Business (C)'
+}
+{
+  _id: 'Occupancy Permit (Special Event)',
+  count: 2,
+  example_permit_type: 'Occupancy Permit (Special Event) (C)'
+}
+{
+  _id: 'Flood Zone Determination',
+  count: 2,
+  example_permit_type: 'Flood Zone Determination (C)'
+}
+{
+  _id: 'Sidewalk Cafe',
+  count: 2,
+  example_permit_type: 'Sidewalk Cafe (C)'
+}
+{
+  _id: 'Stop Work Order',
+  count: 1,
+  example_permit_type: 'Stop Work Order (R)'
+}
+{
+  _id: 'Code Violations',
+  count: 1,
+  example_permit_type: 'Code Violations'
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE / FEE COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '0.00'
+  },
+  count: 9263
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    fee: '25.00'
+  },
+  count: 8409
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    fee: '25.00'
+  },
+  count: 6432
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    fee: '0.00'
+  },
+  count: 6297
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    fee: '0.00'
+  },
+  count: 5995
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    fee: '0.00'
+  },
+  count: 5554
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '40.00'
+  },
+  count: 5103
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '65.00'
+  },
+  count: 5052
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    fee: '40.00'
+  },
+  count: 4566
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    fee: '0.00'
+  },
+  count: 4101
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (R)',
+    fee: '0.00'
+  },
+  count: 3595
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (R)',
+    fee: '25.00'
+  },
+  count: 2993
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    fee: '0.00'
+  },
+  count: 2732
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    fee: '51.50'
+  },
+  count: 2220
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (C)',
+    fee: '25.00'
+  },
+  count: 1821
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    fee: '0.00'
+  },
+  count: 1548
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    fee: '65.00'
+  },
+  count: 1073
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (C)',
+    fee: '0.00'
+  },
+  count: 1038
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    fee: '0.00'
+  },
+  count: 1019
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (R)',
+    fee: '0.00'
+  },
+  count: 920
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (C)',
+    fee: '25.00'
+  },
+  count: 891
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '90.00'
+  },
+  count: 890
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    fee: '186.50'
+  },
+  count: 858
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (R)',
+    fee: '75.00'
+  },
+  count: 758
+}
+{
+  _id: {
+    permit_type: 'Swimming Pool Permit (R)',
+    fee: '0.00'
+  },
+  count: 740
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    fee: '185.00'
+  },
+  count: 713
+}
+{
+  _id: {
+    permit_type: 'Fence Permit (R)',
+    fee: '0.00'
+  },
+  count: 671
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    fee: '135.00'
+  },
+  count: 670
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (R)',
+    fee: '0.00'
+  },
+  count: 663
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (C)',
+    fee: '0.00'
+  },
+  count: 652
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    fee: '135.00'
+  },
+  count: 627
+}
+{
+  _id: {
+    permit_type: 'Fence Permit (R)',
+    fee: '120.00'
+  },
+  count: 620
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (R)',
+    fee: '45.00'
+  },
+  count: 591
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (R)',
+    fee: '0.00'
+  },
+  count: 518
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    fee: '25.00'
+  },
+  count: 518
+}
+{
+  _id: {
+    permit_type: 'Solar Permit (R)',
+    fee: '0.00'
+  },
+  count: 496
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '42.00'
+  },
+  count: 466
+}
+{
+  _id: {
+    permit_type: 'Re-Roof (R)',
+    fee: '0.00'
+  },
+  count: 434
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (C)',
+    fee: '45.00'
+  },
+  count: 413
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (R)',
+    fee: '31.00'
+  },
+  count: 405
+}
+{
+  _id: {
+    permit_type: 'Manuf (HUD)/Mobile Home Placement (R)',
+    fee: '0.00'
+  },
+  count: 373
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (C)',
+    fee: '0.00'
+  },
+  count: 362
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '85.00'
+  },
+  count: 361
+}
+{
+  _id: {
+    permit_type: 'Solar Permit (R)',
+    fee: '175.00'
+  },
+  count: 359
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    fee: '26.25'
+  },
+  count: 348
+}
+{
+  _id: {
+    permit_type: 'Accessory Structure (R)',
+    fee: '0.00'
+  },
+  count: 313
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '68.25'
+  },
+  count: 313
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    fee: '26.25'
+  },
+  count: 303
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (C)',
+    fee: '0.00'
+  },
+  count: 286
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    fee: '160.00'
+  },
+  count: 262
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (R)',
+    fee: '0.00'
+  },
+  count: 258
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '110.00'
+  },
+  count: 257
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    fee: '60.00'
+  },
+  count: 251
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    fee: '85.00'
+  },
+  count: 242
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    fee: '90.00'
+  },
+  count: 240
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    fee: '30.00'
+  },
+  count: 225
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (C)',
+    fee: '25.00'
+  },
+  count: 218
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '115.00'
+  },
+  count: 213
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    fee: '39.00'
+  },
+  count: 212
+}
+{
+  _id: {
+    permit_type: 'Swimming Pool Permit (R)',
+    fee: '67.00'
+  },
+  count: 212
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    fee: '25.00'
+  },
+  count: 209
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (C)',
+    fee: '0.00'
+  },
+  count: 209
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '60.00'
+  },
+  count: 206
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    fee: '45.00'
+  },
+  count: 206
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    fee: '25.00'
+  },
+  count: 196
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (C)',
+    fee: '0.00'
+  },
+  count: 183
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (Political Campaign) (C)',
+    fee: '25.00'
+  },
+  count: 182
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    fee: '197.40'
+  },
+  count: 176
+}
+{
+  _id: {
+    permit_type: 'Fence Permit (C)',
+    fee: '0.00'
+  },
+  count: 165
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (R)',
+    fee: '135.00'
+  },
+  count: 160
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    fee: '194.25'
+  },
+  count: 153
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (R)',
+    fee: '26.25'
+  },
+  count: 153
+}
+{
+  _id: {
+    permit_type: 'Short Term Rental (R) ΓÇô Non Owner Occupied',
+    fee: '0.00'
+  },
+  count: 148
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (C)',
+    fee: '75.00'
+  },
+  count: 146
+}
+{
+  _id: {
+    permit_type: 'Solar Permit (R)',
+    fee: '25.00'
+  },
+  count: 144
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    fee: '160.00'
+  },
+  count: 140
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    fee: '42.00'
+  },
+  count: 139
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    fee: '141.75'
+  },
+  count: 137
+}
+{
+  _id: {
+    permit_type: 'Swimming Pool Permit (R)',
+    fee: '92.00'
+  },
+  count: 135
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    fee: '20.00'
+  },
+  count: 133
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE / VALUATION ZERO VS NONZERO ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 23566
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 13296
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 12977
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 11728
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 10261
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 9289
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 9190
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 4464
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 3743
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 3145
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 2878
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 2681
+}
+{
+  _id: {
+    permit_type: 'Swimming Pool Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 2547
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 2200
+}
+{
+  _id: {
+    permit_type: null,
+    valuation_group: 'zero'
+  },
+  count: 1791
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 1722
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 1711
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 1631
+}
+{
+  _id: {
+    permit_type: 'Solar Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 1580
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 1524
+}
+{
+  _id: {
+    permit_type: 'Fence Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 1477
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 1211
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 1101
+}
+{
+  _id: {
+    permit_type: 'Manuf (HUD)/Mobile Home Placement (R)',
+    valuation_group: 'zero'
+  },
+  count: 772
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 699
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    valuation_group: 'zero'
+  },
+  count: 634
+}
+{
+  _id: {
+    permit_type: 'Accessory Structure (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 619
+}
+{
+  _id: {
+    permit_type: 'Interior Shell Buildout (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 481
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 470
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 459
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 453
+}
+{
+  _id: {
+    permit_type: 'Re-Roof (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 431
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 425
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 400
+}
+{
+  _id: {
+    permit_type: 'Interior Shell Buildout (C)',
+    valuation_group: 'zero'
+  },
+  count: 390
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 354
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 353
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    valuation_group: 'zero'
+  },
+  count: 342
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 321
+}
+{
+  _id: {
+    permit_type: 'Manuf (HUD)/Mobile Home Placement (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 313
+}
+{
+  _id: {
+    permit_type: null,
+    valuation_group: 'nonzero'
+  },
+  count: 281
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 248
+}
+{
+  _id: {
+    permit_type: 'Fence Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 245
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (Political Campaign) (C)',
+    valuation_group: 'zero'
+  },
+  count: 245
+}
+{
+  _id: {
+    permit_type: 'Parking Lot Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 240
+}
+{
+  _id: {
+    permit_type: 'Small Cell Unit (C)',
+    valuation_group: 'zero'
+  },
+  count: 152
+}
+{
+  _id: {
+    permit_type: 'Short Term Rental (R) ΓÇô Non Owner Occupied',
+    valuation_group: 'zero'
+  },
+  count: 148
+}
+{
+  _id: {
+    permit_type: 'New Building (Shell Only) (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 132
+}
+{
+  _id: {
+    permit_type: 'Hotel/Motel Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 127
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 125
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel with Addition (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 123
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 123
+}
+{
+  _id: {
+    permit_type: 'Driveway Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 92
+}
+{
+  _id: {
+    permit_type: 'Swimming Pool Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 88
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 84
+}
+{
+  _id: {
+    permit_type: 'Cell Tower (New Const) (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 78
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (R)',
+    valuation_group: 'nonzero'
+  },
+  count: 73
+}
+{
+  _id: {
+    permit_type: 'Change in Occupancy/Use Classification (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 73
+}
+{
+  _id: {
+    permit_type: 'Land Clearing Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 68
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (Clean & Show) (C)',
+    valuation_group: 'zero'
+  },
+  count: 67
+}
+{
+  _id: {
+    permit_type: 'Swimming Pool (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 66
+}
+{
+  _id: {
+    permit_type: 'Solar Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 58
+}
+{
+  _id: {
+    permit_type: 'Change in Occupancy/Use Classification (C)',
+    valuation_group: 'zero'
+  },
+  count: 57
+}
+{
+  _id: {
+    permit_type: 'Fence Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 56
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 56
+}
+{
+  _id: {
+    permit_type: 'Manufactured(HUD)/Mobile Home New Placement (R)',
+    valuation_group: 'zero'
+  },
+  count: 56
+}
+{
+  _id: {
+    permit_type: 'Solar Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 46
+}
+{
+  _id: {
+    permit_type: 'Parking Lot Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 46
+}
+{
+  _id: {
+    permit_type: 'Temporary Construction Trailer (C)',
+    valuation_group: 'zero'
+  },
+  count: 38
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition & Remodel (Both) (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 36
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (C)',
+    valuation_group: 'nonzero'
+  },
+  count: 35
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 32
+}
+{
+  _id: {
+    permit_type: 'Structure Moving (house moving) (R)',
+    valuation_group: 'zero'
+  },
+  count: 32
+}
+{
+  _id: {
+    permit_type: 'Existing Cell Tower',
+    valuation_group: 'nonzero'
+  },
+  count: 31
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (C)',
+    valuation_group: 'zero'
+  },
+  count: 30
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 30
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    valuation_group: 'zero'
+  },
+  count: 30
+}
+{
+  _id: {
+    permit_type: 'Land Clearing Permit (C)',
+    valuation_group: 'zero'
+  },
+  count: 28
+}
+{
+  _id: {
+    permit_type: 'Complaint (R)',
+    valuation_group: 'zero'
+  },
+  count: 27
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (R)',
+    valuation_group: 'zero'
+  },
+  count: 27
+}
+
+thesis> 
+thesis> 
+=== TOP DESCRIPTION KEYWORDS BY SIMPLE REGEX ===
+
+thesis> | | | | | | | | | 
+thesis> 
+thesis> | | | | | | | | | | {
+  keyword: 'occupancy',
+  matching_records: 3567
+}
+{
+  keyword: 'electrical',
+  matching_records: 17099
+}
+{
+  keyword: 'plumbing',
+  matching_records: 22541
+}
+{
+  keyword: 'mechanical',
+  matching_records: 2478
+}
+{
+  keyword: 'remodel',
+  matching_records: 12308
+}
+{
+  keyword: 'flood',
+  matching_records: 9272
+}
+{
+  keyword: 'sign',
+  matching_records: 3749
+}
+{
+  keyword: 'roof',
+  matching_records: 2195
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE / DESCRIPTION KEYWORD COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    keyword: 'other'
+  },
+  count: 19769
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (R)',
+    keyword: 'other'
+  },
+  count: 12855
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    keyword: 'other'
+  },
+  count: 11672
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    keyword: 'plumbing'
+  },
+  count: 10790
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    keyword: 'electrical'
+  },
+  count: 6146
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    keyword: 'other'
+  },
+  count: 5787
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    keyword: 'other'
+  },
+  count: 4996
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    keyword: 'remodel_repair'
+  },
+  count: 3259
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (R)',
+    keyword: 'plumbing'
+  },
+  count: 3127
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    keyword: 'flood'
+  },
+  count: 3127
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    keyword: 'sign'
+  },
+  count: 2819
+}
+{
+  _id: {
+    permit_type: 'Swimming Pool Permit (R)',
+    keyword: 'other'
+  },
+  count: 2601
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    keyword: 'remodel_repair'
+  },
+  count: 2578
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    keyword: 'plumbing'
+  },
+  count: 2221
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    keyword: 'electrical'
+  },
+  count: 2197
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (R)',
+    keyword: 'other'
+  },
+  count: 2009
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (C)',
+    keyword: 'electrical'
+  },
+  count: 1786
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    keyword: 'other'
+  },
+  count: 1785
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (R)',
+    keyword: 'other'
+  },
+  count: 1773
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (C)',
+    keyword: 'other'
+  },
+  count: 1514
+}
+{
+  _id: {
+    permit_type: 'Solar Permit (R)',
+    keyword: 'electrical'
+  },
+  count: 1491
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    keyword: 'occupancy'
+  },
+  count: 1455
+}
+{
+  _id: {
+    permit_type: 'Fence Permit (R)',
+    keyword: 'other'
+  },
+  count: 1452
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (C)',
+    keyword: 'other'
+  },
+  count: 1414
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (R)',
+    keyword: 'other'
+  },
+  count: 1185
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (C)',
+    keyword: 'plumbing'
+  },
+  count: 1173
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    keyword: 'flood'
+  },
+  count: 1148
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    keyword: 'electrical'
+  },
+  count: 1082
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    keyword: 'electrical'
+  },
+  count: 1020
+}
+{
+  _id: {
+    permit_type: 'Manuf (HUD)/Mobile Home Placement (R)',
+    keyword: 'other'
+  },
+  count: 1015
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    keyword: 'electrical'
+  },
+  count: 1011
+}
+{
+  _id: {
+    permit_type: null,
+    keyword: 'other'
+  },
+  count: 986
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (R)',
+    keyword: 'flood'
+  },
+  count: 978
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    keyword: 'occupancy'
+  },
+  count: 974
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (C)',
+    keyword: 'other'
+  },
+  count: 947
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (R)',
+    keyword: 'other'
+  },
+  count: 895
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    keyword: 'other'
+  },
+  count: 788
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    keyword: 'occupancy'
+  },
+  count: 595
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    keyword: 'remodel_repair'
+  },
+  count: 581
+}
+{
+  _id: {
+    permit_type: 'Accessory Structure (R)',
+    keyword: 'other'
+  },
+  count: 564
+}
+{
+  _id: {
+    permit_type: 'Interior Shell Buildout (C)',
+    keyword: 'other'
+  },
+  count: 532
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (R)',
+    keyword: 'remodel_repair'
+  },
+  count: 503
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    keyword: 'other'
+  },
+  count: 485
+}
+{
+  _id: {
+    permit_type: 'Demolition Permit (C)',
+    keyword: 'other'
+  },
+  count: 465
+}
+{
+  _id: {
+    permit_type: null,
+    keyword: 'plumbing'
+  },
+  count: 419
+}
+{
+  _id: {
+    permit_type: null,
+    keyword: 'electrical'
+  },
+  count: 393
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    keyword: 'remodel_repair'
+  },
+  count: 354
+}
+{
+  _id: {
+    permit_type: 'Re-Roof (R)',
+    keyword: 'roof'
+  },
+  count: 336
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    keyword: 'electrical'
+  },
+  count: 326
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (R)',
+    keyword: 'electrical'
+  },
+  count: 293
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (C)',
+    keyword: 'electrical'
+  },
+  count: 276
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (R)',
+    keyword: 'mechanical'
+  },
+  count: 272
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (C)',
+    keyword: 'other'
+  },
+  count: 265
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    keyword: 'plumbing'
+  },
+  count: 264
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (C)',
+    keyword: 'mechanical'
+  },
+  count: 264
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    keyword: 'plumbing'
+  },
+  count: 247
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (C)',
+    keyword: 'plumbing'
+  },
+  count: 244
+}
+{
+  _id: {
+    permit_type: 'Fence Permit (C)',
+    keyword: 'other'
+  },
+  count: 231
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (C)',
+    keyword: 'other'
+  },
+  count: 218
+}
+{
+  _id: {
+    permit_type: 'Parking Lot Permit (C)',
+    keyword: 'other'
+  },
+  count: 208
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (R)',
+    keyword: 'plumbing'
+  },
+  count: 206
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    keyword: 'plumbing'
+  },
+  count: 186
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (R)',
+    keyword: 'plumbing'
+  },
+  count: 185
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    keyword: 'other'
+  },
+  count: 181
+}
+{
+  _id: {
+    permit_type: 'Small Cell Unit (C)',
+    keyword: 'other'
+  },
+  count: 169
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    keyword: 'mechanical'
+  },
+  count: 169
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (Political Campaign) (C)',
+    keyword: 'other'
+  },
+  count: 162
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (C)',
+    keyword: 'sign'
+  },
+  count: 150
+}
+{
+  _id: {
+    permit_type: 'Interior Shell Buildout (C)',
+    keyword: 'occupancy'
+  },
+  count: 147
+}
+{
+  _id: {
+    permit_type: 'Short Term Rental (R) ΓÇô Non Owner Occupied',
+    keyword: 'other'
+  },
+  count: 147
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (C)',
+    keyword: 'sign'
+  },
+  count: 143
+}
+{
+  _id: {
+    permit_type: 'Plumbing Permit (C)',
+    keyword: 'other'
+  },
+  count: 141
+}
+{
+  _id: {
+    permit_type: 'Generator Permit (C)',
+    keyword: 'plumbing'
+  },
+  count: 137
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (C)',
+    keyword: 'electrical'
+  },
+  count: 137
+}
+{
+  _id: {
+    permit_type: 'Hotel/Motel Permit (C)',
+    keyword: 'other'
+  },
+  count: 127
+}
+{
+  _id: {
+    permit_type: null,
+    keyword: 'remodel_repair'
+  },
+  count: 116
+}
+{
+  _id: {
+    permit_type: 'Electrical Permit (C)',
+    keyword: 'remodel_repair'
+  },
+  count: 113
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (C)',
+    keyword: 'mechanical'
+  },
+  count: 109
+}
+{
+  _id: {
+    permit_type: 'Driveway Permit (R)',
+    keyword: 'other'
+  },
+  count: 108
+}
+{
+  _id: {
+    permit_type: 'Interior Shell Buildout (C)',
+    keyword: 'remodel_repair'
+  },
+  count: 107
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (C)',
+    keyword: 'plumbing'
+  },
+  count: 102
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (C)',
+    keyword: 'remodel_repair'
+  },
+  count: 102
+}
+{
+  _id: {
+    permit_type: 'Solar Permit (R)',
+    keyword: 'roof'
+  },
+  count: 102
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    keyword: 'roof'
+  },
+  count: 100
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (C)',
+    keyword: 'occupancy'
+  },
+  count: 99
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (C)',
+    keyword: 'other'
+  },
+  count: 98
+}
+{
+  _id: {
+    permit_type: 'Land Clearing Permit (C)',
+    keyword: 'other'
+  },
+  count: 94
+}
+{
+  _id: {
+    permit_type: 'New Building (Shell Only) (C)',
+    keyword: 'other'
+  },
+  count: 93
+}
+{
+  _id: {
+    permit_type: 'Sign Permit (Political Campaign) (C)',
+    keyword: 'sign'
+  },
+  count: 89
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (R)',
+    keyword: 'plumbing'
+  },
+  count: 86
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (C)',
+    keyword: 'roof'
+  },
+  count: 84
+}
+{
+  _id: {
+    permit_type: 'Mechanical Permit (R)',
+    keyword: 'plumbing'
+  },
+  count: 84
+}
+{
+  _id: {
+    permit_type: 'Re-Roof (R)',
+    keyword: 'other'
+  },
+  count: 79
+}
+{
+  _id: {
+    permit_type: 'Existing Bldg - Addition Only (R)',
+    keyword: 'electrical'
+  },
+  count: 76
+}
+{
+  _id: {
+    permit_type: 'Gas Test Permit (C)',
+    keyword: 'electrical'
+  },
+  count: 74
+}
+{
+  _id: {
+    permit_type: 'New Building Permit (C)',
+    keyword: 'remodel_repair'
+  },
+  count: 68
+}
+{
+  _id: {
+    permit_type: 'Swimming Pool (C)',
+    keyword: 'other'
+  },
+  count: 63
+}
+{
+  _id: {
+    permit_type: 'Occupancy Permit (Clean & Show) (C)',
+    keyword: 'other'
+  },
+  count: 63
+}
+{
+  _id: {
+    permit_type: 'Manufactured(HUD)/Mobile Home New Placement (R)',
+    keyword: 'other'
+  },
+  count: 58
+}
+{
+  _id: {
+    permit_type: null,
+    keyword: 'occupancy'
+  },
+  count: 57
+}
+
+thesis> 
+thesis> 
+=== SAMPLE RECORDS WITH MISSING VALUES ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | {
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 2
+  },
+  data: {
+    description: 'Commerical Occupancy for auto repair-tire service',
+    parcel_number: '33',
+    applied_date: '06/21/2012',
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '06/21/2012',
+    permit_number: '17473',
+    valuation: '0.00',
+    fee: '115.00',
+    applicant_name: 'Kevin Benoit',
+    address: '6883 AIRLINE HWY',
+    owner_name: null,
+    contractor_name: null
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000002'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000003',
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 3
+  },
+  data: {
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '09/23/2013',
+    parcel_number: 'X-1',
+    description: 'Office use for a Insurance and Financial service',
+    applied_date: '09/23/2013',
+    address: '7916 Wrenwood Blvd, Suite F',
+    contractor_name: null,
+    owner_name: 'Janine Jacquin',
+    applicant_name: 'Matthew Englade',
+    permit_number: '30826',
+    valuation: '0.00',
+    fee: '65.00'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 4,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    description: 'Urgent Care Clinic',
+    parcel_number: '221',
+    applied_date: '03/15/2012',
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '03/15/2012',
+    applicant_name: null,
+    fee: '65.00',
+    permit_number: '14492',
+    valuation: '0.00',
+    address: '2097 BEAUMONT DR suite 4',
+    contractor_name: null,
+    owner_name: 'Eddie Vosper'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000004'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000005',
+  provenance: {
+    csv_row_number: 5,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    permit_type: 'Electrical Permit (R)',
+    issued_date: '08/27/2014',
+    description: 'Service Rebuild',
+    parcel_number: '49',
+    applied_date: '08/27/2014',
+    address: '1746 CHATEAU CT',
+    owner_name: 'Allen Faucheaur',
+    contractor_name: null,
+    applicant_name: 'Allen Faucheaur',
+    valuation: '0.00',
+    permit_number: '40712',
+    fee: '25.00'
+  }
+}
+{
+  data: {
+    address: '10647 SHERMOOR DR',
+    contractor_name: null,
+    owner_name: 'Konrad Talbot',
+    applicant_name: null,
+    valuation: '0.00',
+    permit_number: '67086',
+    fee: '26.25',
+    permit_type: 'Plumbing Permit (R)',
+    issued_date: '10/12/2016',
+    description: 'water heater',
+    parcel_number: '22',
+    applied_date: '10/10/2016'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 6
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000006'
+}
+{
+  data: {
+    permit_type: 'Occupancy Permit (R)',
+    issued_date: '05/09/2017',
+    parcel_number: '41',
+    description: 'house over 1 year old',
+    applied_date: '05/09/2017',
+    address: '2956 ELM DR',
+    contractor_name: null,
+    owner_name: 'Casey Hoffman',
+    applicant_name: 'Casey Hoffman',
+    permit_number: '77005',
+    valuation: '0.00',
+    fee: '130.00'
+  },
+  provenance: {
+    csv_row_number: 8,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000008'
+}
+{
+  data: {
+    issued_date: '03/05/2012',
+    permit_type: 'Mechanical Permit (C)',
+    applied_date: '03/05/2012',
+    parcel_number: null,
+    description: 'Duct Alteration',
+    contractor_name: null,
+    owner_name: null,
+    address: '777 Ben Hur Rd Unit 8201',
+    fee: '52.00',
+    permit_number: '14044',
+    valuation: '0.00',
+    applicant_name: null
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 9
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000009'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 10
+  },
+  data: {
+    fee: '40.00',
+    permit_number: '54160',
+    valuation: '0.00',
+    applicant_name: null,
+    address: '1820 CAROLYN SUE DR',
+    owner_name: 'Tedrick Knightshead',
+    contractor_name: null,
+    parcel_number: '32',
+    description: 'Existing Apartment',
+    applied_date: '11/10/2015',
+    permit_type: 'Occupancy Permit (R)',
+    issued_date: '11/10/2015'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000010'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 11
+  },
+  data: {
+    address: '1724 Dallas Dr., Suite 4',
+    owner_name: null,
+    contractor_name: null,
+    fee: '65.00',
+    valuation: '0.00',
+    permit_number: '43003',
+    applicant_name: null,
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '11/13/2014',
+    parcel_number: '259',
+    description: 'Clean and show new tenant needs new permit',
+    applied_date: '11/13/2014'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000011'
+}
+{
+  data: {
+    description: 'storage',
+    parcel_number: '9',
+    applied_date: '02/18/2015',
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '02/18/2015',
+    permit_number: '45750',
+    valuation: '0.00',
+    fee: '65.00',
+    applicant_name: 'Devin Lizondro',
+    address: '6823 Bicentennial Pl',
+    owner_name: 'Stanley Plain',
+    contractor_name: null
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 12
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000012'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000013',
+  provenance: {
+    csv_row_number: 13,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    applied_date: '03/25/2014',
+    parcel_number: 'CA',
+    description: 'GAS TEST',
+    issued_date: '03/25/2014',
+    permit_type: 'Gas Test Permit (R)',
+    valuation: '0.00',
+    permit_number: '35900',
+    fee: '25.00',
+    applicant_name: null,
+    contractor_name: null,
+    owner_name: 'DEVIN DEAN',
+    address: '5049 HAMMOND ST'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 15,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    address: '1662 N 44TH ST',
+    contractor_name: null,
+    owner_name: 'Olinda Morris',
+    fee: '25.00',
+    permit_number: '25271',
+    valuation: '0.00',
+    applicant_name: null,
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '03/14/2013',
+    description: 'New gas line and gas test',
+    parcel_number: null,
+    applied_date: '03/14/2013'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000015'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 16
+  },
+  data: {
+    address: '15353 Perkins Rd',
+    owner_name: null,
+    contractor_name: null,
+    permit_number: '36464',
+    fee: '25.00',
+    valuation: '0.00',
+    applicant_name: null,
+    permit_type: 'Electrical Permit (C)',
+    issued_date: '04/10/2014',
+    parcel_number: null,
+    description: 'Solar arrays for billboard sign Account #31844376',
+    applied_date: '04/09/2014'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000016'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 17
+  },
+  data: {
+    address: '441 GLORIA DR',
+    contractor_name: null,
+    owner_name: 'Carl McNair',
+    applicant_name: null,
+    valuation: '0.00',
+    permit_number: '32690',
+    fee: '25.00',
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '11/26/2013',
+    parcel_number: '254-A',
+    description: 'Gs Test - Denham Springs Gas',
+    applied_date: '11/26/2013'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000017'
+}
+{
+  provenance: {
+    csv_row_number: 18,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    permit_number: '69290',
+    valuation: '0.00',
+    fee: '0.00',
+    applicant_name: null,
+    address: '7130 MEMBERS PL',
+    contractor_name: null,
+    owner_name: 'Gary Roussel',
+    description: "24 water damage replacing 8' of sheetrock",
+    parcel_number: '639',
+    applied_date: '11/04/2016',
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    issued_date: '11/04/2016'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000018'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000019',
+  data: {
+    issued_date: '05/14/2014',
+    permit_type: 'Occupancy Permit (C)',
+    applied_date: '05/14/2014',
+    description: 'Snowball stand',
+    parcel_number: 'a-3-2',
+    owner_name: 'Donnie Calloway-Land',
+    contractor_name: null,
+    address: '13446 Jefferson Hwy',
+    applicant_name: 'Tressy Leindecker',
+    permit_number: '37588',
+    valuation: '0.00',
+    fee: '65.00'
+  },
+  provenance: {
+    csv_row_number: 19,
+    parser_run_id: 'run_20260625_155120_452'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 20,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    parcel_number: null,
+    description: 'Gas Test on vacant property',
+    applied_date: '11/16/2012',
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '11/16/2012',
+    fee: '25.00',
+    valuation: '0.00',
+    permit_number: '21919',
+    applicant_name: null,
+    address: '9623 GLENNSADE AVE',
+    owner_name: null,
+    contractor_name: null
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000020'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 21
+  },
+  data: {
+    address: '1023 ASHLAND DR',
+    contractor_name: 'Pumas',
+    owner_name: 'Vincent Calamusa',
+    fee: '25.00',
+    permit_number: '75217',
+    valuation: '0.00',
+    applicant_name: null,
+    permit_type: 'Plumbing Permit (R)',
+    issued_date: '03/14/2017',
+    description: 'water heater change out',
+    parcel_number: '621',
+    applied_date: '03/14/2017'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000021'
+}
+{
+  provenance: {
+    csv_row_number: 22,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    description: 'Repair service. Storm damage.',
+    parcel_number: null,
+    applied_date: '12/26/2012',
+    permit_type: 'Electrical Permit (R)',
+    issued_date: '12/26/2012',
+    permit_number: '22892',
+    fee: '25.00',
+    valuation: '0.00',
+    applicant_name: 'Mitch Evans',
+    address: '1892 Perkins Rd',
+    owner_name: 'Robert A King',
+    contractor_name: null
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000022'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000023',
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 23
+  },
+  data: {
+    owner_name: 'Daniel J McGlynn',
+    contractor_name: null,
+    address: '214 3RD ST, 2B',
+    valuation: '0.00',
+    fee: '90.00',
+    permit_number: '44731',
+    applicant_name: 'Gavin Juan Cuccia',
+    issued_date: '01/16/2015',
+    permit_type: 'Occupancy Permit (C)',
+    applied_date: '01/16/2015',
+    description: 'Bar & Catering; Water heater installed',
+    parcel_number: '10'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000024',
+  provenance: {
+    csv_row_number: 24,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    applicant_name: null,
+    fee: '25.00',
+    valuation: '0.00',
+    permit_number: '51434',
+    address: '8943 WHITEHALL AVE',
+    owner_name: 'Josie Denicola',
+    contractor_name: null,
+    parcel_number: '386',
+    description: 'Water heater replaced',
+    applied_date: '08/13/2015',
+    permit_type: 'Plumbing Permit (R)',
+    issued_date: '08/13/2015'
+  }
+}
+{
+  data: {
+    parcel_number: '1',
+    description: 'gas test',
+    applied_date: '12/21/2015',
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '12/21/2015',
+    applicant_name: 'Fred Wayne Robillard',
+    valuation: '0.00',
+    fee: '25.00',
+    permit_number: '55236',
+    address: '2552 GRACIE ST',
+    owner_name: 'BURRELL ROBINSON',
+    contractor_name: null
+  },
+  provenance: {
+    csv_row_number: 25,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000025'
+}
+{
+  provenance: {
+    csv_row_number: 26,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    address: '744 Aster',
+    owner_name: 'John Clancy',
+    contractor_name: null,
+    applicant_name: null,
+    fee: '25.00',
+    permit_number: '32043',
+    valuation: '0.00',
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '11/05/2013',
+    description: 'Gas Pressure test',
+    parcel_number: '18',
+    applied_date: '11/04/2013'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000026'
+}
+{
+  provenance: {
+    csv_row_number: 27,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    contractor_name: null,
+    owner_name: 'Lewis Fletcher',
+    address: '11832 Newcastle Avenue',
+    applicant_name: 'Edith Sotor',
+    permit_number: '75536',
+    fee: '65.00',
+    valuation: '0.00',
+    issued_date: '03/27/2017',
+    permit_type: 'Occupancy Permit (C)',
+    applied_date: '03/23/2017',
+    parcel_number: null,
+    description: 'Business Offices clean and show'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000027'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000028',
+  data: {
+    permit_number: '45434',
+    fee: '90.00',
+    valuation: '0.00',
+    applicant_name: 'Nicholos Dominic',
+    contractor_name: null,
+    owner_name: null,
+    address: '8506 AIRWAY DR',
+    applied_date: '02/05/2015',
+    description: 'Car Sales Office',
+    parcel_number: 'UND',
+    issued_date: '02/05/2015',
+    permit_type: 'Occupancy Permit (C)'
+  },
+  provenance: {
+    csv_row_number: 28,
+    parser_run_id: 'run_20260625_155120_452'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000029',
+  data: {
+    applied_date: '09/24/2012',
+    description: 'Change out, 0-4 tons',
+    parcel_number: null,
+    issued_date: '09/24/2012',
+    permit_type: 'Mechanical Permit (C)',
+    applicant_name: null,
+    valuation: '0.00',
+    permit_number: '20255',
+    fee: '45.00',
+    owner_name: null,
+    contractor_name: null,
+    address: '777 Ben Hur Rd Unit 8107'
+  },
+  provenance: {
+    csv_row_number: 29,
+    parser_run_id: 'run_20260625_155120_452'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 31,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    issued_date: '11/21/2016',
+    permit_type: 'Occupancy Permit (C)',
+    applied_date: '11/21/2016',
+    description: 'Clean and Show Transfer power into owners name.',
+    parcel_number: '15-A-1-A',
+    contractor_name: null,
+    owner_name: null,
+    address: '3535 STE 375 PERKINS RD',
+    applicant_name: null,
+    valuation: '0.00',
+    permit_number: '70229',
+    fee: '68.25'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000031'
+}
+{
+  provenance: {
+    csv_row_number: 32,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    description: "New 6' wood fence",
+    parcel_number: '50',
+    applied_date: '04/20/2012',
+    permit_type: 'Fence Permit (R)',
+    issued_date: '04/20/2012',
+    applicant_name: 'Alvin Clarke',
+    valuation: '700.00',
+    fee: '120.00',
+    permit_number: '15603',
+    address: '5756 MACBETH DR',
+    owner_name: 'Alvin Clarke',
+    contractor_name: null
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000032'
+}
+{
+  provenance: {
+    csv_row_number: 33,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    applicant_name: null,
+    permit_number: '23231',
+    valuation: '0.00',
+    fee: '25.00',
+    owner_name: 'SAM WILLIAMS',
+    contractor_name: null,
+    address: '740 17TH',
+    applied_date: '01/10/2013',
+    parcel_number: null,
+    description: 'gas test',
+    issued_date: '01/10/2013',
+    permit_type: 'Gas Test Permit (R)'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000033'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000034',
+  data: {
+    fee: '212.00',
+    valuation: '0.00',
+    permit_number: '16340',
+    applicant_name: null,
+    owner_name: null,
+    contractor_name: null,
+    address: '719 Earl Garrett',
+    applied_date: '05/15/2012',
+    description: 'Duct Alteration/(3) 0-4 tons change out; & Install A/C P-Trap',
+    parcel_number: null,
+    issued_date: '05/15/2012',
+    permit_type: 'Mechanical Permit (C)'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 34
+  }
+}
+
+thesis> 
+thesis> 
+=== COMPLETE-ISH RECORDS FOR PATTERN ANALYSIS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 2
+  },
+  data: {
+    description: 'Commerical Occupancy for auto repair-tire service',
+    parcel_number: '33',
+    applied_date: '06/21/2012',
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '06/21/2012',
+    permit_number: '17473',
+    valuation: '0.00',
+    fee: '115.00',
+    applicant_name: 'Kevin Benoit',
+    address: '6883 AIRLINE HWY',
+    owner_name: null,
+    contractor_name: null
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000002'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000003',
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 3
+  },
+  data: {
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '09/23/2013',
+    parcel_number: 'X-1',
+    description: 'Office use for a Insurance and Financial service',
+    applied_date: '09/23/2013',
+    address: '7916 Wrenwood Blvd, Suite F',
+    contractor_name: null,
+    owner_name: 'Janine Jacquin',
+    applicant_name: 'Matthew Englade',
+    permit_number: '30826',
+    valuation: '0.00',
+    fee: '65.00'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 4,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    description: 'Urgent Care Clinic',
+    parcel_number: '221',
+    applied_date: '03/15/2012',
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '03/15/2012',
+    applicant_name: null,
+    fee: '65.00',
+    permit_number: '14492',
+    valuation: '0.00',
+    address: '2097 BEAUMONT DR suite 4',
+    contractor_name: null,
+    owner_name: 'Eddie Vosper'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000004'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000005',
+  provenance: {
+    csv_row_number: 5,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    permit_type: 'Electrical Permit (R)',
+    issued_date: '08/27/2014',
+    description: 'Service Rebuild',
+    parcel_number: '49',
+    applied_date: '08/27/2014',
+    address: '1746 CHATEAU CT',
+    owner_name: 'Allen Faucheaur',
+    contractor_name: null,
+    applicant_name: 'Allen Faucheaur',
+    valuation: '0.00',
+    permit_number: '40712',
+    fee: '25.00'
+  }
+}
+{
+  data: {
+    address: '10647 SHERMOOR DR',
+    contractor_name: null,
+    owner_name: 'Konrad Talbot',
+    applicant_name: null,
+    valuation: '0.00',
+    permit_number: '67086',
+    fee: '26.25',
+    permit_type: 'Plumbing Permit (R)',
+    issued_date: '10/12/2016',
+    description: 'water heater',
+    parcel_number: '22',
+    applied_date: '10/10/2016'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 6
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000006'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000007',
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 7
+  },
+  data: {
+    applied_date: '01/06/2017',
+    parcel_number: '1',
+    description: 'flood damage',
+    issued_date: '01/10/2017',
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    applicant_name: 'Donald James',
+    permit_number: '72452',
+    fee: '0.00',
+    valuation: '60000.00',
+    owner_name: 'Donald James',
+    contractor_name: 'BIGFOOT INC - Daniel Humberto Pastrana',
+    address: '13797 OLD HAMMOND HWY'
+  }
+}
+{
+  data: {
+    permit_type: 'Occupancy Permit (R)',
+    issued_date: '05/09/2017',
+    parcel_number: '41',
+    description: 'house over 1 year old',
+    applied_date: '05/09/2017',
+    address: '2956 ELM DR',
+    contractor_name: null,
+    owner_name: 'Casey Hoffman',
+    applicant_name: 'Casey Hoffman',
+    permit_number: '77005',
+    valuation: '0.00',
+    fee: '130.00'
+  },
+  provenance: {
+    csv_row_number: 8,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000008'
+}
+{
+  data: {
+    issued_date: '03/05/2012',
+    permit_type: 'Mechanical Permit (C)',
+    applied_date: '03/05/2012',
+    parcel_number: null,
+    description: 'Duct Alteration',
+    contractor_name: null,
+    owner_name: null,
+    address: '777 Ben Hur Rd Unit 8201',
+    fee: '52.00',
+    permit_number: '14044',
+    valuation: '0.00',
+    applicant_name: null
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 9
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000009'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 10
+  },
+  data: {
+    fee: '40.00',
+    permit_number: '54160',
+    valuation: '0.00',
+    applicant_name: null,
+    address: '1820 CAROLYN SUE DR',
+    owner_name: 'Tedrick Knightshead',
+    contractor_name: null,
+    parcel_number: '32',
+    description: 'Existing Apartment',
+    applied_date: '11/10/2015',
+    permit_type: 'Occupancy Permit (R)',
+    issued_date: '11/10/2015'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000010'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 11
+  },
+  data: {
+    address: '1724 Dallas Dr., Suite 4',
+    owner_name: null,
+    contractor_name: null,
+    fee: '65.00',
+    valuation: '0.00',
+    permit_number: '43003',
+    applicant_name: null,
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '11/13/2014',
+    parcel_number: '259',
+    description: 'Clean and show new tenant needs new permit',
+    applied_date: '11/13/2014'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000011'
+}
+{
+  data: {
+    description: 'storage',
+    parcel_number: '9',
+    applied_date: '02/18/2015',
+    permit_type: 'Occupancy Permit (C)',
+    issued_date: '02/18/2015',
+    permit_number: '45750',
+    valuation: '0.00',
+    fee: '65.00',
+    applicant_name: 'Devin Lizondro',
+    address: '6823 Bicentennial Pl',
+    owner_name: 'Stanley Plain',
+    contractor_name: null
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 12
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000012'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000013',
+  provenance: {
+    csv_row_number: 13,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    applied_date: '03/25/2014',
+    parcel_number: 'CA',
+    description: 'GAS TEST',
+    issued_date: '03/25/2014',
+    permit_type: 'Gas Test Permit (R)',
+    valuation: '0.00',
+    permit_number: '35900',
+    fee: '25.00',
+    applicant_name: null,
+    contractor_name: null,
+    owner_name: 'DEVIN DEAN',
+    address: '5049 HAMMOND ST'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000014',
+  provenance: {
+    csv_row_number: 14,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    issued_date: '01/23/2015',
+    permit_type: 'Mechanical Permit (C)',
+    applied_date: '12/02/2014',
+    parcel_number: '12-A-1-B',
+    description: 'DUCTLESS MINI SPLIT / MAKE UP',
+    owner_name: 'JEN HALL',
+    contractor_name: "CHANDLER'S PARTS AND SERVICE, INC.",
+    address: '9618 JEFFERSON HWY',
+    applicant_name: 'Robert Chandler',
+    valuation: '0.00',
+    permit_number: '43598',
+    fee: '94.50'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 15,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    address: '1662 N 44TH ST',
+    contractor_name: null,
+    owner_name: 'Olinda Morris',
+    fee: '25.00',
+    permit_number: '25271',
+    valuation: '0.00',
+    applicant_name: null,
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '03/14/2013',
+    description: 'New gas line and gas test',
+    parcel_number: null,
+    applied_date: '03/14/2013'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000015'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 16
+  },
+  data: {
+    address: '15353 Perkins Rd',
+    owner_name: null,
+    contractor_name: null,
+    permit_number: '36464',
+    fee: '25.00',
+    valuation: '0.00',
+    applicant_name: null,
+    permit_type: 'Electrical Permit (C)',
+    issued_date: '04/10/2014',
+    parcel_number: null,
+    description: 'Solar arrays for billboard sign Account #31844376',
+    applied_date: '04/09/2014'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000016'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 17
+  },
+  data: {
+    address: '441 GLORIA DR',
+    contractor_name: null,
+    owner_name: 'Carl McNair',
+    applicant_name: null,
+    valuation: '0.00',
+    permit_number: '32690',
+    fee: '25.00',
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '11/26/2013',
+    parcel_number: '254-A',
+    description: 'Gs Test - Denham Springs Gas',
+    applied_date: '11/26/2013'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000017'
+}
+{
+  provenance: {
+    csv_row_number: 18,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    permit_number: '69290',
+    valuation: '0.00',
+    fee: '0.00',
+    applicant_name: null,
+    address: '7130 MEMBERS PL',
+    contractor_name: null,
+    owner_name: 'Gary Roussel',
+    description: "24 water damage replacing 8' of sheetrock",
+    parcel_number: '639',
+    applied_date: '11/04/2016',
+    permit_type: 'Existing Bldg - Remodel Only (R)',
+    issued_date: '11/04/2016'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000018'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000019',
+  data: {
+    issued_date: '05/14/2014',
+    permit_type: 'Occupancy Permit (C)',
+    applied_date: '05/14/2014',
+    description: 'Snowball stand',
+    parcel_number: 'a-3-2',
+    owner_name: 'Donnie Calloway-Land',
+    contractor_name: null,
+    address: '13446 Jefferson Hwy',
+    applicant_name: 'Tressy Leindecker',
+    permit_number: '37588',
+    valuation: '0.00',
+    fee: '65.00'
+  },
+  provenance: {
+    csv_row_number: 19,
+    parser_run_id: 'run_20260625_155120_452'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 20,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    parcel_number: null,
+    description: 'Gas Test on vacant property',
+    applied_date: '11/16/2012',
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '11/16/2012',
+    fee: '25.00',
+    valuation: '0.00',
+    permit_number: '21919',
+    applicant_name: null,
+    address: '9623 GLENNSADE AVE',
+    owner_name: null,
+    contractor_name: null
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000020'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 21
+  },
+  data: {
+    address: '1023 ASHLAND DR',
+    contractor_name: 'Pumas',
+    owner_name: 'Vincent Calamusa',
+    fee: '25.00',
+    permit_number: '75217',
+    valuation: '0.00',
+    applicant_name: null,
+    permit_type: 'Plumbing Permit (R)',
+    issued_date: '03/14/2017',
+    description: 'water heater change out',
+    parcel_number: '621',
+    applied_date: '03/14/2017'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000021'
+}
+{
+  provenance: {
+    csv_row_number: 22,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    description: 'Repair service. Storm damage.',
+    parcel_number: null,
+    applied_date: '12/26/2012',
+    permit_type: 'Electrical Permit (R)',
+    issued_date: '12/26/2012',
+    permit_number: '22892',
+    fee: '25.00',
+    valuation: '0.00',
+    applicant_name: 'Mitch Evans',
+    address: '1892 Perkins Rd',
+    owner_name: 'Robert A King',
+    contractor_name: null
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000022'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000023',
+  provenance: {
+    parser_run_id: 'run_20260625_155120_452',
+    csv_row_number: 23
+  },
+  data: {
+    owner_name: 'Daniel J McGlynn',
+    contractor_name: null,
+    address: '214 3RD ST, 2B',
+    valuation: '0.00',
+    fee: '90.00',
+    permit_number: '44731',
+    applicant_name: 'Gavin Juan Cuccia',
+    issued_date: '01/16/2015',
+    permit_type: 'Occupancy Permit (C)',
+    applied_date: '01/16/2015',
+    description: 'Bar & Catering; Water heater installed',
+    parcel_number: '10'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000024',
+  provenance: {
+    csv_row_number: 24,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    applicant_name: null,
+    fee: '25.00',
+    valuation: '0.00',
+    permit_number: '51434',
+    address: '8943 WHITEHALL AVE',
+    owner_name: 'Josie Denicola',
+    contractor_name: null,
+    parcel_number: '386',
+    description: 'Water heater replaced',
+    applied_date: '08/13/2015',
+    permit_type: 'Plumbing Permit (R)',
+    issued_date: '08/13/2015'
+  }
+}
+{
+  data: {
+    parcel_number: '1',
+    description: 'gas test',
+    applied_date: '12/21/2015',
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '12/21/2015',
+    applicant_name: 'Fred Wayne Robillard',
+    valuation: '0.00',
+    fee: '25.00',
+    permit_number: '55236',
+    address: '2552 GRACIE ST',
+    owner_name: 'BURRELL ROBINSON',
+    contractor_name: null
+  },
+  provenance: {
+    csv_row_number: 25,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000025'
+}
+{
+  provenance: {
+    csv_row_number: 26,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    address: '744 Aster',
+    owner_name: 'John Clancy',
+    contractor_name: null,
+    applicant_name: null,
+    fee: '25.00',
+    permit_number: '32043',
+    valuation: '0.00',
+    permit_type: 'Gas Test Permit (R)',
+    issued_date: '11/05/2013',
+    description: 'Gas Pressure test',
+    parcel_number: '18',
+    applied_date: '11/04/2013'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000026'
+}
+{
+  provenance: {
+    csv_row_number: 27,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    contractor_name: null,
+    owner_name: 'Lewis Fletcher',
+    address: '11832 Newcastle Avenue',
+    applicant_name: 'Edith Sotor',
+    permit_number: '75536',
+    fee: '65.00',
+    valuation: '0.00',
+    issued_date: '03/27/2017',
+    permit_type: 'Occupancy Permit (C)',
+    applied_date: '03/23/2017',
+    parcel_number: null,
+    description: 'Business Offices clean and show'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000027'
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000028',
+  data: {
+    permit_number: '45434',
+    fee: '90.00',
+    valuation: '0.00',
+    applicant_name: 'Nicholos Dominic',
+    contractor_name: null,
+    owner_name: null,
+    address: '8506 AIRWAY DR',
+    applied_date: '02/05/2015',
+    description: 'Car Sales Office',
+    parcel_number: 'UND',
+    issued_date: '02/05/2015',
+    permit_type: 'Occupancy Permit (C)'
+  },
+  provenance: {
+    csv_row_number: 28,
+    parser_run_id: 'run_20260625_155120_452'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_155120_452_row_000029',
+  data: {
+    applied_date: '09/24/2012',
+    description: 'Change out, 0-4 tons',
+    parcel_number: null,
+    issued_date: '09/24/2012',
+    permit_type: 'Mechanical Permit (C)',
+    applicant_name: null,
+    valuation: '0.00',
+    permit_number: '20255',
+    fee: '45.00',
+    owner_name: null,
+    contractor_name: null,
+    address: '777 Ben Hur Rd Unit 8107'
+  },
+  provenance: {
+    csv_row_number: 29,
+    parser_run_id: 'run_20260625_155120_452'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 30,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    parcel_number: '12',
+    description: 'Addition of bedroom, bathroom, laundry room and porch. 480 sq.ft.',
+    applied_date: '06/26/2014',
+    permit_type: 'New Building Permit (R)',
+    issued_date: '08/06/2014',
+    applicant_name: 'Keith Guidry',
+    valuation: '28000.00',
+    permit_number: '38950',
+    fee: '300.35',
+    address: '1833 EDINBURGH AVE',
+    owner_name: 'Keith Guidry',
+    contractor_name: 'Homeowner'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000030'
+}
+{
+  provenance: {
+    csv_row_number: 31,
+    parser_run_id: 'run_20260625_155120_452'
+  },
+  data: {
+    issued_date: '11/21/2016',
+    permit_type: 'Occupancy Permit (C)',
+    applied_date: '11/21/2016',
+    description: 'Clean and Show Transfer power into owners name.',
+    parcel_number: '15-A-1-A',
+    contractor_name: null,
+    owner_name: null,
+    address: '3535 STE 375 PERKINS RD',
+    applicant_name: null,
+    valuation: '0.00',
+    permit_number: '70229',
+    fee: '68.25'
+  },
+  raw_permit_id: 'run_20260625_155120_452_row_000031'
+}
+
+thesis> 

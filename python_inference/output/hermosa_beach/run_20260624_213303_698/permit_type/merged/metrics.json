@@ -1,0 +1,97 @@
+{
+  "target_field": "permit_type",
+  "strategy": "majority_then_confidence",
+  "minimum_confidence": 0.0,
+  "row_count_total": 58,
+  "row_count_accepted": 48,
+  "row_count_rejected": 0,
+  "row_count_requires_review": 10,
+  "row_count_conflict": 0,
+  "row_count_unresolved": 0,
+  "coverage": 0.8275862068965517,
+  "accuracy_on_accepted": 0.9375,
+  "macro_f1_on_accepted": 0.6917293233082706,
+  "labels": [
+    "Building - Full Plan Check",
+    "Building - In House Plan Check",
+    "Building Permit OTC",
+    "Electrical OTC",
+    "Mechanical OTC",
+    "Plumbing OTC",
+    "Residential Building Report"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8
+    ]
+  ],
+  "decision_method_counts": {
+    "unanimous_vote": 33,
+    "majority_vote": 15,
+    "average_confidence_tiebreak": 10
+  },
+  "decision_status_counts": {
+    "Accepted": 48,
+    "Requires Review": 10
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "source": "larimer_countywide",
+  "input_source": "mongo:raw_permits parser_run_ids=12 completed runs",
+  "parser_run_id": "all_completed",
+  "mode": "evaluation",
+  "prepared_row_count": 4236,
+  "validation": {
+    "record_count": 4236,
+    "record_status_counts": {
+      "valid": 4235,
+      "suspicious": 1
+    },
+    "field_status_counts": {
+      "permit_number": {
+        "valid": 4236
+      },
+      "permit_type": {
+        "valid": 4236
+      },
+      "status": {
+        "valid": 4236
+      },
+      "issued_date": {
+        "valid": 4236
+      },
+      "parcel_number": {
+        "valid": 4233,
+        "missing": 3
+      },
+      "address": {
+        "valid": 4235,
+        "missing": 1
+      },
+      "valuation": {
+        "valid": 4235,
+        "suspicious": 1
+      },
+      "fee": {
+        "valid": 4229,
+        "missing": 7
+      },
+      "owner_name": {
+        "valid": 2780,
+        "missing": 1456
+      },
+      "contractor_name": {
+        "valid": 2098,
+        "missing": 2138
+      }
+    }
+  },
+  "targets": {
+    "permit_type": {
+      "inference_row_count": 1694,
+      "algorithms": {
+        "grouped_majority": {
+          "output_dir": "python_inference/output/larimer_countywide/all_completed/permit_type/baseline",
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "row_count_evaluated": 1694
+        },
+        "association_rules": {
+          "output_dir": "python_inference/output/larimer_countywide/all_completed/permit_type/association_rules",
+          "accuracy": 0.9716646989374262,
+          "macro_f1": 0.81944309594912,
+          "row_count_evaluated": 1694
+        },
+        "clustering": {
+          "output_dir": "python_inference/output/larimer_countywide/all_completed/permit_type/clustering",
+          "accuracy": 0.795159386068477,
+          "macro_f1": 0.2563577726621205,
+          "row_count_evaluated": 1694
+        },
+        "knn": {
+          "output_dir": "python_inference/output/larimer_countywide/all_completed/permit_type/knn",
+          "accuracy": 0.9982290436835891,
+          "macro_f1": 0.9768676460789707,
+          "row_count_evaluated": 1694
+        }
+      },
+      "merge": {
+        "output_dir": "python_inference/output/larimer_countywide/all_completed/permit_type/merged",
+        "target_field": "permit_type",
+        "strategy": "majority_then_confidence",
+        "minimum_confidence": 0.5,
+        "row_count_total": 1694,
+        "row_count_accepted": 1668,
+        "row_count_rejected": 0,
+        "row_count_requires_review": 26,
+        "row_count_conflict": 0,
+        "row_count_unresolved": 0,
+        "coverage": 0.9846517119244392,
+        "accuracy_on_accepted": 0.9982014388489209,
+        "macro_f1_on_accepted": 0.8326513939458646,
+        "labels": [
+          "BLD Commercial",
+          "BLD Energy",
+          "BLD Miscellaneous",
+          "BLD Residential",
+          "BLD Sign",
+          "BLD Utility-Detached"
+        ],
+        "confusion_matrix": [
+          [
+            31,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            71,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1166,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            272,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            125
+          ]
+        ],
+        "decision_method_counts": {
+          "unanimous_vote": 1328,
+          "majority_vote": 340,
+          "average_confidence_tiebreak": 26
+        },
+        "decision_status_counts": {
+          "Accepted": 1668,
+          "Requires Review": 26
+        },
+        "persisted_prediction_count": 6776,
+        "persisted_decision_count": 1694,
+        "persisted_final_permit_count": 0
+      }
+    }
+  },
+  "inference_run_id": "inference_run_20260624_221738_86746fdc",
+  "persisted_validation_result_count": 4236
+}

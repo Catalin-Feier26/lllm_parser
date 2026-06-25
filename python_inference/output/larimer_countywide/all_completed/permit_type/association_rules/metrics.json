@@ -1,0 +1,137 @@
+{
+  "row_count_evaluated": 1694,
+  "accuracy": 0.9716646989374262,
+  "macro_f1": 0.81944309594912,
+  "weighted_f1": 0.9683838510626182,
+  "labels": [
+    "BLD Commercial",
+    "BLD Energy",
+    "BLD Miscellaneous",
+    "BLD Residential",
+    "BLD Sign",
+    "BLD Utility-Detached"
+  ],
+  "classification_report": {
+    "BLD Commercial": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 31.0
+    },
+    "BLD Energy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 71.0
+    },
+    "BLD Miscellaneous": {
+      "precision": 0.9905008635578584,
+      "recall": 0.9703891708967851,
+      "f1-score": 0.9803418803418803,
+      "support": 1182.0
+    },
+    "BLD Residential": {
+      "precision": 0.8802588996763754,
+      "recall": 1.0,
+      "f1-score": 0.9363166953528399,
+      "support": 272.0
+    },
+    "BLD Sign": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 13.0
+    },
+    "BLD Utility-Detached": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 125.0
+    },
+    "accuracy": 0.9716646989374262,
+    "macro avg": {
+      "precision": 0.8117932938723723,
+      "recall": 0.8283981951494642,
+      "f1-score": 0.81944309594912,
+      "support": 1694.0
+    },
+    "weighted avg": {
+      "precision": 0.9664713349689272,
+      "recall": 0.9716646989374262,
+      "f1-score": 0.9683838510626182,
+      "support": 1694.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      31,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      71,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1147,
+      35,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      272,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      11,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      125
+    ]
+  ],
+  "target_field": "permit_type",
+  "algorithm": "association_rules",
+  "average_confidence": 0.9907155058591803,
+  "minimum_confidence": 0.5845070422535211,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_type",
+    "target_col": "permit_type_input",
+    "true_col": "permit_type_true",
+    "mask_col": "is_masked",
+    "feature_cols": [
+      "permit_number_category",
+      "status",
+      "valuation_bucket",
+      "fee_bucket"
+    ],
+    "min_support": 0.01,
+    "min_confidence": 0.5,
+    "min_lift": 1.0,
+    "use_global_fallback": true
+  },
+  "reference_count": 2542
+}

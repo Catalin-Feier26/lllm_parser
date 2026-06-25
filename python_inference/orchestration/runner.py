@@ -27,6 +27,12 @@ from persistence.mongo_output_writer import MongoOutputWriter
 from preprocessing.cleaner import clean_multiple_target_columns, keep_columns, normalize_strings
 from preprocessing.feature_engineering import apply_feature_engineering
 from preprocessing.masking import create_masked_eval_dataset, create_missing_value_dataset
+from preprocessing.normalization import normalize_dataframe
+from preprocessing.validation import (
+    add_validation_status_columns,
+    validate_dataframe,
+    validation_summary,
+)
 
 
 class InferenceRunner:
@@ -66,6 +72,7 @@ class InferenceRunner:
             "parser_run_id": loaded_dataset.parser_run_id,
             "mode": mode,
             "prepared_row_count": int(len(prepared_df)),
+            "validation": getattr(self, "_last_validation_summary", None),
             "targets": {},
         }
 
@@ -82,6 +89,18 @@ class InferenceRunner:
             summary["inference_run_id"] = inference_run_id
 
             try:
+                validation_col = (
+                    self.config.get("preprocessing", {})
+                    .get("validation", {})
+                    .get("output_col", "validation")
+                )
+                summary["persisted_validation_result_count"] = mongo_writer.insert_validation_results(
+                    inference_run_id=inference_run_id,
+                    parser_run_id=loaded_dataset.parser_run_id,
+                    prepared_df=prepared_df,
+                    validation_col=validation_col,
+                )
+
                 if mode == "production":
                     summary["final_permits_cloned"] = mongo_writer.clone_raw_permits_to_final(
                         inference_run_id=inference_run_id,
@@ -131,6 +150,30 @@ class InferenceRunner:
         if preprocessing.get("normalize_strings", True):
             df = normalize_strings(df)
         df = clean_multiple_target_columns(df, self.config["inference_targets"])
+
+        normalization_cfg = preprocessing.get("normalization", {}) or {}
+        schema_cfg = normalization_cfg.get("fields", {}) or {}
+        if normalization_cfg.get("enabled", bool(schema_cfg)) and schema_cfg:
+            df = normalize_dataframe(
+                df,
+                schema=schema_cfg,
+                missing_values=normalization_cfg.get("missing_values"),
+                suffix=normalization_cfg.get("suffix", "_normalized"),
+            )
+
+        validation_cfg = preprocessing.get("validation", {}) or {}
+        if validation_cfg.get("enabled", False):
+            validation_col = validation_cfg.get("output_col", "validation")
+            df = validate_dataframe(df, validation_cfg, output_col=validation_col)
+            df = add_validation_status_columns(
+                df,
+                validation_col=validation_col,
+                prefix=validation_cfg.get("status_prefix", "validation_"),
+            )
+            self._last_validation_summary = validation_summary(df, validation_col=validation_col)
+        else:
+            self._last_validation_summary = None
+
         return apply_feature_engineering(df, preprocessing.get("engineered_features"))
 
     def _run_target(

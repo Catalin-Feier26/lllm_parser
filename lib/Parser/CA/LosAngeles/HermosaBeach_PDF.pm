@@ -105,9 +105,9 @@ sub _convert_pdf_to_text {
     
     if ($result != 0) {
         if (-e $txt_file && -s $txt_file > 0) {
-             $self->{logger}->log_warn("pdftotext returned exit code $result, but output file exists.");
+            $self->{logger}->log_warn("pdftotext returned exit code $result, but output file exists.");
         } else {
-             die "Failed to convert PDF to text. Exit code: $result\n";
+            die "Failed to convert PDF to text. Exit code: $result\n";
         }
     }
 

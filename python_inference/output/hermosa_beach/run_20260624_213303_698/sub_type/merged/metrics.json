@@ -1,0 +1,55 @@
+{
+  "target_field": "sub_type",
+  "strategy": "majority_then_confidence",
+  "minimum_confidence": 0.0,
+  "row_count_total": 58,
+  "row_count_accepted": 50,
+  "row_count_rejected": 0,
+  "row_count_requires_review": 8,
+  "row_count_conflict": 0,
+  "row_count_unresolved": 0,
+  "coverage": 0.8620689655172413,
+  "accuracy_on_accepted": 0.94,
+  "macro_f1_on_accepted": 0.4907407407407407,
+  "labels": [
+    "Full Plan Check",
+    "In House Plan Check",
+    "Over The Counter",
+    "Residential Building Report"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      39,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      8
+    ]
+  ],
+  "decision_method_counts": {
+    "unanimous_vote": 29,
+    "majority_vote": 21,
+    "average_confidence_tiebreak": 8
+  },
+  "decision_status_counts": {
+    "Accepted": 50,
+    "Requires Review": 8
+  }
+}

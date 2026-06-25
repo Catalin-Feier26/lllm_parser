@@ -1,0 +1,135 @@
+{
+  "row_count_evaluated": 1694,
+  "accuracy": 0.9982290436835891,
+  "macro_f1": 0.9768676460789707,
+  "weighted_f1": 0.998118356405262,
+  "labels": [
+    "BLD Commercial",
+    "BLD Energy",
+    "BLD Miscellaneous",
+    "BLD Residential",
+    "BLD Sign",
+    "BLD Utility-Detached"
+  ],
+  "classification_report": {
+    "BLD Commercial": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 31.0
+    },
+    "BLD Energy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 71.0
+    },
+    "BLD Miscellaneous": {
+      "precision": 0.9991546914623838,
+      "recall": 1.0,
+      "f1-score": 0.9995771670190274,
+      "support": 1182.0
+    },
+    "BLD Residential": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 272.0
+    },
+    "BLD Sign": {
+      "precision": 1.0,
+      "recall": 0.7692307692307693,
+      "f1-score": 0.8695652173913043,
+      "support": 13.0
+    },
+    "BLD Utility-Detached": {
+      "precision": 0.984251968503937,
+      "recall": 1.0,
+      "f1-score": 0.9920634920634921,
+      "support": 125.0
+    },
+    "accuracy": 0.9982290436835891,
+    "macro avg": {
+      "precision": 0.99723444332772,
+      "recall": 0.9615384615384616,
+      "f1-score": 0.9768676460789707,
+      "support": 1694.0
+    },
+    "weighted avg": {
+      "precision": 0.9982481354023198,
+      "recall": 0.9982290436835891,
+      "f1-score": 0.998118356405262,
+      "support": 1694.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      31,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      71,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1182,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      272,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      10,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      125
+    ]
+  ],
+  "target_field": "permit_type",
+  "algorithm": "knn",
+  "average_confidence": 0.9983798650443156,
+  "minimum_confidence": 0.42488944758883257,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_type",
+    "target_col": "permit_type_input",
+    "true_col": "permit_type_true",
+    "mask_col": "is_masked",
+    "feature_cols": [
+      "permit_number_category",
+      "status",
+      "valuation_bucket",
+      "fee_bucket"
+    ],
+    "n_neighbors": 5,
+    "weights": "distance"
+  },
+  "reference_count": 2542
+}

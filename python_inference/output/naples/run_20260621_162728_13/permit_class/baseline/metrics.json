@@ -1,0 +1,82 @@
+{
+  "row_count_evaluated": 795,
+  "accuracy": 0.9408805031446541,
+  "macro_f1": 0.811889697055631,
+  "weighted_f1": 0.9352163610814432,
+  "labels": [
+    "Commercial",
+    "Res.1&2 or Guest House",
+    "Residential-Multi-Family"
+  ],
+  "classification_report": {
+    "Commercial": {
+      "precision": 0.7894736842105263,
+      "recall": 0.4411764705882353,
+      "f1-score": 0.5660377358490566,
+      "support": 68.0
+    },
+    "Res.1&2 or Guest House": {
+      "precision": 1.0,
+      "recall": 0.9982174688057041,
+      "f1-score": 0.9991079393398751,
+      "support": 561.0
+    },
+    "Residential-Multi-Family": {
+      "precision": 0.8020304568527918,
+      "recall": 0.9518072289156626,
+      "f1-score": 0.8705234159779615,
+      "support": 166.0
+    },
+    "accuracy": 0.9408805031446541,
+    "macro avg": {
+      "precision": 0.8638347136877726,
+      "recall": 0.7970670561032006,
+      "f1-score": 0.811889697055631,
+      "support": 795.0
+    },
+    "weighted avg": {
+      "precision": 0.9406556809608545,
+      "recall": 0.9408805031446541,
+      "f1-score": 0.9352163610814432,
+      "support": 795.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      30,
+      0,
+      38
+    ],
+    [
+      0,
+      560,
+      1
+    ],
+    [
+      8,
+      0,
+      158
+    ]
+  ],
+  "target_field": "permit_class",
+  "algorithm": "grouped_majority",
+  "average_confidence": 0.9462653008596379,
+  "minimum_confidence": 0.5540540540540541,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_class",
+    "target_col": "target_input",
+    "true_col": "target_true",
+    "mask_col": "is_masked",
+    "group_levels": [
+      [
+        "building_type",
+        "permit_type"
+      ],
+      [
+        "building_type"
+      ]
+    ]
+  },
+  "reference_count": 3184
+}

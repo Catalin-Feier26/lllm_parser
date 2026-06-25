@@ -1,0 +1,86 @@
+{
+  "source": "naples",
+  "input_source": "mongo:raw_permits parser_run_id=run_20260621_165055_31",
+  "parser_run_id": "run_20260621_165055_31",
+  "mode": "production",
+  "prepared_row_count": 5305,
+  "validation": {
+    "record_count": 5305,
+    "record_status_counts": {
+      "valid": 5302,
+      "suspicious": 3
+    },
+    "field_status_counts": {
+      "permit_number": {
+        "valid": 5305
+      },
+      "building_type": {
+        "valid": 5304,
+        "missing": 1
+      },
+      "permit_type": {
+        "valid": 5305
+      },
+      "const_type": {
+        "valid": 5268,
+        "missing": 37
+      },
+      "valuation": {
+        "missing": 306,
+        "valid": 4996,
+        "suspicious": 3
+      },
+      "total_sf": {
+        "missing": 307,
+        "valid": 4998
+      },
+      "total_units": {
+        "missing": 306,
+        "valid": 4999
+      },
+      "permit_class": {
+        "valid": 3979,
+        "missing": 1326
+      }
+    }
+  },
+  "targets": {
+    "permit_class": {
+      "inference_row_count": 1326,
+      "algorithms": {
+        "clustering": {
+          "output_dir": "python_inference/output/naples/run_20260621_165055_31/permit_class/clustering",
+          "coverage": 1.0,
+          "row_count_requested": 1326,
+          "row_count_predicted": 1326
+        }
+      },
+      "merge": {
+        "output_dir": "python_inference/output/naples/run_20260621_165055_31/permit_class/merged",
+        "target_field": "permit_class",
+        "strategy": "majority_then_confidence",
+        "minimum_confidence": 0.0,
+        "row_count_total": 1326,
+        "row_count_accepted": 1326,
+        "row_count_rejected": 0,
+        "row_count_requires_review": 0,
+        "row_count_conflict": 0,
+        "row_count_unresolved": 0,
+        "coverage": 1.0,
+        "average_final_confidence": 0.8468067288001027,
+        "decision_method_counts": {
+          "single_candidate": 1326
+        },
+        "decision_status_counts": {
+          "Accepted": 1326
+        },
+        "persisted_prediction_count": 1326,
+        "persisted_decision_count": 1326,
+        "persisted_final_permit_count": 1326
+      }
+    }
+  },
+  "inference_run_id": "inference_run_20260621_165136_3a0a5b08",
+  "persisted_validation_result_count": 5305,
+  "final_permits_cloned": 5305
+}

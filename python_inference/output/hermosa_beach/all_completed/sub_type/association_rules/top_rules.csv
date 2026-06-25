@@ -1,0 +1,51 @@
+antecedents,consequents,support,confidence,lift,antecedent_len,predicted_target
+"permit_number_prefix=M, valuation_bucket=missing",sub_type_input=Over The Counter,0.11260709914320685,1.0,1.4409171075837743,2,Over The Counter
+permit_number_prefix=M,sub_type_input=Over The Counter,0.11260709914320685,1.0,1.4409171075837743,1,Over The Counter
+"permit_number_prefix=M, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.10648714810281518,1.0,1.4409171075837743,3,Over The Counter
+"permit_number_prefix=M, status=Issued",sub_type_input=Over The Counter,0.10648714810281518,1.0,1.4409171075837743,2,Over The Counter
+"paid_fee_bucket=2_999, permit_number_prefix=M, valuation_bucket=missing",sub_type_input=Over The Counter,0.10403916768665851,1.0,1.4409171075837743,3,Over The Counter
+"paid_fee_bucket=2_999, permit_number_prefix=M",sub_type_input=Over The Counter,0.10403916768665851,1.0,1.4409171075837743,2,Over The Counter
+"paid_fee_bucket=2_999, permit_number_prefix=M, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.09791921664626684,1.0,1.4409171075837743,4,Over The Counter
+"paid_fee_bucket=2_999, permit_number_prefix=M, status=Issued",sub_type_input=Over The Counter,0.09791921664626684,1.0,1.4409171075837743,3,Over The Counter
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",sub_type_input=Over The Counter,0.0795593635250918,1.0,1.4409171075837743,4,Over The Counter
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P",sub_type_input=Over The Counter,0.0795593635250918,1.0,1.4409171075837743,3,Over The Counter
+"fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",sub_type_input=Over The Counter,0.0795593635250918,1.0,1.4409171075837743,3,Over The Counter
+"fee_bucket=2_999, permit_number_prefix=P",sub_type_input=Over The Counter,0.0795593635250918,1.0,1.4409171075837743,2,Over The Counter
+"fee_bucket=2_999, permit_number_prefix=M, valuation_bucket=missing",sub_type_input=Over The Counter,0.07833537331701346,1.0,1.4409171075837743,3,Over The Counter
+"fee_bucket=2_999, permit_number_prefix=M",sub_type_input=Over The Counter,0.07833537331701346,1.0,1.4409171075837743,2,Over The Counter
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=M, valuation_bucket=missing",sub_type_input=Over The Counter,0.07711138310893513,1.0,1.4409171075837743,4,Over The Counter
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=M",sub_type_input=Over The Counter,0.07711138310893513,1.0,1.4409171075837743,3,Over The Counter
+"fee_bucket=2_999, permit_number_prefix=M, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.07343941248470012,1.0,1.4409171075837743,4,Over The Counter
+"fee_bucket=2_999, permit_number_prefix=M, status=Issued",sub_type_input=Over The Counter,0.07343941248470012,1.0,1.4409171075837743,3,Over The Counter
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=M, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.07221542227662178,1.0,1.4409171075837743,5,Over The Counter
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=M, status=Issued",sub_type_input=Over The Counter,0.07221542227662178,1.0,1.4409171075837743,4,Over The Counter
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.06854345165238677,1.0,1.4409171075837743,5,Over The Counter
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, status=Issued",sub_type_input=Over The Counter,0.06854345165238677,1.0,1.4409171075837743,4,Over The Counter
+"fee_bucket=2_999, permit_number_prefix=P, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.06854345165238677,1.0,1.4409171075837743,4,Over The Counter
+"fee_bucket=2_999, permit_number_prefix=P, status=Issued",sub_type_input=Over The Counter,0.06854345165238677,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=remodel, fee_bucket=2_999, valuation_bucket=missing",sub_type_input=Over The Counter,0.06487148102815178,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=remodel, fee_bucket=2_999, paid_fee_bucket=2_999, valuation_bucket=missing",sub_type_input=Over The Counter,0.06364749082007344,1.0,1.4409171075837743,4,Over The Counter
+"description_keywords=remodel, fee_bucket=2_999, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.05997552019583843,1.0,1.4409171075837743,4,Over The Counter
+"description_keywords=remodel, fee_bucket=2_999, paid_fee_bucket=2_999, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.0587515299877601,1.0,1.4409171075837743,5,Over The Counter
+"description_keywords=electrical, paid_fee_bucket=2_999, permit_number_prefix=E, valuation_bucket=missing",sub_type_input=Over The Counter,0.03182374541003672,1.0,1.4409171075837743,4,Over The Counter
+"description_keywords=electrical, paid_fee_bucket=2_999, permit_number_prefix=E",sub_type_input=Over The Counter,0.03182374541003672,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=electrical, permit_number_prefix=E, valuation_bucket=missing",sub_type_input=Over The Counter,0.03182374541003672,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=remodel, permit_number_prefix=E, valuation_bucket=missing",sub_type_input=Over The Counter,0.03182374541003672,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=electrical, permit_number_prefix=E",sub_type_input=Over The Counter,0.03182374541003672,1.0,1.4409171075837743,2,Over The Counter
+"description_keywords=remodel, permit_number_prefix=E",sub_type_input=Over The Counter,0.03182374541003672,1.0,1.4409171075837743,2,Over The Counter
+"description_keywords=remodel, permit_number_prefix=E, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,4,Over The Counter
+"description_keywords=roof, fee_bucket=missing, permit_number_prefix=B, valuation_bucket=missing",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,4,Over The Counter
+"description_keywords=remodel, permit_number_prefix=E, status=Issued",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=roof, fee_bucket=missing, permit_number_prefix=B",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=roof, fee_bucket=missing, valuation_bucket=missing",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=roof, permit_number_prefix=B, valuation_bucket=missing",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,3,Over The Counter
+"fee_bucket=missing, permit_number_prefix=M, valuation_bucket=missing",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=roof, fee_bucket=missing",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,2,Over The Counter
+"description_keywords=roof, valuation_bucket=missing",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,2,Over The Counter
+"fee_bucket=missing, permit_number_prefix=M",sub_type_input=Over The Counter,0.030599755201958383,1.0,1.4409171075837743,2,Over The Counter
+"description_keywords=remodel, paid_fee_bucket=2_999, permit_number_prefix=E, valuation_bucket=missing",sub_type_input=Over The Counter,0.02937576499388005,1.0,1.4409171075837743,4,Over The Counter
+"fee_bucket=missing, permit_number_prefix=M, status=Issued, valuation_bucket=missing",sub_type_input=Over The Counter,0.02937576499388005,1.0,1.4409171075837743,4,Over The Counter
+"description_keywords=remodel, paid_fee_bucket=2_999, permit_number_prefix=E",sub_type_input=Over The Counter,0.02937576499388005,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=remodel, permit_number_prefix=M, valuation_bucket=missing",sub_type_input=Over The Counter,0.02937576499388005,1.0,1.4409171075837743,3,Over The Counter
+"description_keywords=remodel, permit_number_prefix=P, valuation_bucket=missing",sub_type_input=Over The Counter,0.02937576499388005,1.0,1.4409171075837743,3,Over The Counter
+"fee_bucket=missing, permit_number_prefix=M, status=Issued",sub_type_input=Over The Counter,0.02937576499388005,1.0,1.4409171075837743,3,Over The Counter

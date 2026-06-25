@@ -1,0 +1,193 @@
+row_index,target_field,algorithm,predicted_value,confidence,prediction_source,passes_threshold,candidate_status,rejection_reason,validation_record_status
+6,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+7,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+9,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+11,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+16,permit_type,grouped_majority,Building Permit OTC,1.0,group_majority,True,Accepted,,valid
+17,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+18,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+23,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+30,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+33,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+34,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+39,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+41,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+43,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+45,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+46,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+49,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+53,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+55,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+57,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+58,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+62,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+63,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+65,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+66,permit_type,grouped_majority,Electrical OTC,1.0,group_majority,True,Accepted,,valid
+69,permit_type,grouped_majority,Mechanical OTC,1.0,group_majority,True,Accepted,,valid
+70,permit_type,grouped_majority,Mechanical OTC,1.0,group_majority,True,Accepted,,valid
+75,permit_type,grouped_majority,Mechanical OTC,1.0,group_majority,True,Accepted,,valid
+76,permit_type,grouped_majority,Mechanical OTC,1.0,group_majority,True,Accepted,,valid
+78,permit_type,grouped_majority,Mechanical OTC,1.0,group_majority,True,Accepted,,valid
+80,permit_type,grouped_majority,Mechanical OTC,1.0,group_majority,True,Accepted,,valid
+81,permit_type,grouped_majority,Mechanical OTC,1.0,group_majority,True,Accepted,,valid
+82,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+86,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+88,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+90,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+91,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+93,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+95,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+100,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+101,permit_type,grouped_majority,Plumbing OTC,1.0,group_majority,True,Accepted,,valid
+102,permit_type,grouped_majority,Residential Building Report,0.9,group_majority,True,Accepted,,valid
+107,permit_type,grouped_majority,Residential Building Report,0.9,group_majority,True,Accepted,,valid
+113,permit_type,grouped_majority,Residential Building Report,0.9,group_majority,True,Accepted,,valid
+114,permit_type,grouped_majority,Residential Building Report,0.9,group_majority,True,Accepted,,valid
+115,permit_type,grouped_majority,Residential Building Report,0.9,group_majority,True,Accepted,,valid
+116,permit_type,grouped_majority,Residential Building Report,0.9,group_majority,True,Accepted,,valid
+119,permit_type,grouped_majority,Building Permit OTC,0.5,group_majority,True,Accepted,,valid
+6,permit_type,association_rules,Building - Full Plan Check,1.0,matched_rules,True,Accepted,,valid
+7,permit_type,association_rules,Building - In House Plan Check,1.0,matched_rules,True,Accepted,,valid
+9,permit_type,association_rules,Building Permit OTC,0.8571428571428571,matched_rules,True,Accepted,,valid
+11,permit_type,association_rules,Building - In House Plan Check,0.6666666666666666,matched_rules,True,Accepted,,valid
+16,permit_type,association_rules,Building Permit OTC,1.0,matched_rules,True,Accepted,,valid
+17,permit_type,association_rules,Building Permit OTC,1.0,matched_rules,True,Accepted,,valid
+18,permit_type,association_rules,Building - In House Plan Check,0.6666666666666666,matched_rules,True,Accepted,,valid
+23,permit_type,association_rules,Building Permit OTC,0.8571428571428571,matched_rules,True,Accepted,,valid
+30,permit_type,association_rules,Building Permit OTC,1.0,matched_rules,True,Accepted,,valid
+33,permit_type,association_rules,Building Permit OTC,1.0,matched_rules,True,Accepted,,valid
+34,permit_type,association_rules,Building Permit OTC,0.8571428571428571,matched_rules,True,Accepted,,valid
+39,permit_type,association_rules,Building Permit OTC,0.7999999999999999,matched_rules,True,Accepted,,valid
+41,permit_type,association_rules,Residential Building Report,0.8181818181818181,matched_rules,True,Accepted,,valid
+43,permit_type,association_rules,Electrical OTC,1.0,matched_rules,True,Accepted,,valid
+45,permit_type,association_rules,Electrical OTC,1.0,matched_rules,True,Accepted,,valid
+46,permit_type,association_rules,Electrical OTC,1.0,matched_rules,True,Accepted,,valid
+49,permit_type,association_rules,Building - Full Plan Check,1.0,matched_rules,True,Accepted,,valid
+53,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+55,permit_type,association_rules,Building - Full Plan Check,1.0,matched_rules,True,Accepted,,valid
+57,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+58,permit_type,association_rules,Electrical OTC,1.0,matched_rules,True,Accepted,,valid
+62,permit_type,association_rules,Electrical OTC,1.0,matched_rules,True,Accepted,,valid
+63,permit_type,association_rules,Mechanical OTC,1.0,matched_rules,True,Accepted,,valid
+65,permit_type,association_rules,Electrical OTC,1.0,matched_rules,True,Accepted,,valid
+66,permit_type,association_rules,Electrical OTC,1.0,matched_rules,True,Accepted,,valid
+69,permit_type,association_rules,Mechanical OTC,1.0,matched_rules,True,Accepted,,valid
+70,permit_type,association_rules,Mechanical OTC,1.0,matched_rules,True,Accepted,,valid
+75,permit_type,association_rules,Mechanical OTC,1.0,matched_rules,True,Accepted,,valid
+76,permit_type,association_rules,Building - Full Plan Check,1.0,matched_rules,True,Accepted,,valid
+78,permit_type,association_rules,Mechanical OTC,1.0,matched_rules,True,Accepted,,valid
+80,permit_type,association_rules,Mechanical OTC,1.0,matched_rules,True,Accepted,,valid
+81,permit_type,association_rules,Mechanical OTC,1.0,matched_rules,True,Accepted,,valid
+82,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+86,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+88,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+90,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+91,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+93,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+95,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+100,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+101,permit_type,association_rules,Plumbing OTC,1.0,matched_rules,True,Accepted,,valid
+102,permit_type,association_rules,Residential Building Report,1.0,matched_rules,True,Accepted,,valid
+107,permit_type,association_rules,Residential Building Report,1.0,matched_rules,True,Accepted,,valid
+113,permit_type,association_rules,Residential Building Report,1.0,matched_rules,True,Accepted,,valid
+114,permit_type,association_rules,Residential Building Report,1.0,matched_rules,True,Accepted,,valid
+115,permit_type,association_rules,Residential Building Report,1.0,matched_rules,True,Accepted,,valid
+116,permit_type,association_rules,Residential Building Report,1.0,matched_rules,True,Accepted,,valid
+119,permit_type,association_rules,Building Permit OTC,0.7999999999999999,matched_rules,True,Accepted,,valid
+6,permit_type,clustering,Building - Full Plan Check,0.4,cluster_majority,True,Accepted,,valid
+7,permit_type,clustering,Building - Full Plan Check,0.4,cluster_majority,True,Accepted,,valid
+9,permit_type,clustering,Building Permit OTC,0.75,cluster_majority,True,Accepted,,valid
+11,permit_type,clustering,Building - Full Plan Check,0.4,cluster_majority,True,Accepted,,valid
+16,permit_type,clustering,Building Permit OTC,0.75,cluster_majority,True,Accepted,,valid
+17,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+18,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+23,permit_type,clustering,Building Permit OTC,0.75,cluster_majority,True,Accepted,,valid
+30,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+33,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+34,permit_type,clustering,Building Permit OTC,0.75,cluster_majority,True,Accepted,,valid
+39,permit_type,clustering,Building Permit OTC,0.75,cluster_majority,True,Accepted,,valid
+41,permit_type,clustering,Residential Building Report,0.6923076923076923,cluster_majority,True,Accepted,,valid
+43,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+45,permit_type,clustering,Electrical OTC,1.0,cluster_majority,True,Accepted,,valid
+46,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+49,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+53,permit_type,clustering,Electrical OTC,1.0,cluster_majority,True,Accepted,,valid
+55,permit_type,clustering,Electrical OTC,1.0,cluster_majority,True,Accepted,,valid
+57,permit_type,clustering,Electrical OTC,1.0,cluster_majority,True,Accepted,,valid
+58,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+62,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+63,permit_type,clustering,Electrical OTC,1.0,cluster_majority,True,Accepted,,valid
+65,permit_type,clustering,Electrical OTC,1.0,cluster_majority,True,Accepted,,valid
+66,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+69,permit_type,clustering,Mechanical OTC,1.0,cluster_majority,True,Accepted,,valid
+70,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+75,permit_type,clustering,Mechanical OTC,1.0,cluster_majority,True,Accepted,,valid
+76,permit_type,clustering,Mechanical OTC,1.0,cluster_majority,True,Accepted,,valid
+78,permit_type,clustering,Mechanical OTC,1.0,cluster_majority,True,Accepted,,valid
+80,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+81,permit_type,clustering,Mechanical OTC,1.0,cluster_majority,True,Accepted,,valid
+82,permit_type,clustering,Plumbing OTC,1.0,cluster_majority,True,Accepted,,valid
+86,permit_type,clustering,Plumbing OTC,1.0,cluster_majority,True,Accepted,,valid
+88,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+90,permit_type,clustering,Plumbing OTC,1.0,cluster_majority,True,Accepted,,valid
+91,permit_type,clustering,Residential Building Report,0.6923076923076923,cluster_majority,True,Accepted,,valid
+93,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+95,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+100,permit_type,clustering,Building Permit OTC,0.4117647058823529,cluster_majority,True,Accepted,,valid
+101,permit_type,clustering,Plumbing OTC,1.0,cluster_majority,True,Accepted,,valid
+102,permit_type,clustering,Residential Building Report,0.6923076923076923,cluster_majority,True,Accepted,,valid
+107,permit_type,clustering,Residential Building Report,0.6923076923076923,cluster_majority,True,Accepted,,valid
+113,permit_type,clustering,Residential Building Report,0.6923076923076923,cluster_majority,True,Accepted,,valid
+114,permit_type,clustering,Residential Building Report,0.6923076923076923,cluster_majority,True,Accepted,,valid
+115,permit_type,clustering,Residential Building Report,0.6923076923076923,cluster_majority,True,Accepted,,valid
+116,permit_type,clustering,Residential Building Report,0.6923076923076923,cluster_majority,True,Accepted,,valid
+119,permit_type,clustering,Building Permit OTC,0.75,cluster_majority,True,Accepted,,valid
+6,permit_type,knn,Building - Full Plan Check,0.7387961250362586,nearest_neighbors,True,Accepted,,valid
+7,permit_type,knn,Building - In House Plan Check,1.0,nearest_neighbors,True,Accepted,,valid
+9,permit_type,knn,Building Permit OTC,0.8,nearest_neighbors,True,Accepted,,valid
+11,permit_type,knn,Building - In House Plan Check,0.6666666666666666,nearest_neighbors,True,Accepted,,valid
+16,permit_type,knn,Building Permit OTC,1.0,nearest_neighbors,True,Accepted,,valid
+17,permit_type,knn,Building Permit OTC,0.585786437626905,nearest_neighbors,True,Accepted,,valid
+18,permit_type,knn,Building Permit OTC,0.8,nearest_neighbors,True,Accepted,,valid
+23,permit_type,knn,Building Permit OTC,0.6666666666666666,nearest_neighbors,True,Accepted,,valid
+30,permit_type,knn,Building Permit OTC,1.0,nearest_neighbors,True,Accepted,,valid
+33,permit_type,knn,Building Permit OTC,0.8,nearest_neighbors,True,Accepted,,valid
+34,permit_type,knn,Building Permit OTC,0.6666666666666666,nearest_neighbors,True,Accepted,,valid
+39,permit_type,knn,Building Permit OTC,0.7734590803390136,nearest_neighbors,True,Accepted,,valid
+41,permit_type,knn,Residential Building Report,0.6,nearest_neighbors,True,Accepted,,valid
+43,permit_type,knn,Electrical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+45,permit_type,knn,Electrical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+46,permit_type,knn,Electrical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+49,permit_type,knn,Electrical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+53,permit_type,knn,Electrical OTC,0.8,nearest_neighbors,True,Accepted,,valid
+55,permit_type,knn,Electrical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+57,permit_type,knn,Electrical OTC,0.8,nearest_neighbors,True,Accepted,,valid
+58,permit_type,knn,Electrical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+62,permit_type,knn,Electrical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+63,permit_type,knn,Electrical OTC,0.6,nearest_neighbors,True,Accepted,,valid
+65,permit_type,knn,Electrical OTC,0.6,nearest_neighbors,True,Accepted,,valid
+66,permit_type,knn,Electrical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+69,permit_type,knn,Mechanical OTC,0.8497788951776651,nearest_neighbors,True,Accepted,,valid
+70,permit_type,knn,Mechanical OTC,0.4530818393219728,nearest_neighbors,True,Accepted,,valid
+75,permit_type,knn,Mechanical OTC,1.0,nearest_neighbors,True,Accepted,,valid
+76,permit_type,knn,Mechanical OTC,0.8497788951776651,nearest_neighbors,True,Accepted,,valid
+78,permit_type,knn,Mechanical OTC,0.8,nearest_neighbors,True,Accepted,,valid
+80,permit_type,knn,Electrical OTC,0.4,nearest_neighbors,True,Accepted,,valid
+81,permit_type,knn,Mechanical OTC,0.8,nearest_neighbors,True,Accepted,,valid
+82,permit_type,knn,Plumbing OTC,1.0,nearest_neighbors,True,Accepted,,valid
+86,permit_type,knn,Plumbing OTC,1.0,nearest_neighbors,True,Accepted,,valid
+88,permit_type,knn,Electrical OTC,0.4,nearest_neighbors,True,Accepted,,valid
+90,permit_type,knn,Plumbing OTC,1.0,nearest_neighbors,True,Accepted,,valid
+91,permit_type,knn,Plumbing OTC,1.0,nearest_neighbors,True,Accepted,,valid
+93,permit_type,knn,Building - In House Plan Check,0.21244472379441628,nearest_neighbors,True,Accepted,,valid
+95,permit_type,knn,Electrical OTC,0.4,nearest_neighbors,True,Accepted,,valid
+100,permit_type,knn,Building - In House Plan Check,0.21244472379441628,nearest_neighbors,True,Accepted,,valid
+101,permit_type,knn,Plumbing OTC,1.0,nearest_neighbors,True,Accepted,,valid
+102,permit_type,knn,Residential Building Report,1.0,nearest_neighbors,True,Accepted,,valid
+107,permit_type,knn,Residential Building Report,1.0,nearest_neighbors,True,Accepted,,valid
+113,permit_type,knn,Residential Building Report,1.0,nearest_neighbors,True,Accepted,,valid
+114,permit_type,knn,Residential Building Report,1.0,nearest_neighbors,True,Accepted,,valid
+115,permit_type,knn,Residential Building Report,1.0,nearest_neighbors,True,Accepted,,valid
+116,permit_type,knn,Residential Building Report,1.0,nearest_neighbors,True,Accepted,,valid
+119,permit_type,knn,Building Permit OTC,0.8,nearest_neighbors,True,Accepted,,valid

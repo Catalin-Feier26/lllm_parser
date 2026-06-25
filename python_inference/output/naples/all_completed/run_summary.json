@@ -1,0 +1,142 @@
+{
+  "source": "naples",
+  "input_source": "mongo:raw_permits parser_run_ids=10 completed runs",
+  "parser_run_id": "all_completed",
+  "mode": "evaluation",
+  "prepared_row_count": 46427,
+  "validation": {
+    "record_count": 46427,
+    "record_status_counts": {
+      "valid": 46403,
+      "suspicious": 19,
+      "requires_review": 5
+    },
+    "field_status_counts": {
+      "permit_number": {
+        "valid": 46427
+      },
+      "building_type": {
+        "valid": 46414,
+        "missing": 13
+      },
+      "permit_type": {
+        "valid": 46427
+      },
+      "const_type": {
+        "valid": 46057,
+        "missing": 370
+      },
+      "valuation": {
+        "valid": 43325,
+        "suspicious": 19,
+        "missing": 3083
+      },
+      "total_sf": {
+        "valid": 43382,
+        "missing": 3040,
+        "invalid": 5
+      },
+      "total_units": {
+        "valid": 43386,
+        "missing": 3041
+      },
+      "permit_class": {
+        "valid": 34813,
+        "missing": 11614
+      }
+    }
+  },
+  "targets": {
+    "permit_class": {
+      "inference_row_count": 6962,
+      "algorithms": {
+        "grouped_majority": {
+          "output_dir": "python_inference/output/naples/all_completed/permit_class/baseline",
+          "accuracy": 0.9336397586900316,
+          "macro_f1": 0.5904306220095694,
+          "row_count_evaluated": 6962
+        },
+        "association_rules": {
+          "output_dir": "python_inference/output/naples/all_completed/permit_class/association_rules",
+          "accuracy": 0.9225797184717035,
+          "macro_f1": 0.5478122002144349,
+          "row_count_evaluated": 6962
+        },
+        "clustering": {
+          "output_dir": "python_inference/output/naples/all_completed/permit_class/clustering",
+          "accuracy": 0.8904050560183855,
+          "macro_f1": 0.4457594632055721,
+          "row_count_evaluated": 6962
+        },
+        "knn": {
+          "output_dir": "python_inference/output/naples/all_completed/permit_class/knn",
+          "accuracy": 0.9306233840850331,
+          "macro_f1": 0.6321834533720698,
+          "row_count_evaluated": 6962
+        }
+      },
+      "merge": {
+        "output_dir": "python_inference/output/naples/all_completed/permit_class/merged",
+        "target_field": "permit_class",
+        "strategy": "majority_then_confidence",
+        "minimum_confidence": 0.5,
+        "row_count_total": 6962,
+        "row_count_accepted": 6881,
+        "row_count_rejected": 0,
+        "row_count_requires_review": 81,
+        "row_count_conflict": 0,
+        "row_count_unresolved": 0,
+        "coverage": 0.9883654122378627,
+        "accuracy_on_accepted": 0.9401249818340357,
+        "macro_f1_on_accepted": 0.5900050832380226,
+        "labels": [
+          "Commercial",
+          "Other Special Residential",
+          "Res.1&2 or Guest House",
+          "Residential-Multi-Family"
+        ],
+        "confusion_matrix": [
+          [
+            195,
+            0,
+            0,
+            381
+          ],
+          [
+            4,
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            4930,
+            0
+          ],
+          [
+            18,
+            0,
+            0,
+            1344
+          ]
+        ],
+        "decision_method_counts": {
+          "unanimous_vote": 6287,
+          "majority_vote": 594,
+          "average_confidence_tiebreak": 79,
+          "requires_review_validation_status": 2
+        },
+        "decision_status_counts": {
+          "Accepted": 6881,
+          "Requires Review": 81
+        },
+        "persisted_prediction_count": 27848,
+        "persisted_decision_count": 6962,
+        "persisted_final_permit_count": 0
+      }
+    }
+  },
+  "inference_run_id": "inference_run_20260625_153538_6591d531",
+  "persisted_validation_result_count": 46427
+}

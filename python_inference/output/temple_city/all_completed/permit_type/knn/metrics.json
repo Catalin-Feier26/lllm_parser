@@ -1,0 +1,157 @@
+{
+  "row_count_evaluated": 914,
+  "accuracy": 0.9989059080962801,
+  "macro_f1": 0.9931703906859186,
+  "weighted_f1": 0.9988844916539713,
+  "labels": [
+    "Building",
+    "Demolition",
+    "Electrical",
+    "Grading",
+    "Mechanical",
+    "Miscellaneous",
+    "Plumbing"
+  ],
+  "classification_report": {
+    "Building": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 392.0
+    },
+    "Demolition": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 15.0
+    },
+    "Electrical": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 264.0
+    },
+    "Grading": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "Mechanical": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 99.0
+    },
+    "Miscellaneous": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9565217391304348,
+      "support": 12.0
+    },
+    "Plumbing": {
+      "precision": 0.9913793103448276,
+      "recall": 1.0,
+      "f1-score": 0.9956709956709957,
+      "support": 115.0
+    },
+    "accuracy": 0.9989059080962801,
+    "macro avg": {
+      "precision": 0.9987684729064039,
+      "recall": 0.9880952380952381,
+      "f1-score": 0.9931703906859186,
+      "support": 914.0
+    },
+    "weighted avg": {
+      "precision": 0.9989153399230363,
+      "recall": 0.9989059080962801,
+      "f1-score": 0.9988844916539713,
+      "support": 914.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      392,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      264,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      99,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      115
+    ]
+  ],
+  "target_field": "permit_type",
+  "algorithm": "knn",
+  "average_confidence": 0.9991247264770241,
+  "minimum_confidence": 0.8,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_type",
+    "target_col": "permit_type_input",
+    "true_col": "permit_type_true",
+    "mask_col": "is_masked",
+    "feature_cols": [
+      "permit_number_prefix",
+      "status",
+      "valuation_bucket",
+      "description_keywords"
+    ],
+    "n_neighbors": 5,
+    "weights": "distance"
+  },
+  "reference_count": 1373
+}

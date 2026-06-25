@@ -1,0 +1,119 @@
+{
+  "row_count_evaluated": 48,
+  "accuracy": 0.6666666666666666,
+  "macro_f1": 0.3760151802656547,
+  "weighted_f1": 0.7105471220746363,
+  "labels": [
+    "Full Plan Check",
+    "In House Plan Check",
+    "Over The Counter",
+    "Residential Building Report",
+    "Solar"
+  ],
+  "classification_report": {
+    "Full Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "In House Plan Check": {
+      "precision": 0.4,
+      "recall": 0.4,
+      "f1-score": 0.4,
+      "support": 5.0
+    },
+    "Over The Counter": {
+      "precision": 0.9230769230769231,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7741935483870968,
+      "support": 36.0
+    },
+    "Residential Building Report": {
+      "precision": 0.5454545454545454,
+      "recall": 1.0,
+      "f1-score": 0.7058823529411765,
+      "support": 6.0
+    },
+    "Solar": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.6666666666666666,
+    "macro avg": {
+      "precision": 0.3737062937062937,
+      "recall": 0.4133333333333333,
+      "f1-score": 0.3760151802656547,
+      "support": 48.0
+    },
+    "weighted avg": {
+      "precision": 0.8021561771561773,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7105471220746363,
+      "support": 48.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      1,
+      0
+    ],
+    [
+      5,
+      3,
+      24,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "target_field": "sub_type",
+  "algorithm": "association_rules",
+  "average_confidence": 0.9083755790992633,
+  "minimum_confidence": 0.5,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "sub_type",
+    "target_col": "sub_type_input",
+    "true_col": "sub_type_true",
+    "mask_col": "is_masked_type_subtype",
+    "feature_cols": [
+      "status",
+      "permit_number_prefix",
+      "paid_fee_bucket",
+      "fee_bucket",
+      "valuation_bucket",
+      "description_keywords"
+    ],
+    "min_support": 0.01,
+    "min_confidence": 0.5,
+    "min_lift": 1.0,
+    "use_global_fallback": true
+  },
+  "reference_count": 72
+}

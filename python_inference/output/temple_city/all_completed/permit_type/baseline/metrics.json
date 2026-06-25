@@ -1,0 +1,175 @@
+{
+  "row_count_evaluated": 914,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "labels": [
+    "Building",
+    "Demolition",
+    "Electrical",
+    "Grading",
+    "Mechanical",
+    "Miscellaneous",
+    "Plumbing"
+  ],
+  "classification_report": {
+    "Building": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 392.0
+    },
+    "Demolition": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 15.0
+    },
+    "Electrical": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 264.0
+    },
+    "Grading": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "Mechanical": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 99.0
+    },
+    "Miscellaneous": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "Plumbing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 115.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 914.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 914.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      392,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      264,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      99,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      115
+    ]
+  ],
+  "target_field": "permit_type",
+  "algorithm": "grouped_majority",
+  "average_confidence": 1.0,
+  "minimum_confidence": 1.0,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_type",
+    "target_col": "permit_type_input",
+    "true_col": "permit_type_true",
+    "mask_col": "is_masked",
+    "group_levels": [
+      [
+        "permit_number_prefix",
+        "status"
+      ],
+      [
+        "permit_number_prefix"
+      ],
+      [
+        "status",
+        "description_keywords"
+      ],
+      [
+        "description_keywords",
+        "valuation_bucket"
+      ],
+      [
+        "description_keywords"
+      ],
+      [
+        "valuation_bucket"
+      ],
+      [
+        "status"
+      ]
+    ]
+  },
+  "reference_count": 1373
+}

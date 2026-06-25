@@ -1,0 +1,67 @@
+{
+  "target_field": "sub_type",
+  "strategy": "majority_then_confidence",
+  "minimum_confidence": 0.0,
+  "row_count_total": 48,
+  "row_count_accepted": 47,
+  "row_count_rejected": 0,
+  "row_count_requires_review": 1,
+  "row_count_conflict": 0,
+  "row_count_unresolved": 0,
+  "coverage": 0.9791666666666666,
+  "accuracy_on_accepted": 0.9148936170212766,
+  "macro_f1_on_accepted": 0.49334554334554337,
+  "labels": [
+    "Full Plan Check",
+    "In House Plan Check",
+    "Over The Counter",
+    "Residential Building Report",
+    "Solar"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      35,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "decision_method_counts": {
+    "unanimous_vote": 32,
+    "majority_vote": 15,
+    "average_confidence_tiebreak": 1
+  },
+  "decision_status_counts": {
+    "Accepted": 47,
+    "Requires Review": 1
+  }
+}

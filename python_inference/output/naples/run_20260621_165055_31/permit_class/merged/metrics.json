@@ -1,0 +1,19 @@
+{
+  "target_field": "permit_class",
+  "strategy": "majority_then_confidence",
+  "minimum_confidence": 0.0,
+  "row_count_total": 1326,
+  "row_count_accepted": 1326,
+  "row_count_rejected": 0,
+  "row_count_requires_review": 0,
+  "row_count_conflict": 0,
+  "row_count_unresolved": 0,
+  "coverage": 1.0,
+  "average_final_confidence": 0.8468067288001027,
+  "decision_method_counts": {
+    "single_candidate": 1326
+  },
+  "decision_status_counts": {
+    "Accepted": 1326
+  }
+}

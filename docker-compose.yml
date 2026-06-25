@@ -13,6 +13,8 @@ services:
     container_name: thesis-parser
     volumes:
       - .:/app
+    ports:
+      - "8090:8090"
     stdin_open: true
     tty: true
     working_dir: /app

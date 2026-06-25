@@ -1,0 +1,318 @@
+{
+  "source": "hermosa_beach",
+  "input_source": "mongo:raw_permits parser_run_id=run_20260624_201347_91",
+  "parser_run_id": "run_20260624_201347_91",
+  "mode": "evaluation",
+  "prepared_row_count": 120,
+  "validation": {
+    "record_count": 120,
+    "record_status_counts": {
+      "valid": 120
+    },
+    "field_status_counts": {
+      "permit_number": {
+        "valid": 120
+      },
+      "status": {
+        "valid": 120
+      },
+      "description": {
+        "valid": 120
+      },
+      "address": {
+        "valid": 120
+      },
+      "parcel_number": {
+        "valid": 119,
+        "missing": 1
+      },
+      "paid_fee": {
+        "valid": 120
+      },
+      "fee": {
+        "valid": 67,
+        "missing": 53
+      },
+      "valuation": {
+        "missing": 91,
+        "valid": 29
+      },
+      "permit_type": {
+        "valid": 120
+      },
+      "sub_type": {
+        "valid": 120
+      }
+    }
+  },
+  "targets": {
+    "permit_type": {
+      "inference_row_count": 48,
+      "algorithms": {
+        "grouped_majority": {
+          "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/permit_type/baseline",
+          "accuracy": 0.875,
+          "macro_f1": 0.5902380952380952,
+          "row_count_evaluated": 48
+        },
+        "association_rules": {
+          "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/permit_type/association_rules",
+          "accuracy": 0.7708333333333334,
+          "macro_f1": 0.5346688742973572,
+          "row_count_evaluated": 48
+        },
+        "clustering": {
+          "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/permit_type/clustering",
+          "accuracy": 0.6041666666666666,
+          "macro_f1": 0.38954008954008956,
+          "row_count_evaluated": 48
+        },
+        "knn": {
+          "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/permit_type/knn",
+          "accuracy": 0.8125,
+          "macro_f1": 0.537579704246371,
+          "row_count_evaluated": 48
+        }
+      },
+      "merge": {
+        "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/permit_type/merged",
+        "target_field": "permit_type",
+        "strategy": "majority_then_confidence",
+        "minimum_confidence": 0.0,
+        "row_count_total": 48,
+        "row_count_accepted": 48,
+        "row_count_rejected": 0,
+        "row_count_requires_review": 0,
+        "row_count_conflict": 0,
+        "row_count_unresolved": 0,
+        "coverage": 1.0,
+        "accuracy_on_accepted": 0.9166666666666666,
+        "macro_f1_on_accepted": 0.6087369420702754,
+        "labels": [
+          "Building - Full Plan Check",
+          "Building - In House Plan Check",
+          "Building Permit OTC",
+          "Electrical - In House Plan Check",
+          "Electrical OTC",
+          "Mechanical OTC",
+          "Plumbing OTC",
+          "Residential Building Report",
+          "Solar Permit"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "decision_method_counts": {
+          "unanimous_vote": 25,
+          "majority_vote": 23
+        },
+        "decision_status_counts": {
+          "Accepted": 48
+        },
+        "persisted_prediction_count": 192,
+        "persisted_decision_count": 48,
+        "persisted_final_permit_count": 0
+      }
+    },
+    "sub_type": {
+      "inference_row_count": 48,
+      "algorithms": {
+        "grouped_majority": {
+          "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/sub_type/baseline",
+          "accuracy": 0.875,
+          "macro_f1": 0.4807692307692308,
+          "row_count_evaluated": 48
+        },
+        "association_rules": {
+          "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/sub_type/association_rules",
+          "accuracy": 0.6666666666666666,
+          "macro_f1": 0.3760151802656547,
+          "row_count_evaluated": 48
+        },
+        "clustering": {
+          "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/sub_type/clustering",
+          "accuracy": 0.8541666666666666,
+          "macro_f1": 0.36320939334637964,
+          "row_count_evaluated": 48
+        },
+        "knn": {
+          "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/sub_type/knn",
+          "accuracy": 0.9166666666666666,
+          "macro_f1": 0.49349569349569344,
+          "row_count_evaluated": 48
+        }
+      },
+      "merge": {
+        "output_dir": "python_inference/output/hermosa_beach/run_20260624_201347_91/sub_type/merged",
+        "target_field": "sub_type",
+        "strategy": "majority_then_confidence",
+        "minimum_confidence": 0.0,
+        "row_count_total": 48,
+        "row_count_accepted": 47,
+        "row_count_rejected": 0,
+        "row_count_requires_review": 1,
+        "row_count_conflict": 0,
+        "row_count_unresolved": 0,
+        "coverage": 0.9791666666666666,
+        "accuracy_on_accepted": 0.9148936170212766,
+        "macro_f1_on_accepted": 0.49334554334554337,
+        "labels": [
+          "Full Plan Check",
+          "In House Plan Check",
+          "Over The Counter",
+          "Residential Building Report",
+          "Solar"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            35,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "decision_method_counts": {
+          "unanimous_vote": 32,
+          "majority_vote": 15,
+          "average_confidence_tiebreak": 1
+        },
+        "decision_status_counts": {
+          "Accepted": 47,
+          "Requires Review": 1
+        },
+        "persisted_prediction_count": 192,
+        "persisted_decision_count": 48,
+        "persisted_final_permit_count": 0
+      }
+    }
+  },
+  "inference_run_id": "inference_run_20260624_212658_95fa7d32",
+  "persisted_validation_result_count": 120
+}

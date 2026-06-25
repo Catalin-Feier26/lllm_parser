@@ -74,6 +74,25 @@ def _latest_completed_parser_run_id(db: Any, config: dict[str, Any]) -> str:
     return str(run_id)
 
 
+def _completed_parser_run_ids(db: Any, config: dict[str, Any]) -> list[str]:
+    collection_name = config.get("parser_runs_collection", "parser_runs")
+    run_filter = {"status": "completed", **config.get("parser_run_filter", {})}
+    cursor = db[collection_name].find(
+        run_filter,
+        {"_id": 0, "run_id": 1},
+    ).sort([("completed_at", ASCENDING), ("started_at", ASCENDING)])
+    run_ids = [str(doc["run_id"]) for doc in cursor if doc.get("run_id")]
+    if not run_ids:
+        raise ValueError(
+            f"No completed parser runs found in '{collection_name}' for filter: {run_filter}"
+        )
+    return run_ids
+
+
+def _wants_all_parser_runs(value: str | None) -> bool:
+    return str(value or "").strip().lower() in {"all", "*", "all_completed", "all-completed"}
+
+
 def _source_value(document: dict[str, Any], key: str) -> Any:
     source = document.get("source") or {}
     return source.get(key)
@@ -119,31 +138,44 @@ def load_raw_permits_from_mongo(
     config: dict[str, Any],
     parser_run_id_override: str | None = None,
 ) -> LoadedDataset:
-    """Load one parser run from raw_permits and flatten nested data fields."""
+    """Load one or all matching parser runs from raw_permits and flatten nested data fields."""
     client = _mongo_client(config)
     try:
         db = client[_database_name(config)]
-        parser_run_id = (
-            parser_run_id_override
-            or config.get("parser_run_id")
-            or _latest_completed_parser_run_id(db, config)
-        )
+        configured_parser_run_id = parser_run_id_override or config.get("parser_run_id")
+        load_all_runs = _wants_all_parser_runs(configured_parser_run_id)
+        if load_all_runs:
+            parser_run_ids = _completed_parser_run_ids(db, config)
+            parser_run_id: str | None = "all_completed"
+            parser_run_filter: Any = {"$in": parser_run_ids}
+        else:
+            parser_run_id = configured_parser_run_id or _latest_completed_parser_run_id(db, config)
+            parser_run_ids = [str(parser_run_id)]
+            parser_run_filter = parser_run_id
 
         collection_name = config.get("collection", "raw_permits")
         query = {
             **config.get("raw_permits_filter", {}),
-            "provenance.parser_run_id": parser_run_id,
+            "provenance.parser_run_id": parser_run_filter,
         }
         projection = config.get("projection")
         cursor = db[collection_name].find(query, projection).sort(
-            [("provenance.csv_row_number", ASCENDING)]
+            [("provenance.parser_run_id", ASCENDING), ("provenance.csv_row_number", ASCENDING)]
         )
         dataframe = _documents_to_dataframe(cursor)
 
+        input_name = "all_completed" if load_all_runs else str(parser_run_id)
+        if load_all_runs:
+            input_description = (
+                f"mongo:{collection_name} parser_run_ids={len(parser_run_ids)} completed runs"
+            )
+        else:
+            input_description = f"mongo:{collection_name} parser_run_id={parser_run_id}"
+
         return LoadedDataset(
             dataframe=dataframe,
-            input_name=str(parser_run_id),
-            input_description=f"mongo:{collection_name} parser_run_id={parser_run_id}",
+            input_name=input_name,
+            input_description=input_description,
             parser_run_id=str(parser_run_id),
         )
     finally:

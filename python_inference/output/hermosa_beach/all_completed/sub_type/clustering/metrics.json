@@ -1,0 +1,138 @@
+{
+  "row_count_evaluated": 544,
+  "accuracy": 0.8400735294117647,
+  "macro_f1": 0.293810040737239,
+  "weighted_f1": 0.786252314771901,
+  "labels": [
+    "Address Change",
+    "Full Plan Check",
+    "In House Plan Check",
+    "Over The Counter",
+    "Residential Building Report",
+    "Solar"
+  ],
+  "classification_report": {
+    "Address Change": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Full Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 30.0
+    },
+    "In House Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 31.0
+    },
+    "Over The Counter": {
+      "precision": 0.8574610244988864,
+      "recall": 0.9482758620689655,
+      "f1-score": 0.9005847953216374,
+      "support": 406.0
+    },
+    "Residential Building Report": {
+      "precision": 0.7578947368421053,
+      "recall": 1.0,
+      "f1-score": 0.8622754491017964,
+      "support": 72.0
+    },
+    "Solar": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "accuracy": 0.8400735294117647,
+    "macro avg": {
+      "precision": 0.2692259602234986,
+      "recall": 0.32471264367816094,
+      "f1-score": 0.293810040737239,
+      "support": 544.0
+    },
+    "weighted avg": {
+      "precision": 0.7402529356602564,
+      "recall": 0.8400735294117647,
+      "f1-score": 0.786252314771901,
+      "support": 544.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      30,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      30,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      385,
+      21,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      72,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ]
+  ],
+  "target_field": "sub_type",
+  "algorithm": "clustering",
+  "average_confidence": 0.7834850528039281,
+  "minimum_confidence": 0.4074074074074074,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "sub_type",
+    "target_col": "sub_type_input",
+    "true_col": "sub_type_true",
+    "mask_col": "is_masked_type_subtype",
+    "feature_cols": [
+      "status",
+      "permit_number_prefix",
+      "paid_fee_bucket",
+      "fee_bucket",
+      "valuation_bucket",
+      "description_keywords"
+    ],
+    "n_clusters": 8,
+    "random_state": 42,
+    "n_init": 10
+  },
+  "reference_count": 817
+}

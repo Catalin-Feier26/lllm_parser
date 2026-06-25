@@ -1,0 +1,97 @@
+{
+  "target_field": "permit_type",
+  "strategy": "majority_then_confidence",
+  "minimum_confidence": 0.5,
+  "row_count_total": 914,
+  "row_count_accepted": 903,
+  "row_count_rejected": 0,
+  "row_count_requires_review": 11,
+  "row_count_conflict": 0,
+  "row_count_unresolved": 0,
+  "coverage": 0.9879649890590809,
+  "accuracy_on_accepted": 1.0,
+  "macro_f1_on_accepted": 1.0,
+  "labels": [
+    "Building",
+    "Demolition",
+    "Electrical",
+    "Grading",
+    "Mechanical",
+    "Miscellaneous",
+    "Plumbing"
+  ],
+  "confusion_matrix": [
+    [
+      382,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      264,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      99,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      115
+    ]
+  ],
+  "decision_method_counts": {
+    "unanimous_vote": 819,
+    "majority_vote": 84,
+    "average_confidence_tiebreak": 11
+  },
+  "decision_status_counts": {
+    "Accepted": 903,
+    "Requires Review": 11
+  }
+}

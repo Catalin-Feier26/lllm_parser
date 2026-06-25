@@ -1,0 +1,336 @@
+{
+  "row_count_evaluated": 3208,
+  "accuracy": 0.8494389027431422,
+  "macro_f1": 0.8794895152216659,
+  "weighted_f1": 0.8301749113391067,
+  "labels": [
+    "Building Permit No Plan Check",
+    "Building Permit With Plan Check",
+    "Demolition Permit",
+    "Encroachment",
+    "Grading Permit",
+    "Plan Check",
+    "Septic Permit",
+    "Sewer Construction",
+    "Sewer Fee Only",
+    "Sewer Land Use Authority",
+    "Solar-SolarAPP",
+    "Well Permit"
+  ],
+  "classification_report": {
+    "Building Permit No Plan Check": {
+      "precision": 0.7562744004461796,
+      "recall": 0.9685714285714285,
+      "f1-score": 0.8493579705606014,
+      "support": 1400.0
+    },
+    "Building Permit With Plan Check": {
+      "precision": 0.9385474860335196,
+      "recall": 0.6857142857142857,
+      "f1-score": 0.7924528301886793,
+      "support": 980.0
+    },
+    "Demolition Permit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 128.0
+    },
+    "Encroachment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 132.0
+    },
+    "Grading Permit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50.0
+    },
+    "Plan Check": {
+      "precision": 1.0,
+      "recall": 0.9848484848484849,
+      "f1-score": 0.9923664122137404,
+      "support": 66.0
+    },
+    "Septic Permit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 148.0
+    },
+    "Sewer Construction": {
+      "precision": 0.9696969696969697,
+      "recall": 0.9696969696969697,
+      "f1-score": 0.9696969696969697,
+      "support": 33.0
+    },
+    "Sewer Fee Only": {
+      "precision": 0.95,
+      "recall": 0.95,
+      "f1-score": 0.95,
+      "support": 20.0
+    },
+    "Sewer Land Use Authority": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Solar-SolarAPP": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 128.0
+    },
+    "Well Permit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 121.0
+    },
+    "accuracy": 0.8494389027431422,
+    "macro avg": {
+      "precision": 0.8845432380147223,
+      "recall": 0.8799025974025975,
+      "f1-score": 0.8794895152216659,
+      "support": 3208.0
+    },
+    "weighted avg": {
+      "precision": 0.834339369369545,
+      "recall": 0.8494389027431422,
+      "f1-score": 0.8301749113391067,
+      "support": 3208.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1356,
+      44,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      308,
+      672,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      128,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      132,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      65,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      148,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      19,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      128,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      121
+    ]
+  ],
+  "target_field": "permit_type",
+  "algorithm": "grouped_majority",
+  "average_confidence": 0.8501861915599709,
+  "minimum_confidence": 0.5,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_type",
+    "target_col": "permit_type_input",
+    "true_col": "permit_type_true",
+    "mask_col": "is_masked",
+    "group_levels": [
+      [
+        "permit_number_prefix",
+        "status",
+        "fee_bucket"
+      ],
+      [
+        "permit_number_prefix",
+        "status"
+      ],
+      [
+        "permit_number_prefix",
+        "fee_bucket"
+      ],
+      [
+        "permit_number_prefix",
+        "description_keywords"
+      ],
+      [
+        "permit_number_prefix",
+        "valuation_bucket"
+      ],
+      [
+        "permit_number_prefix",
+        "location_code"
+      ],
+      [
+        "permit_number_prefix"
+      ],
+      [
+        "description_keywords",
+        "fee_bucket"
+      ],
+      [
+        "status",
+        "fee_bucket"
+      ],
+      [
+        "description_keywords"
+      ],
+      [
+        "fee_bucket"
+      ],
+      [
+        "status"
+      ]
+    ]
+  },
+  "reference_count": 4814
+}

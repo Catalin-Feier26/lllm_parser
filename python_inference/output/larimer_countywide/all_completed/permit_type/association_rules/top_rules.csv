@@ -1,0 +1,51 @@
+antecedents,consequents,support,confidence,lift,antecedent_len,predicted_target
+permit_number_category=COM,permit_type_input=BLD Commercial,0.016522423288749016,1.0,60.523809523809526,1,BLD Commercial
+"permit_number_category=COM, status=BLD Issued",permit_type_input=BLD Commercial,0.014948859166011016,1.0,60.523809523809526,2,BLD Commercial
+permit_number_category=ENER,permit_type_input=BLD Energy,0.046420141620771044,1.0,21.542372881355934,1,BLD Energy
+"fee_bucket=2_999, permit_number_category=ENER",permit_type_input=BLD Energy,0.044846577498033044,1.0,21.542372881355934,2,BLD Energy
+"permit_number_category=ENER, valuation_bucket=10000_99999",permit_type_input=BLD Energy,0.040912667191188044,1.0,21.542372881355934,2,BLD Energy
+"fee_bucket=2_999, permit_number_category=ENER, valuation_bucket=10000_99999",permit_type_input=BLD Energy,0.04051927616050354,1.0,21.542372881355934,3,BLD Energy
+"permit_number_category=ENER, status=BLD Issued",permit_type_input=BLD Energy,0.02675059008654603,1.0,21.542372881355934,2,BLD Energy
+"fee_bucket=2_999, permit_number_category=ENER, status=BLD Issued",permit_type_input=BLD Energy,0.025963808025177025,1.0,21.542372881355934,3,BLD Energy
+"permit_number_category=ENER, status=BLD Issued, valuation_bucket=10000_99999",permit_type_input=BLD Energy,0.024390243902439025,1.0,21.542372881355934,3,BLD Energy
+"fee_bucket=2_999, permit_number_category=ENER, status=BLD Issued, valuation_bucket=10000_99999",permit_type_input=BLD Energy,0.023996852871754525,1.0,21.542372881355934,4,BLD Energy
+"fee_bucket=2_999, permit_number_category=ENER, status=BLD LOC",permit_type_input=BLD Energy,0.016915814319433516,1.0,21.542372881355934,3,BLD Energy
+"permit_number_category=ENER, status=BLD LOC",permit_type_input=BLD Energy,0.016915814319433516,1.0,21.542372881355934,2,BLD Energy
+"fee_bucket=2_999, permit_number_category=ENER, status=BLD LOC, valuation_bucket=10000_99999",permit_type_input=BLD Energy,0.014555468135326514,1.0,21.542372881355934,4,BLD Energy
+"permit_number_category=ENER, status=BLD LOC, valuation_bucket=10000_99999",permit_type_input=BLD Energy,0.014555468135326514,1.0,21.542372881355934,3,BLD Energy
+permit_number_category=UTIL,permit_type_input=BLD Utility-Detached,0.07828481510621557,1.0,12.773869346733669,1,BLD Utility-Detached
+"permit_number_category=UTIL, status=BLD Issued",permit_type_input=BLD Utility-Detached,0.06451612903225806,1.0,12.773869346733669,2,BLD Utility-Detached
+"fee_bucket=1000_9999, permit_number_category=UTIL",permit_type_input=BLD Utility-Detached,0.04956726986624705,1.0,12.773869346733669,2,BLD Utility-Detached
+"fee_bucket=1000_9999, permit_number_category=UTIL, status=BLD Issued",permit_type_input=BLD Utility-Detached,0.043273013375295044,1.0,12.773869346733669,3,BLD Utility-Detached
+"permit_number_category=UTIL, valuation_bucket=10000_99999",permit_type_input=BLD Utility-Detached,0.04209284028324154,1.0,12.773869346733669,2,BLD Utility-Detached
+"permit_number_category=UTIL, status=BLD Issued, valuation_bucket=10000_99999",permit_type_input=BLD Utility-Detached,0.035798583792289534,1.0,12.773869346733669,3,BLD Utility-Detached
+"fee_bucket=2_999, permit_number_category=UTIL",permit_type_input=BLD Utility-Detached,0.028717545239968528,1.0,12.773869346733669,2,BLD Utility-Detached
+"fee_bucket=1000_9999, permit_number_category=UTIL, valuation_bucket=10000_99999",permit_type_input=BLD Utility-Detached,0.02714398111723053,1.0,12.773869346733669,3,BLD Utility-Detached
+"fee_bucket=1000_9999, permit_number_category=UTIL, status=BLD Issued, valuation_bucket=10000_99999",permit_type_input=BLD Utility-Detached,0.023603461841070025,1.0,12.773869346733669,4,BLD Utility-Detached
+"fee_bucket=1000_9999, permit_number_category=UTIL, valuation_bucket=100000_plus",permit_type_input=BLD Utility-Detached,0.022423288749016522,1.0,12.773869346733669,3,BLD Utility-Detached
+"permit_number_category=UTIL, valuation_bucket=100000_plus",permit_type_input=BLD Utility-Detached,0.022423288749016522,1.0,12.773869346733669,2,BLD Utility-Detached
+"fee_bucket=2_999, permit_number_category=UTIL, status=BLD Issued",permit_type_input=BLD Utility-Detached,0.021243115656963022,1.0,12.773869346733669,3,BLD Utility-Detached
+"fee_bucket=1000_9999, permit_number_category=UTIL, status=BLD Issued, valuation_bucket=100000_plus",permit_type_input=BLD Utility-Detached,0.01966955153422502,1.0,12.773869346733669,4,BLD Utility-Detached
+"permit_number_category=UTIL, status=BLD Issued, valuation_bucket=100000_plus",permit_type_input=BLD Utility-Detached,0.01966955153422502,1.0,12.773869346733669,3,BLD Utility-Detached
+"fee_bucket=2_999, permit_number_category=UTIL, valuation_bucket=10000_99999",permit_type_input=BLD Utility-Detached,0.014948859166011016,1.0,12.773869346733669,3,BLD Utility-Detached
+"fee_bucket=2_999, permit_number_category=UTIL, valuation_bucket=1000_9999",permit_type_input=BLD Utility-Detached,0.012588512981904013,1.0,12.773869346733669,3,BLD Utility-Detached
+"permit_number_category=UTIL, valuation_bucket=1000_9999",permit_type_input=BLD Utility-Detached,0.012588512981904013,1.0,12.773869346733669,2,BLD Utility-Detached
+"fee_bucket=2_999, permit_number_category=UTIL, status=BLD Issued, valuation_bucket=10000_99999",permit_type_input=BLD Utility-Detached,0.012195121951219513,1.0,12.773869346733669,4,BLD Utility-Detached
+permit_number_category=RES,permit_type_input=BLD Residential,0.17387883556254918,1.0,5.751131221719457,1,BLD Residential
+"permit_number_category=RES, status=BLD Issued",permit_type_input=BLD Residential,0.15656963021243114,1.0,5.751131221719457,2,BLD Residential
+"fee_bucket=1000_9999, permit_number_category=RES",permit_type_input=BLD Residential,0.0991345397324941,1.0,5.751131221719457,2,BLD Residential
+"permit_number_category=RES, valuation_bucket=10000_99999",permit_type_input=BLD Residential,0.0955940204563336,1.0,5.751131221719457,2,BLD Residential
+"fee_bucket=1000_9999, permit_number_category=RES, status=BLD Issued",permit_type_input=BLD Residential,0.09126671911880409,1.0,5.751131221719457,3,BLD Residential
+"permit_number_category=RES, status=BLD Issued, valuation_bucket=10000_99999",permit_type_input=BLD Residential,0.08300550747442959,1.0,5.751131221719457,3,BLD Residential
+"fee_bucket=1000_9999, permit_number_category=RES, valuation_bucket=10000_99999",permit_type_input=BLD Residential,0.06530291109362707,1.0,5.751131221719457,3,BLD Residential
+"fee_bucket=1000_9999, permit_number_category=RES, status=BLD Issued, valuation_bucket=10000_99999",permit_type_input=BLD Residential,0.05782848151062156,1.0,5.751131221719457,4,BLD Residential
+"permit_number_category=RES, valuation_bucket=100000_plus",permit_type_input=BLD Residential,0.05782848151062156,1.0,5.751131221719457,2,BLD Residential
+"permit_number_category=RES, status=BLD Issued, valuation_bucket=100000_plus",permit_type_input=BLD Residential,0.05704169944925256,1.0,5.751131221719457,3,BLD Residential
+"fee_bucket=2_999, permit_number_category=RES",permit_type_input=BLD Residential,0.05035405192761605,1.0,5.751131221719457,2,BLD Residential
+"fee_bucket=2_999, permit_number_category=RES, status=BLD Issued",permit_type_input=BLD Residential,0.04130605822187254,1.0,5.751131221719457,3,BLD Residential
+"fee_bucket=1000_9999, permit_number_category=RES, valuation_bucket=100000_plus",permit_type_input=BLD Residential,0.03383162863886703,1.0,5.751131221719457,3,BLD Residential
+"fee_bucket=1000_9999, permit_number_category=RES, status=BLD Issued, valuation_bucket=100000_plus",permit_type_input=BLD Residential,0.033438237608182535,1.0,5.751131221719457,4,BLD Residential
+"fee_bucket=2_999, permit_number_category=RES, valuation_bucket=10000_99999",permit_type_input=BLD Residential,0.02989771833202203,1.0,5.751131221719457,3,BLD Residential
+"fee_bucket=2_999, permit_number_category=RES, status=BLD Issued, valuation_bucket=10000_99999",permit_type_input=BLD Residential,0.024783634933123525,1.0,5.751131221719457,4,BLD Residential
+"fee_bucket=10000_99999, permit_number_category=RES",permit_type_input=BLD Residential,0.024390243902439025,1.0,5.751131221719457,2,BLD Residential
+"fee_bucket=10000_99999, permit_number_category=RES, status=BLD Issued",permit_type_input=BLD Residential,0.023996852871754525,1.0,5.751131221719457,3,BLD Residential

@@ -1,0 +1,427 @@
+permit_number,permit_type,status,issued_date,parcel_number,address,valuation,fee,owner_name,contractor_name
+25-COM0036," BLD Commercial","BLD Issued",09/16/2025,8831100001,"1920 Country Club Rd, Fort Collins, CO 80524","2,500,000.00","$35,163.45","Jenny Gwinner","Nickolaus Worley"
+25-COM0038," BLD Commercial","BLD Issued",09/17/2025,8707422003,"1512 Webster Ct, Fort Collins, CO 80524","52,500.00","$2,055.98","Robert Leasure, Jr",
+25-COM0039," BLD Commercial","BLD Issued",09/17/2025,8709426003,"4015 John Deere Dr, Fort Collins, CO 80524","45,000.00","$1,845.23","Mark Johnson",
+25-COM0033," BLD Commercial","BLD Issued",09/18/2025,0826000003,"3463 N County Road 27e, Bellvue, CO 80512","15,000.00",$691.17,,"James Arpin"
+25-COM0047," BLD Commercial","BLD Issued",09/03/2025,9835400018,"1800 N Whitcomb St, Fort Collins, CO 80524","10,000.00",$511.59,"Morgan Holdings Llc","Sheldon Maust"
+25-ENER0096," BLD Energy","BLD Issued",09/16/2025,0613000016,"6884 Stag Hollow Rd, Loveland, CO 80538","16,660.00",$500.00,,"Jorge Orozco"
+25-ENER0107," BLD Energy","BLD Issued",09/10/2025,9517205001,"1312 Westridge Dr, Loveland, CO 80537","2,029.91",$386.68,"William Sloup",
+25-ENER0123," BLD Energy","BLD Issued",09/22/2025,0418000018,"2519 Blue Mountain Trl, Lyons, CO 80540","35,323.00",$500.00,"Laurence Burgess","Jason Sharpe"
+25-ENER0106," BLD Energy","BLD Issued",09/10/2025,9517205001,"1312 Westridge Dr, Loveland, CO 80537",398.92,$255.42,"William Sloup",
+25-ENER0104," BLD Energy","BLD LOC",09/03/2025,9508106091,"2300 Ponderosa Dr, Loveland, CO 80538","29,500.00",$500.00,"Gerald Hernblom","Adam Kenyon"
+25-ENER0098," BLD Energy","BLD Issued",09/29/2025,3535422001,"885 Strong Hill Ln, Estes Park, CO 80517","19,853.00",$500.00,"Bruce Barker","Jason Sharpe"
+25-ENER0117," BLD Energy","BLD Issued",09/30/2025,2712405010,"559 Bighorn Dr, Bellvue, CO 80512","31,063.35",$500.00,"Lana Kucera","Dylan Price"
+25-ENER0112," BLD Energy","BLD Issued",09/16/2025,9417107008,"3482 Dovetail Dr, Berthoud, CO 80513","128,312.00",$500.00,"Georg Jannsson","Bret Duplantis"
+25-ENER0100," BLD Energy","BLD Issued",09/09/2025,0523000064,"8225 Coyote Run, Loveland, CO 80537","10,000.00",$425.09,"Malachy Ryan",
+25-ENER0111," BLD Energy","BLD Issued",09/22/2025,2504405010,"3200 Circle Dr, Estes Park, CO 80517","19,831.92",$500.00,"Donald Bailey","Dylan Price"
+25-ENER0115," BLD Energy","BLD Issued",09/25/2025,9530206008,"1476 Scenic Valley Dr, Loveland, CO 80537","34,366.00",$500.00,"Susan Powell","John Carey"
+25-ENER0125," BLD Energy","BLD Issued",09/19/2025,8607405003,"1790 E Trilby Rd, Fort Collins, CO 80528","46,952.00",$500.00,"Ric Lewis","Ian Skor"
+25-ENER0103," BLD Energy","BLD Issued",09/04/2025,3535212012,"1485 Upper Broadview, Estes Park, CO 80517","22,232.00",$500.00,"* RRT Living Trust",
+25-ENER0091," BLD Energy","BLD Issued",09/18/2025,9530208001,"6150 Panoramic Dr, Loveland, CO 80537","18,212.00",$500.00,"Daniel Anthone","Casey Cole"
+25-ENER0122," BLD Energy","BLD Issued",09/29/2025,8831336048,"1603 Hillside Dr, Fort Collins, CO 80524","19,813.00",$500.00,"Mark Johnson","Jason Sharpe"
+25-ENER0114," BLD Energy","BLD Issued",09/16/2025,4013305023,"1291 Tiny Bob Rd, Red Feather Lakes, CO 80545","28,750.00",$553.00,"Jack Benzel","Dave Rasmussen"
+25-ENER0121," BLD Energy","BLD Issued",09/30/2025,2517105009,"510 Little Beaver Dr, Estes Park, CO 80517","9,928.52",$375.09,"Douglas Frisbie","Matthew Raichart"
+25-ENER0102," BLD Energy","BLD Issued",09/03/2025,1701000003,"1870 Spring Valley Rd, Bellvue, CO 80512","48,206.17",$500.00,"Jim Horner","Dylan Price"
+23-ENER0032," BLD Energy","BLD Issued",09/17/2025,8622326001,"8333 Never Summer Cir, Fort Collins, CO 80528","23,263.00",$500.00,"Joshua Greenas","Dave Rasmussen"
+25-ENER0116," BLD Energy","BLD LOC",09/19/2025,2724200001,"433 Forest Road 344b, Bellvue, CO 80512","43,536.50",$500.00,"Glen Forbes","Dylan Price"
+25-ENER0127," BLD Energy","BLD Issued",09/29/2025,0501308005,"7519 Buffalo Ct, Loveland, CO 80538","33,007.00",$500.00,"Shelly Gerding","Jason Sharpe"
+25-ENER0119," BLD Energy","BLD Issued",09/15/2025,9825413066,"602 Gregory Rd, Fort Collins, CO 80524","31,136.70",$500.00,"Jeffery Darrah","Ian Skor"
+25-ENER0110," BLD Energy","BLD Issued",09/29/2025,0412000055,"5322 Getaway Dr, Berthoud, CO 80513","14,018.00",$500.00,"Jason Elkins",
+25-MISC2121," BLD Miscellaneous","BLD Issued",09/09/2025,2517306008,"1844 Stonegate Dr, Estes Park, CO 80517","3,123.95",$99.96,"Janet Nelson",
+25-MISC2122," BLD Miscellaneous","BLD LOC",09/09/2025,3401418071,"909 Rambling Dr, Estes Park, CO 80517","4,000.00",$99.96,"* Garry D Hanson Trust",
+25-MISC2076," BLD Miscellaneous","BLD Issued",09/19/2025,8524000017,"1339 S County Road 1, Johnstown, CO 80534","58,600.00",$62.17,"Weld County Public Works",
+25-MISC2149," BLD Miscellaneous","BLD Issued",09/10/2025,9922000034,"10400 N County Road 19, Fort Collins, CO 80524","35,000.00",$62.17,"Jeremy McCue","William Warren"
+25-MISC2262," BLD Miscellaneous","BLD Issued",09/22/2025,0426000042,"1615 S County Road 27e, Berthoud, CO 80513",100.00,$62.17,"Bear Beware LLC","Jacob Renninger"
+25-MISC2132," BLD Miscellaneous","BLD Issued",09/10/2025,9836405007,"1904 Marlene Dr, Fort Collins, CO 80524","2,000.00",$62.17,"Dawson Linde",
+25-MISC1988," BLD Miscellaneous","BLD Issued",09/15/2025,8005000902,"2700 E County Road 82, Wellington, CO 80549","75,189.00",$62.17,"Platte River Power Authority","Robert Cornwell"
+25-MISC2343," BLD Miscellaneous","BLD LOC",09/30/2025,0636405019,"4800 Otero Ave, Loveland, CO 80538",876.15,$144.00,"Jeffrey Gruver",
+25-MISC2072," BLD Miscellaneous","BLD Issued",09/03/2025,1428105129,"52 Crow Ln, Lyons, CO 80540","8,900.00",$247.00,"Frederick Barton",
+25-MISC2173," BLD Miscellaneous","BLD Issued",09/12/2025,8835000013,"5125 E County Road 52, Fort Collins, CO 80524",787.28,$144.00,"* David Nelson Family Trust",
+25-MISC2047," BLD Miscellaneous","BLD LOC",09/02/2025,3932300027,"55 Crown Point Dr, Bellvue, CO 80512","1,500.00",$144.00,"Curtis Samples",
+25-MISC2073," BLD Miscellaneous","BLD Issued",09/10/2025,3527404049,"1771 High Dr, Estes Park, CO 80517","1,950.00",$144.00,,
+25-MISC2318," BLD Miscellaneous","BLD LOC",09/29/2025,3535106019,"1260 Hill Rd, Estes Park, CO 80517","2,920.00",$178.00,"Todd Dallegge",
+25-MISC2158," BLD Miscellaneous","BLD Issued",09/11/2025,2407407015,"3870 Star Way, Estes Park, CO 80517","16,750.00",$338.00,"Alan Ward",
+25-MISC2095," BLD Miscellaneous","BLD LOC",09/05/2025,3535400027,"1667 Hallett Heights Dr, Estes Park, CO 80517","2,000.00",$144.00,"Ronald L Friehe Living Trust",
+25-MISC2329," BLD Miscellaneous","BLD Issued",09/29/2025,9835400046,"2025 N College Ave 345, Fort Collins, CO 80524","1,350.00",$144.00,,
+25-MISC2326," BLD Miscellaneous","BLD Issued",09/29/2025,9635113002,"304 W 50th St, Loveland, CO 80538","5,100.00",$203.00,"Amy Burch",
+25-MISC2092," BLD Miscellaneous","BLD Issued",09/05/2025,9624122013,"921 Terra View Cir, Fort Collins, CO 805259319","1,612.00",$144.00,"Suzanne Moorehouse",
+25-MISC2232," BLD Miscellaneous","BLD Issued",09/18/2025,1428315029,"20 Navajo Ct, Lyons, CO 80540","3,000.00",$179.00,"Geralyn Plank",
+25-MISC2227," BLD Miscellaneous","BLD Issued",09/25/2025,8622317003,"8201 Taylor Ct, Fort Collins, CO 80528","7,500.00",$231.00,"Francisco Rivas",
+25-MISC2178," BLD Miscellaneous","BLD LOC",09/15/2025,9831000015,"1998 Pleasant Glen Ln, Bellvue, CO 80512","2,607.00",$175.00,"George Fisher",
+25-MISC2219," BLD Miscellaneous","BLD LOC",09/17/2025,9606207003,"4801 W County Road 38e 3, Fort Collins, CO 80526","1,000.00",$134.00,"Paras Shah",
+25-MISC2078," BLD Miscellaneous","BLD Issued",09/04/2025,0825414001,"2925 N County Road 23, Bellvue, CO 80512",250.00,$144.00,"Zachary Whitt",
+25-MISC2253," BLD Miscellaneous","BLD LOC",09/19/2025,3401113016,"821 Whispering Pines Dr, Estes Park, CO 80517","3,500.00",$185.00,,
+25-MISC2197," BLD Miscellaneous","BLD Issued",09/17/2025,9606209011,"5008 W Bay Dr, Fort Collins, CO 80526","7,000.00",$225.00,"Benjamin Butterfield",
+25-MISC2206," BLD Miscellaneous","BLD Issued",09/16/2025,0601000014,"6870 Milner Mountain Ranch Rd, Fort Collins, CO 80526","1,781.00",$144.00,,
+25-MISC2264," BLD Miscellaneous","BLD Issued",09/29/2025,9933000006,"8285 N County Road 19, Fort Collins, CO 80524","1,200.00",$144.00,"Kevin Garrett",
+25-MISC2265," BLD Miscellaneous","BLD LOC",09/29/2025,3007210056,"581 Blackfoot Rd, Red Feather Lakes, CO 80545","3,800.00",$188.00,"Roger Doan",
+25-MISC2166," BLD Miscellaneous","BLD Issued",09/16/2025,1626423017,"1191 Palisade Mountain Dr, Drake, CO 80515","5,350.00",$206.00,"Vance Valerio",
+25-MISC2230," BLD Miscellaneous","BLD LOC",09/18/2025,9509400015,"3105 W Eisenhower Blvd 4, Loveland, CO 80537",850.00,$144.00,"Mike Jansen",
+25-MISC2190," BLD Miscellaneous","BLD LOC",09/15/2025,2913308009,"231 Snowmass Dr, Livermore, CO 80536","12,734.17",$292.00,"Alyssa Lambert",
+25-MISC2321," BLD Miscellaneous","BLD Issued",09/29/2025,8706121004,"1904 Kedron Dr, Fort Collins, CO 80524",900.00,$144.00,"David Cunningham",
+25-MISC2348," BLD Miscellaneous","BLD Issued",09/30/2025,8618005018,"6620 Majestic Dr, Fort Collins, CO 80528","1,187.05",$144.00,"Adam Mayer",
+25-MISC2297," BLD Miscellaneous","BLD Issued",09/25/2025,8619314001,"1400 E County Road 30, Fort Collins, CO 80525","6,470.00",$219.00,"Dick Pickett",
+25-MISC2174," BLD Miscellaneous","BLD Issued",09/17/2025,9508407016,"4217 Firerock Rd, Loveland, CO 80538","3,400.00",$184.00,"Michael Roccanti",
+25-MISC2296," BLD Miscellaneous","BLD LOC",09/24/2025,8713000014,"1414 S County Road 3, Fort Collins, CO 80524","4,000.00",$191.00,"Paige Lunberry",
+25-MISC2207," BLD Miscellaneous","BLD Issued",09/17/2025,0513319005,"7680 Big Valley Dr, Loveland, CO 80537","6,595.00",$221.00,,
+25-MISC2125," BLD Miscellaneous","BLD LOC",09/09/2025,3527100053,"319 Noble Ln, Estes Park, CO 80517","8,000.00",$237.00,,
+25-MISC2311," BLD Miscellaneous","BLD Issued",09/26/2025,9615000011,"1259 Meeteetse Ln, Fort Collins, CO 80526",589.70,$197.00,"Eugene Ritzman",
+25-MISC0482," BLD Miscellaneous","BLD LOC",09/18/2025,1428214166,"287 Wichita, Lyons, CO 80540","10,000.00",$254.00,"Christopher Connot",
+25-MISC2317," BLD Miscellaneous","BLD Issued",09/29/2025,9927000025,"1760 Conagher Ln, Fort Collins, CO 80524","14,670.00",$314.00,"Marilyn Hodges",
+25-MISC2186," BLD Miscellaneous","BLD Issued",09/15/2025,9836205005,"2536 Terry Lake Rd, Fort Collins, CO 80524","2,200.00",$170.00,"Jake Herzanek",
+25-MISC2306," BLD Miscellaneous","BLD Issued",09/25/2025,8623226801,"7649 Rea Pkwy, Fort Collins, CO 80528","3,500.00",$185.00,"Meter Release - PVREA",
+25-MISC2222," BLD Miscellaneous","BLD Issued",09/17/2025,8801005703,"6204 E County Road 60, Fort Collins, CO 80524","1,200.00",$144.00,"Calum Maclean",
+25-MISC1672," BLD Miscellaneous","BLD LOC",09/16/2025,9017000002,,"1,500.00",$144.00,"Ackerman Family Farms And Ranches Llc",
+25-MISC2233," BLD Miscellaneous","BLD Issued",09/18/2025,9910405017,"11927 Spotted Pony Cir, Fort Collins, CO 80524","8,950.00",$271.00,"Dan Colgan",
+25-MISC2100," BLD Miscellaneous","BLD LOC",09/08/2025,9636405029,"1109 Knobcone Pl, Loveland, CO 80538","1,092.00",$144.00,"* Bragado Familly Revoc Trust",
+25-MISC2168," BLD Miscellaneous","BLD Issued",09/16/2025,2936405113,"109 Snowy Range Ct, Livermore, CO 80536","1,000.00",$144.00,"Cynthia Dugan",
+25-MISC2120," BLD Miscellaneous","BLD LOC",09/09/2025,9528306701,"3863 W County Road 16, Loveland, CO 80537","9,000.00",$249.00,,
+25-MISC2271," BLD Miscellaneous","BLD Issued",09/22/2025,9531107018,"5507 Wild Plum Dr, Loveland, CO 80537","3,800.00",$188.00,"Joseph Wong",
+25-MISC2113," BLD Miscellaneous","BLD LOC",09/08/2025,9823419086,"416 Deerfield Cir, Fort Collins, CO 80524",900.00,$144.00,,
+25-MISC2256," BLD Miscellaneous","BLD Issued",09/19/2025,8621000009,"3900 E County Road 30, Fort Collins, CO 80528","6,523.00",$220.00,"Aaron Olson",
+25-MISC2082," BLD Miscellaneous","BLD LOC",09/04/2025,8631209701,"1374 E 57th St, Loveland, CO 80538","3,000.00",$179.00,"William McKinney",
+25-MISC2252," BLD Miscellaneous","BLD LOC",09/19/2025,3404306024,"116 Longs Trl, Estes Park, CO 80511",300.00,$144.00,"Ian Hill",
+25-MISC2204," BLD Miscellaneous","BLD Issued",09/16/2025,9732206009,"3519 Horsetooth Cliffs Way, Fort Collins, CO 80526","11,000.00",$272.00,"Robert Lipsey",
+25-MISC2338," BLD Miscellaneous","BLD Issued",09/30/2025,8929000808,"2892 E County Road 64, Wellington, CO 80549","6,000.00",$214.00,"Meter Release - Xcel Energy",
+25-MISC2116," BLD Miscellaneous","BLD LOC",09/08/2025,8807000008,"5537 N Highway 1, Fort Collins, CO 80524","16,000.00",$329.00,"Burke Healey",
+25-MISC2285," BLD Miscellaneous","BLD Issued",09/24/2025,9430214004,"702 Big Oak Ct, Berthoud, CO 80513","5,500.00",$208.00,"Reece Leishman",
+25-MISC2044," BLD Miscellaneous","BLD Issued",09/02/2025,3401150001,"2410 Spruce Ave, Estes Park, CO 80517",100.00,$144.00,"* Wallis Trust",
+25-MISC2315," BLD Miscellaneous","BLD LOC",09/29/2025,9606200026,"4740 Libby Dr, Fort Collins, CO 80526","1,320.00",$144.00,,
+25-MISC2250," BLD Miscellaneous","BLD Issued",09/19/2025,8831417022,"1722 Hillside Dr, Fort Collins, CO 80524","15,000.00",$318.00,"Victoria Higgins",
+25-MISC2165," BLD Miscellaneous","BLD LOC",09/12/2025,1823000019,"228 Stratton Park Rd, Bellvue, CO 80512","6,150.00",$216.00,,
+25-MISC2303," BLD Miscellaneous","BLD Issued",09/25/2025,9733422006,"4309 Wellington Dr, Fort Collins, CO 80526","7,750.00",$234.00,"Donald Morris",
+25-MISC2333," BLD Miscellaneous","BLD Issued",09/30/2025,9826207002,"3605 Bay Shore Dr, Fort Collins, CO 80524","4,250.00",$194.00,"Elaine Spencer",
+25-MISC2164," BLD Miscellaneous","BLD LOC",09/12/2025,9408405003,"3191 Sparrow Hawk Ln, Berthoud, CO 80513","7,000.00",$225.00,"Mark Peterson",
+25-MISC2094," BLD Miscellaneous","BLD LOC",09/05/2025,8710000014,"4412 E Mulberry St 217, Fort Collins, CO 80524",500.00,$134.00,"Mike Jansen",
+25-MISC2109," BLD Miscellaneous","BLD Issued",09/08/2025,8710415033,"186 Camino Real, Fort Collins, CO 80524","4,500.00",$196.00,"Chris Lattes",
+25-MISC2245," BLD Miscellaneous","BLD LOC",09/18/2025,9830109017,"3317 Buckskin Trl, Laporte, CO 80535","3,000.00",$179.00,"Kyle Lisabeth",
+25-MISC2209," BLD Miscellaneous","BLD Issued",09/16/2025,1418000021,"9041 E Highway 36, Lyons, CO 80540","1,000.00",$144.00,"Teresa Odendahl",
+25-MISC2119," BLD Miscellaneous","BLD Issued",09/09/2025,8611000902,"6037 S County Road 3, Fort Collins, CO 80528","5,000.00",$202.00,"Cache La Poudre Irrigation Co.",
+25-MISC2344," BLD Miscellaneous","BLD Issued",09/30/2025,8528206006,"1714 Sauk Hill Rd, Loveland, CO 80537","9,500.00",$254.00,"Alan Anderson",
+25-MISC2290," BLD Miscellaneous","BLD Issued",09/30/2025,2534407007,"544 Meadowview Dr, Estes Park, CO 80517","1,500.00",$144.00,"David Schmidt",
+25-MISC2161," BLD Miscellaneous","BLD Issued",09/11/2025,8914000037,"11021 N County Road 3, Wellington, CO 80549","2,681.25",$175.00,"Macallister Harris",
+25-MISC2111," BLD Miscellaneous","BLD LOC",09/09/2025,8614317015,"5123 Snead Ct, Fort Collins, CO 80528","1,515.00",$144.00,"Kris Hoglin",
+25-MISC2280," BLD Miscellaneous","BLD Issued",09/24/2025,8831438010,"1811 Dayton Dr, Fort Collins, CO 80524","1,000.00",$144.00,"Ashley Torres",
+25-MISC2194," BLD Miscellaneous","BLD Issued",09/15/2025,9733417024,"4321 Picadilly Dr, Fort Collins, CO 80526","9,500.00",$254.00,"Charles Cairns",
+25-MISC2050," BLD Miscellaneous","BLD Issued",09/02/2025,0401300071,"5405 Sandia Ln, Berthoud, CO 80513","23,000.00",$636.55,"Kim Homolka",
+25-MISC2293," BLD Miscellaneous","BLD Issued",09/24/2025,1418000021,"9041 E Highway 36, Lyons, CO 80540","8,300.00",$224.85,"Teresa Odendahl","Sawyer Overfelt"
+25-MISC2192," BLD Miscellaneous","BLD Issued",09/15/2025,9508418111,"2140 Morning Dr, Loveland, CO 80538","5,426.91",$149.91,"Brenda Hatch","Chris Tenan"
+25-MISC2189," BLD Miscellaneous","BLD LOC",09/15/2025,9836109004,"2427 Westview Rd, Fort Collins, CO 80524","4,926.07",$186.93,"James Best","Chris Tenan"
+25-MISC2106," BLD Miscellaneous","BLD Issued",09/08/2025,9416305701,"612 N County Road 21, Berthoud, CO 80513",490.00,$64.93,"Heather Wright",
+25-MISC2270," BLD Miscellaneous","BLD Issued",09/22/2025,3535207063,"1125 Marys Lake Rd, Estes Park, CO 80517","6,413.00",$174.89,"David Kasmer","Jeffrey Reynolds"
+25-MISC2234," BLD Miscellaneous","BLD Issued",09/18/2025,9836121024,"709 Knollwood Cir, Fort Collins, CO 80524","14,500.00",$436.72,"* Baker Family Trust","Jeffrey Schneider"
+25-MISC2085," BLD Miscellaneous","BLD Issued",09/05/2025,8631209701,"1374 E 57th St, Loveland, CO 80538",200.00,$126.93,"William McKinney",
+25-MISC2224," BLD Miscellaneous","BLD Issued",09/17/2025,9811100001,"122 Rocky Ridge Ln, Fort Collins, CO 80524",500.00,$64.93,"Michael Moreng",
+25-MISC2066," BLD Miscellaneous","BLD LOC",09/03/2025,9829413002,"2819 N Overland Trl, Laporte, CO 80535","6,907.10",$174.89,"Vicki Lucero","Chris Tenan"
+25-MISC2337," BLD Miscellaneous","BLD Issued",09/30/2025,8831400019,"1801 Country Club Rd, Fort Collins, CO 80524","21,177.00",$549.57,"David Marchant","Jeffrey Reynolds"
+25-MISC2284," BLD Miscellaneous","BLD Issued",09/24/2025,8714205007,"705 Boulder Cir, Fort Collins, CO 80524","6,873.59",$174.89,"* Hoeffler Family Trust","Chris Tenan"
+25-MISC2302," BLD Miscellaneous","BLD LOC",09/25/2025,9517100022,"1231 Riverview Dr, Loveland, CO 80537","16,351.00",$486.68,"Mark DeGregorio",
+25-MISC2162," BLD Miscellaneous","BLD LOC",09/12/2025,4001109053,"6 Inca Ct, Red Feather Lakes, CO 80545",650.00,$189.10,,"Jeff Gallagher"
+25-MISC2135," BLD Miscellaneous","BLD LOC",09/10/2025,9836300014,"2020 N College Ave, Fort Collins, CO 80524",150.00,$64.93,"Robert Breckenridge",
+25-MISC2108," BLD Miscellaneous","BLD Issued",09/08/2025,3535400027,"1667 Hallett Heights Dr, Estes Park, CO 80517",700.00,$127.10,"Michael Courtney",
+25-MISC2152," BLD Miscellaneous","BLD Issued",09/11/2025,9824308007,"3800 La Mesa Dr, Fort Collins, CO 80524","1,000.00",$64.93,"Mary Pitz","Glenn Frank"
+25-MISC2105," BLD Miscellaneous","BLD Issued",09/08/2025,9403109012,"1717 Rolling View Dr, Loveland, CO 80537","16,443.00",$486.68,"Steven Clark",
+25-MISC2269," BLD Miscellaneous","BLD Issued",09/22/2025,9615000002,"1188 Meeteetse Ln, Fort Collins, CO 80526","3,300.00",,"* Reiker Revoc Trust","Mike Ducett"
+25-MISC2228," BLD Miscellaneous","BLD Issued",09/24/2025,3403345003,"2735 Cedarcliff Dr, Estes Park, CO 80517","10,919.00",$336.81,"* Muller Family Trust","Kaelan Moistner"
+25-MISC2216," BLD Miscellaneous","BLD Issued",09/17/2025,0511200027,"2755 N County Road 29, Loveland, CO 80538","13,249.00",$349.74,"Lynnet Bannion","Alan Snyman"
+25-MISC2170," BLD Miscellaneous","BLD LOC",09/12/2025,0232000046,"260 Pristine Pines Ln, Livermore, CO 80536","11,030.80",$299.78,"Michael Sills","Mark Lancaster"
+25-MISC2193," BLD Miscellaneous","BLD Issued",09/15/2025,9709317001,"305 S Hollywood St, Fort Collins, CO 80521","2,768.00",$74.98,"Leslie Brown","Jeff Richard"
+25-MISC2215," BLD Miscellaneous","BLD LOC",09/17/2025,8831336047,"1531 Hillside Dr, Fort Collins, CO 80524","7,383.00",$199.87,"Nancy Vehr","Glenn Frank"
+25-MISC2098," BLD Miscellaneous","BLD Issued",09/05/2025,8906105701,"13601 N County Road 11, Wellington, CO 80549","7,691.00",$199.87,"* Wagner Family Revocable Trust","Philip Long"
+25-MISC2175," BLD Miscellaneous","BLD Issued",09/12/2025,9520408014,"1040 Eastlake Ct, Loveland, CO 80537","12,616.00",$324.76,"Linda LaFrance","Kevin Cassidy"
+25-MISC2212," BLD Miscellaneous","BLD Issued",09/16/2025,9520405053,"4101 Scilla Pl, Loveland, CO 80537","15,916.00",$399.70,"Jacob Bertram","Glenn Frank"
+25-MISC2183," BLD Miscellaneous","BLD Issued",09/15/2025,1011300001,"1411 Andrews Park Rd, Livermore, CO 80536","29,081.00",$811.40,"Tina Gray","Glenn Frank"
+25-MISC2049," BLD Miscellaneous","BLD LOC",09/02/2025,9519105002,"102 Arabian Ct, Loveland, CO 80537","8,685.55",$286.85,"* Roger Bates Living Trust","Dwayne Shawver"
+25-MISC2053," BLD Miscellaneous","BLD Issued",09/02/2025,0831105010,"330 El Arbol Dr, Bellvue, CO 80512","1,900.00",$126.93,"Jarrett Welch",
+25-MISC2205," BLD Miscellaneous","BLD Issued",09/16/2025,8831336048,"1603 Hillside Dr, Fort Collins, CO 80524","12,435.00",$386.76,"Mark Johnson","Nathan Gagliano"
+25-MISC2243," BLD Miscellaneous","BLD LOC",09/18/2025,9636405073,"905 Engleman Pl, Loveland, CO 80538","13,588.00",$411.74,"Jesse Griffin","Kyle Littleton"
+25-MISC2274," BLD Miscellaneous","BLD Issued",09/23/2025,0911000050,"2351 N Greyrock Rd, Laporte, CO 80535","10,528.00",$336.81,,"Mike Ducett"
+25-MISC2141," BLD Miscellaneous","BLD Issued",09/10/2025,9531305011,"3816 Pregel Ct, Loveland, CO 80537","23,481.58",$661.53,"Brent Vecchia","Dwayne Shawver"
+25-MISC2229," BLD Miscellaneous","BLD Issued",09/18/2025,3401207013,"370 Whispering Pines Dr, Estes Park, CO 80517","18,622.00",$536.64,"John Long","Christopher Butts"
+25-MISC2275," BLD Miscellaneous","BLD Issued",09/23/2025,9734205006,"3816 S Taft Hill Rd, Fort Collins, CO 80526","9,821.00",$311.83,"Philip Wilson","Mike Ducett"
+25-MISC2079," BLD Miscellaneous","BLD LOC",09/04/2025,9832408026,"3509 Arapahoe Dr, Fort Collins, CO 80521","11,002.00",$299.78,"Sara Tholen","Peter Doll"
+25-MISC2084," BLD Miscellaneous","BLD LOC",09/05/2025,4002309071,"1550 Ottawa Way, Red Feather Lakes, CO 80545","13,000.00",$386.76,"* Weingart Family Trust","Grant McVay"
+25-MISC2304," BLD Miscellaneous","BLD Issued",09/25/2025,9911000039,"515 W County Road 72, Wellington, CO 80549","17,920.25",$449.66,"Jamie McIntyre","Glenn Frank"
+25-MISC2346," BLD Miscellaneous","BLD LOC",09/30/2025,1705000013,"2458 Paradise Park Rd, Bellvue, CO 80512","6,246.00",$174.89,"* Rosenberg","Glenn Frank"
+25-MISC2103," BLD Miscellaneous","BLD LOC",09/08/2025,8710415006,"127 Rebecca Ct, Fort Collins, CO 80524","16,895.00",$424.68,"Thomas Porter Living Trust","Kyle Littleton"
+25-MISC2300," BLD Miscellaneous","BLD LOC",09/25/2025,9821406016,"4113 Ideal Dr, Fort Collins, CO 80524","7,421.70",$199.87,"James Berry","Mark Lancaster"
+25-MISC2117," BLD Miscellaneous","BLD Issued",09/08/2025,9704217026,"1410 Tributary Ct, Fort Collins, CO 80521","2,722.00",$136.98,,"Mike Ducett"
+25-MISC2061," BLD Miscellaneous","BLD Issued",09/03/2025,0426000025,"1125 S County Road 27e, Berthoud, CO 80513","11,612.00",$299.78,"Adam Herman","Kevin Cassidy"
+25-MISC2083," BLD Miscellaneous","BLD Issued",09/08/2025,8707106101,"124 Racquette Dr, Fort Collins, CO 80524","17,928.00",$511.66,"Carol Cochran","Jaysen Lopez"
+25-MISC2263," BLD Miscellaneous","BLD Issued",09/22/2025,9615000002,"1188 Meeteetse Ln, Fort Collins, CO 80526","10,600.00",$336.81,"* Reiker Revoc Trust","Ronald Gabriel"
+25-MISC2151," BLD Miscellaneous","BLD Issued",09/16/2025,2914407001,"290 Humboldt Dr, Livermore, CO 80536","17,025.00",$511.66,"Bryan Ross","Kyle Littleton"
+25-MISC2107," BLD Miscellaneous","BLD LOC",09/08/2025,0610434009,"9738 Buckhorn Ridge Way, Loveland, CO 80538","19,500.00",$561.61,,"Michael Culp"
+25-MISC2239," BLD Miscellaneous","BLD Issued",09/18/2025,8634109901,"5290 Arena Cir, Loveland, CO 80538","8,000.00",$261.87,,
+25-MISC2330," BLD Miscellaneous","BLD Issued",09/30/2025,9732206009,"3519 Horsetooth Cliffs Way, Fort Collins, CO 80526","25,000.00",$686.51,"Tiffany Lipsey","Grant McVay"
+25-MISC2131," BLD Miscellaneous","BLD Issued",09/09/2025,8619225001,"7687 Golden Prairie Ct, Fort Collins, CO 80525","19,229.00",$499.61,"Jennifer Whitacre","Dwayne Shawver"
+25-MISC2202," BLD Miscellaneous","BLD Issued",09/16/2025,0427000046,"7732 Lakota Ridge Ln, Berthoud, CO 80513","8,509.00",$224.85,"Rowdy Rowdy/Lauren Roth Living Trust","Casey Welzig"
+25-MISC2260," BLD Miscellaneous","BLD Issued",09/22/2025,9829412043,"2808 Tharp Dr, Laporte, CO 80535","21,125.00",$611.57,"Nancy Rehe","William Cummins"
+25-MISC2150," BLD Miscellaneous","BLD LOC",09/11/2025,0831100015,"116 El Arbol Dr, Bellvue, CO 80512","12,708.00",$324.76,"Neil Faber","Glenn Frank"
+25-MISC2210," BLD Miscellaneous","BLD LOC",09/16/2025,9434207013,"1719 Chaparro Cir, Berthoud, CO 80513","7,377.00",$199.87,"Scott Malan","Leonard Cipolla"
+25-MISC2223," BLD Miscellaneous","BLD Issued",09/17/2025,3027119030,"2140 Fox Acres Dr E, Red Feather Lakes, CO 80545","4,321.00",$124.93,"* Paris Family Trust","Mike Missimer"
+25-MISC2080," BLD Miscellaneous","BLD LOC",09/04/2025,3018205041,"544 Comanche Cir, Red Feather Lakes, CO 80545","6,623.00",$174.89,"Lisa Propernick","Glenn Frank"
+25-MISC2054," BLD Miscellaneous","BLD Issued",09/05/2025,8623109017,"5798 Sierra Dr, Fort Collins, CO 80528","35,555.00",$899.27,"Jason Collison","Kyle Littleton"
+25-MISC2101," BLD Miscellaneous","BLD Issued",09/08/2025,9825313071,"300 Shore Ct, Fort Collins, CO 80524","23,324.00",$599.53,"Jason Lay","Glenn Frank"
+25-MISC2188," BLD Miscellaneous","BLD Issued",09/17/2025,0421105019,"424 Lakritz St, Berthoud, CO 80513","8,078.10",$286.85,,"Kevin Cassidy"
+25-MISC2200," BLD Miscellaneous","BLD Issued",09/16/2025,9526300016,"1111 W County Road 16, Loveland, CO 80537","1,770.00",$64.93,"Peggy Elliott","Jeff Richard"
+25-MISC2096," BLD Miscellaneous","BLD LOC",09/08/2025,9923305049,"729 W County Road 66e, Fort Collins, CO 80524","4,000.00",$99.96,"Mai Dailey",
+25-MISC2171," BLD Miscellaneous","BLD Issued",09/12/2025,9501206005,"501 E 41st St, Loveland, CO 80538","12,000.00",$299.78,"Daniel Wagnon","Jason Shivo"
+25-MISC2184," BLD Miscellaneous","BLD LOC",09/15/2025,0615400017,"8511 N County Road 27, Loveland, CO 80538","30,550.00",$836.38,"Scott Schneider",
+25-MISC2283," BLD Miscellaneous","BLD Issued",09/23/2025,0914000016,"1254 Obenchain Rd, Laporte, CO 80535","24,018.00",$624.51,"Keith Gallie","William Cummins"
+25-MISC2341," BLD Miscellaneous","BLD LOC",09/30/2025,8526100020,"7510 E County Road 18, Johnstown, CO 80534","11,000.00",$274.81,"Kenneth E/ Nona Dutchak","Matthew Markle"
+25-MISC2319," BLD Miscellaneous","BLD Issued",09/29/2025,8831200060,"1120 Club View Ter, Fort Collins, CO 80524","8,120.00",$286.85,"Peter Stackhouse","Peter Doll"
+25-MISC2160," BLD Miscellaneous","BLD LOC",09/11/2025,1822407015,"246 Mount Ethel Rd, Bellvue, CO 80512","11,752.00",$361.78,"Daniel Diefenderfer","Glenn Frank"
+25-MISC2312," BLD Miscellaneous","BLD LOC",09/26/2025,8710000014,"4412 E Mulberry St #243, Fort Collins, CO 80524","2,956.00",$74.98,"Jane Sturtevant","Mike Ducett"
+25-MISC2235," BLD Miscellaneous","BLD Issued",09/18/2025,9935000009,"8475 Shamrock Ranch Rd, Fort Collins, CO 80524","17,166.00",$449.66,"Jeramiah Larsen","Glenn Frank"
+25-MISC2086," BLD Miscellaneous","BLD LOC",09/05/2025,9733422010,"4325 Wellington Dr, Fort Collins, CO 80526","15,000.00",$374.72,"* Donald P/Donna L Wierbilis Living Trust","Grant McVay"
+25-MISC2126," BLD Miscellaneous","BLD Issued",09/09/2025,9733417024,"4321 Picadilly Dr, Fort Collins, CO 80526","17,774.00",$511.66,"Charles Cairns","Kevin Cassidy"
+25-MISC2130," BLD Miscellaneous","BLD Issued",09/09/2025,8706160011,"1963 Adriel Dr, Fort Collins, CO 80524","3,000.00",$74.98,"Alan Sneider","Mike Ducett"
+25-MISC2167," BLD Miscellaneous","BLD LOC",09/12/2025,9832408028,"3517 Arapahoe Dr, Fort Collins, CO 80521","5,073.00",$149.91,"Jane Marino","Peter Doll"
+25-MISC2046," BLD Miscellaneous","BLD Issued",09/02/2025,3401150001,"2410 Spruce Ave, Estes Park, CO 80517","8,000.00",$199.87,"* Wallis Trust",
+25-MISC2241," BLD Miscellaneous","BLD LOC",09/18/2025,8710000014,"4412 E Mulberry St 224, Fort Collins, CO 80524","3,384.70",$99.96,"Seth Hillis","Mark Lancaster"
+25-MISC2088," BLD Miscellaneous","BLD LOC",09/05/2025,9829328001,"3303 Mcconnell Dr, Laporte, CO 80535","9,856.00",$249.83,"Kathy Merritt","Glenn Frank"
+25-MISC2136," BLD Miscellaneous","BLD LOC",09/10/2025,9835205015,"2615 Bainbridge St, Fort Collins, CO 80524","16,487.00",$424.68,"Matthew Johnson","Dwayne Shawver"
+25-MISC2301," BLD Miscellaneous","BLD Issued",09/29/2025,9812207701,"480 Jason Rd, Fort Collins, CO 80524","7,166.00",$199.87,"Greta Fielitz","Glenn Frank"
+25-MISC2314," BLD Miscellaneous","BLD LOC",09/26/2025,9625317038,"457 Alpine Meadows Ct, Loveland, CO 80538","3,200.00",$99.96,"Maggie Edelfelt","Mike Ducett"
+25-MISC2254," BLD Miscellaneous","BLD Issued",09/19/2025,9520405037,"4117 Rockcress Pl, Loveland, CO 80537","3,315.00",$99.96,"Erin Dalton","Michael Culp"
+25-MISC2070," BLD Miscellaneous","BLD Issued",09/03/2025,9625419001,"833 Wisteria Dr, Loveland, CO 80538","8,775.00",$224.85,"Brian Jacobson","Michael Culp"
+25-MISC2247," BLD Miscellaneous","BLD LOC",09/19/2025,0601105285,"4641 Echo Cir, Fort Collins, CO 80526","13,821.22",$349.74,"Jason Sharp","Kevin Cassidy"
+25-MISC2259," BLD Miscellaneous","BLD Issued",09/22/2025,9408405024,"2007 Preserve Dr, Berthoud, CO 80513","7,500.00",$261.87,"Eric Miller","Rodney Grieser"
+25-MISC2276," BLD Miscellaneous","BLD Issued",09/23/2025,9636200044,"420 E 57th St #158, Loveland, CO 80538","3,534.00",$99.96,,"Mike Ducett"
+25-MISC2177," BLD Miscellaneous","BLD Issued",09/15/2025,8702011013,"953 Coho Run, Fort Collins, CO 80524","7,878.75",$199.87,,"Mark Lancaster"
+25-MISC2187," BLD Miscellaneous","BLD Issued",09/15/2025,2913308009,"231 Snowmass Dr, Livermore, CO 80536","19,000.00",$536.64,"Alyssa Lambert","Grant McVay"
+25-MISC1942," BLD Miscellaneous","BLD Issued",09/02/2025,8831414107,"1620 Linden Lake Rd, Fort Collins, CO 80524","11,865.00",$299.78,"Scott Shracke","Kyle Littleton"
+25-MISC2289," BLD Miscellaneous","BLD Issued",09/24/2025,8831314027,"2009 Linden Lake Rd, Fort Collins, CO 80524","3,418.10",$99.96,"Jeffrey Wolff","Kevin Cassidy"
+25-MISC2048," BLD Miscellaneous","BLD LOC",09/02/2025,8710000014,"4412 E Mulberry St 264, Fort Collins, CO 80524","3,384.70",$99.96,"Linda Staples","Mark Lancaster"
+25-MISC2099," BLD Miscellaneous","BLD LOC",09/08/2025,9529109001,"4367 Sweetgrass Dr, Loveland, CO 80537","10,457.00",$336.81,"Timothy Scott","Dwayne Shawver"
+25-MISC2220," BLD Miscellaneous","BLD LOC",09/17/2025,9624206018,"425 Diamond Dr, Fort Collins, CO 80525","8,000.00",$199.87,"Matthew Patella",
+25-MISC2273," BLD Miscellaneous","BLD Issued",09/22/2025,3028117002,"220 Fox Acres Dr W, Red Feather Lakes, CO 80545","3,648.00",$99.96,"Steve Ray","Michael Allen"
+25-MISC2221," BLD Miscellaneous","BLD LOC",09/17/2025,9826113007,"3528 Terry Point Dr, Fort Collins, CO 80524","2,150.00",$74.98,"Mary Herman",
+25-MISC2327," BLD Miscellaneous","BLD Issued",09/29/2025,8715000005,"4410 Quest Dr, Fort Collins, CO 80524","1,750.00",$64.93,"Kenneth Levinson","James Kelley"
+25-MISC2123," BLD Miscellaneous","BLD Issued",09/09/2025,9730405031,"3270 Continental Cir, Fort Collins, CO 80526","4,488.00",$124.93,"Christina Gulbranson",
+25-MISC2185," BLD Miscellaneous","BLD Issued",09/15/2025,9625317065,"5769 Aspen View Pl, Loveland, CO 80538","4,488.00",$124.93,"* Hanawalt Margaret A Rev Trust","Mark Lancaster"
+25-MISC2249," BLD Miscellaneous","BLD Issued",09/19/2025,8831417022,"1722 Hillside Dr, Fort Collins, CO 80524","2,000.00",$64.93,,
+25-MISC2114," BLD Miscellaneous","BLD Issued",09/08/2025,8716208004,"729 Dawn Ave, Fort Collins, CO 80524","1,834.22",$64.93,"Clifford Hamblen",
+25-MISC2258," BLD Miscellaneous","BLD Issued",09/19/2025,9625300010,"5918 Orchard Grove Ct 45, Loveland, CO 80538","2,273.00",$74.98,"Brad Hedlund",
+25-MISC2292," BLD Miscellaneous","BLD Issued",09/24/2025,8831313077,"1522 Miramont Dr, Fort Collins, CO 80524","6,476.41",$174.89,"Janet Sitas","Glenn Frank"
+25-MISC2091," BLD Miscellaneous","BLD Issued",09/05/2025,9824308007,"3800 La Mesa Dr, Fort Collins, CO 80524","2,800.00",$74.98,"Mary Pitz","Glenn Frank"
+25-MISC2064," BLD Miscellaneous","BLD Issued",09/10/2025,8715000005,"4521 Quest Dr, Fort Collins, CO 80524",775.00,$64.93,"Loren Tryon",
+25-MISC2322," BLD Miscellaneous","BLD Issued",09/29/2025,2923208043,"55 Maroon Bells Cir, Livermore, CO 80536","2,236.00",$74.98,"Ray Andress","Michael Allen"
+25-MISC2217," BLD Miscellaneous","BLD Issued",09/17/2025,8716300037,"3526 E Prospect Rd, Fort Collins, CO 80524","2,133.00",$74.98,"Katelin Burke","James Kelley"
+25-MISC2153," BLD Miscellaneous","BLD Issued",09/16/2025,2914407001,"290 Humboldt Dr, Livermore, CO 80536","7,828.00",$199.87,"Bryan Ross","Kyle Littleton"
+25-MISC2069," BLD Miscellaneous","BLD Issued",09/03/2025,8622320006,"8301 Peak View Dr, Fort Collins, CO 80528","3,337.00",$99.96,"Donald Urlacher",
+25-MISC2142," BLD Miscellaneous","BLD Issued",09/10/2025,9519407004,"1017 Meadow Ridge Ct, Loveland, CO 80537","1,393.01",$64.93,"Lawrence Rouch","Mark Lancaster"
+25-MISC2198," BLD Miscellaneous","BLD LOC",09/16/2025,9823419086,"416 Deerfield Cir, Fort Collins, CO 80524","4,305.40",$124.93,,"Mark Lancaster"
+25-MISC2159," BLD Miscellaneous","BLD Issued",09/11/2025,8533000007,"3609 S County Road 7, Loveland, CO 80537","2,500.00",$74.98,"* Carlson Living Trust",
+25-MISC2251," BLD Miscellaneous","BLD LOC",09/19/2025,8717113039,"626 Countryside Dr, Fort Collins, CO 80524","1,700.00",$64.93,"Randy Robertson",
+25-MISC2277," BLD Miscellaneous","BLD LOC",09/23/2025,3401113003,"2230 Pine Meadow Dr, Estes Park, CO 80517","1,870.00",$64.93,"Valerie Van Der Werf",
+25-MISC2157," BLD Miscellaneous","BLD Issued",09/11/2025,8505409010,"3008 Valley Oak Dr, Loveland, CO 80538","2,160.00",$74.98,"Bary Brooks",
+25-MISC2128," BLD Miscellaneous","BLD Issued",09/09/2025,9733417024,"4321 Picadilly Dr, Fort Collins, CO 80526","3,286.00",$99.96,"Charles Cairns","Kevin Cassidy"
+25-MISC2272," BLD Miscellaneous","BLD LOC",09/22/2025,9524350004,"418 8th St SE B4, Loveland, CO 80537","2,344.00",$74.98,"Rhonda Foote",
+25-MISC2266," BLD Miscellaneous","BLD Issued",09/22/2025,9615000002,"1188 Meeteetse Ln, Fort Collins, CO 80526","3,973.00",$99.96,"* Reiker Revoc Trust","Michael Allen"
+25-MISC2291," BLD Miscellaneous","BLD LOC",09/24/2025,9825209055,"3408 Shore Rd, Fort Collins, CO 80524","3,231.83",$99.96,"Rita Olsgard","Glenn Frank"
+25-MISC2201," BLD Miscellaneous","BLD LOC",09/16/2025,8710000014,"4412 E Mulberry St #393, Fort Collins, CO 80524","2,418.00",$74.98,"Jose Vigil",
+25-MISC2218," BLD Miscellaneous","BLD LOC",09/17/2025,8904000011,"13122 N County Road 9, Wellington, CO 80549","4,745.00",$124.93,"Amy Budd",
+25-MISC2163," BLD Miscellaneous","BLD Issued",09/16/2025,3027119030,"2140 Fox Acres Dr E, Red Feather Lakes, CO 80545","11,000.00",$336.81,"David Buckley","Bradley Meyer"
+25-MISC2225," BLD Miscellaneous","BLD LOC",09/17/2025,3401151003,"2605 Wildwood Dr, Estes Park, CO 80517","27,786.83",$692.80,"Legacy Lodge LLC","Eric Weddle"
+25-MISC2267," BLD Miscellaneous","BLD LOC",09/22/2025,2517000019,"2050 Devils Gulch Rd, Estes Park, CO 80517","11,340.00",$334.10,"Jacob Dahlke","Derick Miramontes"
+25-MISC2237," BLD Miscellaneous","BLD LOC",09/18/2025,0535305032,"8812 Sunflower Rd, Loveland, CO 80537","6,000.00",$196.70,"Ellen Cervantes","Matthew Shoup"
+25-MISC2089," BLD Miscellaneous","BLD LOC",09/05/2025,2508406017,"2435 Eagle Rock Dr, Estes Park, CO 80517","28,000.00",$693.63,"Andrew Johnson","Jay Coleman"
+25-MISC2240," BLD Miscellaneous","BLD LOC",09/18/2025,8715000005,"846 Pleasure Dr, Fort Collins, CO 80524","8,460.55",$264.55,"Gisela Schueler","Jeff Morris"
+25-MISC2104," BLD Miscellaneous","BLD LOC",09/08/2025,8521405023,"1020 Jay Ct, Loveland, CO 80537","15,716.00",$428.96,"Bernard Hund","Mark Silva"
+25-MISC2148," BLD Miscellaneous","BLD LOC",09/10/2025,9425305007,"520 Wilfred Rd, Berthoud, CO 80513","22,000.00",$570.15,"Michael Hall","Paul Donaghey"
+25-MISC2313," BLD Miscellaneous","BLD Issued",09/26/2025,9519105008,"204 Arabian Ct, Loveland, CO 80537","33,677.00",$799.24,"* HW Family Trust","James Ferguson"
+25-MISC2307," BLD Miscellaneous","BLD LOC",09/25/2025,9625419003,"808 Wisteria Dr, Loveland, CO 80538","15,600.00",$428.51,"Pam Thompson","Jay Coleman"
+25-MISC2268," BLD Miscellaneous","BLD Issued",09/22/2025,9635111001,"5001 Granite St, Loveland, CO 80538","12,500.00",$358.09,"Roger Kegerreis","Dave Clark"
+25-MISC2143," BLD Miscellaneous","BLD LOC",09/10/2025,9432000020,"3439 W County Road 4, Berthoud, CO 80513","19,000.00",$500.15,"Ryan Dardano","Scott Zick"
+25-MISC2248," BLD Miscellaneous","BLD Issued",09/19/2025,1432110014,"372 Cherokee, Lyons, CO 80540","8,000.00",$243.39,"Candyce Bell","Jonathan Maxfield"
+25-MISC2154," BLD Miscellaneous","BLD Issued",09/16/2025,9733417045,"4216 Wellington Dr, Fort Collins, CO 80526","25,684.00",$656.75,"Michael McDill","James Simpson"
+25-MISC2156," BLD Miscellaneous","BLD Issued",09/11/2025,9431207002,"2012 Blue Mountain Ave, Berthoud, CO 80513","7,800.00",$242.58,,
+25-MISC2203," BLD Miscellaneous","BLD Issued",09/16/2025,2517305009,"2180 Ridge Rd, Estes Park, CO 80517","17,063.75",$473.05,,"Christian Griffith"
+25-MISC2060," BLD Miscellaneous","BLD LOC",09/02/2025,8523406003,"7609 E County Road 18, Johnstown, CO 80534","15,505.00",$428.12,"Dan Spencer","James Simpson"
+25-MISC2279," BLD Miscellaneous","BLD LOC",09/23/2025,3536205040,"577 Hondius Cir, Estes Park, CO 80517","8,495.19",$264.71,"Virgil Yarbrough",
+25-MISC2257," BLD Miscellaneous","BLD Issued",09/19/2025,8614322032,"5321 Augusta Trl, Fort Collins, CO 80528","18,000.00",$476.80,"Lynette Stanton Treese","Jonathan Maxfield"
+25-MISC2195," BLD Miscellaneous","BLD LOC",09/16/2025,2508406003,"2471 Fallen Leaf Way, Estes Park, CO 80517","24,087.00",$636.54,"Estelle Purvis","William Goldsberry Jr"
+25-MISC2335," BLD Miscellaneous","BLD LOC",09/30/2025,9832108015,"3501 Vernon Dr, Laporte, CO 80535","6,000.00",$196.70,"Jim French",
+25-MISC2298," BLD Miscellaneous","BLD LOC",09/29/2025,9416405001,"501 Nesting Eagles Way, Berthoud, CO 80513","26,000.00",$658.01,"Kara Levenduski","Dylan Waldon"
+25-MISC2067," BLD Miscellaneous","BLD Issued",09/03/2025,8623412014,"8283 Sunset Peak Ct, Fort Collins, CO 80528","26,499.40",$673.81,"Tamara Houghton","Dustin Peterich"
+25-MISC2328," BLD Miscellaneous","BLD Issued",09/30/2025,2505405016,"2130 Mcgraw Ranch Rd, Estes Park, CO 80517","58,858.00","$1,204.39","Daniel Ludlam","William Goldsberry Jr"
+25-MISC2081," BLD Miscellaneous","BLD LOC",09/05/2025,2517305017,"2115 Ridge Rd, Estes Park, CO 80517","24,581.00",$638.50,"Marc Rochkind","Eric Weddle"
+25-MISC2226," BLD Miscellaneous","BLD LOC",09/17/2025,9534112010,"3221 Spring Mountain Ct, Loveland, CO 80537","21,000.00",$546.82,"Robert Janda","Mark King"
+25-MISC2211," BLD Miscellaneous","BLD Issued",09/16/2025,9533306003,"3600 Fox Dr, Loveland, CO 80537","14,436.50",$404.53,"James Caufield","Michael Slaughter"
+25-MISC2138," BLD Miscellaneous","BLD LOC",09/10/2025,2504300004,"3501 Devils Gulch Rd, Estes Park, CO 80517","8,125.99",$263.22,"Jeffrey Frese","Eric Weddle"
+25-MISC2133," BLD Miscellaneous","BLD LOC",09/10/2025,9428205028,"3001 Lake Hollow Rd, Berthoud, CO 80513","18,000.00",$476.80,"Ursula Wade","Abram Ullrich"
+25-MISC2345," BLD Miscellaneous","BLD Issued",09/30/2025,9620000002,"5149 Blue Sky Dr, Loveland, CO 80538","19,504.00",$521.50,"* Sedacca Living Trust","Jared Hemmert"
+25-MISC2208," BLD Miscellaneous","BLD Issued",09/16/2025,9534409002,"4150 Joni Ln, Loveland, CO 80537","18,158.81",$496.78,"Tom Wickman","Rowan Bolduc"
+25-MISC2282," BLD Miscellaneous","BLD LOC",09/24/2025,3932400034,"32270 W Highway 14, Bellvue, CO 80512","17,076.63",$473.11,"Jared Gassen","Chris Cain"
+25-MISC2058," BLD Miscellaneous","BLD LOC",09/02/2025,8523406002,"7591 E County Road 18, Johnstown, CO 80534","14,443.00",$404.53,"Patrick Hooker","James Simpson"
+25-MISC2180," BLD Miscellaneous","BLD Issued",09/16/2025,0523000039,"8920 W County Road 18e, Loveland, CO 80537","51,006.67","$1,110.91","Joe Leeka","Wes Hill"
+25-MISC2308," BLD Miscellaneous","BLD Issued",09/25/2025,3028305008,"551 Pipsissewa Ln, Red Feather Lakes, CO 80010","9,500.00",$341.07,"Barbara Hooker","Robert Ware"
+25-MISC2052," BLD Miscellaneous","BLD LOC",09/05/2025,9635113004,"312 W 50th St, Loveland, CO 80538","12,075.00",$356.38,"Philip Banta",
+25-MISC2331," BLD Miscellaneous","BLD Issued",09/30/2025,3427000031,"473 Goblins Castle Rd, Estes Park, CO 80517","16,270.42",$450.55,"Leila Hewitt","Wes Hill"
+25-MISC2172," BLD Miscellaneous","BLD LOC",09/12/2025,9709300007,"328 S Overland Trl, Fort Collins, CO 80521","13,200.00",$380.23,"Randy Evans","Candice Brumit"
+25-MISC2261," BLD Miscellaneous","BLD Issued",09/22/2025,9434305002,"1612 Horseshoe Cir, Longmont, CO 80504","12,000.00",$336.75,"Kyle Shelton","Anthony Smith"
+25-MISC2059," BLD Miscellaneous","BLD LOC",09/02/2025,8716221006,"801 Clifford Dr, Fort Collins, CO 80524","11,500.00",$334.76,"Carol Bacon","Scott Zick"
+25-MISC2310," BLD Miscellaneous","BLD Issued",09/29/2025,0524105003,"325 Gerry Dr, Loveland, CO 80537","8,456.60",$264.55,"Charles Kennedy","Wes Hill"
+25-MISC2134," BLD Miscellaneous","BLD LOC",09/10/2025,2529100038,"2250 Big Thompson Ave, Estes Park, CO 80517","21,815.00",$569.43,"Andrew Kessler","Dennis Jones"
+25-MISC2281," BLD Miscellaneous","BLD LOC",09/23/2025,2517105011,"208 Little Beaver Dr, Estes Park, CO 80517","13,589.15",$381.78,,"Kevin Gottino"
+25-MISC2336," BLD Miscellaneous","BLD LOC",09/30/2025,9709207038,"320 N Hollywood St, Fort Collins, CO 80521","5,440.00",$194.46,"Kathryn Longo","Jeramiah Larsen"
+25-MISC2334," BLD Miscellaneous","BLD Issued",09/30/2025,2508105005,"2915 Devils Gulgh Rd, Estes Park, CO 80517","42,479.00",$958.79,"Jerome Ballinghoff","William Goldsberry Jr"
+25-MISC2287," BLD Miscellaneous","BLD LOC",09/24/2025,2517305016,"2135 Ridge Rd, Estes Park, CO 80517","22,464.12",$591.38,"Charles Cairns","Eric Weddle"
+25-MISC2278," BLD Miscellaneous","BLD LOC",09/23/2025,2506405002,"2151 Mcgraw Ranch Rd, Estes Park, CO 80517","54,000.00","$1,140.61","Allyson Edwards","Seve Carbajal"
+25-MISC2102," BLD Miscellaneous","BLD Issued",09/08/2025,2531418007,"1350 Fish Creek Rd, Estes Park, CO 80517","27,000.00",$675.82,"Steve Johnson","Jake Herzanek"
+25-MISC2147," BLD Miscellaneous","BLD LOC",09/10/2025,9521100025,"520 Namaqua Rd, Loveland, CO 80537","44,275.03",$993.60,"Jeffrey Herder","Dennis Jones"
+25-MISC2051," BLD Miscellaneous","BLD LOC",09/02/2025,9415000009,"1020 Meadowlark Dr, Berthoud, CO 80513","14,000.00",$383.43,"Ralph Walsh","Jay Coleman"
+25-MISC2196," BLD Miscellaneous","BLD LOC",09/16/2025,9832400023,"2020 N Overland Trl, Fort Collins, CO 80521","9,158.69",$286.70,,"Dustin Peterich"
+25-MISC2063," BLD Miscellaneous","BLD LOC",09/03/2025,9536307011,"239 Robin Dr, Loveland, CO 80537","9,000.00",$266.72,"Garrett Gilley",
+25-MISC2295," BLD Miscellaneous","BLD Issued",09/30/2025,2504405005,"3330 Glacier Dr, Estes Park, CO 80517","19,800.00",$522.68,"Jeffrey Bergan","Justin Dant"
+25-MISC2146," BLD Miscellaneous","BLD LOC",09/10/2025,2517005704,"2000 Devils Gulch Rd, Estes Park, CO 80517","9,719.93",$288.95,,"Eric Weddle"
+25-MISC2191," BLD Miscellaneous","BLD Issued",09/16/2025,2517314001,"1593 Dry Gulch Rd, Estes Park, CO 80517","25,000.00",$640.20,"Franklin Family Trust","Royal Paulsen"
+25-MISC2176," BLD Miscellaneous","BLD LOC",09/12/2025,3028123012,"16 Northwoods Dr, Red Feather Lakes, CO 80545","21,684.99",$568.89,"Gene Cramer","Arnold Drennen"
+25-MISC2139," BLD Miscellaneous","BLD LOC",09/10/2025,2504300004,"3501 Devils Gulch Rd, Estes Park, CO 80517","11,794.44",$335.92,"Jeffrey Frese","Eric Weddle"
+25-MISC2305," BLD Miscellaneous","BLD LOC",09/25/2025,8622317046,"8208 Hallett Ct, Fort Collins, CO 80528","5,557.50",$194.94,"Kevin Dexter","Ike Jon Nissen"
+25-MISC2323," BLD Miscellaneous","BLD Issued",09/29/2025,8614322035,"5305 Augusta Trl, Fort Collins, CO 80528","12,000.00",$336.75,"David Lawser","James Simpson"
+25-MISC2093," BLD Miscellaneous","BLD LOC",09/05/2025,2508411004,"2558 Devils Gulch Rd, Estes Park, CO 80517","56,000.00","$1,166.36","Jillaine Clark","Jay Coleman"
+25-MISC2244," BLD Miscellaneous","BLD LOC",09/23/2025,8710000014,"4412 E Mulberry St 288, Fort Collins, CO 80524","16,200.00",$450.26,,"Robert Gazaway"
+25-MISC2299," BLD Miscellaneous","BLD Issued",09/25/2025,9834000019,"1205 N Highway 287, Fort Collins, CO 80524","4,050.00",$169.55,"Rhonda Martinez","Charles Perry"
+25-MISC2342," BLD Miscellaneous","BLD Issued",09/30/2025,9529227019,"1668 Spring Wagon Dr, Loveland, CO 80537","28,166.57",$708.12,"Richard Wadley","Wes Hill"
+25-MISC2041," BLD Miscellaneous","BLD LOC",09/15/2025,9529106005,"4204 Sweetgrass Dr, Loveland, CO 80537","28,200.00",$708.25,"Kent Kerwood","Robert Gazaway"
+25-MISC2032," BLD Miscellaneous","BLD Issued",09/05/2025,2504405003,"3221 Circle Dr, Estes Park, CO 80517","15,000.00",$406.77,"Rosalie Moore","Jonathan Maxfield"
+25-MISC2068," BLD Miscellaneous","BLD Issued",09/03/2025,0625000022,"7200 Hiding Elk Ln, Loveland, CO 80538","13,000.00",$360.10,"VirJean Lehmkuhl","Brian Barnes"
+25-MISC2155," BLD Miscellaneous","BLD Issued",09/11/2025,9431207002,"2012 Blue Mountain Ave, Berthoud, CO 80513","18,200.00",$496.94,,"Scott Brasington"
+25-MISC2056," BLD Miscellaneous","BLD LOC",09/02/2025,9829109031,"3509 Sabre Dr, Laporte, CO 80535","5,836.75",$196.04,"Samantha Holtan","Daniel Paull"
+25-MISC2097," BLD Miscellaneous","BLD LOC",09/08/2025,9923305049,"729 W County Road 66e, Fort Collins, CO 80524","27,000.00",$675.82,"Mai Dailey","Robert Lantz"
+25-MISC2137," BLD Miscellaneous","BLD LOC",09/10/2025,2504300004,"3501 Devils Gulch Rd, Estes Park, CO 80517","12,896.33",$359.67,"Jeffrey Frese","Eric Weddle"
+25-MISC2055," BLD Miscellaneous","BLD Issued",09/02/2025,9434200009,"2013 S Highway 287, Berthoud, CO 80513","9,000.00",$266.72,"Shawn Watters",
+25-MISC2057," BLD Miscellaneous","BLD LOC",09/02/2025,8717116083,"2727 Alan St, Fort Collins, CO 80524","4,395.00",$170.94,"Timothy Grote","Craig Schultz"
+25-MISC2181," BLD Miscellaneous","BLD Issued",09/15/2025,8621405036,"8103 Golden Eagle Rd, Fort Collins, CO 80528","41,832.00",$942.39,"* Firooz Relleen Revocable Trust","Brad Evans"
+25-MISC2118," BLD Miscellaneous","BLD LOC",09/10/2025,9420405010,"3301 Sundown Dr, Berthoud, CO 80513","18,000.00",$476.80,"Barbara Jones","Matthew Shoup"
+25-MISC2127," BLD Miscellaneous","BLD LOC",09/09/2025,3029114003,"550 Hiawatha Hwy, Red Feather Lakes, CO 80545","6,550.00",$218.25,"Jenean Huckaby","Brendan OKeefe"
+25-MISC2145," BLD Miscellaneous","BLD LOC",09/10/2025,9429400035,"3436 W County Road 4, Berthoud, CO 80513","19,500.00",$521.48,,"Scott Zick"
+25-MISC2182," BLD Miscellaneous","BLD Issued",09/15/2025,9606207034,"4817 Catalina Dr, Fort Collins, CO 80526","6,600.00",$218.44,"John Hartman","Harley Thompson"
+25-MISC2214," BLD Miscellaneous","BLD Issued",09/16/2025,3536205020,"541 Hondius Cir, Estes Park, CO 80517","9,800.00",$289.25,"Michael Loeffler","Scott Brasington"
+25-MISC2246," BLD Miscellaneous","BLD Issued",09/19/2025,2517000016,"2160 Devils Gulch Rd, Estes Park, CO 80517","29,401.79",$726.89,,"Eric Weddle"
+25-MISC2025," BLD Miscellaneous","BLD LOC",09/02/2025,4002408004,"6000 Ottawa Way, Red Feather Lakes, CO 80545","5,166.94",$193.37,"Ervin Lizotte","Ryan Burke"
+25-MISC2090," BLD Miscellaneous","BLD Issued",09/05/2025,2509107013,"3283 H Bar G Rd, Estes Park, CO 80517","12,400.00",$357.68,"* Peppermint Hut LLC","Justin Dant"
+25-MISC2288," BLD Miscellaneous","BLD LOC",09/24/2025,2517305016,"2135 Ridge Rd, Estes Park, CO 80517","6,497.39",$218.03,"Charles Cairns","Eric Weddle"
+25-MISC2129," BLD Miscellaneous","BLD Issued",09/09/2025,2517105010,"360 Little Beaver Dr, Estes Park, CO 80517","21,840.00",$569.51,"Stephen Branum","Scott Brasington"
+25-MISC2236," BLD Miscellaneous","BLD LOC",09/18/2025,3027224001,"118 Bear Claw Way, Red Feather Lakes, CO 80545","11,700.00",$335.55,"Dale Maddox","Brendan OKeefe"
+25-MISC2062," BLD Miscellaneous","BLD LOC",09/03/2025,9829324005,"4317 Flag Dr, Laporte, CO 80535","1,221.03",$71.19,"Rebecca Marsh","Wes Hill"
+25-MISC2231," BLD Miscellaneous","BLD LOC",09/18/2025,8715000005,"865 Vitala Dr, Fort Collins, CO 80524","10,000.00",$290.05,"James Wilson","Ben Christiansen"
+25-MISC2074," BLD Miscellaneous","BLD LOC",09/09/2025,4001406057,"408 Navajo Rd, Red Feather Lakes, CO 80545","24,676.79",$691.90,"David Johnson","Chris Cain"
+25-MISC2169," BLD Miscellaneous","BLD LOC",09/12/2025,1428314049,"640 Estes Park Estates Dr, Lyons, CO 80540","7,040.00",$239.54,"Jeanne Delong","Jeramiah Larsen"
+25-MISC2124," BLD Miscellaneous","BLD LOC",09/09/2025,9826105030,"3401 Canadian Pkwy, Fort Collins, CO 80524","5,752.00",$195.71,"Leslie VanDyne","Troy Jennings"
+25-MISC2115," BLD Miscellaneous","BLD Issued",09/08/2025,2633402032,"84 Devils Cross Rd, Glen Haven, CO 80532","12,400.00",$357.68,"Scott Ashton","Ben Lalka"
+25-MISC2199," BLD Miscellaneous","BLD LOC",09/16/2025,8621405062,"8363 Three Eagles Dr, Fort Collins, CO 80528","30,000.00",$729.27,"Leith Johnson","Brian Sorensen"
+25-MISC2144," BLD Miscellaneous","BLD LOC",09/10/2025,2517005704,"2000 Devils Gulch Rd, Estes Park, CO 80517","45,609.97","$1,012.76",,"Eric Weddle"
+25-MISC2286," BLD Miscellaneous","BLD LOC",09/24/2025,2534206905,"215 Pole Hill Rd, Estes Park, CO 80517","26,604.63",$674.24,"Justin Alexander","Eric Weddle"
+25-MISC2340," BLD Miscellaneous","BLD Issued",09/30/2025,2517105008,"586 Little Beaver Dr, Estes Park, CO 80517","29,900.00",$728.87,"Sherry Martinez","Scott Brasington"
+25-MISC2110," BLD Miscellaneous","BLD Issued",09/08/2025,2517105004,"325 Little Beaver Dr, Estes Park, CO 80517","26,000.00",$658.01,"Alan Belcher","Jonathan Maxfield"
+25-MISC2075," BLD Miscellaneous","BLD Issued",09/03/2025,8913000026,"6988 Pelican Cove Ln, Wellington, CO 80549","13,650.00",$382.03,"Matthew Esposito","Thomas West"
+25-MISC2320," BLD Miscellaneous","BLD Issued",09/29/2025,8831105007,"1605 Richards Lake Rd, Fort Collins, CO 80524","13,000.00",$360.10,"Doug Kaltenberger","Jake Herzanek"
+25-MISC2294," BLD Miscellaneous","BLD Issued",09/24/2025,9635106006,"5200 Crystal Ln, Loveland, CO 80538","22,050.00",$589.71,,"Michael Pondell"
+25-MISC2179," BLD Miscellaneous","BLD LOC",09/15/2025,9516105012,"1301 Pine St, Loveland, CO 80537","17,155.40",$473.43,"Brenda Traut","Wes Hill"
+25-RES0367," BLD Residential","BLD Issued",09/17/2025,9925309001,"9100 N County Road 15, Fort Collins, CO 80524","14,050.00",$623.80,"Marilynn Graham","Tim Wind"
+25-RES0437," BLD Residential","BLD Issued",09/05/2025,4002309062,"1807 Ottawa Way, Red Feather Lakes, CO 80545","65,000.00","$1,991.29","Richard Zeh","George Kidder"
+25-RES0352," BLD Residential","BLD Issued",09/15/2025,1626212006,"515 Chipmunk Pl, Drake, CO 80515","120,000.00","$3,269.03","Sean Abeyta","Stan Johnson"
+25-RES0439," BLD Residential","BLD Issued",09/02/2025,8531406002,"2103 E County Road 14, Loveland, CO 80537","52,000.00","$1,771.31","Lorrie Fellows","Jason Buresh"
+25-RES0529," BLD Residential","BLD Issued",09/30/2025,3401115080,"1021 Hide A Way Ln, Estes Park, CO 80517","23,015.94","$1,157.27","Ingra Marske",
+25-RES0509," BLD Residential","BLD Issued",09/18/2025,2532000002,"1980 Windham Dr, Estes Park, CO 80517","13,000.00",$798.07,"John Olson","Daniel Bolen"
+25-RES0372," BLD Residential","BLD Issued",09/29/2025,8722105028,"1700 Meadowaire Dr, Fort Collins, CO 80525","150,000.00","$3,504.99",,"Daniel Parker"
+25-RES0376," BLD Residential","BLD Issued",09/22/2025,3402200047,"1047 Sutton Ln, Estes Park, CO 80517","70,000.00","$2,102.78","Kevin Christopher",
+25-RES0305," BLD Residential","BLD Issued",09/16/2025,2508107009,"2106 Mcgraw Ranch Rd, Estes Park, CO 80517","55,000.00","$1,648.16","Scott Van Vleet","Michael Nilsen"
+25-RES0401," BLD Residential","BLD Issued",09/17/2025,9532106020,"4215 Bonnell Dr, Loveland, CO 80537","185,572.00","$3,982.35","David Erickson","David Luedtke"
+25-RES0462," BLD Residential","BLD Issued",09/29/2025,9733417061,"2312 Nottingham Ct, Fort Collins, CO 80526","300,000.00","$5,876.81","* Dandra Robert Kattman Joint Revoc Trust","Joshua Mooradian"
+25-RES0539," BLD Residential","BLD Issued",09/29/2025,9624107003,"7715 S County Road 13, Fort Collins, CO 80525","54,237.00","$1,676.17",,"Steve Sparhawk"
+25-RES0466," BLD Residential","BLD Issued",09/03/2025,9528407003,"2425 S County Road 19, Loveland, CO 80537","15,000.00","$1,085.92","* Meredith S Hodges Trust",
+25-RES0301," BLD Residential","BLD Issued",09/09/2025,2534407057,"114 Overlook Ln, Estes Park, CO 80517","300,000.00","$6,304.37","George Schmelter","Nathan Kinley"
+25-RES0438," BLD Residential","BLD Issued",09/17/2025,3007305021,"21 Hopewell Ct, Red Feather Lakes, CO 80545","30,000.00","$1,381.91","David Nelson",
+25-RES0417," BLD Residential","BLD Issued",09/30/2025,3409105023,"2600 Nimbus Dr, Estes Park, CO 80517","67,000.00","$1,886.89","Richard Herzfeldt","Jeffrey Moreau"
+25-RES0486," BLD Residential","BLD Issued",09/17/2025,0423000006,"603 S County Road 27e, Berthoud, CO 80513","35,000.00","$2,054.88","Robin Klover",
+25-RES0450," BLD Residential","BLD Issued",09/18/2025,3028414029,"623 Pipsissewa Ln, Red Feather Lakes, CO 80545","13,300.00","$1,282.80","Kevin Knief",
+25-RES0424," BLD Residential","BLD Issued",09/22/2025,9734206001,"3812 Lynda Ln, Fort Collins, CO 80526","311,232.00","$5,987.03",,"Kurt Skott"
+25-RES0321," BLD Residential","BLD Issued",09/25/2025,8710405008,"300 Camino Real A, Fort Collins, CO 80524","198,000.00","$7,560.56","Richard Feller","Josh Horner"
+25-RES0457," BLD Residential","BLD Issued",09/29/2025,8621405047,"8368 Three Eagles Dr, Fort Collins, CO 80528","19,305.95",$940.45,"Stephen Everett","Jeremy Little"
+25-RES0399," BLD Residential","BLD Issued",09/17/2025,3401305017,"2825 Dunraven Ln, Estes Park, CO 80517","20,976.12","$1,062.07","Rick Vincent",
+25-RES0508," BLD Residential","BLD LOC",09/18/2025,1626317011,"33 Mountain Peak Ln, Drake, CO 80515","7,495.00",$578.05,"Micaiah White",
+25-RES0510," BLD Residential","BLD Issued",09/02/2025,9812305012,"6015 Trotwood Ct, Fort Collins, CO 80524","15,000.00",$580.15,,"Dale Lindholm"
+25-RES0524," BLD Residential","BLD LOC",09/19/2025,9826127001,"3665 Harbor Way, Fort Collins, CO 80524","30,003.00","$1,054.62","* John B Stevens Jr Trust","William Davis"
+25-RES0463," BLD Residential","BLD Issued",09/08/2025,3410133003,"3429 Eaglecliff Circle Dr C, Estes Park, CO 80517","363,000.00","$7,195.14","* Michael B Alleman Trust","Michael Aldrich"
+25-RES0525," BLD Residential","BLD Issued",09/23/2025,9407407006,"4234 John Galt Dr, Berthoud, CO 80513","100,000.00","$2,795.81","Amara Melton",
+25-RES0502," BLD Residential","BLD Issued",09/05/2025,2508105011,"2115 Mcgraw Ranch Rd, Estes Park, CO 80517","15,000.00",$883.01,"* Rose Family Trust","Michael Nilsen"
+25-RES0527," BLD Residential","BLD Issued",09/30/2025,9830420030,"3500 Galway Dr, Laporte, CO 80535","145,000.00","$3,593.82","* Paul/Lois Laza Trust","Don Pope"
+25-RES0546," BLD Residential","BLD Issued",09/26/2025,9829412022,"2821 Tharp Dr, Laporte, CO 80535","5,347.00",$280.44,"Joy Maycroft","William Davis"
+25-RES0495," BLD Residential","BLD Issued",09/18/2025,9529227023,"1532 Spring Wagon Dr, Loveland, CO 80537","17,071.00","$1,017.49","James Kammerzell",
+25-RES0513," BLD Residential","BLD Issued",09/19/2025,9403113013,"1617 Rancho Way, Loveland, CO 80537","10,900.00",$717.69,"Erik Silfven",
+25-RES0505," BLD Residential","BLD Issued",09/22/2025,9704412007,"2410 Stonecrest Dr, Fort Collins, CO 80521","2,000.00",$151.00,"Emily Scott",
+25-RES0544," BLD Residential","BLD Issued",09/23/2025,2905405006,"101 Lone Pine Creek Dr, Red Feather Lakes, CO 80545","1,500.00",$117.90,"Paul Lebrun",
+25-RES0429," BLD Residential","BLD Issued",09/05/2025,0636405019,"4800 Otero Ave, Loveland, CO 80538","30,000.00","$1,277.84","Linda Gruver",
+25-RES0442," BLD Residential","BLD Issued",09/05/2025,8508105026,"3813 Frank Rd, Loveland, CO 80538","12,200.00",$510.92,"Theresa Webster","Chad Hribar"
+25-RES0497," BLD Residential","BLD Resubmittal",09/02/2025,9733417019,"4405 Picadilly Dr, Fort Collins, CO 80526","22,459.00","$1,299.10","Benjamin Beard",
+25-RES0554," BLD Residential","BLD COC",09/23/2025,0623100010,"8205 Stag Hollow Rd, Loveland, CO 80538","20,018.64","$1,526.98","Craig Robinson",
+25-RES0377," BLD Residential","BLD Issued",09/29/2025,3535110011,"1301 Strong Ave #1, Estes Park, CO 80517","10,000.00",$630.25,"Jarred Clark","Timothy Elkins"
+25-RES0426," BLD Residential","BLD Issued",09/02/2025,8713000014,"1414 S County Road 3, Fort Collins, CO 80524","18,287.64",$934.30,"* Mack Sarah Kirsten White Trust",
+25-RES0446," BLD Residential","BLD Issued",09/16/2025,9913305003,"444 E County Road 68, Fort Collins, CO 80524","53,177.88","$2,035.58","Heather Hirschi",
+25-RES0460," BLD Residential","BLD Issued",09/26/2025,9635113001,"4913 Redstone Dr, Loveland, CO 80538","60,000.00","$2,050.61",,"Greg Gerrard"
+25-RES0390," BLD Residential","BLD Issued",09/09/2025,9411206047,"2101 Breckenridge Dr, Berthoud, CO 80513","31,179.66","$1,353.94","Ian Stewart",
+25-RES0292," BLD Residential","BLD Issued",09/30/2025,0701309009,"728 Mahogany Ct, Bellvue, CO 80512","10,000.00",$406.76,"Michael Shover",
+25-RES0511," BLD Residential","BLD Issued",09/23/2025,3410128008,"1581 Zermatt Trl, Estes Park, CO 80517","44,000.00","$1,700.89","John Stephens","Don Darling"
+25-RES0519," BLD Residential","BLD Issued",09/26/2025,1627105026,"387 Lakeview Dr, Drake, CO 80515","75,000.00","$2,337.37","Eric Gertge",
+25-RES0465," BLD Residential","BLD Issued",09/19/2025,8716300023,"1402 S Summit View Dr, Fort Collins, CO 80524","6,987.96",$316.01,"Scott Anderson",
+25-RES0520," BLD Residential","BLD Issued",09/09/2025,9516200003,"3612 W Eisenhower Blvd, Loveland, CO 80537","14,400.00",$173.38,"Darcey Gunn",
+25-RES0336," BLD Residential","BLD Issued",09/15/2025,1626424023,"214 Bobcat Dr, Drake, CO 80515","15,000.00","$4,229.61","Arik Solberg",
+25-RES0289," BLD Residential","BLD Issued",09/05/2025,3534407001,"22 Sunny Pine Dr, Estes Park, CO 80517","165,410.00","$7,155.19","YMCA Of The Rockies","Byron Francis"
+25-RES0496," BLD Residential","BLD Issued",09/12/2025,0535305058,"9003 Four Wheel Dr, Loveland, CO 80537","40,000.00","$5,883.05","Pete Evangelista",
+25-RES0470," BLD Residential","BLD CO",09/02/2025,3525300013,"310 Riverside Dr, Estes Park, CO 80517",0.00,$300.00,"David Graetzer",
+25-RES0490," BLD Residential","BLD Issued",09/15/2025,3412205015,"120 Saddleback Ln, Estes Park, CO 80517","15,000.00",$639.15,"Kristen Ekeren",
+25-RES0533," BLD Residential","BLD Issued",09/23/2025,1436213702,"501 County Road 37e, Lyons, CO 80540","65,048.99","$1,806.79","Brandon Wolding","Wagner Ribeiro"
+25-RES0492," BLD Residential","BLD Issued",09/17/2025,2915208022,"110 Lindsey Ct, Livermore, CO 80536","40,000.00","$1,281.12","Stephanie Morris","Lane Mayer"
+25-RES0432," BLD Residential","BLD Issued",09/08/2025,4012107094,"7554 Ottawa Way, Red Feather Lakes, CO 80545","20,000.00",$745.22,"Keith Metivier",
+25-RES0540," BLD Residential","BLD Issued",09/26/2025,0601105075,"5021 Fawn Ln, Fort Collins, CO 80526","17,665.00",$736.87,"Scott Persson","Tad Bjorlie"
+25-RES0483," BLD Residential","BLD LOC",09/04/2025,9624215001,"106 Underwood Ct, Fort Collins, CO 80525","10,490.00",$505.06,,"James Westers"
+25-RES0453," BLD Residential","BLD Issued",09/18/2025,3535106006,"840 Riverside Ln, Estes Park, CO 80517","196,000.00","$3,987.98",,"Phil McLain IV"
+25-RES0541," BLD Residential","BLD Issued",09/26/2025,3007106080,"975 Crow Rd, Red Feather Lakes, CO 80545","20,000.00",$745.22,"Daniel Haley",
+25-RES0506," BLD Residential","BLD Issued",09/23/2025,9624206074,"425 Walker Way, Fort Collins, CO 80525","20,000.00",$745.22,"* Edwin R Swartz Revoc Trust","Brian Brenner"
+25-RES0494," BLD Residential","BLD Issued",09/26/2025,3535300039,"1221 Giant Track Rd, Estes Park, CO 80517","20,000.00",$745.22,"Suzanne Mansfield","Matt Castaneda"
+25-RES0272," BLD Residential","BLD Issued",09/09/2025,3422000030,"267 Tahosa Ridge Dr, Estes Park, CO 80517","2,700,000.00","$41,837.78",,"Nathan Kinley"
+25-RES0161," BLD Residential","BLD Issued",09/09/2025,9418408001,"975 Carvin Ct, Berthoud, CO 80513","3,000,000.00","$49,931.20","RLMC Ventures LLC","Joshua Dimond"
+25-RES0404," BLD Residential","BLD Issued",09/16/2025,0832000001,"220 Spiritwood Ln, Bellvue, CO 80512","1,250,000.00","$18,435.98","Tim Masters","Brett Barrow"
+25-RES0373," BLD Residential","BLD Issued",09/18/2025,2427000004,"6761 County Road 59, Lyons, CO 80540","3,056,078.00","$44,772.41","Barkhouse LLC","Phil McLain IV"
+25-RES0171," BLD Residential","BLD Issued",09/15/2025,8919305002,"1347 E County Road 66e, Wellington, CO 80549","1,500,000.00","$34,421.10","Peter Monty","Jerry (Jerome) Hanley"
+25-RES0244," BLD Residential","BLD Issued",09/15/2025,0712200001,"433 Galena Ct, Bellvue, CO 80512","100,000.00","$6,674.43","Ursula Lynch",
+25-RES0375," BLD Residential","BLD Issued",09/23/2025,2427000004,"6763 County Road 59, Lyons, CO 80540","280,233.00","$12,376.30","Barkhouse LLC","Phil McLain IV"
+25-RES0396," BLD Residential","BLD Issued",09/15/2025,9825413107,"609 Richards Lake Rd, Fort Collins, CO 80524","950,000.00","$16,462.75",,"William Beach"
+25-SGN0020," BLD Sign","BLD Issued",09/29/2025,8707405077,"309 Commerce Dr, Fort Collins, CO 80524","4,870.00",$234.82,"Dennis Hinchley","John Shaw"
+25-SGN0014," BLD Sign","BLD Issued",09/09/2025,8718200076,"1429 E Mulberry St, Fort Collins, CO 80524",500.00,$64.16,,
+25-SGN0016," BLD Sign","BLD Issued",09/12/2025,8707353001,"316 S Link Ln, Fort Collins, CO 80524","3,495.00",$209.98,"Seder Properties LLC","Kristin Manning"
+25-SGN0017," BLD Sign","BLD Issued",09/26/2025,8710000014,"4412 E Mulberry St Main Entrance, Fort Collins, CO 80524",0.00,$193.49,"Cloverleaf Colorado II LLC","Savannah Walker"
+25-SGN0013," BLD Sign","BLD Issued",09/12/2025,8707353001,"316 S Link Ln, Fort Collins, CO 80524","5,217.75",$255.57,"Seder Properties LLC","Kristin Manning"
+25-SGN0015," BLD Sign","BLD Issued",09/09/2025,8718200076,"1429 E Mulberry St, Fort Collins, CO 80524","3,500.00",$148.02,,
+25-SGN0018," BLD Sign","BLD Issued",09/26/2025,8709415001,"3900 E Mulberry St, Fort Collins, CO 80524","12,780.00",$559.47,,"Nate Zimmerman"
+25-UTIL0268," BLD Utility-Detached","BLD Issued",09/04/2025,0511306702,"1681 Rock Ridge Ln, Loveland, CO 80537","20,400.00",$718.71,,
+25-UTIL0236," BLD Utility-Detached","BLD Issued",09/03/2025,9528407003,"2457 S County Road 19, Loveland, CO 80537","10,000.00",$720.67,"* Meredith S Hodges Trust",
+25-UTIL0217," BLD Utility-Detached","BLD Issued",09/02/2025,8713000014,"1414 S County Road 3, Fort Collins, CO 80524","38,508.12","$1,359.66","* Mack Sarah Kirsten White Trust",
+25-UTIL0273," BLD Utility-Detached","BLD COC",09/30/2025,3401115080,"1021 Hide A Way Ln, Estes Park, CO 80517","10,572.00",$598.40,"Ingra Marske",
+25-UTIL0185," BLD Utility-Detached","BLD Issued",09/17/2025,3533300017,"5 Bear Lake Rd, Estes Park, CO 80517","334,100.00","$5,715.52","* Medlock Revoc Trust","Michael Nilsen"
+25-UTIL0161," BLD Utility-Detached","BLD Resubmittal",09/03/2025,9418000013,"949 N County Road 23e, Berthoud, CO 80513","9,878.00",$457.56,"Gregory Campbell","Tom Saurey"
+25-UTIL0189," BLD Utility-Detached","BLD Issued",09/12/2025,2427000004,"6761 County Road 59, Lyons, CO 80540","268,232.00","$4,568.57","Barkhouse LLC","Jordan Crawford"
+25-UTIL0149," BLD Utility-Detached","BLD Issued",09/23/2025,9532405002,"4245 W County Road 14, Loveland, CO 80537","2,931.60",$405.88,"Sandra Werkmeister",
+25-UTIL0240," BLD Utility-Detached","BLD Issued",09/03/2025,9528407003,"2457 S County Road 19, Loveland, CO 80537","50,000.00","$1,365.11","* Meredith S Hodges Trust","Zach Beedle"
+25-UTIL0202," BLD Utility-Detached","BLD Issued",09/17/2025,9417400016,"3516 W County Road 8, Berthoud, CO 80513","74,495.00","$1,764.61","Gary Schuetter","Jacob Renninger"
+25-UTIL0245," BLD Utility-Detached","BLD Issued",09/29/2025,9430209007,"5000 Gary Dr, Berthoud, CO 80513","80,000.00","$1,846.01",,
+25-UTIL0119," BLD Utility-Detached","BLD Issued",09/05/2025,4219000048,"5520 Running Water Ranch Rd, Red Feather Lakes, CO 80545","33,612.99","$1,004.30","Kyla Parker",
+25-UTIL0261," BLD Utility-Detached","BLD Issued",09/23/2025,8520000027,"3030 E 1st St, Loveland, CO 80537","11,100.00",$464.61,"Steven Kaczeus",
+25-UTIL0151," BLD Utility-Detached","BLD Issued",09/02/2025,0636108037,"5100 Otero Ave, Loveland, CO 80538","17,000.00",$598.03,"Susan Teumer","James Ahlbrandt"
+25-UTIL0257," BLD Utility-Detached","BLD Issued",09/12/2025,9731327026,"4463 Kano Dr, Fort Collins, CO 80526","8,000.00",$355.82,"Kennneth Toland",
+25-UTIL0152," BLD Utility-Detached","BLD Issued",09/29/2025,9828406008,"3012 Gold Charm Dr, Fort Collins, CO 80524","35,000.00","$1,026.76","Julie Downing",
+25-UTIL0231," BLD Utility-Detached","BLD Issued",09/17/2025,9528407003,"2457 S County Road 19, Loveland, CO 80537","10,000.00",$720.67,"* Meredith S Hodges Trust",
+25-UTIL0260," BLD Utility-Detached","BLD Issued",09/17/2025,9709106014,"608 Sunrise Ln, Fort Collins, CO 80521","11,752.54",$627.22,,
+25-UTIL0235," BLD Utility-Detached","BLD Issued",09/03/2025,9528407003,"2457 S County Road 19, Loveland, CO 80537","15,000.00",$941.52,"* Meredith S Hodges Trust",
+25-UTIL0201," BLD Utility-Detached","BLD Issued",09/26/2025,0426000042,"1615 S County Road 27e, Berthoud, CO 80513","99,882.00","$2,163.03","Bear Beware LLC","Jacob Renninger"
+25-UTIL0022," BLD Utility-Detached","BLD Issued",09/09/2025,0106000009,"622 Line Camp Dr, Livermore, CO 80536","295,700.00","$4,880.74","Angela Pelzel-McCluskey",
+25-UTIL0210," BLD Utility-Detached","BLD Issued",09/10/2025,9902405012,"532 Arabian St, Wellington, CO 80549","62,208.00","$1,572.98","Richard Stutz",
+25-UTIL0203," BLD Utility-Detached","BLD Issued",09/11/2025,9416405017,"530 Talons Reach Run, Berthoud, CO 80513","150,000.00","$3,170.96","* Kiepe Family Trust",
+25-UTIL0230," BLD Utility-Detached","BLD Issued",09/17/2025,9528407003,"2457 S County Road 19, Loveland, CO 80537","10,000.00",$720.67,"* Meredith S Hodges Trust",
+25-UTIL0253," BLD Utility-Detached","BLD LOC",09/18/2025,9829404028,"3304 W County Road 52, Laporte, CO 80535","1,795.00",$178.08,"Judy Gilbow","Luis Sotelo Ramos"
+25-UTIL0251," BLD Utility-Detached","BLD Issued",09/17/2025,0423000006,"603 S County Road 27e, Berthoud, CO 80513","16,025.94","$1,025.96","Robin Klover",
+25-UTIL0250," BLD Utility-Detached","BLD Issued",09/17/2025,0423000006,"603 S County Road 27e, Berthoud, CO 80513","5,500.00",$542.01,"Robin Klover",

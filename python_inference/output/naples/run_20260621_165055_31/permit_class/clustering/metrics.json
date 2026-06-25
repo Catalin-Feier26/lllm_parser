@@ -1,0 +1,25 @@
+{
+  "target_field": "permit_class",
+  "algorithm": "clustering",
+  "row_count_requested": 1326,
+  "row_count_predicted": 1326,
+  "coverage": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_class",
+    "target_col": "target_input",
+    "true_col": "target_true",
+    "mask_col": "is_masked",
+    "feature_cols": [
+      "building_type",
+      "permit_type",
+      "const_type",
+      "valuation_bucket",
+      "total_units_group",
+      "total_sf_nonzero"
+    ],
+    "n_clusters": 8,
+    "random_state": 42,
+    "n_init": 10
+  },
+  "reference_count": 3979
+}

@@ -1,0 +1,2123 @@
+﻿thesis> 
+thesis> 
+thesis> | | | | 
+thesis> 
+thesis> | | | | | | | | | | | | | | | | 
+thesis> 
+thesis> | | | 
+thesis> 
+thesis> 
+=== TOTAL HERMOSA BEACH RAW RECORDS ===
+
+thesis> | | {
+  total_records: 120
+}
+
+thesis> 
+thesis> 
+=== SOURCE / RUN BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | {
+  _id: {
+    parser_run_id: 'run_20260624_201347_91',
+    parser_name: 'HermosaBeach_PDF',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf'
+  },
+  count: 120
+}
+
+thesis> 
+thesis> 
+=== FIELD COMPLETENESS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | {
+  field: 'permit_number',
+  total: 120,
+  present: 120,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 120
+}
+{
+  field: 'status',
+  total: 120,
+  present: 120,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 4
+}
+{
+  field: 'description',
+  total: 120,
+  present: 120,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 79
+}
+{
+  field: 'parcel_number',
+  total: 120,
+  present: 119,
+  missing_or_empty: 1,
+  present_rate: 0.9917,
+  distinct_count: 80
+}
+{
+  field: 'paid_fee',
+  total: 120,
+  present: 120,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 68
+}
+{
+  field: 'sub_type',
+  total: 120,
+  present: 120,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 6
+}
+{
+  field: 'issued_date',
+  total: 120,
+  present: 119,
+  missing_or_empty: 1,
+  present_rate: 0.9917,
+  distinct_count: 16
+}
+{
+  field: 'owner_name',
+  total: 120,
+  present: 18,
+  missing_or_empty: 102,
+  present_rate: 0.15,
+  distinct_count: 8
+}
+{
+  field: 'address',
+  total: 120,
+  present: 120,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 80
+}
+{
+  field: 'permit_type',
+  total: 120,
+  present: 120,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 10
+}
+{
+  field: 'fee',
+  total: 120,
+  present: 67,
+  missing_or_empty: 53,
+  present_rate: 0.5583,
+  distinct_count: 46
+}
+{
+  field: 'valuation',
+  total: 120,
+  present: 29,
+  missing_or_empty: 91,
+  present_rate: 0.2417,
+  distinct_count: 21
+}
+{
+  field: 'contractor_name',
+  total: 120,
+  present: 3,
+  missing_or_empty: 117,
+  present_rate: 0.025,
+  distinct_count: 3
+}
+{
+  field: 'contractor_address',
+  total: 120,
+  present: 0,
+  missing_or_empty: 120,
+  present_rate: 0,
+  distinct_count: 0
+}
+{
+  field: 'contractor_phone',
+  total: 120,
+  present: 0,
+  missing_or_empty: 120,
+  present_rate: 0,
+  distinct_count: 0
+}
+
+thesis> 
+thesis> 
+=== FIELD TYPE CHECK ===
+
+thesis> | | | | | | | | | | | | | | | | | | | 
+--- TYPES: permit_number ---
+{
+  _id: 'string',
+  count: 120
+}
+
+--- TYPES: status ---
+{
+  _id: 'string',
+  count: 120
+}
+
+--- TYPES: description ---
+{
+  _id: 'string',
+  count: 120
+}
+
+--- TYPES: parcel_number ---
+{
+  _id: 'string',
+  count: 119
+}
+{
+  _id: 'null',
+  count: 1
+}
+
+--- TYPES: paid_fee ---
+{
+  _id: 'string',
+  count: 120
+}
+
+--- TYPES: sub_type ---
+{
+  _id: 'string',
+  count: 120
+}
+
+--- TYPES: issued_date ---
+{
+  _id: 'string',
+  count: 119
+}
+{
+  _id: 'null',
+  count: 1
+}
+
+--- TYPES: owner_name ---
+{
+  _id: 'null',
+  count: 102
+}
+{
+  _id: 'string',
+  count: 18
+}
+
+--- TYPES: address ---
+{
+  _id: 'string',
+  count: 120
+}
+
+--- TYPES: permit_type ---
+{
+  _id: 'string',
+  count: 120
+}
+
+--- TYPES: fee ---
+{
+  _id: 'string',
+  count: 67
+}
+{
+  _id: 'null',
+  count: 53
+}
+
+--- TYPES: valuation ---
+{
+  _id: 'null',
+  count: 91
+}
+{
+  _id: 'string',
+  count: 29
+}
+
+--- TYPES: contractor_name ---
+{
+  _id: 'null',
+  count: 117
+}
+{
+  _id: 'string',
+  count: 3
+}
+
+--- TYPES: contractor_address ---
+{
+  _id: 'missing',
+  count: 120
+}
+
+--- TYPES: contractor_phone ---
+{
+  _id: 'missing',
+  count: 120
+}
+
+thesis> 
+thesis> 
+=== TOP VALUES: CATEGORICAL / IMPORTANT FIELDS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+--- TOP VALUES: permit_type ---
+{
+  _id: 'Electrical OTC',
+  count: 27
+}
+{
+  _id: 'Building Permit OTC',
+  count: 25
+}
+{
+  _id: 'Plumbing OTC',
+  count: 20
+}
+{
+  _id: 'Residential Building Report',
+  count: 15
+}
+{
+  _id: 'Mechanical OTC',
+  count: 13
+}
+{
+  _id: 'Building - In House Plan Check',
+  count: 10
+}
+{
+  _id: 'Building - Full Plan Check',
+  count: 5
+}
+{
+  _id: 'Solar Permit',
+  count: 3
+}
+{
+  _id: 'Electrical - In House Plan Check',
+  count: 1
+}
+{
+  _id: 'Address Change',
+  count: 1
+}
+
+--- TOP VALUES: sub_type ---
+{
+  _id: 'Over The Counter',
+  count: 85
+}
+{
+  _id: 'Residential Building Report',
+  count: 15
+}
+{
+  _id: 'In House Plan Check',
+  count: 11
+}
+{
+  _id: 'Full Plan Check',
+  count: 5
+}
+{
+  _id: 'Solar',
+  count: 3
+}
+{
+  _id: 'Address Change',
+  count: 1
+}
+
+--- TOP VALUES: status ---
+{
+  _id: 'Issued',
+  count: 86
+}
+{
+  _id: 'Finaled',
+  count: 32
+}
+{
+  _id: 'Expired Permit',
+  count: 1
+}
+{
+  _id: 'Finaled -',
+  count: 1
+}
+
+--- TOP VALUES: paid_fee ---
+{
+  _id: '$327.42',
+  count: 15
+}
+{
+  _id: '$145.00',
+  count: 9
+}
+{
+  _id: '$162.00',
+  count: 9
+}
+{
+  _id: '$115.00',
+  count: 6
+}
+{
+  _id: '$156.26',
+  count: 5
+}
+{
+  _id: '$130.00',
+  count: 4
+}
+{
+  _id: '$481.50',
+  count: 3
+}
+{
+  _id: '$132.30',
+  count: 3
+}
+{
+  _id: '$2,596.36',
+  count: 2
+}
+{
+  _id: '$222.00',
+  count: 2
+}
+{
+  _id: '$563.22',
+  count: 2
+}
+{
+  _id: '$348.94',
+  count: 2
+}
+{
+  _id: '$183.00',
+  count: 2
+}
+{
+  _id: '$778.70',
+  count: 2
+}
+{
+  _id: '$375.00',
+  count: 1
+}
+{
+  _id: '$324.84',
+  count: 1
+}
+{
+  _id: '$1,523.19',
+  count: 1
+}
+{
+  _id: '$3,454.27',
+  count: 1
+}
+{
+  _id: '$741.00',
+  count: 1
+}
+{
+  _id: '$265.00',
+  count: 1
+}
+{
+  _id: '$2,052.83',
+  count: 1
+}
+{
+  _id: '$98.00',
+  count: 1
+}
+{
+  _id: '$285.00',
+  count: 1
+}
+{
+  _id: '$178.00',
+  count: 1
+}
+{
+  _id: '$1,801.99',
+  count: 1
+}
+
+--- TOP VALUES: fee ---
+{
+  _id: '$145.00',
+  count: 7
+}
+{
+  _id: '$115.00',
+  count: 4
+}
+{
+  _id: '$156.26',
+  count: 4
+}
+{
+  _id: '$130.00',
+  count: 3
+}
+{
+  _id: '$481.50',
+  count: 3
+}
+{
+  _id: '$162.00',
+  count: 3
+}
+{
+  _id: '$348.94',
+  count: 2
+}
+{
+  _id: '$2,596.36',
+  count: 2
+}
+{
+  _id: '$563.22',
+  count: 2
+}
+{
+  _id: '$741.00',
+  count: 1
+}
+{
+  _id: '$98.00',
+  count: 1
+}
+{
+  _id: '$224.26',
+  count: 1
+}
+{
+  _id: '$5,124.15',
+  count: 1
+}
+{
+  _id: '$322.07',
+  count: 1
+}
+{
+  _id: '$3,715.80',
+  count: 1
+}
+{
+  _id: '$58.34',
+  count: 1
+}
+{
+  _id: '$984.00',
+  count: 1
+}
+{
+  _id: '$742.14',
+  count: 1
+}
+{
+  _id: '$712.60',
+  count: 1
+}
+{
+  _id: '$222.00',
+  count: 1
+}
+{
+  _id: '$132.30',
+  count: 1
+}
+{
+  _id: '$238.00',
+  count: 1
+}
+{
+  _id: '$335.00',
+  count: 1
+}
+{
+  _id: '$235.00',
+  count: 1
+}
+{
+  _id: '$582.83',
+  count: 1
+}
+
+--- TOP VALUES: valuation ---
+{
+  _id: '$3,000.00',
+  count: 3
+}
+{
+  _id: '$75,000.00',
+  count: 2
+}
+{
+  _id: '$11,000.00',
+  count: 2
+}
+{
+  _id: '$30,000.00',
+  count: 2
+}
+{
+  _id: '$20,000.00',
+  count: 2
+}
+{
+  _id: '$50,000.00',
+  count: 2
+}
+{
+  _id: '$15,000.00',
+  count: 2
+}
+{
+  _id: '$250,000.00',
+  count: 1
+}
+{
+  _id: '$12,332.00',
+  count: 1
+}
+{
+  _id: '$40,000.00',
+  count: 1
+}
+{
+  _id: '$2,000.00',
+  count: 1
+}
+{
+  _id: '$34,000.00',
+  count: 1
+}
+{
+  _id: '$800.00',
+  count: 1
+}
+{
+  _id: '$8,000.00',
+  count: 1
+}
+{
+  _id: '$9,700.00',
+  count: 1
+}
+{
+  _id: '$2,750.00',
+  count: 1
+}
+{
+  _id: '$35,489.60',
+  count: 1
+}
+{
+  _id: '$11,200.00',
+  count: 1
+}
+{
+  _id: '$5,950.00',
+  count: 1
+}
+{
+  _id: '$28,000.00',
+  count: 1
+}
+{
+  _id: '$180,000.00',
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== TOP PERMIT TYPE / SUB TYPE / STATUS COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    status: 'Issued'
+  },
+  count: 23
+}
+{
+  _id: {
+    permit_type: 'Building Permit OTC',
+    sub_type: 'Over The Counter',
+    status: 'Issued'
+  },
+  count: 19
+}
+{
+  _id: {
+    permit_type: 'Plumbing OTC',
+    sub_type: 'Over The Counter',
+    status: 'Issued'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Residential Building Report',
+    sub_type: 'Residential Building Report',
+    status: 'Finaled'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Mechanical OTC',
+    sub_type: 'Over The Counter',
+    status: 'Issued'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Building - In House Plan Check',
+    sub_type: 'In House Plan Check',
+    status: 'Issued'
+  },
+  count: 10
+}
+{
+  _id: {
+    permit_type: 'Building Permit OTC',
+    sub_type: 'Over The Counter',
+    status: 'Finaled'
+  },
+  count: 6
+}
+{
+  _id: {
+    permit_type: 'Plumbing OTC',
+    sub_type: 'Over The Counter',
+    status: 'Finaled'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'Building - Full Plan Check',
+    sub_type: 'Full Plan Check',
+    status: 'Issued'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    status: 'Finaled'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Solar Permit',
+    sub_type: 'Solar',
+    status: 'Issued'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    status: 'Expired Permit'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building - Full Plan Check',
+    sub_type: 'Full Plan Check',
+    status: 'Finaled -'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical - In House Plan Check',
+    sub_type: 'In House Plan Check',
+    status: 'Finaled'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Address Change',
+    sub_type: 'Address Change',
+    status: 'Finaled'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Mechanical OTC',
+    sub_type: 'Over The Counter',
+    status: 'Finaled'
+  },
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== TOP PERMIT TYPE / SUB TYPE / PAID FEE COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Residential Building Report',
+    sub_type: 'Residential Building Report',
+    paid_fee: '$327.42'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$162.00'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Building Permit OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$156.26'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'Plumbing OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$115.00'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Plumbing OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$145.00'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$145.00'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Solar Permit',
+    sub_type: 'Solar',
+    paid_fee: '$481.50'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Building Permit OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$132.30'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Mechanical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$130.00'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Building Permit OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$348.94'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Mechanical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$222.00'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Mechanical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$145.00'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Mechanical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$183.00'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$115.00'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Building - In House Plan Check',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$2,596.36'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Building Permit OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$563.22'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Building Permit OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$778.70'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Building - In House Plan Check',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$582.83'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$470.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building Permit OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$445.33'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$223.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building - In House Plan Check',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$452.97'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Plumbing OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$741.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$285.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Plumbing OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$267.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$2,784.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$1,057.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Plumbing OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$130.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Mechanical OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$265.00'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Plumbing OTC',
+    sub_type: 'Over The Counter',
+    paid_fee: '$536.00'
+  },
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== SAMPLE RECORDS WITH MISSING IMPORTANT FIELDS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94b'),
+  data: {
+    valuation: null,
+    fee: '$322.07',
+    owner_name: null,
+    permit_type: 'Address Change',
+    address: '1,803 PACIFIC COAST HWY',
+    sub_type: 'Address Change',
+    issued_date: '08/18/2025',
+    paid_fee: '$322.07',
+    parcel_number: '4184-025-013',
+    description: "Address Request to: Add 4 ADU's at the ground floor of the",
+    status: 'Finaled',
+    permit_number: 'X24-00230',
+    contractor_name: null
+  },
+  provenance: {
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_row_number: 2,
+    input_file_id: 'run_20260624_201347_91_input',
+    loaded_at: '2026-06-24T20:13:48Z',
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0'
+  },
+  source: {
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'HermosaBeach'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000002'
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94c'),
+  source: {
+    county: 'LosAngeles',
+    state: 'CA',
+    municipality: 'HermosaBeach'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000003',
+  provenance: {
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 3,
+    loaded_at: '2026-06-24T20:13:48Z',
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0'
+  },
+  data: {
+    parcel_number: '4183-006-034',
+    description: 'Addition of 51.45 sq ft at Unit A first floor of existing duplex',
+    permit_number: 'B23-00403',
+    status: 'Issued',
+    contractor_name: null,
+    valuation: '$8,000.00',
+    fee: '$1,551.52',
+    permit_type: 'Building - Full Plan Check',
+    owner_name: null,
+    address: '60 17TH ST',
+    issued_date: '08/11/2025',
+    sub_type: 'Full Plan Check',
+    paid_fee: '$1,551.52'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94d'),
+  source: {
+    municipality: 'HermosaBeach',
+    county: 'LosAngeles',
+    state: 'CA'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000004',
+  data: {
+    address: '1,840 RHODES ST',
+    owner_name: null,
+    permit_type: 'Building - Full Plan Check',
+    valuation: '$30,000.00',
+    fee: '$1,523.19',
+    issued_date: '08/21/2025',
+    sub_type: 'Full Plan Check',
+    paid_fee: '$1,523.19',
+    description: 'Extension of existing front balcony (over garage).',
+    parcel_number: '4184-011-021',
+    permit_number: 'B24-00628',
+    status: 'Issued',
+    contractor_name: null
+  },
+  provenance: {
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 4,
+    loaded_at: '2026-06-24T20:13:48Z'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94e'),
+  source: {
+    municipality: 'HermosaBeach',
+    state: 'CA',
+    county: 'LosAngeles'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000005',
+  provenance: {
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    csv_row_number: 5,
+    input_file_id: 'run_20260624_201347_91_input',
+    loaded_at: '2026-06-24T20:13:48Z',
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0'
+  },
+  data: {
+    address: '534 3RD ST',
+    owner_name: null,
+    permit_type: 'Building - Full Plan Check',
+    fee: '$1,801.99',
+    valuation: '$15,000.00',
+    paid_fee: '$1,801.99',
+    issued_date: '08/07/2025',
+    sub_type: 'Full Plan Check',
+    description: 'Remodel and repair existing roof deck of 399 sqft. Add electrical',
+    parcel_number: '4188-025-021',
+    contractor_name: null,
+    permit_number: 'B25-00041',
+    status: 'Issued'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94f'),
+  source: {
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'HermosaBeach'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000006',
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    csv_row_number: 6,
+    input_file_id: 'run_20260624_201347_91_input',
+    loaded_at: '2026-06-24T20:13:48Z',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF'
+  },
+  data: {
+    owner_name: 'GENERAL REALTY LLC',
+    address: '243 PACIFIC COAST HWY',
+    permit_type: 'Building - Full Plan Check',
+    fee: '$2,060.33',
+    valuation: '$50,000.00',
+    paid_fee: '$2,060.33',
+    sub_type: 'Full Plan Check',
+    issued_date: null,
+    description: 'Tenant Improvement for Commercial rental to add non bearing                                              # Units:',
+    parcel_number: null,
+    contractor_name: null,
+    permit_number: 'B25-00235',
+    status: 'Finaled -'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd950'),
+  raw_permit_id: 'run_20260624_201347_91_row_000007',
+  source: {
+    municipality: 'HermosaBeach',
+    state: 'CA',
+    county: 'LosAngeles'
+  },
+  data: {
+    description: 'Addition (153 sq. ft.) and new 57 sq. ft. uncovered deck and new',
+    parcel_number: '4161-027-012',
+    contractor_name: null,
+    permit_number: 'B25-00305',
+    status: 'Issued',
+    address: '1,211 10TH ST',
+    owner_name: null,
+    permit_type: 'Building - Full Plan Check',
+    fee: null,
+    valuation: null,
+    paid_fee: '$3,454.27',
+    sub_type: 'Full Plan Check',
+    issued_date: '08/07/2025'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    csv_row_number: 7,
+    input_file_id: 'run_20260624_201347_91_input',
+    loaded_at: '2026-06-24T20:13:48Z',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd952'),
+  raw_permit_id: 'run_20260624_201347_91_row_000009',
+  source: {
+    municipality: 'HermosaBeach',
+    county: 'LosAngeles',
+    state: 'CA'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    csv_row_number: 9,
+    input_file_id: 'run_20260624_201347_91_input',
+    loaded_at: '2026-06-24T20:13:48Z',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF'
+  },
+  data: {
+    paid_fee: '$2,596.36',
+    issued_date: '08/13/2025',
+    sub_type: 'In House Plan Check',
+    fee: '$2,596.36',
+    valuation: '$75,000.00',
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    address: '515 24TH ST',
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00030',
+    parcel_number: '4182-024-004',
+    description: 'New pool and pool equipment volt'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd953'),
+  data: {
+    permit_number: 'B25-00115',
+    status: 'Issued',
+    contractor_name: null,
+    parcel_number: '4186-019-003',
+    description: 'Interior remodel. Add new ductless HVAC mini splits, replace roof',
+    sub_type: 'In House Plan Check',
+    issued_date: '08/07/2025',
+    paid_fee: '$6,596.38',
+    valuation: '$250,000.00',
+    fee: '$6,596.38',
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    address: '444 OCEAN VIEW AVE'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    csv_row_number: 10,
+    input_file_id: 'run_20260624_201347_91_input',
+    loaded_at: '2026-06-24T20:13:48Z',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF'
+  },
+  source: {
+    municipality: 'HermosaBeach',
+    state: 'CA',
+    county: 'LosAngeles'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000010'
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd954'),
+  raw_permit_id: 'run_20260624_201347_91_row_000011',
+  source: {
+    municipality: 'HermosaBeach',
+    county: 'LosAngeles',
+    state: 'CA'
+  },
+  provenance: {
+    loaded_at: '2026-06-24T20:13:48Z',
+    csv_row_number: 11,
+    input_file_id: 'run_20260624_201347_91_input',
+    config_version: '1.0',
+    parser_run_id: 'run_20260624_201347_91',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf'
+  },
+  data: {
+    paid_fee: '$712.60',
+    sub_type: 'In House Plan Check',
+    issued_date: '08/21/2025',
+    permit_type: 'Building - In House Plan Check',
+    owner_name: null,
+    address: '1,144 7TH ST',
+    fee: '$712.60',
+    valuation: '$12,332.00',
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00121',
+    description: 'Remove and replace existing deck',
+    parcel_number: '4160-030-023'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd955'),
+  raw_permit_id: 'run_20260624_201347_91_row_000012',
+  source: {
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'HermosaBeach'
+  },
+  provenance: {
+    loaded_at: '2026-06-24T20:13:48Z',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 12,
+    config_version: '1.0',
+    parser_run_id: 'run_20260624_201347_91',
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_file_name: 'Hermosa Beach August 2025.csv'
+  },
+  data: {
+    parcel_number: '4185-015-002',
+    description: 'Remove and replace deck',
+    permit_number: 'B25-00162',
+    status: 'Issued',
+    contractor_name: null,
+    valuation: '$9,700.00',
+    fee: '$582.83',
+    address: '1,225 CORONA ST',
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    issued_date: '08/06/2025',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$582.83'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd956'),
+  source: {
+    county: 'LosAngeles',
+    state: 'CA',
+    municipality: 'HermosaBeach'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000013',
+  data: {
+    description: 'Partial repair of framing and foundation due to deterioration over',
+    parcel_number: '4188-004-008',
+    permit_number: 'B25-00220',
+    status: 'Issued',
+    contractor_name: null,
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    address: '18 6TH ST',
+    valuation: '$40,000.00',
+    fee: '$1,724.88',
+    sub_type: 'In House Plan Check',
+    issued_date: '08/07/2025',
+    paid_fee: '$1,724.88'
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 13,
+    loaded_at: '2026-06-24T20:13:48Z',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd957'),
+  raw_permit_id: 'run_20260624_201347_91_row_000014',
+  source: {
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'HermosaBeach'
+  },
+  provenance: {
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    loaded_at: '2026-06-24T20:13:48Z',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 14,
+    config_version: '1.0',
+    parser_run_id: 'run_20260624_201347_91'
+  },
+  data: {
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    address: '825 18TH ST',
+    valuation: '$50,000.00',
+    fee: '$2,052.83',
+    issued_date: '08/07/2025',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$2,052.83',
+    description: 'Faming repairs, stud repair and foundation',
+    parcel_number: '4184-012-018',
+    permit_number: 'B25-00289',
+    status: 'Issued',
+    contractor_name: null
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd958'),
+  data: {
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00290',
+    description: 'New pool / spa and pool equipment',
+    parcel_number: '4184-004-012',
+    paid_fee: '$2,596.36',
+    issued_date: '08/27/2025',
+    sub_type: 'In House Plan Check',
+    owner_name: null,
+    address: '1,211 21ST ST',
+    permit_type: 'Building - In House Plan Check',
+    fee: '$2,596.36',
+    valuation: '$75,000.00'
+  },
+  provenance: {
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    config_version: '1.0',
+    parser_run_id: 'run_20260624_201347_91',
+    loaded_at: '2026-06-24T20:13:48Z',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 15
+  },
+  source: {
+    county: 'LosAngeles',
+    state: 'CA',
+    municipality: 'HermosaBeach'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000015'
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd959'),
+  source: {
+    municipality: 'HermosaBeach',
+    state: 'CA',
+    county: 'LosAngeles'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000016',
+  data: {
+    permit_type: 'Building - In House Plan Check',
+    owner_name: null,
+    address: '436 OCEAN VIEW AVE',
+    valuation: '$15,000.00',
+    fee: '$3,715.80',
+    issued_date: '08/21/2025',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$3,715.80',
+    description: 'Repair water damage to home where needed, new flooring and',
+    parcel_number: '4186-019-056',
+    status: 'Issued',
+    permit_number: 'B25-00333',
+    contractor_name: null
+  },
+  provenance: {
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    csv_row_number: 16,
+    input_file_id: 'run_20260624_201347_91_input',
+    loaded_at: '2026-06-24T20:13:48Z',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95a'),
+  provenance: {
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 17,
+    loaded_at: '2026-06-24T20:13:48Z',
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0'
+  },
+  data: {
+    parcel_number: '4169-037-011',
+    description: 'New spa, pool steps and automatic pool safety cover with cover',
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00336',
+    fee: null,
+    valuation: null,
+    address: '640 GOULD AVE',
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    paid_fee: '$452.97',
+    sub_type: 'In House Plan Check',
+    issued_date: '08/12/2025'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000017',
+  source: {
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'HermosaBeach'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95b'),
+  raw_permit_id: 'run_20260624_201347_91_row_000018',
+  source: {
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'HermosaBeach'
+  },
+  provenance: {
+    loaded_at: '2026-06-24T20:13:48Z',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 18,
+    config_version: '1.0',
+    parser_run_id: 'run_20260624_201347_91',
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf'
+  },
+  data: {
+    parcel_number: '4186-015-005',
+    description: 'Demolish Single Family Residence',
+    contractor_name: null,
+    permit_number: 'B25-00292',
+    status: 'Finaled',
+    fee: '$563.22',
+    valuation: '$20,000.00',
+    owner_name: null,
+    permit_type: 'Building Permit OTC',
+    address: '921 5TH ST',
+    paid_fee: '$563.22',
+    sub_type: 'Over The Counter',
+    issued_date: '08/04/2025'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95c'),
+  raw_permit_id: 'run_20260624_201347_91_row_000019',
+  source: {
+    county: 'LosAngeles',
+    state: 'CA',
+    municipality: 'HermosaBeach'
+  },
+  provenance: {
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    config_version: '1.0',
+    parser_run_id: 'run_20260624_201347_91',
+    loaded_at: '2026-06-24T20:13:48Z',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 19
+  },
+  data: {
+    sub_type: 'Over The Counter',
+    issued_date: '08/04/2025',
+    paid_fee: '$1,387.52',
+    address: '1,500 THE STRAND AVE',
+    owner_name: null,
+    permit_type: 'Building Permit OTC',
+    valuation: null,
+    fee: null,
+    status: 'Issued',
+    permit_number: 'B25-00334',
+    contractor_name: null,
+    description: 'Tear off and install 52 squares of versico - 60 Mil TPO roofing',
+    parcel_number: '4183-005-069'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95d'),
+  raw_permit_id: 'run_20260624_201347_91_row_000020',
+  source: {
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'HermosaBeach'
+  },
+  provenance: {
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_name: 'HermosaBeach_PDF',
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    csv_row_number: 20,
+    input_file_id: 'run_20260624_201347_91_input',
+    loaded_at: '2026-06-24T20:13:48Z'
+  },
+  data: {
+    paid_fee: '$496.26',
+    issued_date: '08/26/2025',
+    sub_type: 'Over The Counter',
+    fee: null,
+    valuation: null,
+    permit_type: 'Building Permit OTC',
+    owner_name: null,
+    address: '720 3RD ST',
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00340',
+    parcel_number: '4188-028-035',
+    description: 'Retrofit existing wrought iron railings for code height and picket'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95f'),
+  data: {
+    description: 'Demolish Single Family Residence',
+    parcel_number: '4181-016-011',
+    contractor_name: null,
+    permit_number: 'B25-00356',
+    status: 'Issued',
+    owner_name: null,
+    address: '235 33RD ST',
+    permit_type: 'Building Permit OTC',
+    fee: '$563.22',
+    valuation: '$20,000.00',
+    paid_fee: '$563.22',
+    issued_date: '08/28/2025',
+    sub_type: 'Over The Counter'
+  },
+  provenance: {
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    parser_run_id: 'run_20260624_201347_91',
+    config_version: '1.0',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 22,
+    loaded_at: '2026-06-24T20:13:48Z'
+  },
+  source: {
+    municipality: 'HermosaBeach',
+    county: 'LosAngeles',
+    state: 'CA'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000022'
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd960'),
+  raw_permit_id: 'run_20260624_201347_91_row_000023',
+  source: {
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'HermosaBeach'
+  },
+  data: {
+    permit_type: 'Building Permit OTC',
+    owner_name: null,
+    address: '1,640 LOMA DR',
+    valuation: null,
+    fee: null,
+    issued_date: '08/11/2025',
+    sub_type: 'Over The Counter',
+    paid_fee: '$778.70',
+    description: 'Windows and sliding door replacements, same size for an 4 unit',
+    parcel_number: '4183-016-003',
+    status: 'Issued',
+    permit_number: 'B25-00368',
+    contractor_name: null
+  },
+  provenance: {
+    config_module: 'Config::Parser::ca_hermosa_beach_pdf',
+    csv_file_name: 'Hermosa Beach August 2025.csv',
+    parser_name: 'HermosaBeach_PDF',
+    output_csv_file_id: 'run_20260624_201347_91_csv',
+    config_version: '1.0',
+    parser_run_id: 'run_20260624_201347_91',
+    loaded_at: '2026-06-24T20:13:48Z',
+    input_file_id: 'run_20260624_201347_91_input',
+    csv_row_number: 23
+  }
+}
+
+thesis> 
+thesis> 
+=== COMPLETE-ISH RECORDS FOR PATTERN ANALYSIS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94b'),
+  data: {
+    valuation: null,
+    fee: '$322.07',
+    owner_name: null,
+    permit_type: 'Address Change',
+    address: '1,803 PACIFIC COAST HWY',
+    sub_type: 'Address Change',
+    issued_date: '08/18/2025',
+    paid_fee: '$322.07',
+    parcel_number: '4184-025-013',
+    description: "Address Request to: Add 4 ADU's at the ground floor of the",
+    status: 'Finaled',
+    permit_number: 'X24-00230',
+    contractor_name: null
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000002'
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94c'),
+  raw_permit_id: 'run_20260624_201347_91_row_000003',
+  data: {
+    parcel_number: '4183-006-034',
+    description: 'Addition of 51.45 sq ft at Unit A first floor of existing duplex',
+    permit_number: 'B23-00403',
+    status: 'Issued',
+    contractor_name: null,
+    valuation: '$8,000.00',
+    fee: '$1,551.52',
+    permit_type: 'Building - Full Plan Check',
+    owner_name: null,
+    address: '60 17TH ST',
+    issued_date: '08/11/2025',
+    sub_type: 'Full Plan Check',
+    paid_fee: '$1,551.52'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94d'),
+  raw_permit_id: 'run_20260624_201347_91_row_000004',
+  data: {
+    address: '1,840 RHODES ST',
+    owner_name: null,
+    permit_type: 'Building - Full Plan Check',
+    valuation: '$30,000.00',
+    fee: '$1,523.19',
+    issued_date: '08/21/2025',
+    sub_type: 'Full Plan Check',
+    paid_fee: '$1,523.19',
+    description: 'Extension of existing front balcony (over garage).',
+    parcel_number: '4184-011-021',
+    permit_number: 'B24-00628',
+    status: 'Issued',
+    contractor_name: null
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94e'),
+  raw_permit_id: 'run_20260624_201347_91_row_000005',
+  data: {
+    address: '534 3RD ST',
+    owner_name: null,
+    permit_type: 'Building - Full Plan Check',
+    fee: '$1,801.99',
+    valuation: '$15,000.00',
+    paid_fee: '$1,801.99',
+    issued_date: '08/07/2025',
+    sub_type: 'Full Plan Check',
+    description: 'Remodel and repair existing roof deck of 399 sqft. Add electrical',
+    parcel_number: '4188-025-021',
+    contractor_name: null,
+    permit_number: 'B25-00041',
+    status: 'Issued'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd94f'),
+  raw_permit_id: 'run_20260624_201347_91_row_000006',
+  data: {
+    owner_name: 'GENERAL REALTY LLC',
+    address: '243 PACIFIC COAST HWY',
+    permit_type: 'Building - Full Plan Check',
+    fee: '$2,060.33',
+    valuation: '$50,000.00',
+    paid_fee: '$2,060.33',
+    sub_type: 'Full Plan Check',
+    issued_date: null,
+    description: 'Tenant Improvement for Commercial rental to add non bearing                                              # Units:',
+    parcel_number: null,
+    contractor_name: null,
+    permit_number: 'B25-00235',
+    status: 'Finaled -'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd950'),
+  raw_permit_id: 'run_20260624_201347_91_row_000007',
+  data: {
+    description: 'Addition (153 sq. ft.) and new 57 sq. ft. uncovered deck and new',
+    parcel_number: '4161-027-012',
+    contractor_name: null,
+    permit_number: 'B25-00305',
+    status: 'Issued',
+    address: '1,211 10TH ST',
+    owner_name: null,
+    permit_type: 'Building - Full Plan Check',
+    fee: null,
+    valuation: null,
+    paid_fee: '$3,454.27',
+    sub_type: 'Full Plan Check',
+    issued_date: '08/07/2025'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd951'),
+  raw_permit_id: 'run_20260624_201347_91_row_000008',
+  data: {
+    contractor_name: 'RIGHT ANGLE BUILDERS',
+    status: 'Issued',
+    permit_number: 'B24-00327',
+    parcel_number: '4182-022-021',
+    description: 'Renovation and remodel of an existing single-story house including',
+    paid_fee: '$5,124.15',
+    issued_date: '08/21/2025',
+    sub_type: 'In House Plan Check',
+    fee: '$5,124.15',
+    valuation: '$180,000.00',
+    owner_name: 'GOODBODY,ALEXANDER N TR',
+    permit_type: 'Building - In House Plan Check',
+    address: '2,201 VALLEY DR'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd952'),
+  raw_permit_id: 'run_20260624_201347_91_row_000009',
+  data: {
+    paid_fee: '$2,596.36',
+    issued_date: '08/13/2025',
+    sub_type: 'In House Plan Check',
+    fee: '$2,596.36',
+    valuation: '$75,000.00',
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    address: '515 24TH ST',
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00030',
+    parcel_number: '4182-024-004',
+    description: 'New pool and pool equipment volt'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd953'),
+  data: {
+    permit_number: 'B25-00115',
+    status: 'Issued',
+    contractor_name: null,
+    parcel_number: '4186-019-003',
+    description: 'Interior remodel. Add new ductless HVAC mini splits, replace roof',
+    sub_type: 'In House Plan Check',
+    issued_date: '08/07/2025',
+    paid_fee: '$6,596.38',
+    valuation: '$250,000.00',
+    fee: '$6,596.38',
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    address: '444 OCEAN VIEW AVE'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000010'
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd954'),
+  raw_permit_id: 'run_20260624_201347_91_row_000011',
+  data: {
+    paid_fee: '$712.60',
+    sub_type: 'In House Plan Check',
+    issued_date: '08/21/2025',
+    permit_type: 'Building - In House Plan Check',
+    owner_name: null,
+    address: '1,144 7TH ST',
+    fee: '$712.60',
+    valuation: '$12,332.00',
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00121',
+    description: 'Remove and replace existing deck',
+    parcel_number: '4160-030-023'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd955'),
+  raw_permit_id: 'run_20260624_201347_91_row_000012',
+  data: {
+    parcel_number: '4185-015-002',
+    description: 'Remove and replace deck',
+    permit_number: 'B25-00162',
+    status: 'Issued',
+    contractor_name: null,
+    valuation: '$9,700.00',
+    fee: '$582.83',
+    address: '1,225 CORONA ST',
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    issued_date: '08/06/2025',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$582.83'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd956'),
+  raw_permit_id: 'run_20260624_201347_91_row_000013',
+  data: {
+    description: 'Partial repair of framing and foundation due to deterioration over',
+    parcel_number: '4188-004-008',
+    permit_number: 'B25-00220',
+    status: 'Issued',
+    contractor_name: null,
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    address: '18 6TH ST',
+    valuation: '$40,000.00',
+    fee: '$1,724.88',
+    sub_type: 'In House Plan Check',
+    issued_date: '08/07/2025',
+    paid_fee: '$1,724.88'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd957'),
+  raw_permit_id: 'run_20260624_201347_91_row_000014',
+  data: {
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    address: '825 18TH ST',
+    valuation: '$50,000.00',
+    fee: '$2,052.83',
+    issued_date: '08/07/2025',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$2,052.83',
+    description: 'Faming repairs, stud repair and foundation',
+    parcel_number: '4184-012-018',
+    permit_number: 'B25-00289',
+    status: 'Issued',
+    contractor_name: null
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd958'),
+  data: {
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00290',
+    description: 'New pool / spa and pool equipment',
+    parcel_number: '4184-004-012',
+    paid_fee: '$2,596.36',
+    issued_date: '08/27/2025',
+    sub_type: 'In House Plan Check',
+    owner_name: null,
+    address: '1,211 21ST ST',
+    permit_type: 'Building - In House Plan Check',
+    fee: '$2,596.36',
+    valuation: '$75,000.00'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000015'
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd959'),
+  raw_permit_id: 'run_20260624_201347_91_row_000016',
+  data: {
+    permit_type: 'Building - In House Plan Check',
+    owner_name: null,
+    address: '436 OCEAN VIEW AVE',
+    valuation: '$15,000.00',
+    fee: '$3,715.80',
+    issued_date: '08/21/2025',
+    sub_type: 'In House Plan Check',
+    paid_fee: '$3,715.80',
+    description: 'Repair water damage to home where needed, new flooring and',
+    parcel_number: '4186-019-056',
+    status: 'Issued',
+    permit_number: 'B25-00333',
+    contractor_name: null
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95a'),
+  data: {
+    parcel_number: '4169-037-011',
+    description: 'New spa, pool steps and automatic pool safety cover with cover',
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00336',
+    fee: null,
+    valuation: null,
+    address: '640 GOULD AVE',
+    owner_name: null,
+    permit_type: 'Building - In House Plan Check',
+    paid_fee: '$452.97',
+    sub_type: 'In House Plan Check',
+    issued_date: '08/12/2025'
+  },
+  raw_permit_id: 'run_20260624_201347_91_row_000017'
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95b'),
+  raw_permit_id: 'run_20260624_201347_91_row_000018',
+  data: {
+    parcel_number: '4186-015-005',
+    description: 'Demolish Single Family Residence',
+    contractor_name: null,
+    permit_number: 'B25-00292',
+    status: 'Finaled',
+    fee: '$563.22',
+    valuation: '$20,000.00',
+    owner_name: null,
+    permit_type: 'Building Permit OTC',
+    address: '921 5TH ST',
+    paid_fee: '$563.22',
+    sub_type: 'Over The Counter',
+    issued_date: '08/04/2025'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95c'),
+  raw_permit_id: 'run_20260624_201347_91_row_000019',
+  data: {
+    sub_type: 'Over The Counter',
+    issued_date: '08/04/2025',
+    paid_fee: '$1,387.52',
+    address: '1,500 THE STRAND AVE',
+    owner_name: null,
+    permit_type: 'Building Permit OTC',
+    valuation: null,
+    fee: null,
+    status: 'Issued',
+    permit_number: 'B25-00334',
+    contractor_name: null,
+    description: 'Tear off and install 52 squares of versico - 60 Mil TPO roofing',
+    parcel_number: '4183-005-069'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95d'),
+  raw_permit_id: 'run_20260624_201347_91_row_000020',
+  data: {
+    paid_fee: '$496.26',
+    issued_date: '08/26/2025',
+    sub_type: 'Over The Counter',
+    fee: null,
+    valuation: null,
+    permit_type: 'Building Permit OTC',
+    owner_name: null,
+    address: '720 3RD ST',
+    contractor_name: null,
+    status: 'Issued',
+    permit_number: 'B25-00340',
+    parcel_number: '4188-028-035',
+    description: 'Retrofit existing wrought iron railings for code height and picket'
+  }
+}
+{
+  _id: ObjectId('6a3c3a7c1f230b67e65cd95e'),
+  raw_permit_id: 'run_20260624_201347_91_row_000021',
+  data: {
+    status: 'Issued',
+    permit_number: 'B25-00353',
+    contractor_name: 'C M S CONSTRUCTION INC',
+    parcel_number: '4184-027-014',
+    description: 'Remodel of the kitchen and master bathroom. To include',
+    sub_type: 'Over The Counter',
+    issued_date: '08/12/2025',
+    paid_fee: '$742.14',
+    valuation: '$28,000.00',
+    fee: '$742.14',
+    permit_type: 'Building Permit OTC',
+    owner_name: 'PINHO,MANUEL C AND',
+    address: '1,600 ARDMORE AVE NO 127'
+  }
+}
+
+thesis> 

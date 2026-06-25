@@ -1,0 +1,158 @@
+{
+  "row_count_evaluated": 914,
+  "accuracy": 0.8971553610503282,
+  "macro_f1": 0.5161312839572824,
+  "weighted_f1": 0.8849947751851706,
+  "labels": [
+    "Building",
+    "Demolition",
+    "Electrical",
+    "Grading",
+    "Mechanical",
+    "Miscellaneous",
+    "Plumbing"
+  ],
+  "classification_report": {
+    "Building": {
+      "precision": 1.0,
+      "recall": 0.8724489795918368,
+      "f1-score": 0.9318801089918256,
+      "support": 392.0
+    },
+    "Demolition": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 15.0
+    },
+    "Electrical": {
+      "precision": 0.967032967032967,
+      "recall": 1.0,
+      "f1-score": 0.9832402234636871,
+      "support": 264.0
+    },
+    "Grading": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 17.0
+    },
+    "Mechanical": {
+      "precision": 0.5409836065573771,
+      "recall": 1.0,
+      "f1-score": 0.7021276595744681,
+      "support": 99.0
+    },
+    "Miscellaneous": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 12.0
+    },
+    "Plumbing": {
+      "precision": 0.9913793103448276,
+      "recall": 1.0,
+      "f1-score": 0.9956709956709957,
+      "support": 115.0
+    },
+    "accuracy": 0.8971553610503282,
+    "macro avg": {
+      "precision": 0.4999136977050246,
+      "recall": 0.5532069970845481,
+      "f1-score": 0.5161312839572824,
+      "support": 914.0
+    },
+    "weighted avg": {
+      "precision": 0.8915346838463225,
+      "recall": 0.8971553610503282,
+      "f1-score": 0.8849947751851706,
+      "support": 914.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      342,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      15,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      264,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      0,
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      99,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      7,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      115
+    ]
+  ],
+  "target_field": "permit_type",
+  "algorithm": "clustering",
+  "average_confidence": 0.9026811392993123,
+  "minimum_confidence": 0.5902777777777778,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_type",
+    "target_col": "permit_type_input",
+    "true_col": "permit_type_true",
+    "mask_col": "is_masked",
+    "feature_cols": [
+      "permit_number_prefix",
+      "status",
+      "valuation_bucket",
+      "description_keywords"
+    ],
+    "n_clusters": 7,
+    "random_state": 42,
+    "n_init": 10
+  },
+  "reference_count": 1373
+}

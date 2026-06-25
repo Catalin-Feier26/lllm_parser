@@ -1,0 +1,100 @@
+{
+  "row_count_evaluated": 58,
+  "accuracy": 0.8793103448275862,
+  "macro_f1": 0.4664769133459835,
+  "weighted_f1": 0.8313376518571833,
+  "labels": [
+    "Full Plan Check",
+    "In House Plan Check",
+    "Over The Counter",
+    "Residential Building Report"
+  ],
+  "classification_report": {
+    "Full Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "In House Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "Over The Counter": {
+      "precision": 0.8775510204081632,
+      "recall": 0.9772727272727273,
+      "f1-score": 0.9247311827956989,
+      "support": 44.0
+    },
+    "Residential Building Report": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "accuracy": 0.8793103448275862,
+    "macro avg": {
+      "precision": 0.441609977324263,
+      "recall": 0.4943181818181818,
+      "f1-score": 0.4664769133459835,
+      "support": 58.0
+    },
+    "weighted avg": {
+      "precision": 0.7883337242943153,
+      "recall": 0.8793103448275862,
+      "f1-score": 0.8313376518571833,
+      "support": 58.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      43,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      8
+    ]
+  ],
+  "target_field": "sub_type",
+  "algorithm": "clustering",
+  "average_confidence": 0.8750473664266768,
+  "minimum_confidence": 0.42857142857142855,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "sub_type",
+    "target_col": "sub_type_input",
+    "true_col": "sub_type_true",
+    "mask_col": "is_masked_type_subtype",
+    "feature_cols": [
+      "status",
+      "permit_number_prefix",
+      "paid_fee_bucket",
+      "fee_bucket",
+      "valuation_bucket",
+      "description_keywords"
+    ],
+    "n_clusters": 8,
+    "random_state": 42,
+    "n_init": 10
+  },
+  "reference_count": 88
+}

@@ -1,0 +1,81 @@
+{
+  "target_field": "sub_type",
+  "strategy": "majority_then_confidence",
+  "minimum_confidence": 0.0,
+  "row_count_total": 544,
+  "row_count_accepted": 500,
+  "row_count_rejected": 0,
+  "row_count_requires_review": 44,
+  "row_count_conflict": 0,
+  "row_count_unresolved": 0,
+  "coverage": 0.9191176470588235,
+  "accuracy_on_accepted": 0.906,
+  "macro_f1_on_accepted": 0.3226954592010925,
+  "labels": [
+    "Address Change",
+    "Full Plan Check",
+    "In House Plan Check",
+    "Over The Counter",
+    "Residential Building Report",
+    "Solar"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      18,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      24,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      381,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      72,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ]
+  ],
+  "decision_method_counts": {
+    "unanimous_vote": 394,
+    "majority_vote": 106,
+    "average_confidence_tiebreak": 44
+  },
+  "decision_status_counts": {
+    "Accepted": 500,
+    "Requires Review": 44
+  }
+}

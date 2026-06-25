@@ -1,0 +1,100 @@
+{
+  "row_count_evaluated": 6962,
+  "accuracy": 0.8904050560183855,
+  "macro_f1": 0.4457594632055721,
+  "weighted_f1": 0.8491230156385233,
+  "labels": [
+    "Commercial",
+    "Other Special Residential",
+    "Res.1&2 or Guest House",
+    "Residential-Multi-Family"
+  ],
+  "classification_report": {
+    "Commercial": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 638.0
+    },
+    "Other Special Residential": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 15.0
+    },
+    "Res.1&2 or Guest House": {
+      "precision": 0.9460859554873369,
+      "recall": 1.0,
+      "f1-score": 0.9722961648427487,
+      "support": 4931.0
+    },
+    "Residential-Multi-Family": {
+      "precision": 0.7245714285714285,
+      "recall": 0.9201741654571843,
+      "f1-score": 0.8107416879795396,
+      "support": 1378.0
+    },
+    "accuracy": 0.8904050560183855,
+    "macro avg": {
+      "precision": 0.4176643460146914,
+      "recall": 0.48004354136429606,
+      "f1-score": 0.4457594632055721,
+      "support": 6962.0
+    },
+    "weighted avg": {
+      "precision": 0.8135031995230518,
+      "recall": 0.8904050560183855,
+      "f1-score": 0.8491230156385233,
+      "support": 6962.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      166,
+      472
+    ],
+    [
+      0,
+      0,
+      5,
+      10
+    ],
+    [
+      0,
+      0,
+      4931,
+      0
+    ],
+    [
+      0,
+      0,
+      110,
+      1268
+    ]
+  ],
+  "target_field": "permit_class",
+  "algorithm": "clustering",
+  "average_confidence": 0.8899788838547175,
+  "minimum_confidence": 0.6978723404255319,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_class",
+    "target_col": "target_input",
+    "true_col": "target_true",
+    "mask_col": "is_masked",
+    "feature_cols": [
+      "building_type",
+      "permit_type",
+      "const_type",
+      "valuation_bucket",
+      "total_units_group",
+      "total_sf_nonzero"
+    ],
+    "n_clusters": 8,
+    "random_state": 42,
+    "n_init": 10
+  },
+  "reference_count": 27851
+}

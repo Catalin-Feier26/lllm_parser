@@ -1,0 +1,101 @@
+{
+  "row_count_evaluated": 58,
+  "accuracy": 0.896551724137931,
+  "macro_f1": 0.48404255319148937,
+  "weighted_f1": 0.8481291269258987,
+  "labels": [
+    "Full Plan Check",
+    "In House Plan Check",
+    "Over The Counter",
+    "Residential Building Report"
+  ],
+  "classification_report": {
+    "Full Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "In House Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "Over The Counter": {
+      "precision": 0.88,
+      "recall": 1.0,
+      "f1-score": 0.9361702127659575,
+      "support": 44.0
+    },
+    "Residential Building Report": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "accuracy": 0.896551724137931,
+    "macro avg": {
+      "precision": 0.47,
+      "recall": 0.5,
+      "f1-score": 0.48404255319148937,
+      "support": 58.0
+    },
+    "weighted avg": {
+      "precision": 0.8055172413793104,
+      "recall": 0.896551724137931,
+      "f1-score": 0.8481291269258987,
+      "support": 58.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      44,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      8
+    ]
+  ],
+  "target_field": "sub_type",
+  "algorithm": "grouped_majority",
+  "average_confidence": 0.8915461624026695,
+  "minimum_confidence": 0.5806451612903226,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "sub_type",
+    "target_col": "sub_type_input",
+    "true_col": "sub_type_true",
+    "mask_col": "is_masked_type_subtype",
+    "group_levels": [
+      [
+        "status",
+        "permit_number_prefix"
+      ],
+      [
+        "permit_number_prefix"
+      ],
+      [
+        "status"
+      ]
+    ]
+  },
+  "reference_count": 88
+}

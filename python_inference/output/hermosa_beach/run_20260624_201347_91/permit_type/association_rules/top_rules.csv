@@ -1,0 +1,51 @@
+antecedents,consequents,support,confidence,lift,antecedent_len,predicted_target
+"description_keywords=other, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=X, status=Finaled, valuation_bucket=missing",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,6,Address Change
+"description_keywords=other, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=X, status=Finaled",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,5,Address Change
+"description_keywords=other, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=X, valuation_bucket=missing",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,5,Address Change
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=X, status=Finaled, valuation_bucket=missing",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,5,Address Change
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=X, status=Finaled, valuation_bucket=missing",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,5,Address Change
+"description_keywords=other, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=X",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,4,Address Change
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=X, status=Finaled",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,4,Address Change
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=X, valuation_bucket=missing",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,4,Address Change
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=X, status=Finaled",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,4,Address Change
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=X, valuation_bucket=missing",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,4,Address Change
+"fee_bucket=2_999, permit_number_prefix=X, status=Finaled, valuation_bucket=missing",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,4,Address Change
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=X",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,3,Address Change
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=X",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,3,Address Change
+"fee_bucket=2_999, permit_number_prefix=X, status=Finaled",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,3,Address Change
+"fee_bucket=2_999, permit_number_prefix=X, valuation_bucket=missing",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,3,Address Change
+"fee_bucket=2_999, permit_number_prefix=X",permit_type_input=Address Change,0.013888888888888888,1.0,72.0,2,Address Change
+"description_keywords=solar, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=B, status=Issued, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,6,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=B, status=Issued",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,5,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=B, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,5,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, paid_fee_bucket=2_999, status=Issued, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,5,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, permit_number_prefix=B, status=Issued, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,5,Solar Permit
+"description_keywords=solar, paid_fee_bucket=2_999, permit_number_prefix=B, status=Issued, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,5,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=B",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, paid_fee_bucket=2_999, status=Issued",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, paid_fee_bucket=2_999, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, permit_number_prefix=B, status=Issued",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, permit_number_prefix=B, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, status=Issued, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, paid_fee_bucket=2_999, permit_number_prefix=B, status=Issued",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, paid_fee_bucket=2_999, permit_number_prefix=B, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, paid_fee_bucket=2_999, status=Issued, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, permit_number_prefix=B, status=Issued, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,4,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, paid_fee_bucket=2_999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, permit_number_prefix=B",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, status=Issued",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, fee_bucket=2_999, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, paid_fee_bucket=2_999, permit_number_prefix=B",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, paid_fee_bucket=2_999, status=Issued",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, paid_fee_bucket=2_999, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, permit_number_prefix=B, status=Issued",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, permit_number_prefix=B, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, status=Issued, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,3,Solar Permit
+"description_keywords=solar, fee_bucket=2_999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,2,Solar Permit
+"description_keywords=solar, paid_fee_bucket=2_999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,2,Solar Permit
+"description_keywords=solar, permit_number_prefix=B",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,2,Solar Permit
+"description_keywords=solar, status=Issued",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,2,Solar Permit
+"description_keywords=solar, valuation_bucket=10000_99999",permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,2,Solar Permit
+description_keywords=solar,permit_type_input=Solar Permit,0.027777777777777776,1.0,36.0,1,Solar Permit
+"description_keywords=addition, paid_fee_bucket=1000_9999, permit_number_prefix=B, status=Issued",permit_type_input=Building - Full Plan Check,0.027777777777777776,1.0,14.399999999999999,4,Building - Full Plan Check
+"description_keywords=addition, paid_fee_bucket=1000_9999, permit_number_prefix=B",permit_type_input=Building - Full Plan Check,0.027777777777777776,1.0,14.399999999999999,3,Building - Full Plan Check

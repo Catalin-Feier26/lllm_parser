@@ -1,0 +1,275 @@
+source:
+  name: baton_rouge
+  input:
+    type: mongo
+    collection: raw_permits
+    parser_runs_collection: parser_runs
+    uri_env: MONGO_URI
+    database_env: MONGO_DB_NAME
+    server_selection_timeout_ms: 5000
+    parser_run_filter:
+      source.state: LA
+      source.county: EastBatonRougeParish
+      parser.config_module: Config::Parser::la_east_baton_rouge_parish_csv
+    raw_permits_filter:
+      source.state: LA
+      source.county: EastBatonRougeParish
+      source.municipality: BatonRouge
+
+output:
+  base_dir: python_inference/output
+  mongo:
+    enabled: true
+    uri_env: MONGO_URI
+    database_env: MONGO_DB_NAME
+    server_selection_timeout_ms: 5000
+    collections:
+      inference_runs: inference_runs
+      inference_predictions: inference_predictions
+      inference_decisions: inference_decisions
+      validation_results: validation_results
+      final_permits: final_permits
+
+inference:
+  mode: evaluation
+
+preprocessing:
+  normalize_strings: true
+
+  keep_columns:
+    - raw_permit_id
+    - parser_run_id
+    - input_file_id
+    - output_csv_file_id
+    - csv_row_number
+    - permit_number
+    - permit_type
+    - parcel_number
+    - valuation
+    - fee
+    - applied_date
+    - issued_date
+    - address
+    - owner_name
+    - applicant_name
+    - contractor_name
+    - description
+
+  normalization:
+    enabled: true
+    suffix: _normalized
+    missing_values:
+      - Not Identified
+      - N/A
+      - NA
+      - NONE
+      - "-"
+
+    fields:
+      permit_number:
+        type: identifier
+        required: true
+
+      permit_type:
+        type: text
+
+      parcel_number:
+        type: identifier
+
+      valuation:
+        type: money
+        normalized_col: valuation_normalized
+        min: 0
+        suspicious_max: 100000000
+
+      fee:
+        type: money
+        normalized_col: fee_normalized
+        min: 0
+        suspicious_max: 1000000
+
+      applied_date:
+        type: date
+
+      issued_date:
+        type: date
+
+      address:
+        type: text
+
+      owner_name:
+        type: text
+
+      applicant_name:
+        type: text
+
+      contractor_name:
+        type: text
+
+      description:
+        type: text
+
+  validation:
+    enabled: true
+    output_col: validation
+    status_prefix: validation_
+
+    important_fields:
+      - permit_number
+      - permit_type
+      - issued_date
+      - address
+      - description
+
+    missing_values:
+      - Not Identified
+      - N/A
+      - NA
+      - NONE
+      - "-"
+
+    fields:
+      permit_number:
+        type: identifier
+        required: true
+
+      permit_type:
+        type: text
+
+      parcel_number:
+        type: identifier
+
+      valuation:
+        type: money
+        min: 0
+        suspicious_max: 100000000
+
+      fee:
+        type: money
+        min: 0
+        suspicious_max: 1000000
+
+      applied_date:
+        type: date
+
+      issued_date:
+        type: date
+
+      address:
+        type: text
+
+      owner_name:
+        type: text
+
+      applicant_name:
+        type: text
+
+      contractor_name:
+        type: text
+
+      description:
+        type: text
+
+  engineered_features:
+    description_keywords:
+      enabled: true
+      source_col: description
+      output_col: description_keywords
+
+    valuation_bucket:
+      enabled: true
+      source_col: valuation_normalized
+      output_col: valuation_bucket
+
+    fee_bucket:
+      enabled: true
+      source_col: fee_normalized
+      output_col: fee_bucket
+
+inference_targets:
+  permit_type:
+    enabled: true
+
+    cleaning:
+      source_col: permit_type
+      clean_col: permit_type_clean
+      missing_values:
+        - Not Identified
+        - N/A
+        - NA
+        - NONE
+        - "-"
+      replacements:
+        "Short Term Rental (R) ΓÇô Non Owner Occupied": "Short Term Rental (R) - Non Owner Occupied"
+        "Land Clearing Permit(R)": "Land Clearing Permit (R)"
+
+    masking:
+      source_col: permit_type_clean
+      target_col: permit_type_input
+      true_col: permit_type_true
+      mask_col: is_masked
+      mask_rate: 0.40
+      seed: 42
+
+    feature_cols:
+      - description_keywords
+      - valuation_bucket
+      - fee_bucket
+
+    algorithms:
+      grouped_majority:
+        enabled: true
+        output_folder: baseline
+        group_levels:
+          - [description_keywords, fee_bucket, valuation_bucket]
+          - [description_keywords, fee_bucket]
+          - [description_keywords, valuation_bucket]
+          - [fee_bucket, valuation_bucket]
+          - [description_keywords]
+          - [fee_bucket]
+          - [valuation_bucket]
+
+      association_rules:
+        enabled: true
+        output_folder: association_rules
+        min_support: 0.005
+        min_confidence: 0.50
+        min_lift: 1.00
+        use_global_fallback: true
+        top_n_rules: 100
+
+      clustering:
+        enabled: true
+        output_folder: clustering
+        n_clusters: 20
+        random_state: 42
+        n_init: 10
+
+      knn:
+        enabled: true
+        output_folder: knn
+        n_neighbors: 7
+        weights: distance
+
+    merge:
+      enabled: true
+      output_folder: merged
+      strategy: majority_then_confidence
+      minimum_confidence: 0.50
+      auto_accept_single_candidate: true
+      require_majority: false
+      validation_record_status_col: validation_record_status
+      review_validation_statuses:
+        - suspicious
+        - requires_review
+      reject_validation_statuses: []
+      record_id_col: raw_permit_id
+
+plots:
+  confusion_matrix:
+    xlabel: Predicted label
+    ylabel: True label
+    figure_width: 10
+    figure_height: 8
+    dpi: 150
+    x_label_rotation: 45

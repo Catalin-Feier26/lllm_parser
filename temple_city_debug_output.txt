@@ -1,0 +1,2723 @@
+﻿thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> | | | 
+thesis> 
+thesis> 
+thesis> 
+thesis> 
+thesis> | | 
+thesis> 
+thesis> | | | | | | | | | | | | | 
+thesis> 
+thesis> | | | 
+thesis> 
+thesis> 
+=== TOTAL TEMPLE CITY RAW RECORDS ===
+
+thesis> | | | {
+  total_records: 2287,
+  filter_used: {
+    'source.state': 'CA',
+    'source.municipality': /Temple/i
+  }
+}
+
+thesis> 
+thesis> 
+=== SOURCE / RUN BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | {
+  _id: {
+    parser_run_id: 'run_20260625_170932_611',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City September.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 270
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171308_644',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Bulding permit-February.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 235
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171323_666',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Building permits.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 222
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171448_721',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Building Permit April.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 221
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171425_699',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Building permit-June.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 205
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171326_677',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Building permit-November.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 204
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171257_622',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City report.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 202
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171337_688',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Building Permit-March.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 187
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171508_732',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Building permit -June.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 183
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171317_655',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Building Report csv.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 181
+}
+{
+  _id: {
+    parser_run_id: 'run_20260625_171432_710',
+    parser_name: 'TempleCity_CSV',
+    csv_file_name: 'Temple City Building permit-December-excel_202601131854477693.csv',
+    config_module: 'Config::Parser::ca_temple_city_csv',
+    state: 'CA',
+    county: 'LosAngeles',
+    municipality: 'TempleCity'
+  },
+  count: 177
+}
+
+thesis> 
+thesis> 
+=== FIELD COMPLETENESS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | {
+  field: 'address',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 1164
+}
+{
+  field: 'parcel_number',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 938
+}
+{
+  field: 'permit_number',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 2287
+}
+{
+  field: 'permit_type',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 7
+}
+{
+  field: 'description',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 1926
+}
+{
+  field: 'valuation',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 335
+}
+{
+  field: 'status',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 3
+}
+{
+  field: 'applied_date',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 238
+}
+{
+  field: 'issued_date',
+  total: 2287,
+  present: 2287,
+  missing_or_empty: 0,
+  present_rate: 1,
+  distinct_count: 185
+}
+{
+  field: 'contractor_name',
+  total: 2287,
+  present: 2230,
+  missing_or_empty: 57,
+  present_rate: 0.9751,
+  distinct_count: 556
+}
+{
+  field: 'owner_name',
+  total: 2287,
+  present: 0,
+  missing_or_empty: 2287,
+  present_rate: 0,
+  distinct_count: 0
+}
+{
+  field: 'fee',
+  total: 2287,
+  present: 0,
+  missing_or_empty: 2287,
+  present_rate: 0,
+  distinct_count: 0
+}
+
+thesis> 
+thesis> 
+=== FIELD TYPE CHECK ===
+
+thesis> | | | | | | | | | | | | | | | | | | | 
+--- TYPES: address ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: parcel_number ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: permit_number ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: permit_type ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: description ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: valuation ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: status ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: applied_date ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: issued_date ---
+{
+  _id: 'string',
+  count: 2287
+}
+
+--- TYPES: contractor_name ---
+{
+  _id: 'string',
+  count: 2230
+}
+{
+  _id: 'null',
+  count: 57
+}
+
+--- TYPES: owner_name ---
+{
+  _id: 'missing',
+  count: 2287
+}
+
+--- TYPES: fee ---
+{
+  _id: 'missing',
+  count: 2287
+}
+
+thesis> 
+thesis> 
+=== TOP VALUES: PERMIT TYPE ===
+
+thesis> | | | | | | | | | | | | | | | {
+  _id: 'Building',
+  count: 977
+}
+{
+  _id: 'Electrical',
+  count: 648
+}
+{
+  _id: 'Plumbing',
+  count: 290
+}
+{
+  _id: 'Mechanical',
+  count: 269
+}
+{
+  _id: 'Grading',
+  count: 37
+}
+{
+  _id: 'Miscellaneous',
+  count: 36
+}
+{
+  _id: 'Demolition',
+  count: 30
+}
+
+thesis> 
+thesis> 
+=== TOP VALUES: STATUS ===
+
+thesis> | | | | | | | | | | | | | | | {
+  _id: 'Issued',
+  count: 2021
+}
+{
+  _id: 'Finaled',
+  count: 264
+}
+{
+  _id: 'Cancelled',
+  count: 2
+}
+
+thesis> 
+thesis> 
+=== PERMIT NUMBER PREFIX BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_number_prefix: 'B',
+    permit_number_year: '25'
+  },
+  count: 910,
+  example_permit_number: 'B25-48522',
+  example_permit_type: 'Building',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'E',
+    permit_number_year: '25'
+  },
+  count: 646,
+  example_permit_number: 'E25-49704',
+  example_permit_type: 'Electrical',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'P',
+    permit_number_year: '25'
+  },
+  count: 289,
+  example_permit_number: 'P25-49706',
+  example_permit_type: 'Plumbing',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'M',
+    permit_number_year: '25'
+  },
+  count: 268,
+  example_permit_number: 'M25-49705',
+  example_permit_type: 'Mechanical',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'B',
+    permit_number_year: '24'
+  },
+  count: 59,
+  example_permit_number: 'B24-47821',
+  example_permit_type: 'Building',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'MISC',
+    permit_number_year: 'UNKNOWN'
+  },
+  count: 36,
+  example_permit_number: 'MISC25-49908',
+  example_permit_type: 'Miscellaneous',
+  example_status: 'Finaled'
+}
+{
+  _id: {
+    permit_number_prefix: 'D',
+    permit_number_year: '25'
+  },
+  count: 30,
+  example_permit_number: 'D25-49929',
+  example_permit_type: 'Demolition',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'G',
+    permit_number_year: '25'
+  },
+  count: 24,
+  example_permit_number: 'G25-49272',
+  example_permit_type: 'Grading',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'G',
+    permit_number_year: '24'
+  },
+  count: 10,
+  example_permit_number: 'G24-48155',
+  example_permit_type: 'Grading',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'B',
+    permit_number_year: '23'
+  },
+  count: 8,
+  example_permit_number: 'B23-45633',
+  example_permit_type: 'Building',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'G',
+    permit_number_year: '23'
+  },
+  count: 3,
+  example_permit_number: 'G23-45250',
+  example_permit_type: 'Grading',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'E',
+    permit_number_year: '24'
+  },
+  count: 2,
+  example_permit_number: 'E24-48010',
+  example_permit_type: 'Electrical',
+  example_status: 'Issued'
+}
+{
+  _id: {
+    permit_number_prefix: 'P',
+    permit_number_year: '24'
+  },
+  count: 1,
+  example_permit_number: 'P24-48049',
+  example_permit_type: 'Plumbing',
+  example_status: 'Finaled'
+}
+{
+  _id: {
+    permit_number_prefix: 'M',
+    permit_number_year: '24'
+  },
+  count: 1,
+  example_permit_number: 'M24-48048',
+  example_permit_type: 'Mechanical',
+  example_status: 'Finaled'
+}
+
+thesis> 
+thesis> 
+=== PERMIT TYPE / STATUS COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued'
+  },
+  count: 830
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued'
+  },
+  count: 575
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Issued'
+  },
+  count: 261
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Issued'
+  },
+  count: 260
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled'
+  },
+  count: 145
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Finaled'
+  },
+  count: 73
+}
+{
+  _id: {
+    permit_type: 'Grading',
+    status: 'Issued'
+  },
+  count: 36
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Issued'
+  },
+  count: 30
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Finaled'
+  },
+  count: 29
+}
+{
+  _id: {
+    permit_type: 'Demolition',
+    status: 'Issued'
+  },
+  count: 29
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Finaled'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Finaled'
+  },
+  count: 6
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Cancelled'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Demolition',
+    status: 'Finaled'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Grading',
+    status: 'Finaled'
+  },
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== CONTRACTOR TOP VALUES ===
+
+thesis> | | | | | | | | | | | | | | | {
+  _id: 'Owner-Builder',
+  count: 446
+}
+{
+  _id: 'Freedom Forever Southern California LLC',
+  count: 35
+}
+{
+  _id: 'Tan Construction',
+  count: 27
+}
+{
+  _id: 'MMA Construction Corp.',
+  count: 24
+}
+{
+  _id: 'Tesla Energy Operations Inc.',
+  count: 23
+}
+{
+  _id: 'Navigator Construction and Plumbing',
+  count: 23
+}
+{
+  _id: 'Potato Construction Inc.',
+  count: 22
+}
+{
+  _id: 'Well Home Construction',
+  count: 22
+}
+{
+  _id: 'JBL Electrical & Energy Inc.',
+  count: 21
+}
+{
+  _id: 'Aligcus Construction LLC',
+  count: 21
+}
+{
+  _id: 'B X D Construction Inc.',
+  count: 16
+}
+{
+  _id: 'Robert L Fung Construction Inc.',
+  count: 15
+}
+{
+  _id: 'Allbest Roofing Inc.',
+  count: 14
+}
+{
+  _id: 'Apex Building Development Corp.',
+  count: 13
+}
+{
+  _id: 'Assen Homes, Inc.',
+  count: 13
+}
+{
+  _id: 'Tran U S Construction Inc.',
+  count: 12
+}
+{
+  _id: 'Orange County Solar Contracting Services Inc. dba Orange County Contracting Services',
+  count: 12
+}
+{
+  _id: "Chung's Construction and Electrical Inc.",
+  count: 12
+}
+{
+  _id: 'Sarann A/C',
+  count: 11
+}
+{
+  _id: 'RH Construction & Design, Inc.',
+  count: 11
+}
+{
+  _id: 'Y W Rising Builder Inc.',
+  count: 10
+}
+{
+  _id: 'Ultimax Electric Corp.',
+  count: 10
+}
+{
+  _id: 'Rexway Roofing Inc.',
+  count: 10
+}
+{
+  _id: 'Goodyear Investment, Inc.',
+  count: 10
+}
+{
+  _id: 'Solar Optimum Inc. dba Solar Optimum Design & Electrical',
+  count: 10
+}
+{
+  _id: 'Golden West Roofing Services Inc.',
+  count: 10
+}
+{
+  _id: 'J & J Enterprise Construction Inc.',
+  count: 10
+}
+{
+  _id: 'McWong Holding Company',
+  count: 10
+}
+{
+  _id: 'Solar Tech Systems Inc.',
+  count: 10
+}
+{
+  _id: 'Service Champions Inc. dba Service Champions Heating and Air Conditioning',
+  count: 10
+}
+{
+  _id: 'Team Young Inc.',
+  count: 10
+}
+{
+  _id: 'United Fire & Safety Corp.',
+  count: 10
+}
+{
+  _id: 'Overseas Union Construction & Development Inc.',
+  count: 9
+}
+{
+  _id: 'New Sunrise Building Inc.',
+  count: 9
+}
+{
+  _id: 'Garvey Roofing Company Inc.',
+  count: 9
+}
+{
+  _id: 'TB Construction',
+  count: 9
+}
+{
+  _id: 'Sunrise Property Services Inc.',
+  count: 9
+}
+{
+  _id: 'Photonics Electric & IT Services Inc.',
+  count: 9
+}
+{
+  _id: 'Ahongda Construction',
+  count: 9
+}
+{
+  _id: 'JW Capital, Inc.',
+  count: 9
+}
+{
+  _id: 'David Kwan',
+  count: 8
+}
+{
+  _id: 'Shunde Roofing Inc.',
+  count: 8
+}
+{
+  _id: 'KC Electric',
+  count: 8
+}
+{
+  _id: 'Andy Duc Huynh',
+  count: 8
+}
+{
+  _id: "Keefer's Roofing",
+  count: 8
+}
+{
+  _id: 'Arcus Construction, Inc.',
+  count: 8
+}
+{
+  _id: 'Willbii Inc.',
+  count: 8
+}
+{
+  _id: 'T & L Air Conditioning Inc.',
+  count: 8
+}
+{
+  _id: 'Sun Bees Group dba True Power Solar',
+  count: 8
+}
+{
+  _id: 'Jung Chi Yu',
+  count: 8
+}
+
+thesis> 
+thesis> 
+=== VALUATION ZERO / NONZERO BREAKDOWN ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Uncaught 
+MongoServerError[Location16872]: Invalid $project :: caused by :: '$' by itself is not a valid FieldPath
+thesis> 
+thesis> 
+=== TOP DESCRIPTION KEYWORDS BY SIMPLE REGEX ===
+
+thesis> | | | | | | | | | | | | | 
+thesis> 
+thesis> | | | | | | | | | | {
+  keyword: 'addition',
+  matching_records: 109
+}
+{
+  keyword: 'adu',
+  matching_records: 355
+}
+{
+  keyword: 'garage',
+  matching_records: 334
+}
+{
+  keyword: 'remodel',
+  matching_records: 125
+}
+{
+  keyword: 'bathroom',
+  matching_records: 281
+}
+{
+  keyword: 'kitchen',
+  matching_records: 152
+}
+{
+  keyword: 'roof',
+  matching_records: 580
+}
+{
+  keyword: 'solar',
+  matching_records: 218
+}
+{
+  keyword: 'sign',
+  matching_records: 33
+}
+{
+  keyword: 'window',
+  matching_records: 65
+}
+{
+  keyword: 'pool',
+  matching_records: 37
+}
+{
+  keyword: 'demolition',
+  matching_records: 54
+}
+
+thesis> 
+thesis> 
+=== STATUS / DESCRIPTION KEYWORD COMBINATIONS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | {
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 357
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'roof'
+  },
+  count: 310
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'garage'
+  },
+  count: 163
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 140
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 107
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'adu'
+  },
+  count: 92
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 86
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'adu'
+  },
+  count: 85
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Issued',
+    keyword: 'adu'
+  },
+  count: 81
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Issued',
+    keyword: 'adu'
+  },
+  count: 81
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'roof'
+  },
+  count: 67
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Finaled',
+    keyword: 'other'
+  },
+  count: 58
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'addition'
+  },
+  count: 58
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'garage'
+  },
+  count: 56
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'solar'
+  },
+  count: 53
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Issued',
+    keyword: 'bathroom'
+  },
+  count: 41
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'remodel'
+  },
+  count: 38
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'window'
+  },
+  count: 33
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'garage'
+  },
+  count: 24
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'addition'
+  },
+  count: 21
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Finaled',
+    keyword: 'other'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Demolition',
+    status: 'Issued',
+    keyword: 'garage'
+  },
+  count: 20
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Issued',
+    keyword: 'remodel'
+  },
+  count: 19
+}
+{
+  _id: {
+    permit_type: 'Grading',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 17
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Issued',
+    keyword: 'remodel'
+  },
+  count: 16
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'solar'
+  },
+  count: 15
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'sign'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'sign'
+  },
+  count: 14
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'remodel'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'other'
+  },
+  count: 12
+}
+{
+  _id: {
+    permit_type: 'Grading',
+    status: 'Issued',
+    keyword: 'pool'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Issued',
+    keyword: 'pool'
+  },
+  count: 11
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'bathroom'
+  },
+  count: 10
+}
+{
+  _id: {
+    permit_type: 'Demolition',
+    status: 'Issued',
+    keyword: 'demolition'
+  },
+  count: 9
+}
+{
+  _id: {
+    permit_type: 'Grading',
+    status: 'Issued',
+    keyword: 'adu'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Issued',
+    keyword: 'other'
+  },
+  count: 8
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Finaled',
+    keyword: 'other'
+  },
+  count: 7
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Issued',
+    keyword: 'roof'
+  },
+  count: 7
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Issued',
+    keyword: 'bathroom'
+  },
+  count: 6
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Finaled',
+    keyword: 'garage'
+  },
+  count: 6
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Issued',
+    keyword: 'addition'
+  },
+  count: 6
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'bathroom'
+  },
+  count: 6
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Issued',
+    keyword: 'kitchen'
+  },
+  count: 6
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Issued',
+    keyword: 'garage'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Issued',
+    keyword: 'addition'
+  },
+  count: 5
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Finaled',
+    keyword: 'solar'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Issued',
+    keyword: 'garage'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'pool'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'adu'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Issued',
+    keyword: 'kitchen'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'kitchen'
+  },
+  count: 4
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Finaled',
+    keyword: 'bathroom'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Issued',
+    keyword: 'demolition'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Finaled',
+    keyword: 'other'
+  },
+  count: 3
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'roof'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Issued',
+    keyword: 'addition'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Finaled',
+    keyword: 'adu'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Finaled',
+    keyword: 'addition'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'addition'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Issued',
+    keyword: 'kitchen'
+  },
+  count: 2
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Finaled',
+    keyword: 'addition'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Finaled',
+    keyword: 'adu'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'solar'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Finaled',
+    keyword: 'kitchen'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'sign'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Finaled',
+    keyword: 'sign'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Finaled',
+    keyword: 'garage'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Finaled',
+    keyword: 'bathroom'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Mechanical',
+    status: 'Finaled',
+    keyword: 'adu'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Grading',
+    status: 'Finaled',
+    keyword: 'pool'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Cancelled',
+    keyword: 'roof'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Demolition',
+    status: 'Finaled',
+    keyword: 'garage'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Finaled',
+    keyword: 'roof'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Issued',
+    keyword: 'kitchen'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Cancelled',
+    keyword: 'garage'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Miscellaneous',
+    status: 'Finaled',
+    keyword: 'pool'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Finaled',
+    keyword: 'pool'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Plumbing',
+    status: 'Finaled',
+    keyword: 'remodel'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Electrical',
+    status: 'Finaled',
+    keyword: 'bathroom'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'remodel'
+  },
+  count: 1
+}
+{
+  _id: {
+    permit_type: 'Building',
+    status: 'Finaled',
+    keyword: 'window'
+  },
+  count: 1
+}
+
+thesis> 
+thesis> 
+=== SAMPLE RECORDS WITH MISSING VALUES ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | {
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 2
+  },
+  data: {
+    issued_date: '09-02-2025',
+    description: 'NEW DETACHED ACCESSORY DWELLING UNIT: TWO BEDROOMS, TWO BATHROOMS, LIVING ROOM, KITCHEN/DINING AND FRONT PORCH',
+    contractor_name: 'Y W Rising Builder Inc.',
+    status: 'Issued',
+    valuation: '$135,103.6',
+    parcel_number: '5387-010-026',
+    permit_number: 'B24-47821',
+    applied_date: '10-30-2024',
+    address: '5832 North Muscatel Avenue Unit B , San Gabriel, California 91775',
+    permit_type: 'Building'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000002'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 3
+  },
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'MAIN HOUSE ADDITION OF 102 SQ.FT. FOR A NEW BATHROOM #2',
+    status: 'Issued',
+    valuation: '$21,380.4',
+    permit_number: 'B25-48522',
+    parcel_number: '5384-013-003',
+    applied_date: '02-10-2025',
+    permit_type: 'Building',
+    address: '5930 Loma Avenue Unit A , Temple City, California 91780'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000003'
+}
+{
+  provenance: {
+    csv_row_number: 4,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000004',
+  data: {
+    permit_number: 'B25-48523',
+    parcel_number: '5384-013-003',
+    permit_type: 'Building',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    applied_date: '02-10-2025',
+    issued_date: '09-02-2025',
+    status: 'Issued',
+    valuation: '$133,306.28',
+    description: 'NEW DETACHED ACCESSORY DWELLING UNIT: TWO BEDROOMS, TWO BATHROOMS, LIVING ROOM, KITCHEN AND COVERED PORCH',
+    contractor_name: 'Potato Construction Inc.'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000005',
+  data: {
+    contractor_name: 'Potato Construction Inc.',
+    description: 'BUILD A NEW DETACHED 3-CAR GARAGE',
+    valuation: '$42,429.59',
+    status: 'Issued',
+    issued_date: '09-02-2025',
+    applied_date: '02-10-2025',
+    address: '5930 Loma Avenue, Temple City, California 91780',
+    permit_type: 'Building',
+    parcel_number: '5384-013-003',
+    permit_number: 'B25-48524'
+  },
+  provenance: {
+    csv_row_number: 5,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 6,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000006',
+  data: {
+    address: '4848 Alessandro Avenue, Temple City, California 91780',
+    permit_type: 'Building',
+    applied_date: '09-02-2025',
+    parcel_number: '8590-024-009',
+    permit_number: 'B25-49912',
+    valuation: '$15,000',
+    status: 'Finaled',
+    description: "REROOF OVER EXISTING WITH COMPO SHINGLES 30 SQ'S.",
+    contractor_name: 'Preferred One Roofing',
+    issued_date: '09-02-2025'
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 7
+  },
+  data: {
+    contractor_name: 'DLS Development Inc.',
+    description: 'LIKE FOR LIKE, TILE RESET ON 3900 SQ.FT. OVER EXISTING SHEATHING AND NEW UNDERLAYMENT',
+    valuation: '$13,650',
+    status: 'Issued',
+    issued_date: '09-02-2025',
+    applied_date: '09-02-2025',
+    address: '9103 Rancho Real Road, Temple City, California 91780',
+    permit_type: 'Building',
+    parcel_number: '5388-002-017',
+    permit_number: 'B25-49913'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000007'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 8
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000008',
+  data: {
+    applied_date: '07-29-2025',
+    permit_type: 'Electrical',
+    address: '5112 Agnes Avenue, Temple City, California 91780',
+    parcel_number: '8589-007-026',
+    permit_number: 'E25-49704',
+    contractor_name: 'Owner-Builder',
+    description: '(3) OUTLETS AND (2) LIGHT FIXTURE',
+    valuation: '$0',
+    status: 'Issued',
+    issued_date: '09-02-2025'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 9,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000009',
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Y W Rising Builder Inc.',
+    description: 'ELECTRICAL FOR A NEW DETACHED ACCESSORY DWELLING WITH 200 AMP SERVICE PANEL',
+    status: 'Issued',
+    valuation: '$0',
+    parcel_number: '5387-010-026',
+    permit_number: 'E25-49903',
+    applied_date: '08-27-2025',
+    permit_type: 'Electrical',
+    address: '5832 North Muscatel Avenue Unit B , San Gabriel, California 91775'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 10,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  data: {
+    issued_date: '09-02-2025',
+    description: '200 AMP MAIN PANEL UPGRADE AND EV WALL CHARGER HARDWIRE 11.5 KW',
+    contractor_name: 'MJ Electrical Services',
+    status: 'Issued',
+    valuation: '$0',
+    permit_number: 'E25-49911',
+    parcel_number: '5384-009-026',
+    applied_date: '09-02-2025',
+    address: '6244 Hart Avenue, Temple City, California 91780',
+    permit_type: 'Electrical'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000010'
+}
+{
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Owner-Builder',
+    description: '(19) OUTLETS, (12) LIGHT FIXTURES, GARBAGE DISPOSAL, DISHWASHER, RANGE HOOD, WASHING MACHINE, EXHAUST FAN , ELECTRICAL WATER HEATER, AC UNIT WITH A 100 AMP SUB-PANEL FOR THE ATTACHED ACCESSORY DWELLING UNIT',
+    status: 'Issued',
+    valuation: '$0',
+    parcel_number: '8585-009-024',
+    permit_number: 'E25-49914',
+    applied_date: '09-02-2025',
+    address: '4902 Baldwin Avenue Unit A-B , Temple City, California 91780',
+    permit_type: 'Electrical'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000011',
+  provenance: {
+    csv_row_number: 11,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 12
+  },
+  data: {
+    permit_number: 'E25-49919',
+    parcel_number: '5384-013-003',
+    address: '5930 Loma Avenue Unit A , Temple City, California 91780',
+    permit_type: 'Electrical',
+    applied_date: '09-02-2025',
+    issued_date: '09-02-2025',
+    status: 'Issued',
+    valuation: '$0',
+    contractor_name: 'Potato Construction Inc.',
+    description: '(1) BRANCH CIRCUIT, (2) OUTLETS AND (2) LIGHT FIXTURES'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000012'
+}
+{
+  provenance: {
+    csv_row_number: 13,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000013',
+  data: {
+    applied_date: '09-02-2025',
+    permit_type: 'Electrical',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    permit_number: 'E25-49922',
+    parcel_number: '5384-013-003',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'ELECTRICAL FOR A NEW DETACHED ACCESSORY DWELLING UNIT WITH 200 AMP SERVICE PANEL',
+    valuation: '$0',
+    status: 'Issued',
+    issued_date: '09-02-2025'
+  }
+}
+{
+  data: {
+    permit_number: 'E25-49925',
+    parcel_number: '5384-013-003',
+    applied_date: '09-02-2025',
+    address: '5930 Loma Avenue, Temple City, California 91780',
+    permit_type: 'Electrical',
+    issued_date: '09-02-2025',
+    description: '(4) OUTLETS AND (4) LIGHT FIXTURES FOR A NEW DETACHED GARAGE',
+    contractor_name: 'Potato Construction Inc.',
+    valuation: '$0',
+    status: 'Issued'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000014',
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 14
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 15
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000015',
+  data: {
+    parcel_number: '5384-013-003',
+    permit_number: 'G25-49272',
+    applied_date: '05-21-2025',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    permit_type: 'Grading',
+    issued_date: '09-02-2025',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'GRADING / DRAINAGE FOR A NEW DETACHED ACCESSORY DWELLING UNIT',
+    valuation: '$0',
+    status: 'Issued'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 16,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000016',
+  data: {
+    parcel_number: '8589-007-026',
+    permit_number: 'M25-49705',
+    address: '5112 Agnes Avenue, Temple City, California 91780',
+    permit_type: 'Mechanical',
+    applied_date: '07-29-2025',
+    issued_date: '09-02-2025',
+    status: 'Issued',
+    valuation: '$0',
+    contractor_name: 'Owner-Builder',
+    description: 'INSTALL (1) VENTILATION FAN, AIR INLET AND ALTERATION OF EXIST DUCT SYSTEM'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000017',
+  data: {
+    status: 'Issued',
+    valuation: '$0',
+    contractor_name: 'Y W Rising Builder Inc.',
+    description: 'INSTALL (1) MINI SPLIT SYSTEM AND VENTILATION FANS FOR A NEW DETACHED ACCESSORY DWELLING UNIT',
+    issued_date: '09-02-2025',
+    address: '5832 North Muscatel Avenue Unit B , San Gabriel, California 91775',
+    permit_type: 'Mechanical',
+    applied_date: '09-02-2025',
+    parcel_number: '5387-010-026',
+    permit_number: 'M25-49909'
+  },
+  provenance: {
+    csv_row_number: 17,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 18,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000018',
+  data: {
+    status: 'Issued',
+    valuation: '$0',
+    contractor_name: 'Owner-Builder',
+    description: 'INSTALL (1) MINI SPLIT SYSTEM AND VENTILATION FAN FOR THE ATTACHED ACCESSORY DWELLING UNIT',
+    issued_date: '09-02-2025',
+    address: '4902 Baldwin Avenue Unit A-B , Temple City, California 91780',
+    permit_type: 'Mechanical',
+    applied_date: '09-02-2025',
+    permit_number: 'M25-49915',
+    parcel_number: '8585-009-024'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000019',
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'INSTALL (1) VENTILATION FAN, AIR INLET AND ALTERATION OF EXIST DUCT SYSTEM',
+    valuation: '$0',
+    status: 'Issued',
+    permit_number: 'M25-49920',
+    parcel_number: '5384-013-003',
+    applied_date: '09-02-2025',
+    permit_type: 'Mechanical',
+    address: '5930 Loma Avenue Unit A , Temple City, California 91780'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 19
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 20
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000020',
+  data: {
+    parcel_number: '5384-013-003',
+    permit_number: 'M25-49923',
+    applied_date: '09-02-2025',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    permit_type: 'Mechanical',
+    issued_date: '09-02-2025',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'INSTALL (3) MINI SPLIT SYSTEM AND VENTILATION FANS FOR A NEW DETACHED ACCESSORY DWELLING UNIT',
+    valuation: '$0',
+    status: 'Issued'
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 21
+  },
+  data: {
+    address: '5822 Temple City Boulevard, Temple City, California 91780',
+    permit_type: 'Miscellaneous',
+    applied_date: '09-02-2025',
+    parcel_number: '40611139',
+    permit_number: 'MISC25-49908',
+    valuation: '$0',
+    status: 'Finaled',
+    contractor_name: 'Owner-Builder',
+    description: 'TO VERIFY COMPLIANCE: TO REMOVE UNPERMITTED RESTROOM ON THE BACK BUILDING',
+    issued_date: '09-02-2025'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000021'
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000022',
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Owner-Builder',
+    description: 'SHOWER, LAVATORY AND WATER CLOSET',
+    status: 'Issued',
+    valuation: '$0',
+    permit_number: 'P25-49706',
+    parcel_number: '8589-007-026',
+    applied_date: '07-29-2025',
+    address: '5112 Agnes Avenue, Temple City, California 91780',
+    permit_type: 'Plumbing'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 22
+  }
+}
+{
+  data: {
+    applied_date: '09-02-2025',
+    permit_type: 'Plumbing',
+    address: '5832 North Muscatel Avenue Unit B , San Gabriel, California 91775',
+    permit_number: 'P25-49910',
+    parcel_number: '5387-010-026',
+    contractor_name: 'Y W Rising Builder Inc.',
+    description: 'PLUMBING FOR A NEW DETACHED ACCESSORY DWELLING UNIT AND CONNECT TO PUBLIC SEWER',
+    status: 'Issued',
+    valuation: '$0',
+    issued_date: '09-02-2025'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000023',
+  provenance: {
+    csv_row_number: 23,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000024',
+  data: {
+    contractor_name: 'Owner-Builder',
+    description: 'CLOTHES WASHER, DISHWASHER, HOSE BIBB, SINK, WATER HEATER, GAS OUTLETS, WATER MAIN AND CONNECT ATTACHED ACCESSORY DWELLING UNIT TO PUBLIC SEWER',
+    status: 'Issued',
+    valuation: '$0',
+    issued_date: '09-02-2025',
+    applied_date: '09-02-2025',
+    address: '4902 Baldwin Avenue Unit A-B , Temple City, California 91780',
+    permit_type: 'Plumbing',
+    permit_number: 'P25-49916',
+    parcel_number: '8585-009-024'
+  },
+  provenance: {
+    csv_row_number: 24,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000025',
+  data: {
+    applied_date: '09-02-2025',
+    address: '5930 Loma Avenue Unit A , Temple City, California 91780',
+    permit_type: 'Plumbing',
+    parcel_number: '5384-013-003',
+    permit_number: 'P25-49921',
+    description: 'SHOWER, LAVATORY AND WATER CLOSET',
+    contractor_name: 'Potato Construction Inc.',
+    valuation: '$0',
+    status: 'Issued',
+    issued_date: '09-02-2025'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 25
+  }
+}
+{
+  data: {
+    applied_date: '09-02-2025',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    permit_type: 'Plumbing',
+    parcel_number: '5384-013-003',
+    permit_number: 'P25-49924',
+    description: 'PLUMBING FOR A NEW DETACHED ACCESSORY DWELLING UNIT AND CONNECT TO PUBLIC SEWER',
+    contractor_name: 'Potato Construction Inc.',
+    valuation: '$0',
+    status: 'Issued',
+    issued_date: '09-02-2025'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000026',
+  provenance: {
+    csv_row_number: 26,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000027',
+  data: {
+    issued_date: '09-03-2025',
+    contractor_name: '626 Plumbing Inc.',
+    description: 'HOUSE ADDITION AND REMODEL 1954 SQ.FT. OF TWO BEDROOMS, ONE AND HALF BATHROOMS. ATTACHED 447 SQ.FT. 2-CAR GARAGE AND DECK AREA 260 SQ.FT.',
+    valuation: '$377,205.26',
+    status: 'Issued',
+    permit_number: 'B25-49638',
+    parcel_number: '8590-004-008',
+    applied_date: '07-21-2025',
+    permit_type: 'Building',
+    address: '9474 Olive Street, Temple City, California 91780'
+  },
+  provenance: {
+    csv_row_number: 27,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  data: {
+    permit_number: 'B25-49926',
+    parcel_number: '8574-001-022',
+    address: '10721 Miloann Street, Temple City, California 91780',
+    permit_type: 'Building',
+    applied_date: '09-03-2025',
+    issued_date: '09-03-2025',
+    valuation: '$2482',
+    status: 'Issued',
+    contractor_name: 'The Home Depot USA Inc. dba The Home Depot',
+    description: 'REMOVE AND REPLACE (2) WINDOWS, LIKE FOR LIKE WITH NO STRUCTURAL CHANGES. ALL WINDOWS WILL HAVE A MAXIMUM U-FACTOR OF 0.30 AND SHGC OF 0.23. REPLACEMENT GLASS WILL BE LOW-E'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000028',
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 28
+  }
+}
+{
+  provenance: {
+    csv_row_number: 29,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000029',
+  data: {
+    issued_date: '09-03-2025',
+    valuation: '$3000',
+    status: 'Issued',
+    description: 'VOLUNTARY FOUNDATION RETROFIT PER LADBS STANDARD PLAN DETAIL #7',
+    contractor_name: 'White Oak Construction',
+    parcel_number: '8585-021-011',
+    permit_number: 'B25-49927',
+    permit_type: 'Building',
+    address: '10526 Olive Street, Temple City, California 91780',
+    applied_date: '09-03-2025'
+  }
+}
+{
+  data: {
+    status: 'Issued',
+    valuation: '$4500',
+    description: 'REPLACE (8) LIKE FOR LIKE WINDOWS ON EXISTING HOUSE. RELOCATE (2) LIKE FOR LIKE DOORS IN FRONT AND OTHER IN REAR. CLOSE OFF (3) WINDOWS (1) IN LIVING ROOM AND (2) IN KITCHEN',
+    contractor_name: 'Owner-Builder',
+    issued_date: '09-03-2025',
+    permit_type: 'Building',
+    address: '5910 Rosemead Boulevard, Temple City, California 91780',
+    applied_date: '09-03-2025',
+    permit_number: 'B25-49930',
+    parcel_number: '5384-016-017'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000030',
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 30
+  }
+}
+{
+  data: {
+    applied_date: '09-03-2025',
+    address: '5934 Cloverly Avenue, Temple City, California 91780',
+    permit_type: 'Building',
+    parcel_number: '8587-013-022',
+    permit_number: 'B25-49935',
+    description: 'TEAR OFF AND RE ROOF COMPOSITION SHINGLES HOUSE & ATTACHED GARAGE',
+    contractor_name: 'Robert L Fung Construction Inc.',
+    status: 'Issued',
+    valuation: '$6000',
+    issued_date: '09-03-2025'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000031',
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 31
+  }
+}
+
+thesis> 
+thesis> 
+=== COMPLETE-ISH RECORDS FOR PATTERN ANALYSIS ===
+
+thesis> | | | | | | | | | | | | | | | | | | | | | | | | | {
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 2
+  },
+  data: {
+    issued_date: '09-02-2025',
+    description: 'NEW DETACHED ACCESSORY DWELLING UNIT: TWO BEDROOMS, TWO BATHROOMS, LIVING ROOM, KITCHEN/DINING AND FRONT PORCH',
+    contractor_name: 'Y W Rising Builder Inc.',
+    status: 'Issued',
+    valuation: '$135,103.6',
+    parcel_number: '5387-010-026',
+    permit_number: 'B24-47821',
+    applied_date: '10-30-2024',
+    address: '5832 North Muscatel Avenue Unit B , San Gabriel, California 91775',
+    permit_type: 'Building'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000002'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 3
+  },
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'MAIN HOUSE ADDITION OF 102 SQ.FT. FOR A NEW BATHROOM #2',
+    status: 'Issued',
+    valuation: '$21,380.4',
+    permit_number: 'B25-48522',
+    parcel_number: '5384-013-003',
+    applied_date: '02-10-2025',
+    permit_type: 'Building',
+    address: '5930 Loma Avenue Unit A , Temple City, California 91780'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000003'
+}
+{
+  provenance: {
+    csv_row_number: 4,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000004',
+  data: {
+    permit_number: 'B25-48523',
+    parcel_number: '5384-013-003',
+    permit_type: 'Building',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    applied_date: '02-10-2025',
+    issued_date: '09-02-2025',
+    status: 'Issued',
+    valuation: '$133,306.28',
+    description: 'NEW DETACHED ACCESSORY DWELLING UNIT: TWO BEDROOMS, TWO BATHROOMS, LIVING ROOM, KITCHEN AND COVERED PORCH',
+    contractor_name: 'Potato Construction Inc.'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000005',
+  data: {
+    contractor_name: 'Potato Construction Inc.',
+    description: 'BUILD A NEW DETACHED 3-CAR GARAGE',
+    valuation: '$42,429.59',
+    status: 'Issued',
+    issued_date: '09-02-2025',
+    applied_date: '02-10-2025',
+    address: '5930 Loma Avenue, Temple City, California 91780',
+    permit_type: 'Building',
+    parcel_number: '5384-013-003',
+    permit_number: 'B25-48524'
+  },
+  provenance: {
+    csv_row_number: 5,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 6,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000006',
+  data: {
+    address: '4848 Alessandro Avenue, Temple City, California 91780',
+    permit_type: 'Building',
+    applied_date: '09-02-2025',
+    parcel_number: '8590-024-009',
+    permit_number: 'B25-49912',
+    valuation: '$15,000',
+    status: 'Finaled',
+    description: "REROOF OVER EXISTING WITH COMPO SHINGLES 30 SQ'S.",
+    contractor_name: 'Preferred One Roofing',
+    issued_date: '09-02-2025'
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 7
+  },
+  data: {
+    contractor_name: 'DLS Development Inc.',
+    description: 'LIKE FOR LIKE, TILE RESET ON 3900 SQ.FT. OVER EXISTING SHEATHING AND NEW UNDERLAYMENT',
+    valuation: '$13,650',
+    status: 'Issued',
+    issued_date: '09-02-2025',
+    applied_date: '09-02-2025',
+    address: '9103 Rancho Real Road, Temple City, California 91780',
+    permit_type: 'Building',
+    parcel_number: '5388-002-017',
+    permit_number: 'B25-49913'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000007'
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 8
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000008',
+  data: {
+    applied_date: '07-29-2025',
+    permit_type: 'Electrical',
+    address: '5112 Agnes Avenue, Temple City, California 91780',
+    parcel_number: '8589-007-026',
+    permit_number: 'E25-49704',
+    contractor_name: 'Owner-Builder',
+    description: '(3) OUTLETS AND (2) LIGHT FIXTURE',
+    valuation: '$0',
+    status: 'Issued',
+    issued_date: '09-02-2025'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 9,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000009',
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Y W Rising Builder Inc.',
+    description: 'ELECTRICAL FOR A NEW DETACHED ACCESSORY DWELLING WITH 200 AMP SERVICE PANEL',
+    status: 'Issued',
+    valuation: '$0',
+    parcel_number: '5387-010-026',
+    permit_number: 'E25-49903',
+    applied_date: '08-27-2025',
+    permit_type: 'Electrical',
+    address: '5832 North Muscatel Avenue Unit B , San Gabriel, California 91775'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 10,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  data: {
+    issued_date: '09-02-2025',
+    description: '200 AMP MAIN PANEL UPGRADE AND EV WALL CHARGER HARDWIRE 11.5 KW',
+    contractor_name: 'MJ Electrical Services',
+    status: 'Issued',
+    valuation: '$0',
+    permit_number: 'E25-49911',
+    parcel_number: '5384-009-026',
+    applied_date: '09-02-2025',
+    address: '6244 Hart Avenue, Temple City, California 91780',
+    permit_type: 'Electrical'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000010'
+}
+{
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Owner-Builder',
+    description: '(19) OUTLETS, (12) LIGHT FIXTURES, GARBAGE DISPOSAL, DISHWASHER, RANGE HOOD, WASHING MACHINE, EXHAUST FAN , ELECTRICAL WATER HEATER, AC UNIT WITH A 100 AMP SUB-PANEL FOR THE ATTACHED ACCESSORY DWELLING UNIT',
+    status: 'Issued',
+    valuation: '$0',
+    parcel_number: '8585-009-024',
+    permit_number: 'E25-49914',
+    applied_date: '09-02-2025',
+    address: '4902 Baldwin Avenue Unit A-B , Temple City, California 91780',
+    permit_type: 'Electrical'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000011',
+  provenance: {
+    csv_row_number: 11,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 12
+  },
+  data: {
+    permit_number: 'E25-49919',
+    parcel_number: '5384-013-003',
+    address: '5930 Loma Avenue Unit A , Temple City, California 91780',
+    permit_type: 'Electrical',
+    applied_date: '09-02-2025',
+    issued_date: '09-02-2025',
+    status: 'Issued',
+    valuation: '$0',
+    contractor_name: 'Potato Construction Inc.',
+    description: '(1) BRANCH CIRCUIT, (2) OUTLETS AND (2) LIGHT FIXTURES'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000012'
+}
+{
+  provenance: {
+    csv_row_number: 13,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000013',
+  data: {
+    applied_date: '09-02-2025',
+    permit_type: 'Electrical',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    permit_number: 'E25-49922',
+    parcel_number: '5384-013-003',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'ELECTRICAL FOR A NEW DETACHED ACCESSORY DWELLING UNIT WITH 200 AMP SERVICE PANEL',
+    valuation: '$0',
+    status: 'Issued',
+    issued_date: '09-02-2025'
+  }
+}
+{
+  data: {
+    permit_number: 'E25-49925',
+    parcel_number: '5384-013-003',
+    applied_date: '09-02-2025',
+    address: '5930 Loma Avenue, Temple City, California 91780',
+    permit_type: 'Electrical',
+    issued_date: '09-02-2025',
+    description: '(4) OUTLETS AND (4) LIGHT FIXTURES FOR A NEW DETACHED GARAGE',
+    contractor_name: 'Potato Construction Inc.',
+    valuation: '$0',
+    status: 'Issued'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000014',
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 14
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 15
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000015',
+  data: {
+    parcel_number: '5384-013-003',
+    permit_number: 'G25-49272',
+    applied_date: '05-21-2025',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    permit_type: 'Grading',
+    issued_date: '09-02-2025',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'GRADING / DRAINAGE FOR A NEW DETACHED ACCESSORY DWELLING UNIT',
+    valuation: '$0',
+    status: 'Issued'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 16,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000016',
+  data: {
+    parcel_number: '8589-007-026',
+    permit_number: 'M25-49705',
+    address: '5112 Agnes Avenue, Temple City, California 91780',
+    permit_type: 'Mechanical',
+    applied_date: '07-29-2025',
+    issued_date: '09-02-2025',
+    status: 'Issued',
+    valuation: '$0',
+    contractor_name: 'Owner-Builder',
+    description: 'INSTALL (1) VENTILATION FAN, AIR INLET AND ALTERATION OF EXIST DUCT SYSTEM'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000017',
+  data: {
+    status: 'Issued',
+    valuation: '$0',
+    contractor_name: 'Y W Rising Builder Inc.',
+    description: 'INSTALL (1) MINI SPLIT SYSTEM AND VENTILATION FANS FOR A NEW DETACHED ACCESSORY DWELLING UNIT',
+    issued_date: '09-02-2025',
+    address: '5832 North Muscatel Avenue Unit B , San Gabriel, California 91775',
+    permit_type: 'Mechanical',
+    applied_date: '09-02-2025',
+    parcel_number: '5387-010-026',
+    permit_number: 'M25-49909'
+  },
+  provenance: {
+    csv_row_number: 17,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  provenance: {
+    csv_row_number: 18,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000018',
+  data: {
+    status: 'Issued',
+    valuation: '$0',
+    contractor_name: 'Owner-Builder',
+    description: 'INSTALL (1) MINI SPLIT SYSTEM AND VENTILATION FAN FOR THE ATTACHED ACCESSORY DWELLING UNIT',
+    issued_date: '09-02-2025',
+    address: '4902 Baldwin Avenue Unit A-B , Temple City, California 91780',
+    permit_type: 'Mechanical',
+    applied_date: '09-02-2025',
+    permit_number: 'M25-49915',
+    parcel_number: '8585-009-024'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000019',
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'INSTALL (1) VENTILATION FAN, AIR INLET AND ALTERATION OF EXIST DUCT SYSTEM',
+    valuation: '$0',
+    status: 'Issued',
+    permit_number: 'M25-49920',
+    parcel_number: '5384-013-003',
+    applied_date: '09-02-2025',
+    permit_type: 'Mechanical',
+    address: '5930 Loma Avenue Unit A , Temple City, California 91780'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 19
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 20
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000020',
+  data: {
+    parcel_number: '5384-013-003',
+    permit_number: 'M25-49923',
+    applied_date: '09-02-2025',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    permit_type: 'Mechanical',
+    issued_date: '09-02-2025',
+    contractor_name: 'Potato Construction Inc.',
+    description: 'INSTALL (3) MINI SPLIT SYSTEM AND VENTILATION FANS FOR A NEW DETACHED ACCESSORY DWELLING UNIT',
+    valuation: '$0',
+    status: 'Issued'
+  }
+}
+{
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 21
+  },
+  data: {
+    address: '5822 Temple City Boulevard, Temple City, California 91780',
+    permit_type: 'Miscellaneous',
+    applied_date: '09-02-2025',
+    parcel_number: '40611139',
+    permit_number: 'MISC25-49908',
+    valuation: '$0',
+    status: 'Finaled',
+    contractor_name: 'Owner-Builder',
+    description: 'TO VERIFY COMPLIANCE: TO REMOVE UNPERMITTED RESTROOM ON THE BACK BUILDING',
+    issued_date: '09-02-2025'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000021'
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000022',
+  data: {
+    issued_date: '09-02-2025',
+    contractor_name: 'Owner-Builder',
+    description: 'SHOWER, LAVATORY AND WATER CLOSET',
+    status: 'Issued',
+    valuation: '$0',
+    permit_number: 'P25-49706',
+    parcel_number: '8589-007-026',
+    applied_date: '07-29-2025',
+    address: '5112 Agnes Avenue, Temple City, California 91780',
+    permit_type: 'Plumbing'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 22
+  }
+}
+{
+  data: {
+    applied_date: '09-02-2025',
+    permit_type: 'Plumbing',
+    address: '5832 North Muscatel Avenue Unit B , San Gabriel, California 91775',
+    permit_number: 'P25-49910',
+    parcel_number: '5387-010-026',
+    contractor_name: 'Y W Rising Builder Inc.',
+    description: 'PLUMBING FOR A NEW DETACHED ACCESSORY DWELLING UNIT AND CONNECT TO PUBLIC SEWER',
+    status: 'Issued',
+    valuation: '$0',
+    issued_date: '09-02-2025'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000023',
+  provenance: {
+    csv_row_number: 23,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000024',
+  data: {
+    contractor_name: 'Owner-Builder',
+    description: 'CLOTHES WASHER, DISHWASHER, HOSE BIBB, SINK, WATER HEATER, GAS OUTLETS, WATER MAIN AND CONNECT ATTACHED ACCESSORY DWELLING UNIT TO PUBLIC SEWER',
+    status: 'Issued',
+    valuation: '$0',
+    issued_date: '09-02-2025',
+    applied_date: '09-02-2025',
+    address: '4902 Baldwin Avenue Unit A-B , Temple City, California 91780',
+    permit_type: 'Plumbing',
+    permit_number: 'P25-49916',
+    parcel_number: '8585-009-024'
+  },
+  provenance: {
+    csv_row_number: 24,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000025',
+  data: {
+    applied_date: '09-02-2025',
+    address: '5930 Loma Avenue Unit A , Temple City, California 91780',
+    permit_type: 'Plumbing',
+    parcel_number: '5384-013-003',
+    permit_number: 'P25-49921',
+    description: 'SHOWER, LAVATORY AND WATER CLOSET',
+    contractor_name: 'Potato Construction Inc.',
+    valuation: '$0',
+    status: 'Issued',
+    issued_date: '09-02-2025'
+  },
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 25
+  }
+}
+{
+  data: {
+    applied_date: '09-02-2025',
+    address: '5930 Loma Avenue Unit B , Temple City, California 91780',
+    permit_type: 'Plumbing',
+    parcel_number: '5384-013-003',
+    permit_number: 'P25-49924',
+    description: 'PLUMBING FOR A NEW DETACHED ACCESSORY DWELLING UNIT AND CONNECT TO PUBLIC SEWER',
+    contractor_name: 'Potato Construction Inc.',
+    valuation: '$0',
+    status: 'Issued',
+    issued_date: '09-02-2025'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000026',
+  provenance: {
+    csv_row_number: 26,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  raw_permit_id: 'run_20260625_170932_611_row_000027',
+  data: {
+    issued_date: '09-03-2025',
+    contractor_name: '626 Plumbing Inc.',
+    description: 'HOUSE ADDITION AND REMODEL 1954 SQ.FT. OF TWO BEDROOMS, ONE AND HALF BATHROOMS. ATTACHED 447 SQ.FT. 2-CAR GARAGE AND DECK AREA 260 SQ.FT.',
+    valuation: '$377,205.26',
+    status: 'Issued',
+    permit_number: 'B25-49638',
+    parcel_number: '8590-004-008',
+    applied_date: '07-21-2025',
+    permit_type: 'Building',
+    address: '9474 Olive Street, Temple City, California 91780'
+  },
+  provenance: {
+    csv_row_number: 27,
+    parser_run_id: 'run_20260625_170932_611'
+  }
+}
+{
+  data: {
+    permit_number: 'B25-49926',
+    parcel_number: '8574-001-022',
+    address: '10721 Miloann Street, Temple City, California 91780',
+    permit_type: 'Building',
+    applied_date: '09-03-2025',
+    issued_date: '09-03-2025',
+    valuation: '$2482',
+    status: 'Issued',
+    contractor_name: 'The Home Depot USA Inc. dba The Home Depot',
+    description: 'REMOVE AND REPLACE (2) WINDOWS, LIKE FOR LIKE WITH NO STRUCTURAL CHANGES. ALL WINDOWS WILL HAVE A MAXIMUM U-FACTOR OF 0.30 AND SHGC OF 0.23. REPLACEMENT GLASS WILL BE LOW-E'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000028',
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 28
+  }
+}
+{
+  provenance: {
+    csv_row_number: 29,
+    parser_run_id: 'run_20260625_170932_611'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000029',
+  data: {
+    issued_date: '09-03-2025',
+    valuation: '$3000',
+    status: 'Issued',
+    description: 'VOLUNTARY FOUNDATION RETROFIT PER LADBS STANDARD PLAN DETAIL #7',
+    contractor_name: 'White Oak Construction',
+    parcel_number: '8585-021-011',
+    permit_number: 'B25-49927',
+    permit_type: 'Building',
+    address: '10526 Olive Street, Temple City, California 91780',
+    applied_date: '09-03-2025'
+  }
+}
+{
+  data: {
+    status: 'Issued',
+    valuation: '$4500',
+    description: 'REPLACE (8) LIKE FOR LIKE WINDOWS ON EXISTING HOUSE. RELOCATE (2) LIKE FOR LIKE DOORS IN FRONT AND OTHER IN REAR. CLOSE OFF (3) WINDOWS (1) IN LIVING ROOM AND (2) IN KITCHEN',
+    contractor_name: 'Owner-Builder',
+    issued_date: '09-03-2025',
+    permit_type: 'Building',
+    address: '5910 Rosemead Boulevard, Temple City, California 91780',
+    applied_date: '09-03-2025',
+    permit_number: 'B25-49930',
+    parcel_number: '5384-016-017'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000030',
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 30
+  }
+}
+{
+  data: {
+    applied_date: '09-03-2025',
+    address: '5934 Cloverly Avenue, Temple City, California 91780',
+    permit_type: 'Building',
+    parcel_number: '8587-013-022',
+    permit_number: 'B25-49935',
+    description: 'TEAR OFF AND RE ROOF COMPOSITION SHINGLES HOUSE & ATTACHED GARAGE',
+    contractor_name: 'Robert L Fung Construction Inc.',
+    status: 'Issued',
+    valuation: '$6000',
+    issued_date: '09-03-2025'
+  },
+  raw_permit_id: 'run_20260625_170932_611_row_000031',
+  provenance: {
+    parser_run_id: 'run_20260625_170932_611',
+    csv_row_number: 31
+  }
+}
+
+thesis> 

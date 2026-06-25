@@ -1,0 +1,101 @@
+antecedents,consequents,support,confidence,lift,antecedent_len,predicted_target
+"permit_number_prefix=GRD, permit_number_year=25",permit_type_input=Grading Permit,0.017449106771915246,1.0,47.19607843137255,2,Grading Permit
+permit_number_prefix=GRD,permit_type_input=Grading Permit,0.017449106771915246,1.0,47.19607843137255,1,Grading Permit
+"permit_number_prefix=GRD, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Grading Permit,0.014333194848358953,1.0,47.19607843137255,3,Grading Permit
+"permit_number_prefix=GRD, valuation_bucket=le_1",permit_type_input=Grading Permit,0.014333194848358953,1.0,47.19607843137255,2,Grading Permit
+"description_keywords=other, permit_number_prefix=GRD, permit_number_year=25",permit_type_input=Grading Permit,0.011217282924802658,1.0,47.19607843137255,3,Grading Permit
+"description_keywords=other, permit_number_prefix=GRD",permit_type_input=Grading Permit,0.011217282924802658,1.0,47.19607843137255,2,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=GRD, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Grading Permit,0.009763190693809721,1.0,47.19607843137255,4,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=GRD, permit_number_year=25",permit_type_input=Grading Permit,0.009763190693809721,1.0,47.19607843137255,3,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=GRD, valuation_bucket=le_1",permit_type_input=Grading Permit,0.009763190693809721,1.0,47.19607843137255,3,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=GRD",permit_type_input=Grading Permit,0.009763190693809721,1.0,47.19607843137255,2,Grading Permit
+"description_keywords=other, permit_number_prefix=GRD, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Grading Permit,0.009140008309098464,1.0,47.19607843137255,4,Grading Permit
+"description_keywords=other, permit_number_prefix=GRD, valuation_bucket=le_1",permit_type_input=Grading Permit,0.009140008309098464,1.0,47.19607843137255,3,Grading Permit
+"permit_number_prefix=GRD, permit_number_year=25, status=Check, valuation_bucket=le_1",permit_type_input=Grading Permit,0.006647278770253427,1.0,47.19607843137255,4,Grading Permit
+"permit_number_prefix=GRD, permit_number_year=25, status=Check",permit_type_input=Grading Permit,0.006647278770253427,1.0,47.19607843137255,3,Grading Permit
+"permit_number_prefix=GRD, status=Check, valuation_bucket=le_1",permit_type_input=Grading Permit,0.006647278770253427,1.0,47.19607843137255,3,Grading Permit
+"permit_number_prefix=GRD, status=Check",permit_type_input=Grading Permit,0.006647278770253427,1.0,47.19607843137255,2,Grading Permit
+"description_keywords=other, fee_bucket=1000_9999, permit_number_prefix=GRD, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Grading Permit,0.0062318238471125885,1.0,47.19607843137255,5,Grading Permit
+"description_keywords=other, fee_bucket=1000_9999, permit_number_prefix=GRD, permit_number_year=25",permit_type_input=Grading Permit,0.0062318238471125885,1.0,47.19607843137255,4,Grading Permit
+"description_keywords=other, fee_bucket=1000_9999, permit_number_prefix=GRD, valuation_bucket=le_1",permit_type_input=Grading Permit,0.0062318238471125885,1.0,47.19607843137255,4,Grading Permit
+"description_keywords=other, fee_bucket=1000_9999, permit_number_prefix=GRD",permit_type_input=Grading Permit,0.0062318238471125885,1.0,47.19607843137255,3,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=GRD, permit_number_year=25, status=Check, valuation_bucket=le_1",permit_type_input=Grading Permit,0.005608641462401329,1.0,47.19607843137255,5,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=GRD, permit_number_year=25, status=Check",permit_type_input=Grading Permit,0.005608641462401329,1.0,47.19607843137255,4,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=GRD, status=Check, valuation_bucket=le_1",permit_type_input=Grading Permit,0.005608641462401329,1.0,47.19607843137255,4,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=GRD, status=Check",permit_type_input=Grading Permit,0.005608641462401329,1.0,47.19607843137255,3,Grading Permit
+"fee_bucket=1000_9999, permit_number_prefix=BLD, permit_number_year=25, status=<MISSING>",permit_type_input=Plan Check,0.012048192771084338,1.0,46.28846153846154,4,Plan Check
+"fee_bucket=1000_9999, permit_number_prefix=BLD, status=<MISSING>",permit_type_input=Plan Check,0.012048192771084338,1.0,46.28846153846154,3,Plan Check
+"fee_bucket=1000_9999, permit_number_year=25, status=<MISSING>",permit_type_input=Plan Check,0.012048192771084338,1.0,46.28846153846154,3,Plan Check
+"fee_bucket=1000_9999, status=<MISSING>",permit_type_input=Plan Check,0.012048192771084338,1.0,46.28846153846154,2,Plan Check
+"permit_number_prefix=BLD, permit_number_year=25, status=<MISSING>, valuation_bucket=10000_99999",permit_type_input=Plan Check,0.008932280847528043,1.0,46.28846153846154,4,Plan Check
+"permit_number_prefix=BLD, status=<MISSING>, valuation_bucket=10000_99999",permit_type_input=Plan Check,0.008932280847528043,1.0,46.28846153846154,3,Plan Check
+"permit_number_year=25, status=<MISSING>, valuation_bucket=10000_99999",permit_type_input=Plan Check,0.008932280847528043,1.0,46.28846153846154,3,Plan Check
+"status=<MISSING>, valuation_bucket=10000_99999",permit_type_input=Plan Check,0.008932280847528043,1.0,46.28846153846154,2,Plan Check
+"fee_bucket=2_999, permit_number_prefix=BLD, permit_number_year=25, status=<MISSING>",permit_type_input=Plan Check,0.007893643539675945,1.0,46.28846153846154,4,Plan Check
+"fee_bucket=2_999, permit_number_prefix=BLD, status=<MISSING>",permit_type_input=Plan Check,0.007893643539675945,1.0,46.28846153846154,3,Plan Check
+"fee_bucket=2_999, permit_number_year=25, status=<MISSING>",permit_type_input=Plan Check,0.007893643539675945,1.0,46.28846153846154,3,Plan Check
+"fee_bucket=2_999, status=<MISSING>",permit_type_input=Plan Check,0.007893643539675945,1.0,46.28846153846154,2,Plan Check
+"fee_bucket=1000_9999, permit_number_prefix=BLD, permit_number_year=25, status=<MISSING>, valuation_bucket=10000_99999",permit_type_input=Plan Check,0.006024096385542169,1.0,46.28846153846154,5,Plan Check
+"fee_bucket=1000_9999, permit_number_prefix=BLD, status=<MISSING>, valuation_bucket=10000_99999",permit_type_input=Plan Check,0.006024096385542169,1.0,46.28846153846154,4,Plan Check
+"fee_bucket=1000_9999, permit_number_year=25, status=<MISSING>, valuation_bucket=10000_99999",permit_type_input=Plan Check,0.006024096385542169,1.0,46.28846153846154,4,Plan Check
+"fee_bucket=1000_9999, status=<MISSING>, valuation_bucket=10000_99999",permit_type_input=Plan Check,0.006024096385542169,1.0,46.28846153846154,3,Plan Check
+"fee_bucket=1000_9999, permit_number_prefix=BLD, permit_number_year=25, status=<MISSING>, valuation_bucket=missing",permit_type_input=Plan Check,0.005816368923971749,1.0,46.28846153846154,5,Plan Check
+"fee_bucket=1000_9999, permit_number_prefix=BLD, status=<MISSING>, valuation_bucket=missing",permit_type_input=Plan Check,0.005816368923971749,1.0,46.28846153846154,4,Plan Check
+"fee_bucket=1000_9999, permit_number_year=25, status=<MISSING>, valuation_bucket=missing",permit_type_input=Plan Check,0.005816368923971749,1.0,46.28846153846154,4,Plan Check
+"fee_bucket=1000_9999, status=<MISSING>, valuation_bucket=missing",permit_type_input=Plan Check,0.005816368923971749,1.0,46.28846153846154,3,Plan Check
+"permit_number_prefix=ENC, permit_number_year=25",permit_type_input=Encroachment,0.038845035313668466,1.0,25.74331550802139,2,Encroachment
+"permit_number_prefix=WEL, permit_number_year=25",permit_type_input=Well Permit,0.038845035313668466,1.0,25.74331550802139,2,Well Permit
+permit_number_prefix=ENC,permit_type_input=Encroachment,0.038845035313668466,1.0,25.74331550802139,1,Encroachment
+permit_number_prefix=WEL,permit_type_input=Well Permit,0.038845035313668466,1.0,25.74331550802139,1,Well Permit
+"permit_number_prefix=ENC, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Encroachment,0.03489821354383049,1.0,25.74331550802139,3,Encroachment
+"permit_number_prefix=WEL, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Well Permit,0.03489821354383049,1.0,25.74331550802139,3,Well Permit
+"permit_number_prefix=ENC, valuation_bucket=le_1",permit_type_input=Encroachment,0.03489821354383049,1.0,25.74331550802139,2,Encroachment
+"permit_number_prefix=WEL, valuation_bucket=le_1",permit_type_input=Well Permit,0.03489821354383049,1.0,25.74331550802139,2,Well Permit
+"description_keywords=other, permit_number_prefix=WEL, permit_number_year=25",permit_type_input=Well Permit,0.026173660157872872,1.0,25.74331550802139,3,Well Permit
+"description_keywords=other, permit_number_prefix=WEL",permit_type_input=Well Permit,0.026173660157872872,1.0,25.74331550802139,2,Well Permit
+"description_keywords=other, permit_number_prefix=WEL, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Well Permit,0.023888658080598254,1.0,25.74331550802139,4,Well Permit
+"description_keywords=other, permit_number_prefix=WEL, valuation_bucket=le_1",permit_type_input=Well Permit,0.023888658080598254,1.0,25.74331550802139,3,Well Permit
+"fee_bucket=2_999, permit_number_prefix=WEL, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Well Permit,0.02035729123390112,1.0,25.74331550802139,4,Well Permit
+"fee_bucket=2_999, permit_number_prefix=WEL, permit_number_year=25",permit_type_input=Well Permit,0.02035729123390112,1.0,25.74331550802139,3,Well Permit
+"fee_bucket=2_999, permit_number_prefix=WEL, valuation_bucket=le_1",permit_type_input=Well Permit,0.02035729123390112,1.0,25.74331550802139,3,Well Permit
+"fee_bucket=2_999, permit_number_prefix=WEL",permit_type_input=Well Permit,0.02035729123390112,1.0,25.74331550802139,2,Well Permit
+"fee_bucket=2_999, permit_number_prefix=ENC, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Encroachment,0.018695471541337765,1.0,25.74331550802139,4,Encroachment
+"fee_bucket=2_999, permit_number_prefix=ENC, permit_number_year=25",permit_type_input=Encroachment,0.018695471541337765,1.0,25.74331550802139,3,Encroachment
+"fee_bucket=2_999, permit_number_prefix=ENC, valuation_bucket=le_1",permit_type_input=Encroachment,0.018695471541337765,1.0,25.74331550802139,3,Encroachment
+"fee_bucket=2_999, permit_number_prefix=ENC",permit_type_input=Encroachment,0.018695471541337765,1.0,25.74331550802139,2,Encroachment
+"description_keywords=mechanical, permit_number_prefix=ENC, permit_number_year=25",permit_type_input=Encroachment,0.018487744079767346,1.0,25.74331550802139,3,Encroachment
+"description_keywords=mechanical, permit_number_prefix=ENC",permit_type_input=Encroachment,0.018487744079767346,1.0,25.74331550802139,2,Encroachment
+"description_keywords=other, permit_number_prefix=ENC, permit_number_year=25",permit_type_input=Encroachment,0.017241379310344827,1.0,25.74331550802139,3,Encroachment
+"description_keywords=other, permit_number_prefix=ENC",permit_type_input=Encroachment,0.017241379310344827,1.0,25.74331550802139,2,Encroachment
+"description_keywords=mechanical, permit_number_prefix=ENC, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Encroachment,0.01620274200249273,1.0,25.74331550802139,4,Encroachment
+"description_keywords=mechanical, permit_number_prefix=ENC, valuation_bucket=le_1",permit_type_input=Encroachment,0.01620274200249273,1.0,25.74331550802139,3,Encroachment
+"description_keywords=other, permit_number_prefix=ENC, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Encroachment,0.01599501454092231,1.0,25.74331550802139,4,Encroachment
+"description_keywords=other, permit_number_prefix=ENC, valuation_bucket=le_1",permit_type_input=Encroachment,0.01599501454092231,1.0,25.74331550802139,3,Encroachment
+"permit_number_prefix=ENC, permit_number_year=25, status=Paid, valuation_bucket=le_1",permit_type_input=Encroachment,0.01557955961778147,1.0,25.74331550802139,4,Encroachment
+"permit_number_prefix=ENC, permit_number_year=25, status=Paid",permit_type_input=Encroachment,0.01557955961778147,1.0,25.74331550802139,3,Encroachment
+"permit_number_prefix=ENC, status=Paid, valuation_bucket=le_1",permit_type_input=Encroachment,0.01557955961778147,1.0,25.74331550802139,3,Encroachment
+"permit_number_prefix=ENC, status=Paid",permit_type_input=Encroachment,0.01557955961778147,1.0,25.74331550802139,2,Encroachment
+"permit_number_prefix=ENC, permit_number_year=25, status=Started, valuation_bucket=le_1",permit_type_input=Encroachment,0.014540922309929373,1.0,25.74331550802139,4,Encroachment
+"permit_number_prefix=ENC, permit_number_year=25, status=Started",permit_type_input=Encroachment,0.014540922309929373,1.0,25.74331550802139,3,Encroachment
+"permit_number_prefix=ENC, status=Started, valuation_bucket=le_1",permit_type_input=Encroachment,0.014540922309929373,1.0,25.74331550802139,3,Encroachment
+"permit_number_prefix=ENC, status=Started",permit_type_input=Encroachment,0.014540922309929373,1.0,25.74331550802139,2,Encroachment
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=WEL, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Well Permit,0.014333194848358953,1.0,25.74331550802139,5,Well Permit
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=WEL, permit_number_year=25",permit_type_input=Well Permit,0.014333194848358953,1.0,25.74331550802139,4,Well Permit
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=WEL, valuation_bucket=le_1",permit_type_input=Well Permit,0.014333194848358953,1.0,25.74331550802139,4,Well Permit
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=WEL",permit_type_input=Well Permit,0.014333194848358953,1.0,25.74331550802139,3,Well Permit
+"fee_bucket=1000_9999, permit_number_prefix=WEL, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Well Permit,0.013502285002077275,1.0,25.74331550802139,4,Well Permit
+"fee_bucket=1000_9999, permit_number_prefix=WEL, permit_number_year=25",permit_type_input=Well Permit,0.013502285002077275,1.0,25.74331550802139,3,Well Permit
+"fee_bucket=1000_9999, permit_number_prefix=WEL, valuation_bucket=le_1",permit_type_input=Well Permit,0.013502285002077275,1.0,25.74331550802139,3,Well Permit
+"fee_bucket=1000_9999, permit_number_prefix=WEL",permit_type_input=Well Permit,0.013502285002077275,1.0,25.74331550802139,2,Well Permit
+"fee_bucket=2_999, permit_number_prefix=ENC, permit_number_year=25, status=Paid, valuation_bucket=le_1",permit_type_input=Encroachment,0.013294557540506855,1.0,25.74331550802139,5,Encroachment
+"fee_bucket=2_999, permit_number_prefix=ENC, permit_number_year=25, status=Paid",permit_type_input=Encroachment,0.013294557540506855,1.0,25.74331550802139,4,Encroachment
+"fee_bucket=2_999, permit_number_prefix=ENC, status=Paid, valuation_bucket=le_1",permit_type_input=Encroachment,0.013294557540506855,1.0,25.74331550802139,4,Encroachment
+"fee_bucket=2_999, permit_number_year=25, status=Paid, valuation_bucket=le_1",permit_type_input=Encroachment,0.013294557540506855,1.0,25.74331550802139,4,Encroachment
+"fee_bucket=2_999, permit_number_prefix=ENC, status=Paid",permit_type_input=Encroachment,0.013294557540506855,1.0,25.74331550802139,3,Encroachment
+"fee_bucket=2_999, permit_number_year=25, status=Paid",permit_type_input=Encroachment,0.013294557540506855,1.0,25.74331550802139,3,Encroachment
+"fee_bucket=2_999, status=Paid, valuation_bucket=le_1",permit_type_input=Encroachment,0.013294557540506855,1.0,25.74331550802139,3,Encroachment
+"fee_bucket=2_999, status=Paid",permit_type_input=Encroachment,0.013294557540506855,1.0,25.74331550802139,2,Encroachment
+"fee_bucket=le_1, permit_number_prefix=ENC, permit_number_year=25, valuation_bucket=le_1",permit_type_input=Encroachment,0.011632737847943497,1.0,25.74331550802139,4,Encroachment
+"fee_bucket=le_1, permit_number_prefix=ENC, permit_number_year=25",permit_type_input=Encroachment,0.011632737847943497,1.0,25.74331550802139,3,Encroachment
+"fee_bucket=le_1, permit_number_prefix=ENC, valuation_bucket=le_1",permit_type_input=Encroachment,0.011632737847943497,1.0,25.74331550802139,3,Encroachment
+"fee_bucket=le_1, permit_number_prefix=ENC",permit_type_input=Encroachment,0.011632737847943497,1.0,25.74331550802139,2,Encroachment

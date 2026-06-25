@@ -1,0 +1,38 @@
+{
+  "target_field": "permit_class",
+  "strategy": "majority_then_confidence",
+  "minimum_confidence": 0.0,
+  "row_count_total": 795,
+  "row_count_accepted": 795,
+  "row_count_rejected": 0,
+  "coverage": 1.0,
+  "accuracy_on_accepted": 0.939622641509434,
+  "macro_f1_on_accepted": 0.7906332138590203,
+  "labels": [
+    "Commercial",
+    "Res.1&2 or Guest House",
+    "Residential-Multi-Family"
+  ],
+  "confusion_matrix": [
+    [
+      23,
+      4,
+      41
+    ],
+    [
+      0,
+      560,
+      1
+    ],
+    [
+      2,
+      0,
+      164
+    ]
+  ],
+  "decision_method_counts": {
+    "unanimous_vote": 681,
+    "majority_vote": 98,
+    "average_confidence_tiebreak": 16
+  }
+}

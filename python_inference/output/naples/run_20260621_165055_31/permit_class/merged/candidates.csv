@@ -1,0 +1,1327 @@
+row_index,target_field,algorithm,predicted_value,confidence,prediction_source,passes_threshold,candidate_status,rejection_reason,validation_record_status,raw_permit_id
+7,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000009
+8,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000010
+12,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000014
+13,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000015
+14,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000016
+18,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000020
+20,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000022
+29,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000031
+30,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000032
+32,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000034
+33,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000035
+42,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000044
+43,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000045
+44,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000046
+72,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000074
+73,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000075
+78,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000080
+82,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000084
+83,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000085
+85,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000087
+95,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000097
+96,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000098
+99,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000101
+100,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000102
+101,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000103
+105,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000107
+106,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000108
+107,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000109
+108,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000110
+109,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000111
+110,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000112
+111,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000113
+113,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000115
+114,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000116
+115,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000117
+116,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000118
+117,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000119
+118,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000120
+119,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000121
+121,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000123
+122,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000124
+123,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000125
+124,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000126
+125,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000127
+127,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000129
+130,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000132
+131,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000133
+132,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000134
+133,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000135
+134,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000136
+136,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000138
+137,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000139
+138,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000140
+139,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000141
+140,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000142
+141,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000143
+142,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000144
+143,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000145
+144,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000146
+145,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000147
+146,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000148
+147,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000149
+148,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000150
+149,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000151
+150,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000152
+151,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000153
+152,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000154
+153,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000155
+154,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000156
+155,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000157
+157,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000159
+158,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000160
+159,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000161
+161,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000163
+162,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000164
+163,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000165
+164,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000166
+165,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000167
+166,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000168
+167,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000169
+168,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000170
+169,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000171
+170,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000172
+171,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000173
+172,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000174
+173,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000175
+175,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000177
+176,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000178
+178,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000180
+179,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000181
+180,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000182
+181,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000183
+182,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000184
+183,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000185
+184,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000186
+185,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000187
+186,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000188
+187,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000189
+188,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000190
+189,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000191
+190,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000192
+192,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000194
+193,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000195
+194,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000196
+195,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000197
+196,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000198
+197,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000199
+198,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000200
+199,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000201
+200,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000202
+201,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000203
+202,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000204
+203,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000205
+204,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000206
+205,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000207
+206,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000208
+207,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000209
+208,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000210
+209,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000211
+210,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000212
+211,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000213
+212,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000214
+213,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000215
+214,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000216
+215,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000217
+216,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000218
+217,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000219
+218,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000220
+219,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000221
+220,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000222
+221,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000223
+222,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000224
+223,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000225
+224,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000226
+225,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000227
+226,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000228
+227,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000229
+228,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000230
+229,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000231
+230,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000232
+231,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000233
+232,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000234
+233,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000235
+234,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000236
+235,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000237
+236,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000238
+237,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000239
+238,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000240
+239,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000241
+240,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000242
+243,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000245
+245,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000247
+246,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000248
+247,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000249
+248,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000250
+249,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000251
+250,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000252
+251,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000253
+252,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000254
+253,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000255
+254,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000256
+255,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000257
+256,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000258
+257,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000259
+258,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000260
+259,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000261
+260,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000262
+261,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000263
+262,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000264
+263,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000265
+264,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000266
+265,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000267
+266,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000268
+267,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000269
+268,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000270
+271,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000273
+272,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000274
+273,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000275
+274,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000276
+275,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000277
+276,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000278
+277,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000279
+278,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000280
+280,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000282
+281,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000283
+282,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000284
+283,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000285
+284,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000286
+285,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000287
+286,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000288
+287,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000289
+288,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000290
+291,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000293
+292,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000294
+293,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000295
+294,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000296
+296,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000298
+297,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000299
+298,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000300
+299,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000301
+300,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000302
+301,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000303
+302,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000304
+303,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000305
+305,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000307
+306,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000308
+307,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000309
+308,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000310
+309,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000311
+310,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000312
+311,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000313
+312,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000314
+313,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000315
+314,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000316
+316,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000318
+317,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000319
+318,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000320
+319,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000321
+320,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000322
+321,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000323
+323,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000325
+324,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000326
+325,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000327
+326,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000328
+327,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000329
+328,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000330
+329,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000331
+330,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000332
+331,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000333
+332,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000334
+333,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000335
+334,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000336
+335,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000337
+336,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000338
+338,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000340
+340,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000342
+341,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000343
+344,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000346
+346,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000348
+347,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000349
+348,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000350
+349,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000351
+350,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000352
+351,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000353
+353,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000355
+354,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000356
+355,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000357
+356,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000358
+357,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000359
+358,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000360
+359,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000361
+360,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000362
+361,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000363
+362,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000364
+363,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000365
+364,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000366
+366,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000368
+367,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000369
+368,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000370
+369,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000371
+370,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000372
+371,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000373
+372,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000374
+374,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000376
+375,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000377
+377,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000379
+378,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000380
+380,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000382
+381,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000383
+382,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000384
+384,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000386
+385,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000387
+386,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000388
+387,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000389
+388,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000390
+389,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000391
+390,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000392
+391,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000393
+392,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000394
+393,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000395
+394,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000396
+395,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000397
+396,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000398
+397,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000399
+398,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000400
+399,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000401
+400,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000402
+401,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000403
+402,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000404
+403,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000405
+404,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000406
+405,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000407
+406,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000408
+407,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000409
+408,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000410
+410,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000412
+411,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000413
+412,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000414
+415,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000417
+416,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000418
+418,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000420
+420,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000422
+421,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000423
+422,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000424
+424,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000426
+425,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000427
+426,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000428
+427,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000429
+429,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000431
+431,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000433
+433,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000435
+435,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000437
+436,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000438
+437,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000439
+438,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000440
+439,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000441
+441,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000443
+442,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000444
+443,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000445
+444,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000446
+445,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000447
+446,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000448
+447,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000449
+448,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000450
+449,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000451
+450,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000452
+451,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000453
+452,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000454
+453,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000455
+454,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000456
+455,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000457
+457,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000459
+458,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000460
+461,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000463
+462,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000464
+463,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000465
+464,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000466
+465,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000467
+466,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000468
+467,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000469
+468,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000470
+470,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000472
+471,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000473
+472,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000474
+473,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000475
+474,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000476
+475,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000477
+476,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000478
+477,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000479
+478,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000480
+479,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000481
+480,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000482
+481,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000483
+482,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000484
+484,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000486
+486,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000488
+487,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000489
+488,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000490
+489,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000491
+490,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000492
+491,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000493
+492,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000494
+493,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000495
+495,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000497
+496,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000498
+497,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000499
+498,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000500
+499,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000501
+500,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000502
+501,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000503
+502,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000504
+503,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000505
+504,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000506
+505,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000507
+507,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000509
+508,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000510
+509,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000511
+510,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000512
+511,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000513
+512,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000514
+513,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000515
+514,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000516
+515,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000517
+516,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000518
+517,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000519
+518,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000520
+519,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000521
+520,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000522
+521,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000523
+522,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000524
+523,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000525
+524,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000526
+525,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000527
+526,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000528
+527,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000529
+528,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000530
+529,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000531
+531,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000533
+532,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000534
+533,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000535
+534,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000536
+535,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000537
+536,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000538
+537,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000539
+538,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000540
+539,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000541
+540,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000542
+541,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000543
+542,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000544
+543,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000545
+544,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000546
+545,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000547
+546,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000548
+547,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000549
+548,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000550
+549,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000551
+550,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000552
+551,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000553
+552,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000554
+553,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000555
+554,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000556
+555,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000557
+556,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000558
+557,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000559
+558,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000560
+559,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000561
+560,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000562
+561,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000563
+563,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000565
+564,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000566
+565,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000567
+566,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000568
+567,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000569
+568,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000570
+569,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000571
+571,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000573
+572,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000574
+573,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000575
+574,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000576
+576,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000578
+577,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000579
+578,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000580
+580,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000582
+582,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000584
+583,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000585
+584,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000586
+585,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000587
+588,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000590
+589,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000591
+590,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000592
+591,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000593
+592,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000594
+593,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000595
+594,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000596
+595,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000597
+596,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000598
+597,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000599
+599,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000601
+600,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000602
+601,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000603
+602,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000604
+603,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000605
+604,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000606
+606,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000608
+607,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000609
+608,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000610
+609,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000611
+610,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000612
+611,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000613
+612,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000614
+613,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000615
+614,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000616
+616,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000618
+617,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000619
+618,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000620
+619,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000621
+622,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000624
+626,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000628
+628,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000630
+629,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000631
+630,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000632
+631,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000633
+632,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000634
+633,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000635
+634,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000636
+636,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000638
+637,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000639
+639,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000641
+640,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000642
+642,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000644
+643,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000645
+644,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000646
+645,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000647
+646,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000648
+647,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000649
+648,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000650
+649,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000651
+650,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000652
+651,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000653
+653,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000655
+654,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000656
+656,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000658
+657,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000659
+659,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000661
+660,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000662
+661,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000663
+662,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000664
+664,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000666
+665,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000667
+666,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000668
+667,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000669
+668,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000670
+669,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000671
+670,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000672
+671,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000673
+672,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000674
+673,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000675
+674,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000676
+675,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000677
+676,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000678
+677,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000679
+679,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000681
+681,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000683
+682,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000684
+683,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000685
+684,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000686
+685,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000687
+687,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000689
+688,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000690
+689,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000691
+690,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000692
+691,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000693
+692,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000694
+693,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000695
+694,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000696
+695,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000697
+696,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000698
+697,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000699
+698,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000700
+699,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000701
+700,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000702
+701,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000703
+702,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000704
+703,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000705
+704,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000706
+705,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000707
+706,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000708
+707,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000709
+710,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000712
+711,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000713
+712,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000714
+713,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000715
+714,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000716
+715,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000717
+716,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000718
+717,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000719
+718,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000720
+719,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000721
+720,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000722
+721,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000723
+722,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000724
+723,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000725
+724,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000726
+725,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000727
+727,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000729
+728,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000730
+729,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000731
+730,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000732
+731,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000733
+732,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000734
+733,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000735
+734,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000736
+735,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000737
+736,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000738
+737,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000739
+738,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000740
+739,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000741
+740,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000742
+741,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000743
+742,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000744
+743,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000745
+744,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000746
+745,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000747
+746,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000748
+747,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000749
+748,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000750
+749,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000751
+750,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000752
+751,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000753
+752,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000754
+753,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000755
+754,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000756
+755,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000757
+756,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000758
+757,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000759
+758,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000760
+759,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000761
+760,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000762
+761,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000763
+762,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000764
+763,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000765
+764,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000766
+765,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000767
+766,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000768
+767,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000769
+768,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000770
+769,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000771
+770,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000772
+771,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000773
+772,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000774
+773,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000775
+774,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000776
+775,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000777
+776,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000778
+777,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000779
+778,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000780
+779,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000781
+780,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000782
+781,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000783
+782,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000784
+784,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000786
+785,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000787
+786,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000788
+787,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000789
+788,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000790
+789,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000791
+790,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000792
+791,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000793
+792,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000794
+793,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000795
+794,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000796
+795,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000797
+796,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000798
+797,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000799
+798,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000800
+799,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000801
+800,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000802
+801,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000803
+802,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000804
+803,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000805
+804,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000806
+805,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000807
+806,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000808
+807,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000809
+879,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000881
+960,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000962
+972,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_000974
+1032,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001034
+1034,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001036
+1043,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001045
+1048,permit_class,clustering,Res.1&2 or Guest House,0.9311377245508982,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001050
+1063,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001065
+1069,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001071
+1070,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001072
+1071,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001073
+1074,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001076
+1079,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001081
+1084,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001086
+1086,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001088
+1087,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001089
+1088,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001090
+1094,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001096
+1112,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001114
+1115,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001117
+1127,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001129
+1147,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001149
+1160,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001162
+1168,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001170
+1192,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001194
+1237,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001239
+1238,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001240
+1251,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001253
+1260,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001262
+1314,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001316
+1316,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001318
+1335,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001337
+1348,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001350
+1371,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001373
+1457,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001459
+1474,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001476
+1475,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001477
+1497,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001499
+1511,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001513
+1539,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001541
+1586,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001588
+1601,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001603
+1650,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001652
+1651,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001653
+1669,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001671
+1670,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001672
+1671,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001673
+1672,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001674
+1673,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001675
+1674,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001676
+1675,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001677
+1676,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001678
+1677,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001679
+1678,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001680
+1679,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001681
+1680,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001682
+1681,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001683
+1682,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001684
+1683,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001685
+1684,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001686
+1685,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001687
+1686,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001688
+1687,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001689
+1688,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001690
+1689,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001691
+1690,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001692
+1691,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001693
+1692,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001694
+1693,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001695
+1694,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001696
+1695,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001697
+1696,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001698
+1697,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001699
+1698,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001700
+1699,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001701
+1700,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001702
+1701,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001703
+1702,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001704
+1703,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_001705
+2187,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002189
+2188,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002190
+2192,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002194
+2204,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002206
+2257,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002259
+2267,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002269
+2287,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002289
+2331,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002333
+2332,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002334
+2333,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002335
+2334,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002336
+2335,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002337
+2336,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002338
+2337,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002339
+2338,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002340
+2339,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002341
+2340,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002342
+2341,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002343
+2342,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002344
+2343,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002345
+2344,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002346
+2345,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002347
+2346,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002348
+2347,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002349
+2348,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002350
+2349,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002351
+2350,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002352
+2351,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002353
+2352,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002354
+2353,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002355
+2354,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002356
+2361,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002363
+2364,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002366
+2365,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002367
+2366,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002368
+2368,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002370
+2369,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002371
+2374,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002376
+2377,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002379
+2380,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002382
+2382,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002384
+2384,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002386
+2386,permit_class,clustering,Res.1&2 or Guest House,0.9311377245508982,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002388
+2387,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002389
+2390,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002392
+2391,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002393
+2392,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002394
+2393,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002395
+2394,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002396
+2395,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002397
+2396,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002398
+2397,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002399
+2398,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002400
+2401,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002403
+2402,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002404
+2403,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002405
+2405,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002407
+2410,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002412
+2411,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002413
+2412,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002414
+2413,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002415
+2416,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002418
+2419,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002421
+2420,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002422
+2421,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002423
+2422,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002424
+2423,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002425
+2424,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002426
+2425,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002427
+2426,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002428
+2427,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002429
+2428,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002430
+2429,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002431
+2430,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002432
+2434,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002436
+2435,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002437
+2436,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002438
+2438,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002440
+2439,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002441
+2440,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002442
+2444,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002446
+2446,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002448
+2447,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002449
+2448,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002450
+2449,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002451
+2450,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002452
+2451,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002453
+2452,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002454
+2453,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002455
+2454,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002456
+2455,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002457
+2456,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002458
+2457,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002459
+2458,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002460
+2462,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002464
+2465,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002467
+2467,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002469
+2469,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002471
+2475,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002477
+2476,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002478
+2478,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002480
+2479,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002481
+2482,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002484
+2483,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002485
+2484,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002486
+2485,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002487
+2486,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002488
+2487,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002489
+2488,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002490
+2492,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002494
+2493,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002495
+2494,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002496
+2506,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002508
+2507,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002509
+2508,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002510
+2509,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002511
+2510,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002512
+2513,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002515
+2515,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002517
+2516,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002518
+2517,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002519
+2522,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002524
+2523,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002525
+2524,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002526
+2525,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002527
+2526,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002528
+2529,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002531
+2531,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002533
+2532,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002534
+2536,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002538
+2537,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002539
+2538,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002540
+2539,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002541
+2540,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002542
+2541,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002543
+2542,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002544
+2543,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002545
+2545,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002547
+2546,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002548
+2547,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002549
+2550,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002552
+2612,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002614
+2613,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002615
+2962,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002964
+2963,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002965
+2964,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002966
+2965,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002967
+2966,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002968
+2967,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002969
+2968,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002970
+2969,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002971
+2970,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002972
+2971,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002973
+2972,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002974
+2973,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002975
+2974,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002976
+2975,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002977
+2976,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002978
+2977,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002979
+2978,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002980
+2979,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002981
+2980,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002982
+2981,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002983
+2982,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002984
+2983,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002985
+2984,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002986
+2985,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002987
+2986,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002988
+2987,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002989
+2988,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002990
+2989,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002991
+2990,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002992
+2991,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002993
+2992,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002994
+2993,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002995
+2994,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002996
+2995,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002997
+2996,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002998
+2997,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_002999
+2998,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003000
+2999,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003001
+3000,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003002
+3001,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003003
+3002,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003004
+3003,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003005
+3004,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003006
+3005,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003007
+3006,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003008
+3007,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003009
+3008,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003010
+3009,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003011
+3010,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003012
+3011,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003013
+3012,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003014
+3013,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003015
+3014,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003016
+3015,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003017
+3016,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003018
+3017,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003019
+3018,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003020
+3019,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003021
+3020,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003022
+3021,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003023
+3022,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003024
+3023,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003025
+3024,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003026
+3025,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003027
+3026,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003028
+3027,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003029
+3028,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003030
+3029,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003031
+3030,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003032
+3031,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003033
+3032,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003034
+3033,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003035
+3034,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003036
+3035,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003037
+3036,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003038
+3037,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003039
+3038,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003040
+3039,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003041
+3040,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003042
+3041,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003043
+3042,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003044
+3043,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003045
+3045,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003047
+3046,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003048
+3047,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003049
+3048,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003050
+3049,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003051
+3050,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003052
+3051,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003053
+3052,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003054
+3053,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003055
+3054,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003056
+3055,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003057
+3056,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003058
+3057,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003059
+3058,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003060
+3074,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003076
+3075,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003077
+3076,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003078
+3078,permit_class,clustering,Res.1&2 or Guest House,0.9276018099547512,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003080
+3080,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003082
+3121,permit_class,clustering,Res.1&2 or Guest House,0.9311377245508982,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003123
+3400,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003402
+3401,permit_class,clustering,Residential-Multi-Family,0.48616600790513836,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003403
+3444,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003446
+3445,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003447
+3465,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003467
+3501,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003503
+3514,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003516
+3525,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003527
+3579,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003581
+3599,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003601
+3601,permit_class,clustering,Res.1&2 or Guest House,0.48059701492537316,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003603
+3632,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003634
+3680,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003682
+3682,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003684
+3689,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003691
+3790,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003792
+3796,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003798
+3798,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003800
+3799,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003801
+3802,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003804
+3803,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003805
+3804,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003806
+3805,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003807
+3806,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003808
+3810,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003812
+3811,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003813
+3812,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003814
+3815,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003817
+3818,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003820
+3822,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003824
+3823,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003825
+3826,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003828
+3827,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003829
+3828,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003830
+3829,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003831
+3831,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003833
+3833,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003835
+3834,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003836
+3836,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003838
+3837,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003839
+3839,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003841
+3840,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003842
+3841,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003843
+3842,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003844
+3843,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003845
+3844,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003846
+3848,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003850
+3850,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003852
+3852,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003854
+3853,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003855
+3854,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003856
+3855,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003857
+3856,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003858
+3857,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003859
+3859,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003861
+3861,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003863
+3862,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003864
+3866,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003868
+3867,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003869
+3868,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003870
+3871,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003873
+3874,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003876
+3875,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003877
+3877,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003879
+3884,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003886
+3887,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003889
+3888,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003890
+3889,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003891
+3890,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003892
+3896,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003898
+3897,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003899
+3898,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003900
+3899,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003901
+3900,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003902
+3907,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003909
+3908,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003910
+3909,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003911
+3910,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003912
+3918,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003920
+3919,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003921
+3923,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003925
+3925,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003927
+3927,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003929
+3928,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003930
+3939,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_003941
+4140,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_004142
+4172,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_004174
+4401,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_004403
+4747,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_004749
+4758,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_004760
+4995,permit_class,clustering,Res.1&2 or Guest House,0.9311377245508982,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_004997
+4996,permit_class,clustering,Res.1&2 or Guest House,0.9311377245508982,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_004998
+5005,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005007
+5006,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005008
+5022,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005024
+5023,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005025
+5025,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005027
+5026,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005028
+5027,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005029
+5028,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005030
+5029,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005031
+5030,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005032
+5031,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005033
+5032,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005034
+5033,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005035
+5034,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005036
+5035,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005037
+5036,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005038
+5037,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005039
+5038,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005040
+5039,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005041
+5040,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005042
+5043,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005045
+5044,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005046
+5045,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005047
+5046,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005048
+5047,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005049
+5048,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005050
+5049,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005051
+5050,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005052
+5051,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005053
+5052,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005054
+5053,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005055
+5054,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005056
+5058,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005060
+5059,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005061
+5060,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005062
+5061,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005063
+5062,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005064
+5063,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005065
+5064,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005066
+5065,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005067
+5066,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005068
+5068,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005070
+5069,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005071
+5070,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005072
+5071,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005073
+5072,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005074
+5073,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005075
+5074,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005076
+5075,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005077
+5077,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005079
+5078,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005080
+5079,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005081
+5081,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005083
+5082,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005084
+5083,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005085
+5084,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005086
+5085,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005087
+5086,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005088
+5087,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005089
+5088,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005090
+5090,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005092
+5091,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005093
+5092,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005094
+5094,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005096
+5095,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005097
+5096,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005098
+5097,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005099
+5098,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005100
+5099,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005101
+5100,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005102
+5102,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005104
+5103,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005105
+5104,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005106
+5106,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005108
+5110,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005112
+5111,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005113
+5112,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005114
+5113,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005115
+5114,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005116
+5115,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005117
+5117,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005119
+5118,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005120
+5119,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005121
+5120,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005122
+5121,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005123
+5122,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005124
+5123,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005125
+5124,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005126
+5125,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005127
+5126,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005128
+5127,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005129
+5128,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005130
+5129,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005131
+5130,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005132
+5131,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005133
+5132,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005134
+5133,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005135
+5134,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005136
+5135,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005137
+5136,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005138
+5137,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005139
+5138,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005140
+5139,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005141
+5140,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005142
+5141,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005143
+5142,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005144
+5143,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005145
+5144,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005146
+5145,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005147
+5146,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005148
+5147,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005149
+5148,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005150
+5149,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005151
+5150,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005152
+5151,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005153
+5152,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005154
+5153,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005155
+5154,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005156
+5155,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005157
+5156,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005158
+5157,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005159
+5158,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005160
+5159,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005161
+5160,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005162
+5161,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005163
+5162,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005164
+5163,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005165
+5164,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005166
+5165,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005167
+5166,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005168
+5167,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005169
+5168,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005170
+5169,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005171
+5170,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005172
+5171,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005173
+5172,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005174
+5173,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005175
+5174,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005176
+5175,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005177
+5176,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005178
+5177,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005179
+5178,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005180
+5179,permit_class,clustering,Res.1&2 or Guest House,1.0,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005181
+5180,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005182
+5181,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005183
+5182,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005184
+5183,permit_class,clustering,Residential-Multi-Family,0.7542662116040956,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005185
+5184,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005186
+5185,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005187
+5186,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005188
+5187,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005189
+5188,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005190
+5189,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005191
+5190,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005192
+5191,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005193
+5192,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005194
+5193,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005195
+5194,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005196
+5195,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005197
+5196,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005198
+5197,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005199
+5198,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005200
+5199,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005201
+5200,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005202
+5202,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005204
+5203,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005205
+5204,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005206
+5205,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005207
+5206,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005208
+5207,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005209
+5208,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005210
+5209,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005211
+5210,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005212
+5211,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005213
+5212,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005214
+5213,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005215
+5214,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005216
+5215,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005217
+5216,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005218
+5217,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005219
+5218,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005220
+5219,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005221
+5220,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005222
+5221,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005223
+5222,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005224
+5223,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005225
+5224,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005226
+5225,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005227
+5226,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005228
+5227,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005229
+5228,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005230
+5230,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005232
+5231,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005233
+5232,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005234
+5233,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005235
+5234,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005236
+5235,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005237
+5236,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005238
+5237,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005239
+5238,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005240
+5239,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005241
+5240,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005242
+5241,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005243
+5242,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005244
+5243,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005245
+5244,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005246
+5245,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005247
+5246,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005248
+5247,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005249
+5248,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005250
+5249,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005251
+5250,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005252
+5251,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005253
+5252,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005254
+5253,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005255
+5254,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005256
+5255,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005257
+5256,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005258
+5257,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005259
+5258,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005260
+5259,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005261
+5260,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005262
+5261,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005263
+5262,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005264
+5263,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005265
+5264,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005266
+5265,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005267
+5266,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005268
+5267,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005269
+5268,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005270
+5269,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005271
+5270,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005272
+5271,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005273
+5272,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005274
+5273,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005275
+5274,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005276
+5275,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005277
+5276,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005278
+5277,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005279
+5278,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005280
+5279,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005281
+5280,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005282
+5281,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005283
+5282,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005284
+5283,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005285
+5284,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005286
+5285,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005287
+5286,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005288
+5287,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005289
+5288,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005290
+5289,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005291
+5290,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005292
+5291,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005293
+5292,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005294
+5293,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005295
+5294,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005296
+5295,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005297
+5296,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005298
+5297,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005299
+5298,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005300
+5299,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005301
+5300,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005302
+5301,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005303
+5302,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005304
+5303,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005305
+5304,permit_class,clustering,Res.1&2 or Guest House,0.7610619469026548,cluster_majority,True,Accepted,,valid,run_20260621_165055_31_row_005306

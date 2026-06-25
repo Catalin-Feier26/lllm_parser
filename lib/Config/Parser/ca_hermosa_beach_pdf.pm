@@ -6,9 +6,22 @@ use v5.30;
 
 sub config {
     return {
-        skip_lines => 1,
-        clear_target_on_load => 1,
+        config_version       => '1.0',
+        record_type          => 'permit',
         target_collection    => 'raw_permits',
+        clear_target_on_load => 0,
+
+        source => {
+            state        => 'CA',
+            county       => 'LosAngeles',
+            municipality => 'HermosaBeach',
+        },
+
+        csv => {
+            skip_lines => 1,
+            sep_char   => ',',
+            batch_size => 500,
+        },
 
         columns => [
             ['permit_number',   'trim'],

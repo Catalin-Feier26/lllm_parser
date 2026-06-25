@@ -1,0 +1,51 @@
+antecedents,consequents,support,confidence,lift,antecedent_len,predicted_target
+"permit_number_prefix=D, status=Issued, valuation_bucket=le_1",permit_type_input=Demolition,0.010924981791697014,1.0,91.53333333333333,3,Demolition
+"permit_number_prefix=D, status=Issued",permit_type_input=Demolition,0.010924981791697014,1.0,91.53333333333333,2,Demolition
+"permit_number_prefix=D, valuation_bucket=le_1",permit_type_input=Demolition,0.010924981791697014,1.0,91.53333333333333,2,Demolition
+permit_number_prefix=D,permit_type_input=Demolition,0.010924981791697014,1.0,91.53333333333333,1,Demolition
+"permit_number_prefix=G, valuation_bucket=le_1",permit_type_input=Grading,0.014566642388929352,1.0,68.65,2,Grading
+permit_number_prefix=G,permit_type_input=Grading,0.014566642388929352,1.0,68.65,1,Grading
+"permit_number_prefix=G, status=Issued, valuation_bucket=le_1",permit_type_input=Grading,0.013838310269482883,1.0,68.65,3,Grading
+"permit_number_prefix=G, status=Issued",permit_type_input=Grading,0.013838310269482883,1.0,68.65,2,Grading
+"permit_number_prefix=MISC, valuation_bucket=le_1",permit_type_input=Miscellaneous,0.01747997086671522,1.0,57.208333333333336,2,Miscellaneous
+permit_number_prefix=MISC,permit_type_input=Miscellaneous,0.01747997086671522,1.0,57.208333333333336,1,Miscellaneous
+"permit_number_prefix=MISC, status=Issued, valuation_bucket=le_1",permit_type_input=Miscellaneous,0.014566642388929352,1.0,57.208333333333336,3,Miscellaneous
+"permit_number_prefix=MISC, status=Issued",permit_type_input=Miscellaneous,0.014566642388929352,1.0,57.208333333333336,2,Miscellaneous
+"permit_number_prefix=M, valuation_bucket=le_1",permit_type_input=Mechanical,0.12381646030589949,1.0,8.076470588235294,2,Mechanical
+permit_number_prefix=M,permit_type_input=Mechanical,0.12381646030589949,1.0,8.076470588235294,1,Mechanical
+"permit_number_prefix=M, status=Issued, valuation_bucket=le_1",permit_type_input=Mechanical,0.11798980335032774,1.0,8.076470588235294,3,Mechanical
+"permit_number_prefix=M, status=Issued",permit_type_input=Mechanical,0.11798980335032774,1.0,8.076470588235294,2,Mechanical
+"description_keywords=mechanical, permit_number_prefix=M, valuation_bucket=le_1",permit_type_input=Mechanical,0.07793153678077203,1.0,8.076470588235294,3,Mechanical
+"description_keywords=mechanical, permit_number_prefix=M",permit_type_input=Mechanical,0.07793153678077203,1.0,8.076470588235294,2,Mechanical
+"description_keywords=mechanical, permit_number_prefix=M, status=Issued, valuation_bucket=le_1",permit_type_input=Mechanical,0.07501820830298617,1.0,8.076470588235294,4,Mechanical
+"description_keywords=mechanical, permit_number_prefix=M, status=Issued",permit_type_input=Mechanical,0.07501820830298617,1.0,8.076470588235294,3,Mechanical
+"description_keywords=other, permit_number_prefix=M, valuation_bucket=le_1",permit_type_input=Mechanical,0.032046613255644577,1.0,8.076470588235294,3,Mechanical
+"description_keywords=other, permit_number_prefix=M",permit_type_input=Mechanical,0.032046613255644577,1.0,8.076470588235294,2,Mechanical
+"description_keywords=other, permit_number_prefix=M, status=Issued, valuation_bucket=le_1",permit_type_input=Mechanical,0.02986161689730517,1.0,8.076470588235294,4,Mechanical
+"description_keywords=other, permit_number_prefix=M, status=Issued",permit_type_input=Mechanical,0.02986161689730517,1.0,8.076470588235294,3,Mechanical
+"permit_number_prefix=P, valuation_bucket=le_1",permit_type_input=Plumbing,0.12745812090313183,1.0,7.845714285714286,2,Plumbing
+permit_number_prefix=P,permit_type_input=Plumbing,0.12745812090313183,1.0,7.845714285714286,1,Plumbing
+"permit_number_prefix=P, status=Issued, valuation_bucket=le_1",permit_type_input=Plumbing,0.11361981063364894,1.0,7.845714285714286,3,Plumbing
+"permit_number_prefix=P, status=Issued",permit_type_input=Plumbing,0.11361981063364894,1.0,7.845714285714286,2,Plumbing
+"description_keywords=plumbing+mechanical, permit_number_prefix=P, status=Issued, valuation_bucket=le_1",permit_type_input=Plumbing,0.03641660597232338,1.0,7.845714285714286,4,Plumbing
+"description_keywords=plumbing+mechanical, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing,0.03641660597232338,1.0,7.845714285714286,3,Plumbing
+"description_keywords=plumbing+mechanical, permit_number_prefix=P, valuation_bucket=le_1",permit_type_input=Plumbing,0.03641660597232338,1.0,7.845714285714286,3,Plumbing
+"description_keywords=plumbing+mechanical, permit_number_prefix=P",permit_type_input=Plumbing,0.03641660597232338,1.0,7.845714285714286,2,Plumbing
+"description_keywords=plumbing, permit_number_prefix=P, valuation_bucket=le_1",permit_type_input=Plumbing,0.031318281136198105,1.0,7.845714285714286,3,Plumbing
+"description_keywords=plumbing, permit_number_prefix=P",permit_type_input=Plumbing,0.031318281136198105,1.0,7.845714285714286,2,Plumbing
+"description_keywords=plumbing, valuation_bucket=le_1",permit_type_input=Plumbing,0.031318281136198105,1.0,7.845714285714286,2,Plumbing
+description_keywords=plumbing,permit_type_input=Plumbing,0.031318281136198105,1.0,7.845714285714286,1,Plumbing
+"description_keywords=plumbing, permit_number_prefix=P, status=Issued, valuation_bucket=le_1",permit_type_input=Plumbing,0.027676620538965767,1.0,7.845714285714286,4,Plumbing
+"description_keywords=plumbing, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing,0.027676620538965767,1.0,7.845714285714286,3,Plumbing
+"description_keywords=plumbing, status=Issued, valuation_bucket=le_1",permit_type_input=Plumbing,0.027676620538965767,1.0,7.845714285714286,3,Plumbing
+"description_keywords=plumbing, status=Issued",permit_type_input=Plumbing,0.027676620538965767,1.0,7.845714285714286,2,Plumbing
+"description_keywords=other, permit_number_prefix=P, valuation_bucket=le_1",permit_type_input=Plumbing,0.024763292061179897,1.0,7.845714285714286,3,Plumbing
+"description_keywords=other, permit_number_prefix=P",permit_type_input=Plumbing,0.024763292061179897,1.0,7.845714285714286,2,Plumbing
+"description_keywords=other, permit_number_prefix=P, status=Issued, valuation_bucket=le_1",permit_type_input=Plumbing,0.021849963583394028,1.0,7.845714285714286,4,Plumbing
+"description_keywords=mechanical, permit_number_prefix=P, valuation_bucket=le_1",permit_type_input=Plumbing,0.021849963583394028,1.0,7.845714285714286,3,Plumbing
+"description_keywords=other, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing,0.021849963583394028,1.0,7.845714285714286,3,Plumbing
+"description_keywords=mechanical, permit_number_prefix=P",permit_type_input=Plumbing,0.021849963583394028,1.0,7.845714285714286,2,Plumbing
+"description_keywords=mechanical, permit_number_prefix=P, status=Issued, valuation_bucket=le_1",permit_type_input=Plumbing,0.01529497450837582,1.0,7.845714285714286,4,Plumbing
+"description_keywords=mechanical, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing,0.01529497450837582,1.0,7.845714285714286,3,Plumbing
+"permit_number_prefix=P, status=Finaled, valuation_bucket=le_1",permit_type_input=Plumbing,0.013838310269482883,1.0,7.845714285714286,3,Plumbing
+"permit_number_prefix=P, status=Finaled",permit_type_input=Plumbing,0.013838310269482883,1.0,7.845714285714286,2,Plumbing

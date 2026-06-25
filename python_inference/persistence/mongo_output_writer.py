@@ -89,6 +89,7 @@ class MongoOutputWriter:
             "inference_runs": collections_cfg.get("inference_runs", "inference_runs"),
             "inference_predictions": collections_cfg.get("inference_predictions", "inference_predictions"),
             "inference_decisions": collections_cfg.get("inference_decisions", "inference_decisions"),
+            "validation_results": collections_cfg.get("validation_results", "validation_results"),
             "final_permits": collections_cfg.get("final_permits", "final_permits"),
         }
 
@@ -208,6 +209,8 @@ class MongoOutputWriter:
                     "confidence": _safe_value(row.get("confidence")),
                     "prediction_source": _safe_value(row.get("prediction_source")),
                     "passes_threshold": bool(row.get("passes_threshold", False)),
+                    "candidate_status": _safe_value(row.get("candidate_status")),
+                    "rejection_reason": _safe_value(row.get("rejection_reason")),
                     "mode": mode,
                     "created_at": created_at,
                 }
@@ -251,6 +254,7 @@ class MongoOutputWriter:
                     "input_value": _safe_value(row.get(input_col)),
                     "final_value": _safe_value(row.get("final_value")),
                     "final_confidence": _safe_value(row.get("final_confidence")),
+                    "decision_status": _safe_value(row.get("decision_status")),
                     "decision_method": _safe_value(row.get("decision_method")),
                     "selected_algorithm": _safe_value(row.get("selected_algorithm")),
                     "supporting_algorithms": _json_list(row.get("supporting_algorithms")),
@@ -267,6 +271,63 @@ class MongoOutputWriter:
         self._collection("inference_decisions").insert_many(documents)
         return len(documents)
 
+    def insert_validation_results(
+        self,
+        *,
+        inference_run_id: str | None,
+        parser_run_id: str | None,
+        prepared_df: pd.DataFrame,
+        validation_col: str = "validation",
+    ) -> int:
+        """Persist per-record normalization and validation results for the current inference run."""
+        if not self.enabled or inference_run_id is None or prepared_df.empty or validation_col not in prepared_df.columns:
+            return 0
+
+        documents: list[dict[str, Any]] = []
+        created_at = _utc_now()
+        for row_index, row in prepared_df.iterrows():
+            validation = row.get(validation_col)
+            if not isinstance(validation, dict):
+                continue
+
+            raw_permit_id = _safe_value(row.get("raw_permit_id"))
+            record_identity = raw_permit_id or f"row_{row_index}"
+            fields = validation.get("fields") if isinstance(validation.get("fields"), dict) else {}
+            normalized_values = {
+                str(field_name): _safe_value((field_result or {}).get("normalized_value"))
+                for field_name, field_result in fields.items()
+                if isinstance(field_result, dict)
+            }
+            field_statuses = {
+                str(field_name): _safe_value((field_result or {}).get("status"))
+                for field_name, field_result in fields.items()
+                if isinstance(field_result, dict)
+            }
+
+            documents.append(
+                {
+                    "validation_result_id": (
+                        f"{inference_run_id}_{_safe_id_part(record_identity)}"
+                    ),
+                    "inference_run_id": inference_run_id,
+                    "parser_run_id": parser_run_id,
+                    "raw_permit_id": raw_permit_id,
+                    "row_index": _safe_value(row_index),
+                    "record_status": _safe_value(validation.get("record_status")),
+                    "field_statuses": field_statuses,
+                    "normalized_values": normalized_values,
+                    "validation": _safe_value(validation),
+                    "source": self.source,
+                    "created_at": created_at,
+                }
+            )
+
+        if not documents:
+            return 0
+
+        self._collection("validation_results").insert_many(documents)
+        return len(documents)
+
     def clone_raw_permits_to_final(
         self,
         *,
@@ -277,10 +338,9 @@ class MongoOutputWriter:
         if not self.enabled or inference_run_id is None or parser_run_id is None:
             return 0
 
-        query = {
-            **self.raw_permits_filter,
-            "provenance.parser_run_id": parser_run_id,
-        }
+        query = {**self.raw_permits_filter}
+        if str(parser_run_id).strip().lower() not in {"all_completed", "all", "*"}:
+            query["provenance.parser_run_id"] = parser_run_id
         raw_documents = self._db[self.raw_permits_collection].find(query)
         now = _utc_now()
         count = 0
@@ -294,7 +354,7 @@ class MongoOutputWriter:
             final_document.pop("_id", None)
             final_document["final_permit_id"] = raw_permit_id
             final_document["raw_permit_id"] = raw_permit_id
-            final_document["parser_run_id"] = parser_run_id
+            final_document["parser_run_id"] = raw_document.get("provenance", {}).get("parser_run_id") or parser_run_id
             final_document["latest_inference_run_id"] = inference_run_id
             final_document["inference"] = {
                 "applied_fields": {},
@@ -342,6 +402,7 @@ class MongoOutputWriter:
                 "decision_id": self._decision_id(inference_run_id, target_field, record_identity),
                 "value": _safe_value(row.get("final_value")),
                 "confidence": _safe_value(row.get("final_confidence")),
+                "decision_status": _safe_value(row.get("decision_status")),
                 "decision_method": _safe_value(row.get("decision_method")),
                 "selected_algorithm": _safe_value(row.get("selected_algorithm")),
                 "supporting_algorithms": _json_list(row.get("supporting_algorithms")),

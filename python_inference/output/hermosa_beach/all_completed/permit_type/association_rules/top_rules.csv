@@ -1,0 +1,51 @@
+antecedents,consequents,support,confidence,lift,antecedent_len,predicted_target
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.07804878048780488,1.0,8.45360824742268,4,Plumbing OTC
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P",permit_type_input=Plumbing OTC,0.07804878048780488,1.0,8.45360824742268,3,Plumbing OTC
+"fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.07804878048780488,1.0,8.45360824742268,3,Plumbing OTC
+"fee_bucket=2_999, permit_number_prefix=P",permit_type_input=Plumbing OTC,0.07804878048780488,1.0,8.45360824742268,2,Plumbing OTC
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, status=Issued, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.06951219512195123,1.0,8.45360824742268,5,Plumbing OTC
+"fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing OTC,0.06951219512195123,1.0,8.45360824742268,4,Plumbing OTC
+"fee_bucket=2_999, permit_number_prefix=P, status=Issued, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.06951219512195123,1.0,8.45360824742268,4,Plumbing OTC
+"fee_bucket=2_999, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing OTC,0.06951219512195123,1.0,8.45360824742268,3,Plumbing OTC
+"description_keywords=remodel, paid_fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.03536585365853658,1.0,8.45360824742268,4,Plumbing OTC
+"description_keywords=remodel, paid_fee_bucket=2_999, permit_number_prefix=P",permit_type_input=Plumbing OTC,0.03536585365853658,1.0,8.45360824742268,3,Plumbing OTC
+"description_keywords=remodel, permit_number_prefix=P, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.03536585365853658,1.0,8.45360824742268,3,Plumbing OTC
+"description_keywords=remodel, permit_number_prefix=P",permit_type_input=Plumbing OTC,0.03536585365853658,1.0,8.45360824742268,2,Plumbing OTC
+"description_keywords=remodel, paid_fee_bucket=2_999, permit_number_prefix=P, status=Issued, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.032926829268292684,1.0,8.45360824742268,5,Plumbing OTC
+"description_keywords=remodel, paid_fee_bucket=2_999, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing OTC,0.032926829268292684,1.0,8.45360824742268,4,Plumbing OTC
+"description_keywords=remodel, permit_number_prefix=P, status=Issued, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.032926829268292684,1.0,8.45360824742268,4,Plumbing OTC
+"description_keywords=remodel, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing OTC,0.032926829268292684,1.0,8.45360824742268,3,Plumbing OTC
+"description_keywords=remodel, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.02804878048780488,1.0,8.45360824742268,5,Plumbing OTC
+"description_keywords=remodel, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P",permit_type_input=Plumbing OTC,0.02804878048780488,1.0,8.45360824742268,4,Plumbing OTC
+"description_keywords=remodel, fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.02804878048780488,1.0,8.45360824742268,4,Plumbing OTC
+"description_keywords=remodel, fee_bucket=2_999, permit_number_prefix=P",permit_type_input=Plumbing OTC,0.02804878048780488,1.0,8.45360824742268,3,Plumbing OTC
+"description_keywords=remodel, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, status=Issued, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.025609756097560974,1.0,8.45360824742268,6,Plumbing OTC
+"description_keywords=remodel, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing OTC,0.025609756097560974,1.0,8.45360824742268,5,Plumbing OTC
+"description_keywords=remodel, fee_bucket=2_999, permit_number_prefix=P, status=Issued, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.025609756097560974,1.0,8.45360824742268,5,Plumbing OTC
+"description_keywords=remodel, fee_bucket=2_999, permit_number_prefix=P, status=Issued",permit_type_input=Plumbing OTC,0.025609756097560974,1.0,8.45360824742268,4,Plumbing OTC
+"paid_fee_bucket=2_999, permit_number_prefix=P, status=Finaled, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.014634146341463415,1.0,8.45360824742268,4,Plumbing OTC
+"paid_fee_bucket=2_999, permit_number_prefix=P, status=Finaled",permit_type_input=Plumbing OTC,0.014634146341463415,1.0,8.45360824742268,3,Plumbing OTC
+"permit_number_prefix=P, status=Finaled, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.014634146341463415,1.0,8.45360824742268,3,Plumbing OTC
+"permit_number_prefix=P, status=Finaled",permit_type_input=Plumbing OTC,0.014634146341463415,1.0,8.45360824742268,2,Plumbing OTC
+"description_keywords=other, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.012195121951219513,1.0,8.45360824742268,5,Plumbing OTC
+"description_keywords=other, fee_bucket=2_999, paid_fee_bucket=2_999, permit_number_prefix=P",permit_type_input=Plumbing OTC,0.012195121951219513,1.0,8.45360824742268,4,Plumbing OTC
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=P, valuation_bucket=missing",permit_type_input=Plumbing OTC,0.012195121951219513,1.0,8.45360824742268,4,Plumbing OTC
+"description_keywords=other, fee_bucket=2_999, permit_number_prefix=P",permit_type_input=Plumbing OTC,0.012195121951219513,1.0,8.45360824742268,3,Plumbing OTC
+"fee_bucket=missing, permit_number_prefix=M, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.03902439024390244,1.0,7.809523809523809,3,Mechanical OTC
+"fee_bucket=missing, permit_number_prefix=M",permit_type_input=Mechanical OTC,0.03902439024390244,1.0,7.809523809523809,2,Mechanical OTC
+"fee_bucket=missing, paid_fee_bucket=2_999, permit_number_prefix=M, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.036585365853658534,1.0,7.809523809523809,4,Mechanical OTC
+"fee_bucket=missing, permit_number_prefix=M, status=Issued, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.036585365853658534,1.0,7.809523809523809,4,Mechanical OTC
+"fee_bucket=missing, paid_fee_bucket=2_999, permit_number_prefix=M",permit_type_input=Mechanical OTC,0.036585365853658534,1.0,7.809523809523809,3,Mechanical OTC
+"fee_bucket=missing, permit_number_prefix=M, status=Issued",permit_type_input=Mechanical OTC,0.036585365853658534,1.0,7.809523809523809,3,Mechanical OTC
+"fee_bucket=missing, paid_fee_bucket=2_999, permit_number_prefix=M, status=Issued, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.03414634146341464,1.0,7.809523809523809,5,Mechanical OTC
+"fee_bucket=missing, paid_fee_bucket=2_999, permit_number_prefix=M, status=Issued",permit_type_input=Mechanical OTC,0.03414634146341464,1.0,7.809523809523809,4,Mechanical OTC
+"description_keywords=remodel, permit_number_prefix=M, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.03048780487804878,1.0,7.809523809523809,3,Mechanical OTC
+"description_keywords=remodel, permit_number_prefix=M",permit_type_input=Mechanical OTC,0.03048780487804878,1.0,7.809523809523809,2,Mechanical OTC
+"description_keywords=remodel, permit_number_prefix=M, status=Issued, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.02926829268292683,1.0,7.809523809523809,4,Mechanical OTC
+"description_keywords=other, permit_number_prefix=M, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.02926829268292683,1.0,7.809523809523809,3,Mechanical OTC
+"description_keywords=remodel, permit_number_prefix=M, status=Issued",permit_type_input=Mechanical OTC,0.02926829268292683,1.0,7.809523809523809,3,Mechanical OTC
+"description_keywords=other, permit_number_prefix=M",permit_type_input=Mechanical OTC,0.02926829268292683,1.0,7.809523809523809,2,Mechanical OTC
+"description_keywords=other, paid_fee_bucket=2_999, permit_number_prefix=M, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.02804878048780488,1.0,7.809523809523809,4,Mechanical OTC
+"description_keywords=other, permit_number_prefix=M, status=Issued, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.02804878048780488,1.0,7.809523809523809,4,Mechanical OTC
+"description_keywords=remodel, paid_fee_bucket=2_999, permit_number_prefix=M, valuation_bucket=missing",permit_type_input=Mechanical OTC,0.02804878048780488,1.0,7.809523809523809,4,Mechanical OTC
+"description_keywords=other, paid_fee_bucket=2_999, permit_number_prefix=M",permit_type_input=Mechanical OTC,0.02804878048780488,1.0,7.809523809523809,3,Mechanical OTC

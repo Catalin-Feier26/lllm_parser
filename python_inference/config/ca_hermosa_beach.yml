@@ -1,0 +1,294 @@
+source:
+  name: hermosa_beach
+  input:
+    type: mongo
+    collection: raw_permits
+    parser_runs_collection: parser_runs
+    uri_env: MONGO_URI
+    database_env: MONGO_DB_NAME
+    server_selection_timeout_ms: 5000
+    parser_run_filter:
+      source.state: CA
+      source.county: LosAngeles
+      parser.config_module: Config::Parser::ca_hermosa_beach_pdf
+    raw_permits_filter:
+      source.state: CA
+      source.county: LosAngeles
+      source.municipality: HermosaBeach
+
+output:
+  base_dir: python_inference/output
+  mongo:
+    enabled: true
+    uri_env: MONGO_URI
+    database_env: MONGO_DB_NAME
+    server_selection_timeout_ms: 5000
+    collections:
+      inference_runs: inference_runs
+      inference_predictions: inference_predictions
+      inference_decisions: inference_decisions
+      validation_results: validation_results
+      final_permits: final_permits
+
+inference:
+  mode: evaluation
+
+preprocessing:
+  normalize_strings: true
+  keep_columns:
+    - raw_permit_id
+    - parser_run_id
+    - input_file_id
+    - output_csv_file_id
+    - csv_row_number
+    - permit_number
+    - status
+    - description
+    - address
+    - parcel_number
+    - paid_fee
+    - fee
+    - valuation
+    - permit_type
+    - sub_type
+
+  normalization:
+    enabled: true
+    suffix: _normalized
+    missing_values:
+      - Not Identified
+      - N/A
+      - NA
+      - NONE
+      - "-"
+    fields:
+      permit_number:
+        type: identifier
+        required: true
+      status:
+        type: text
+      description:
+        type: text
+      address:
+        type: text
+      parcel_number:
+        type: identifier
+      paid_fee:
+        type: money
+        normalized_col: paid_fee_normalized
+        min: 0
+        suspicious_max: 1000000
+      fee:
+        type: money
+        normalized_col: fee_normalized
+        min: 0
+        suspicious_max: 1000000
+      valuation:
+        type: money
+        normalized_col: valuation_normalized
+        min: 0
+        suspicious_max: 10000000
+      permit_type:
+        type: text
+      sub_type:
+        type: text
+
+  validation:
+    enabled: true
+    output_col: validation
+    status_prefix: validation_
+    important_fields:
+      - permit_number
+      - permit_type
+      - sub_type
+      - address
+    missing_values:
+      - Not Identified
+      - N/A
+      - NA
+      - NONE
+      - "-"
+    fields:
+      permit_number:
+        type: identifier
+        required: true
+      status:
+        type: text
+      description:
+        type: text
+      address:
+        type: text
+      parcel_number:
+        type: identifier
+      paid_fee:
+        type: money
+        min: 0
+        suspicious_max: 1000000
+      fee:
+        type: money
+        min: 0
+        suspicious_max: 1000000
+      valuation:
+        type: money
+        min: 0
+        suspicious_max: 10000000
+      permit_type:
+        type: text
+      sub_type:
+        type: text
+
+  engineered_features:
+    permit_number_prefix:
+      enabled: true
+      source_col: permit_number
+      output_col: permit_number_prefix
+
+    paid_fee_bucket:
+      enabled: true
+      source_col: paid_fee_normalized
+      output_col: paid_fee_bucket
+
+    fee_bucket:
+      enabled: true
+      source_col: fee_normalized
+      output_col: fee_bucket
+
+    valuation_bucket:
+      enabled: true
+      source_col: valuation_normalized
+      output_col: valuation_bucket
+
+    description_keywords:
+      enabled: true
+      source_col: description
+      output_col: description_keywords
+
+inference_targets:
+  permit_type:
+    enabled: true
+    cleaning:
+      source_col: permit_type
+      clean_col: permit_type_clean
+      missing_values:
+        - Not Identified
+        - N/A
+        - NA
+        - NONE
+        - "-"
+      replacements: {}
+
+    masking:
+      source_col: permit_type_clean
+      target_col: permit_type_input
+      true_col: permit_type_true
+      mask_col: is_masked_type_subtype
+      mask_rate: 0.40
+      seed: 42
+
+    feature_cols:
+      - status
+      - permit_number_prefix
+      - paid_fee_bucket
+      - fee_bucket
+      - valuation_bucket
+      - description_keywords
+
+    algorithms:
+      grouped_majority:
+        enabled: true
+        output_folder: baseline
+        group_levels:
+          - [status, permit_number_prefix]
+          - [permit_number_prefix]
+          - [status]
+
+      association_rules:
+        enabled: true
+        output_folder: association_rules
+        min_support: 0.01
+        min_confidence: 0.50
+        min_lift: 1.00
+        use_global_fallback: true
+        top_n_rules: 50
+
+      clustering:
+        enabled: true
+        output_folder: clustering
+        n_clusters: 8
+        random_state: 42
+        n_init: 10
+
+      knn:
+        enabled: true
+        output_folder: knn
+        n_neighbors: 5
+        weights: distance
+
+  sub_type:
+    enabled: true
+    cleaning:
+      source_col: sub_type
+      clean_col: sub_type_clean
+      missing_values:
+        - Not Identified
+        - N/A
+        - NA
+        - NONE
+        - "-"
+      replacements: {}
+
+    masking:
+      source_col: sub_type_clean
+      target_col: sub_type_input
+      true_col: sub_type_true
+      mask_col: is_masked_type_subtype
+      mask_rate: 0.40
+      seed: 42
+
+    feature_cols:
+      - status
+      - permit_number_prefix
+      - paid_fee_bucket
+      - fee_bucket
+      - valuation_bucket
+      - description_keywords
+
+    algorithms:
+      grouped_majority:
+        enabled: true
+        output_folder: baseline
+        group_levels:
+          - [status, permit_number_prefix]
+          - [permit_number_prefix]
+          - [status]
+
+      association_rules:
+        enabled: true
+        output_folder: association_rules
+        min_support: 0.01
+        min_confidence: 0.50
+        min_lift: 1.00
+        use_global_fallback: true
+        top_n_rules: 50
+
+      clustering:
+        enabled: true
+        output_folder: clustering
+        n_clusters: 8
+        random_state: 42
+        n_init: 10
+
+      knn:
+        enabled: true
+        output_folder: knn
+        n_neighbors: 5
+        weights: distance
+
+plots:
+  confusion_matrix:
+    xlabel: Predicted label
+    ylabel: True label
+    figure_width: 8
+    figure_height: 6
+    dpi: 150
+    x_label_rotation: 30

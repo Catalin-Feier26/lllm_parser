@@ -1,0 +1,333 @@
+{
+  "row_count_evaluated": 546,
+  "accuracy": 0.8791208791208791,
+  "macro_f1": 0.5898129612109922,
+  "weighted_f1": 0.8737061950303405,
+  "labels": [
+    "Address Change",
+    "Building - Full Plan Check",
+    "Building - In House Plan Check",
+    "Building Permit OTC",
+    "Electrical - In House Plan Check",
+    "Electrical OTC",
+    "Historical Building Record",
+    "Mechanical OTC",
+    "Plumbing OTC",
+    "Residential Building Report",
+    "Revision BLD",
+    "Solar Permit",
+    "Temp C of O"
+  ],
+  "classification_report": {
+    "Address Change": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Building - Full Plan Check": {
+      "precision": 0.6956521739130435,
+      "recall": 0.5925925925925926,
+      "f1-score": 0.64,
+      "support": 27.0
+    },
+    "Building - In House Plan Check": {
+      "precision": 0.3611111111111111,
+      "recall": 0.35135135135135137,
+      "f1-score": 0.3561643835616438,
+      "support": 37.0
+    },
+    "Building Permit OTC": {
+      "precision": 0.7986111111111112,
+      "recall": 0.8646616541353384,
+      "f1-score": 0.8303249097472925,
+      "support": 133.0
+    },
+    "Electrical - In House Plan Check": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Electrical OTC": {
+      "precision": 0.9824561403508771,
+      "recall": 1.0,
+      "f1-score": 0.9911504424778761,
+      "support": 112.0
+    },
+    "Historical Building Record": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Mechanical OTC": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 53.0
+    },
+    "Plumbing OTC": {
+      "precision": 0.98989898989899,
+      "recall": 0.9607843137254902,
+      "f1-score": 0.9751243781094527,
+      "support": 102.0
+    },
+    "Residential Building Report": {
+      "precision": 0.9722222222222222,
+      "recall": 1.0,
+      "f1-score": 0.9859154929577465,
+      "support": 70.0
+    },
+    "Revision BLD": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Solar Permit": {
+      "precision": 0.3333333333333333,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.2222222222222222,
+      "support": 6.0
+    },
+    "Temp C of O": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.8791208791208791,
+    "macro avg": {
+      "precision": 0.6256373139954375,
+      "recall": 0.5720043521901107,
+      "f1-score": 0.5898129612109922,
+      "support": 546.0
+    },
+    "weighted avg": {
+      "precision": 0.8707313879653698,
+      "recall": 0.8791208791208791,
+      "f1-score": 0.8737061950303405,
+      "support": 546.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      16,
+      6,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      13,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      3,
+      14,
+      115,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      112,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      53,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      0,
+      1,
+      0,
+      0,
+      98,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      70,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "target_field": "permit_type",
+  "algorithm": "knn",
+  "average_confidence": 0.9211921170926668,
+  "minimum_confidence": 0.3431457505076198,
+  "maximum_confidence": 1.0,
+  "algorithm_parameters": {
+    "target_field": "permit_type",
+    "target_col": "permit_type_input",
+    "true_col": "permit_type_true",
+    "mask_col": "is_masked_type_subtype",
+    "feature_cols": [
+      "status",
+      "permit_number_prefix",
+      "paid_fee_bucket",
+      "fee_bucket",
+      "valuation_bucket",
+      "description_keywords"
+    ],
+    "n_neighbors": 5,
+    "weights": "distance"
+  },
+  "reference_count": 820
+}
